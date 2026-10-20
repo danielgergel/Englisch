@@ -1,5 +1,5 @@
 /* Service Worker: App wird zwischengespeichert, damit sie auch ohne Internet startet. */
-const V="englisch-vmvfr5ynl";
+const V="englisch-vmvglmkle";
 const CORE=["./","index.html","apple-touch-icon.png"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
