@@ -1,0 +1,3170 @@
+[
+  {
+    "id": "d1",
+    "lvl": 1,
+    "title": "Im Café",
+    "title_en": "At the café",
+    "scene": "Du bestellst einen Kaffee und ein Stück Kuchen in einem kleinen Café.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hi, what can I get you?",
+        "de": "Hallo, was darf es sein?"
+      },
+      {
+        "who": "B",
+        "en": "A coffee, please.",
+        "de": "Einen Kaffee, bitte."
+      },
+      {
+        "who": "A",
+        "en": "Small, medium or large?",
+        "de": "Klein, mittel oder groß?"
+      },
+      {
+        "who": "B",
+        "en": "Medium, please. And a piece of cake.",
+        "de": "Mittel, bitte. Und ein Stück Kuchen."
+      },
+      {
+        "who": "A",
+        "en": "Sure. We have chocolate or apple cake.",
+        "de": "Klar. Wir haben Schoko- oder Apfelkuchen."
+      },
+      {
+        "who": "B",
+        "en": "Chocolate, please.",
+        "de": "Schokolade, bitte."
+      },
+      {
+        "who": "A",
+        "en": "That's six dollars. For here or to go?",
+        "de": "Das macht sechs Dollar. Zum Hier-Essen oder zum Mitnehmen?"
+      },
+      {
+        "who": "B",
+        "en": "For here, thanks.",
+        "de": "Zum Hier-Essen, danke."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What kind of cake does the customer order?",
+        "opts": [
+          "Apple cake",
+          "Cheesecake",
+          "Chocolate cake",
+          "Carrot cake"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Where does the customer want to drink the coffee?",
+        "opts": [
+          "To go",
+          "At the café",
+          "At home",
+          "In the car"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "What can I get you?",
+        "de": "Was darf es sein?",
+        "note": "Standardfrage von Kellnern und Verkäufern."
+      },
+      {
+        "en": "For here or to go?",
+        "de": "Hier essen oder zum Mitnehmen?",
+        "note": "Britisch oft: 'Eat in or take away?'"
+      },
+      {
+        "en": "A coffee, please.",
+        "de": "Einen Kaffee, bitte.",
+        "note": "'please' nie vergessen, sonst klingt es unhöflich."
+      }
+    ]
+  },
+  {
+    "id": "d2",
+    "lvl": 1,
+    "title": "Sich vorstellen",
+    "title_en": "Introducing yourself",
+    "scene": "Du lernst auf einer Party jemanden kennen und stellst dich vor.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hi, I'm Anna. What's your name?",
+        "de": "Hi, ich bin Anna. Wie heißt du?"
+      },
+      {
+        "who": "B",
+        "en": "Hi Anna, I'm Daniel. Nice to meet you.",
+        "de": "Hi Anna, ich bin Daniel. Freut mich."
+      },
+      {
+        "who": "A",
+        "en": "Nice to meet you too. Where are you from?",
+        "de": "Freut mich auch. Woher kommst du?"
+      },
+      {
+        "who": "B",
+        "en": "I'm from Germany. And you?",
+        "de": "Ich komme aus Deutschland. Und du?"
+      },
+      {
+        "who": "A",
+        "en": "I'm from Canada, but I live here now.",
+        "de": "Ich komme aus Kanada, aber ich wohne jetzt hier."
+      },
+      {
+        "who": "B",
+        "en": "Oh, cool! What do you do?",
+        "de": "Oh, cool! Was machst du beruflich?"
+      },
+      {
+        "who": "A",
+        "en": "I'm a teacher. How about you?",
+        "de": "Ich bin Lehrerin. Und du?"
+      },
+      {
+        "who": "B",
+        "en": "I'm a mechanic.",
+        "de": "Ich bin Mechaniker."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Where is Anna from?",
+        "opts": [
+          "Germany",
+          "Canada",
+          "England",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What is Anna's job?",
+        "opts": [
+          "Mechanic",
+          "Doctor",
+          "Student",
+          "Teacher"
+        ],
+        "a": 3
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Nice to meet you.",
+        "de": "Freut mich, dich kennenzulernen.",
+        "note": "Antwort: 'Nice to meet you too.'"
+      },
+      {
+        "en": "Where are you from?",
+        "de": "Woher kommst du?",
+        "note": "Nicht 'Where come you from'."
+      },
+      {
+        "en": "What do you do?",
+        "de": "Was machst du beruflich?",
+        "note": "Frage nach dem Beruf, nicht nach dem Hobby."
+      }
+    ]
+  },
+  {
+    "id": "d3",
+    "lvl": 1,
+    "title": "Hotel einchecken",
+    "title_en": "Checking in at a hotel",
+    "scene": "Du kommst abends im Hotel an und checkst ein.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Good evening. Can I help you?",
+        "de": "Guten Abend. Kann ich Ihnen helfen?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, I have a reservation. My name is Becker.",
+        "de": "Ja, ich habe eine Reservierung. Mein Name ist Becker."
+      },
+      {
+        "who": "A",
+        "en": "One moment, please. Yes, two nights, right?",
+        "de": "Einen Moment, bitte. Ja, zwei Nächte, richtig?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, that's right.",
+        "de": "Ja, das stimmt."
+      },
+      {
+        "who": "A",
+        "en": "Here is your key. You're in room 305.",
+        "de": "Hier ist Ihr Schlüssel. Sie haben Zimmer 305."
+      },
+      {
+        "who": "B",
+        "en": "Thank you. What time is breakfast?",
+        "de": "Danke. Um wie viel Uhr gibt es Frühstück?"
+      },
+      {
+        "who": "A",
+        "en": "From seven to ten, on the first floor.",
+        "de": "Von sieben bis zehn, im ersten Stock."
+      },
+      {
+        "who": "B",
+        "en": "Great, thanks!",
+        "de": "Super, danke!"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "How many nights does the guest stay?",
+        "opts": [
+          "One",
+          "Two",
+          "Three",
+          "Five"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What time does breakfast start?",
+        "opts": [
+          "Six",
+          "Seven",
+          "Eight",
+          "Ten"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I have a reservation.",
+        "de": "Ich habe eine Reservierung.",
+        "note": "Britisch auch: 'I've got a booking.'"
+      },
+      {
+        "en": "What time is breakfast?",
+        "de": "Wann gibt es Frühstück?",
+        "note": "Man fragt nach der Uhrzeit mit 'What time'."
+      },
+      {
+        "en": "Here is your key.",
+        "de": "Hier ist Ihr Schlüssel.",
+        "note": "Oft auch 'key card'."
+      }
+    ]
+  },
+  {
+    "id": "d4",
+    "lvl": 1,
+    "title": "Im Taxi",
+    "title_en": "In a taxi",
+    "scene": "Du steigst am Bahnhof in ein Taxi und fährst zu deinem Hotel.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hello. Where to?",
+        "de": "Hallo. Wohin soll es gehen?"
+      },
+      {
+        "who": "B",
+        "en": "To the Grand Hotel, please.",
+        "de": "Zum Grand Hotel, bitte."
+      },
+      {
+        "who": "A",
+        "en": "Okay. Do you have any bags?",
+        "de": "Okay. Haben Sie Gepäck?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, one big bag. It's here.",
+        "de": "Ja, eine große Tasche. Sie ist hier."
+      },
+      {
+        "who": "A",
+        "en": "No problem. It's about ten minutes.",
+        "de": "Kein Problem. Es dauert etwa zehn Minuten."
+      },
+      {
+        "who": "B",
+        "en": "How much is it?",
+        "de": "Wie viel kostet das?"
+      },
+      {
+        "who": "A",
+        "en": "Around fifteen dollars.",
+        "de": "Ungefähr fünfzehn Dollar."
+      },
+      {
+        "who": "B",
+        "en": "Okay, thank you.",
+        "de": "Okay, danke."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Where does the passenger want to go?",
+        "opts": [
+          "The airport",
+          "The Grand Hotel",
+          "The station",
+          "A restaurant"
+        ],
+        "a": 1
+      },
+      {
+        "q": "How long is the ride?",
+        "opts": [
+          "Two minutes",
+          "Ten minutes",
+          "Fifteen minutes",
+          "One hour"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "To the airport, please.",
+        "de": "Zum Flughafen, bitte.",
+        "note": "Einfach 'To' + Ziel, mehr braucht man nicht."
+      },
+      {
+        "en": "How much is it?",
+        "de": "Wie viel kostet das?",
+        "note": "Im Taxi auch 'How much will it be?'"
+      },
+      {
+        "en": "It's about ten minutes.",
+        "de": "Es dauert etwa zehn Minuten.",
+        "note": "'about' = ungefähr."
+      }
+    ]
+  },
+  {
+    "id": "d5",
+    "lvl": 1,
+    "title": "Kleidung kaufen",
+    "title_en": "Buying clothes",
+    "scene": "Du suchst in einem Geschäft ein T-Shirt in der richtigen Größe.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Can I help you?",
+        "de": "Kann ich Ihnen helfen?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, I like this T-shirt. Do you have it in blue?",
+        "de": "Ja, mir gefällt dieses T-Shirt. Haben Sie es in Blau?"
+      },
+      {
+        "who": "A",
+        "en": "Yes, we do. What size are you?",
+        "de": "Ja, haben wir. Welche Größe haben Sie?"
+      },
+      {
+        "who": "B",
+        "en": "I'm a medium.",
+        "de": "Ich habe Größe M."
+      },
+      {
+        "who": "A",
+        "en": "Here you go. The fitting room is over there.",
+        "de": "Bitte sehr. Die Umkleide ist dort drüben."
+      },
+      {
+        "who": "B",
+        "en": "Thanks. ... It's a little small. Do you have a large?",
+        "de": "Danke. ... Es ist etwas klein. Haben Sie ein L?"
+      },
+      {
+        "who": "A",
+        "en": "Sure, one second.",
+        "de": "Klar, eine Sekunde."
+      },
+      {
+        "who": "B",
+        "en": "Perfect! I'll take it.",
+        "de": "Perfekt! Ich nehme es."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What color does the customer want?",
+        "opts": [
+          "Red",
+          "Black",
+          "White",
+          "Blue"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Why does he ask for a large?",
+        "opts": [
+          "The medium is too small",
+          "The medium is too expensive",
+          "He doesn't like the color",
+          "It's for a friend"
+        ],
+        "a": 0
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Do you have it in blue?",
+        "de": "Haben Sie es in Blau?",
+        "note": "Praktisch für Farben und Größen."
+      },
+      {
+        "en": "Where is the fitting room?",
+        "de": "Wo ist die Umkleidekabine?",
+        "note": "Amerikanisch 'fitting room', britisch 'changing room'."
+      },
+      {
+        "en": "I'll take it.",
+        "de": "Ich nehme es.",
+        "note": "So sagt man beim Kauf zu."
+      }
+    ]
+  },
+  {
+    "id": "d6",
+    "lvl": 1,
+    "title": "Nach dem Weg fragen",
+    "title_en": "Asking for directions",
+    "scene": "Du suchst auf der Straße die nächste Bushaltestelle.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Excuse me, where is the bus stop?",
+        "de": "Entschuldigung, wo ist die Bushaltestelle?"
+      },
+      {
+        "who": "B",
+        "en": "Go straight, then turn left at the bank.",
+        "de": "Gehen Sie geradeaus und dann an der Bank links."
+      },
+      {
+        "who": "A",
+        "en": "Turn left at the bank. Okay.",
+        "de": "An der Bank links. Okay."
+      },
+      {
+        "who": "B",
+        "en": "Then it's on the right, next to the pharmacy.",
+        "de": "Dann ist es rechts, neben der Apotheke."
+      },
+      {
+        "who": "A",
+        "en": "Is it far?",
+        "de": "Ist es weit?"
+      },
+      {
+        "who": "B",
+        "en": "No, it's only five minutes on foot.",
+        "de": "Nein, es sind nur fünf Minuten zu Fuß."
+      },
+      {
+        "who": "A",
+        "en": "Great. Thank you so much!",
+        "de": "Super. Vielen Dank!"
+      },
+      {
+        "who": "B",
+        "en": "You're welcome. Have a nice day!",
+        "de": "Gern geschehen. Schönen Tag noch!"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Where should he turn left?",
+        "opts": [
+          "At the bank",
+          "At the pharmacy",
+          "At the school",
+          "At the park"
+        ],
+        "a": 0
+      },
+      {
+        "q": "How far is the bus stop?",
+        "opts": [
+          "One minute",
+          "Five minutes",
+          "Twenty minutes",
+          "One hour"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Excuse me, where is the station?",
+        "de": "Entschuldigung, wo ist der Bahnhof?",
+        "note": "'Excuse me' ist die höfliche Einleitung."
+      },
+      {
+        "en": "Turn left.",
+        "de": "Biegen Sie links ab.",
+        "note": "Auch: 'Turn right', 'Go straight'."
+      },
+      {
+        "en": "Is it far?",
+        "de": "Ist es weit?",
+        "note": "Kurze, wichtige Frage."
+      }
+    ]
+  },
+  {
+    "id": "d7",
+    "lvl": 1,
+    "title": "Am Flughafen einchecken",
+    "title_en": "Checking in at the airport",
+    "scene": "Du gibst am Check-in-Schalter deinen Koffer auf.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Good morning. Passport, please.",
+        "de": "Guten Morgen. Ihren Reisepass, bitte."
+      },
+      {
+        "who": "B",
+        "en": "Here you are.",
+        "de": "Bitte sehr."
+      },
+      {
+        "who": "A",
+        "en": "Thank you. Are you checking any bags?",
+        "de": "Danke. Geben Sie Gepäck auf?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, one suitcase.",
+        "de": "Ja, einen Koffer."
+      },
+      {
+        "who": "A",
+        "en": "Please put it on the scale. It's 18 kilos. That's fine.",
+        "de": "Bitte stellen Sie ihn auf die Waage. Es sind 18 Kilo. Das ist in Ordnung."
+      },
+      {
+        "who": "B",
+        "en": "Can I have a window seat?",
+        "de": "Kann ich einen Fensterplatz haben?"
+      },
+      {
+        "who": "A",
+        "en": "Yes, seat 14A. Boarding is at gate 22, at 10:30.",
+        "de": "Ja, Sitz 14A. Das Boarding ist an Gate 22 um 10:30."
+      },
+      {
+        "who": "B",
+        "en": "Thank you!",
+        "de": "Danke!"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What seat does the passenger get?",
+        "opts": [
+          "14A",
+          "22A",
+          "10C",
+          "30B"
+        ],
+        "a": 0
+      },
+      {
+        "q": "How many bags does he check?",
+        "opts": [
+          "None",
+          "One",
+          "Two",
+          "Three"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Here you are.",
+        "de": "Bitte sehr / Hier bitte.",
+        "note": "Beim Überreichen von etwas."
+      },
+      {
+        "en": "Can I have a window seat?",
+        "de": "Kann ich einen Fensterplatz haben?",
+        "note": "Gangplatz = 'aisle seat'."
+      },
+      {
+        "en": "What gate is it?",
+        "de": "An welchem Gate ist es?",
+        "note": "Auch: 'Which gate?'"
+      }
+    ]
+  },
+  {
+    "id": "d8",
+    "lvl": 1,
+    "title": "Im Restaurant",
+    "title_en": "At a restaurant",
+    "scene": "Du bestellst in einem Restaurant das Abendessen.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Are you ready to order?",
+        "de": "Sind Sie bereit zu bestellen?"
+      },
+      {
+        "who": "B",
+        "en": "Yes. I'd like the chicken with rice, please.",
+        "de": "Ja. Ich hätte gern das Hähnchen mit Reis."
+      },
+      {
+        "who": "A",
+        "en": "Okay. And to drink?",
+        "de": "Okay. Und zu trinken?"
+      },
+      {
+        "who": "B",
+        "en": "Just water, please.",
+        "de": "Nur Wasser, bitte."
+      },
+      {
+        "who": "A",
+        "en": "Anything else? A salad, maybe?",
+        "de": "Noch etwas? Vielleicht einen Salat?"
+      },
+      {
+        "who": "B",
+        "en": "No, thanks. That's all.",
+        "de": "Nein, danke. Das ist alles."
+      },
+      {
+        "who": "A",
+        "en": "Perfect. It'll be about fifteen minutes.",
+        "de": "Perfekt. Es dauert etwa fünfzehn Minuten."
+      },
+      {
+        "who": "B",
+        "en": "No problem.",
+        "de": "Kein Problem."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does the guest order to eat?",
+        "opts": [
+          "Fish",
+          "Chicken with rice",
+          "A salad",
+          "Pizza"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does he drink?",
+        "opts": [
+          "Cola",
+          "Beer",
+          "Water",
+          "Juice"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I'd like the chicken, please.",
+        "de": "Ich hätte gern das Hähnchen.",
+        "note": "'I'd like' ist höflicher als 'I want'."
+      },
+      {
+        "en": "That's all, thanks.",
+        "de": "Das ist alles, danke.",
+        "note": "Beendet die Bestellung."
+      },
+      {
+        "en": "Can I have the bill, please?",
+        "de": "Kann ich die Rechnung haben?",
+        "note": "US: 'check', UK: 'bill'."
+      }
+    ]
+  },
+  {
+    "id": "d9",
+    "lvl": 1,
+    "title": "Ein kurzer Anruf",
+    "title_en": "A short phone call",
+    "scene": "Du rufst einen Freund an, um dich zu verabreden.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hello?",
+        "de": "Hallo?"
+      },
+      {
+        "who": "B",
+        "en": "Hi Tom, it's Daniel. How are you?",
+        "de": "Hi Tom, hier ist Daniel. Wie geht's?"
+      },
+      {
+        "who": "A",
+        "en": "Hey Daniel! I'm good, thanks. And you?",
+        "de": "Hey Daniel! Mir geht's gut, danke. Und dir?"
+      },
+      {
+        "who": "B",
+        "en": "I'm fine. Are you free tomorrow?",
+        "de": "Gut. Hast du morgen Zeit?"
+      },
+      {
+        "who": "A",
+        "en": "Yes, after work. Why?",
+        "de": "Ja, nach der Arbeit. Warum?"
+      },
+      {
+        "who": "B",
+        "en": "Let's have dinner. Maybe at seven?",
+        "de": "Lass uns zusammen essen. Vielleicht um sieben?"
+      },
+      {
+        "who": "A",
+        "en": "Sounds good. See you tomorrow!",
+        "de": "Klingt gut. Bis morgen!"
+      },
+      {
+        "who": "B",
+        "en": "Great, bye!",
+        "de": "Super, tschüss!"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why does Daniel call Tom?",
+        "opts": [
+          "To ask for money",
+          "To plan dinner",
+          "To say sorry",
+          "To ask about work"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What time do they plan to meet?",
+        "opts": [
+          "Six",
+          "Seven",
+          "Eight",
+          "Nine"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "It's Daniel.",
+        "de": "Hier ist Daniel.",
+        "note": "Am Telefon sagt man 'It's ...', nicht 'I am ...'."
+      },
+      {
+        "en": "Are you free tomorrow?",
+        "de": "Hast du morgen Zeit?",
+        "note": "'free' = Zeit haben."
+      },
+      {
+        "en": "Sounds good.",
+        "de": "Klingt gut.",
+        "note": "Sehr häufige Zustimmung."
+      }
+    ]
+  },
+  {
+    "id": "d10",
+    "lvl": 2,
+    "title": "Beim Arzt",
+    "title_en": "At the doctor's",
+    "scene": "Du fühlst dich seit zwei Tagen krank und gehst zum Arzt.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hello, what seems to be the problem?",
+        "de": "Hallo, wo liegt das Problem?"
+      },
+      {
+        "who": "B",
+        "en": "I've had a sore throat and a headache for two days.",
+        "de": "Ich habe seit zwei Tagen Halsschmerzen und Kopfschmerzen."
+      },
+      {
+        "who": "A",
+        "en": "Do you have a fever?",
+        "de": "Haben Sie Fieber?"
+      },
+      {
+        "who": "B",
+        "en": "A little. It was 38 degrees this morning.",
+        "de": "Ein bisschen. Heute Morgen waren es 38 Grad."
+      },
+      {
+        "who": "A",
+        "en": "Let me have a look. Open your mouth, please.",
+        "de": "Ich schaue mal. Öffnen Sie bitte den Mund."
+      },
+      {
+        "who": "A",
+        "en": "It looks a bit red. I think you have a cold.",
+        "de": "Es sieht etwas rot aus. Ich glaube, Sie haben eine Erkältung."
+      },
+      {
+        "who": "B",
+        "en": "Do I need any medicine?",
+        "de": "Brauche ich Medikamente?"
+      },
+      {
+        "who": "A",
+        "en": "Just rest, drink a lot of water and take these tablets twice a day.",
+        "de": "Ruhen Sie sich aus, trinken Sie viel Wasser und nehmen Sie diese Tabletten zweimal täglich."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "How long has the patient been sick?",
+        "opts": [
+          "One day",
+          "Two days",
+          "A week",
+          "A month"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does the doctor think it is?",
+        "opts": [
+          "The flu",
+          "An allergy",
+          "A cold",
+          "Nothing"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I've had a headache for two days.",
+        "de": "Ich habe seit zwei Tagen Kopfschmerzen.",
+        "note": "Mit 'for' + Zeitraum benutzt man das Present Perfect."
+      },
+      {
+        "en": "Do you have a fever?",
+        "de": "Haben Sie Fieber?",
+        "note": "'a fever' immer mit Artikel."
+      },
+      {
+        "en": "Take these twice a day.",
+        "de": "Nehmen Sie das zweimal täglich.",
+        "note": "'once / twice / three times a day'."
+      }
+    ]
+  },
+  {
+    "id": "d11",
+    "lvl": 2,
+    "title": "Smalltalk am Wochenende",
+    "title_en": "Weekend small talk",
+    "scene": "Montagmorgen im Büro: Zwei Kollegen reden über das Wochenende.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Morning! How was your weekend?",
+        "de": "Morgen! Wie war dein Wochenende?"
+      },
+      {
+        "who": "B",
+        "en": "Pretty good, thanks. We went hiking on Saturday.",
+        "de": "Ziemlich gut, danke. Wir waren am Samstag wandern."
+      },
+      {
+        "who": "A",
+        "en": "Nice! Where did you go?",
+        "de": "Schön! Wo wart ihr?"
+      },
+      {
+        "who": "B",
+        "en": "To the lake near the mountains. The weather was perfect.",
+        "de": "Zum See in der Nähe der Berge. Das Wetter war perfekt."
+      },
+      {
+        "who": "A",
+        "en": "I'm jealous. It rained all weekend here.",
+        "de": "Ich bin neidisch. Hier hat es das ganze Wochenende geregnet."
+      },
+      {
+        "who": "B",
+        "en": "Oh no. So what did you do?",
+        "de": "Oh nein. Was hast du dann gemacht?"
+      },
+      {
+        "who": "A",
+        "en": "Nothing special. I watched TV and cleaned the apartment.",
+        "de": "Nichts Besonderes. Ich habe ferngesehen und die Wohnung geputzt."
+      },
+      {
+        "who": "B",
+        "en": "Well, at least it's a new week. Coffee?",
+        "de": "Na ja, immerhin ist es eine neue Woche. Kaffee?"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What did speaker B do on Saturday?",
+        "opts": [
+          "Cleaned the apartment",
+          "Went hiking",
+          "Watched TV",
+          "Stayed home"
+        ],
+        "a": 1
+      },
+      {
+        "q": "How was the weather for speaker A?",
+        "opts": [
+          "Sunny",
+          "Windy",
+          "Snowy",
+          "Rainy"
+        ],
+        "a": 3
+      }
+    ],
+    "phrases": [
+      {
+        "en": "How was your weekend?",
+        "de": "Wie war dein Wochenende?",
+        "note": "Klassischer Einstieg am Montag."
+      },
+      {
+        "en": "I'm jealous.",
+        "de": "Ich bin neidisch.",
+        "note": "Freundlich gemeint, nicht böse."
+      },
+      {
+        "en": "Nothing special.",
+        "de": "Nichts Besonderes.",
+        "note": "Typische Antwort auf 'What did you do?'"
+      }
+    ]
+  },
+  {
+    "id": "d12",
+    "lvl": 2,
+    "title": "Problem im Hotelzimmer",
+    "title_en": "A problem in the hotel room",
+    "scene": "In deinem Hotelzimmer funktioniert die Klimaanlage nicht, du rufst die Rezeption an.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Front desk, how can I help?",
+        "de": "Rezeption, wie kann ich helfen?"
+      },
+      {
+        "who": "B",
+        "en": "Hi, this is room 412. The air conditioning doesn't work.",
+        "de": "Hallo, hier ist Zimmer 412. Die Klimaanlage funktioniert nicht."
+      },
+      {
+        "who": "A",
+        "en": "I'm sorry to hear that. Is it making any noise?",
+        "de": "Das tut mir leid. Macht sie irgendwelche Geräusche?"
+      },
+      {
+        "who": "B",
+        "en": "No, it's just not cold. It's really hot in here.",
+        "de": "Nein, sie wird einfach nicht kalt. Es ist wirklich heiß hier drin."
+      },
+      {
+        "who": "A",
+        "en": "I'll send someone up in ten minutes.",
+        "de": "Ich schicke in zehn Minuten jemanden hoch."
+      },
+      {
+        "who": "B",
+        "en": "Okay. Could I also get extra towels?",
+        "de": "Okay. Könnte ich auch noch zusätzliche Handtücher bekommen?"
+      },
+      {
+        "who": "A",
+        "en": "Of course. They'll come with the technician.",
+        "de": "Natürlich. Die bringt der Techniker mit."
+      },
+      {
+        "who": "B",
+        "en": "Thanks a lot.",
+        "de": "Vielen Dank."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is wrong in the room?",
+        "opts": [
+          "The TV is broken",
+          "The shower is cold",
+          "The air conditioning doesn't work",
+          "The bed is dirty"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What else does the guest ask for?",
+        "opts": [
+          "Extra towels",
+          "A new room",
+          "A late checkout",
+          "Breakfast"
+        ],
+        "a": 0
+      }
+    ],
+    "phrases": [
+      {
+        "en": "It doesn't work.",
+        "de": "Es funktioniert nicht.",
+        "note": "Universelle Beschwerde, passt für fast alles."
+      },
+      {
+        "en": "I'll send someone up.",
+        "de": "Ich schicke jemanden hoch.",
+        "note": "'send up' = aufs Zimmer schicken."
+      },
+      {
+        "en": "Could I also get extra towels?",
+        "de": "Könnte ich noch zusätzliche Handtücher bekommen?",
+        "note": "'Could I' ist sehr höflich."
+      }
+    ]
+  },
+  {
+    "id": "d13",
+    "lvl": 2,
+    "title": "Im Supermarkt",
+    "title_en": "At the supermarket",
+    "scene": "Du suchst im Supermarkt ein paar Produkte und fragst einen Mitarbeiter.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Excuse me, where can I find the milk?",
+        "de": "Entschuldigung, wo finde ich die Milch?"
+      },
+      {
+        "who": "B",
+        "en": "It's in aisle five, next to the cheese.",
+        "de": "Im Gang fünf, neben dem Käse."
+      },
+      {
+        "who": "A",
+        "en": "Thanks. And do you sell gluten-free bread?",
+        "de": "Danke. Und verkaufen Sie glutenfreies Brot?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, but we only have a few left. It's on the bottom shelf.",
+        "de": "Ja, aber wir haben nur noch ein paar. Es liegt im untersten Regal."
+      },
+      {
+        "who": "A",
+        "en": "Got it. Is there a self-checkout?",
+        "de": "Alles klar. Gibt es eine Selbstbedienungskasse?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, near the entrance. It's faster if you only have a few things.",
+        "de": "Ja, beim Eingang. Das geht schneller, wenn man nur wenige Sachen hat."
+      },
+      {
+        "who": "A",
+        "en": "Perfect, I only need five items.",
+        "de": "Perfekt, ich brauche nur fünf Artikel."
+      },
+      {
+        "who": "B",
+        "en": "Then you'll be out in no time.",
+        "de": "Dann sind Sie im Nu fertig."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Where is the milk?",
+        "opts": [
+          "Aisle two",
+          "Aisle five",
+          "Near the entrance",
+          "On the bottom shelf"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Why does she use the self-checkout?",
+        "opts": [
+          "It's cheaper",
+          "She has only a few things",
+          "The other lines are closed",
+          "She likes machines"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Where can I find the milk?",
+        "de": "Wo finde ich die Milch?",
+        "note": "Besser als 'Where is...?' im Laden."
+      },
+      {
+        "en": "We only have a few left.",
+        "de": "Wir haben nur noch ein paar.",
+        "note": "'a few' = ein paar, 'few' = kaum welche."
+      },
+      {
+        "en": "in no time",
+        "de": "im Nu",
+        "note": "Bedeutet 'sehr schnell'."
+      }
+    ]
+  },
+  {
+    "id": "d14",
+    "lvl": 2,
+    "title": "Pläne mit einem Freund",
+    "title_en": "Making plans with a friend",
+    "scene": "Zwei Freunde schreiben per Telefon, was sie am Freitagabend machen.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hey! Are you doing anything on Friday night?",
+        "de": "Hey! Hast du Freitagabend was vor?"
+      },
+      {
+        "who": "B",
+        "en": "Not really. Why, what's up?",
+        "de": "Eigentlich nicht. Warum, was gibt's?"
+      },
+      {
+        "who": "A",
+        "en": "There's a new Italian place downtown. Want to try it?",
+        "de": "In der Innenstadt gibt es einen neuen Italiener. Lust, ihn auszuprobieren?"
+      },
+      {
+        "who": "B",
+        "en": "Sure! What time?",
+        "de": "Klar! Wann?"
+      },
+      {
+        "who": "A",
+        "en": "How about 7:30? I can book a table.",
+        "de": "Wie wäre es mit 19:30 Uhr? Ich kann einen Tisch reservieren."
+      },
+      {
+        "who": "B",
+        "en": "Perfect. Should I bring Mia too?",
+        "de": "Perfekt. Soll ich Mia auch mitbringen?"
+      },
+      {
+        "who": "A",
+        "en": "Yes, the more the merrier!",
+        "de": "Ja, je mehr, desto besser!"
+      },
+      {
+        "who": "B",
+        "en": "Great. I'll text her now.",
+        "de": "Super. Ich schreibe ihr gleich."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What kind of restaurant do they choose?",
+        "opts": [
+          "Chinese",
+          "Italian",
+          "Mexican",
+          "French"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Who might join them?",
+        "opts": [
+          "Tom",
+          "Anna",
+          "Mia",
+          "Nobody"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Are you doing anything on Friday?",
+        "de": "Hast du Freitag was vor?",
+        "note": "Present Continuous für feste Pläne."
+      },
+      {
+        "en": "How about 7:30?",
+        "de": "Wie wäre es mit 19:30 Uhr?",
+        "note": "Vorschlag mit 'How about'."
+      },
+      {
+        "en": "The more the merrier.",
+        "de": "Je mehr, desto besser.",
+        "note": "Feste Redewendung."
+      }
+    ]
+  },
+  {
+    "id": "d15",
+    "lvl": 2,
+    "title": "Verlorenes Gepäck",
+    "title_en": "Lost luggage",
+    "scene": "Nach der Landung ist dein Koffer nicht auf dem Band, du gehst zum Schalter.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hello, how can I help you?",
+        "de": "Hallo, wie kann ich Ihnen helfen?"
+      },
+      {
+        "who": "B",
+        "en": "My suitcase didn't arrive. I waited at the belt for half an hour.",
+        "de": "Mein Koffer ist nicht angekommen. Ich habe eine halbe Stunde am Band gewartet."
+      },
+      {
+        "who": "A",
+        "en": "I'm sorry. What does it look like?",
+        "de": "Das tut mir leid. Wie sieht er aus?"
+      },
+      {
+        "who": "B",
+        "en": "It's a large black suitcase with a red ribbon on the handle.",
+        "de": "Es ist ein großer schwarzer Koffer mit einem roten Band am Griff."
+      },
+      {
+        "who": "A",
+        "en": "Do you have your baggage tag?",
+        "de": "Haben Sie Ihren Gepäckanhänger?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, here it is.",
+        "de": "Ja, hier ist er."
+      },
+      {
+        "who": "A",
+        "en": "Okay. It looks like it stayed in Frankfurt. We'll deliver it to your hotel tomorrow.",
+        "de": "Okay. Es sieht so aus, als wäre er in Frankfurt geblieben. Wir liefern ihn morgen zu Ihrem Hotel."
+      },
+      {
+        "who": "B",
+        "en": "Thank God. Please call me when it's on the way.",
+        "de": "Gott sei Dank. Bitte rufen Sie mich an, wenn er unterwegs ist."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does the suitcase look like?",
+        "opts": [
+          "Small and blue",
+          "Large and black with a red ribbon",
+          "Brown with a lock",
+          "Green with stickers"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Where is the suitcase now?",
+        "opts": [
+          "In Frankfurt",
+          "At the hotel",
+          "In the taxi",
+          "Nobody knows"
+        ],
+        "a": 0
+      }
+    ],
+    "phrases": [
+      {
+        "en": "My suitcase didn't arrive.",
+        "de": "Mein Koffer ist nicht angekommen.",
+        "note": "'Luggage' (US) / 'baggage' (UK + offiziell)."
+      },
+      {
+        "en": "What does it look like?",
+        "de": "Wie sieht er aus?",
+        "note": "Nicht 'How does it look' für Aussehen."
+      },
+      {
+        "en": "We'll deliver it to your hotel.",
+        "de": "Wir liefern ihn zu Ihrem Hotel.",
+        "note": "'deliver' = liefern."
+      }
+    ]
+  },
+  {
+    "id": "d16",
+    "lvl": 2,
+    "title": "Fahrkarten kaufen",
+    "title_en": "Buying train tickets",
+    "scene": "Am Bahnhof kaufst du eine Fahrkarte nach Boston.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hi, I'd like a ticket to Boston, please.",
+        "de": "Hallo, ich hätte gern eine Fahrkarte nach Boston."
+      },
+      {
+        "who": "B",
+        "en": "One way or round trip?",
+        "de": "Einfach oder hin und zurück?"
+      },
+      {
+        "who": "A",
+        "en": "Round trip. I'm coming back on Sunday.",
+        "de": "Hin und zurück. Ich komme am Sonntag zurück."
+      },
+      {
+        "who": "B",
+        "en": "That's 64 dollars. The next train leaves at 2:15 from platform 3.",
+        "de": "Das macht 64 Dollar. Der nächste Zug fährt um 14:15 von Gleis 3."
+      },
+      {
+        "who": "A",
+        "en": "Is it a direct train?",
+        "de": "Ist das ein Direktzug?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, it takes about four hours.",
+        "de": "Ja, er braucht etwa vier Stunden."
+      },
+      {
+        "who": "A",
+        "en": "Can I pay by card?",
+        "de": "Kann ich mit Karte zahlen?"
+      },
+      {
+        "who": "B",
+        "en": "Sure. Just insert your card here.",
+        "de": "Klar. Stecken Sie hier einfach Ihre Karte ein."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What kind of ticket does he buy?",
+        "opts": [
+          "One way",
+          "Round trip",
+          "Weekly pass",
+          "Student ticket"
+        ],
+        "a": 1
+      },
+      {
+        "q": "How long does the trip take?",
+        "opts": [
+          "Two hours",
+          "Three hours",
+          "About four hours",
+          "Eight hours"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "One way or round trip?",
+        "de": "Einfach oder hin und zurück?",
+        "note": "UK: 'single or return?'"
+      },
+      {
+        "en": "Is it a direct train?",
+        "de": "Ist es ein Direktzug?",
+        "note": "Gegenteil: 'with a change'."
+      },
+      {
+        "en": "Can I pay by card?",
+        "de": "Kann ich mit Karte zahlen?",
+        "note": "'in cash' = bar."
+      }
+    ]
+  },
+  {
+    "id": "d17",
+    "lvl": 2,
+    "title": "In der Apotheke",
+    "title_en": "At the pharmacy",
+    "scene": "Du bist erkältet und fragst in der Apotheke nach Medikamenten.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hi, can I help you with something?",
+        "de": "Hallo, kann ich Ihnen bei etwas helfen?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, I've got a runny nose and I keep sneezing.",
+        "de": "Ja, ich habe eine laufende Nase und muss ständig niesen."
+      },
+      {
+        "who": "A",
+        "en": "Do you have a cough too?",
+        "de": "Haben Sie auch Husten?"
+      },
+      {
+        "who": "B",
+        "en": "No, just a bit of a sore throat.",
+        "de": "Nein, nur etwas Halsschmerzen."
+      },
+      {
+        "who": "A",
+        "en": "Okay. These nose drops and these lozenges should help.",
+        "de": "Okay. Diese Nasentropfen und diese Lutschtabletten sollten helfen."
+      },
+      {
+        "who": "B",
+        "en": "How often should I take them?",
+        "de": "Wie oft soll ich sie nehmen?"
+      },
+      {
+        "who": "A",
+        "en": "The drops three times a day, the lozenges whenever you need them.",
+        "de": "Die Tropfen dreimal täglich, die Lutschtabletten nach Bedarf."
+      },
+      {
+        "who": "B",
+        "en": "Thanks. How much is that?",
+        "de": "Danke. Was macht das?"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What symptom does the customer NOT have?",
+        "opts": [
+          "Runny nose",
+          "Sneezing",
+          "Sore throat",
+          "Cough"
+        ],
+        "a": 3
+      },
+      {
+        "q": "How often should he use the drops?",
+        "opts": [
+          "Once a day",
+          "Twice a day",
+          "Three times a day",
+          "Only at night"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I've got a runny nose.",
+        "de": "Ich habe eine laufende Nase.",
+        "note": "'I've got' ist lockerer als 'I have'."
+      },
+      {
+        "en": "How often should I take them?",
+        "de": "Wie oft soll ich sie nehmen?",
+        "note": "Wichtige Frage in der Apotheke."
+      },
+      {
+        "en": "whenever you need them",
+        "de": "wann immer Sie sie brauchen",
+        "note": "'whenever' = jedes Mal wenn."
+      }
+    ]
+  },
+  {
+    "id": "d18",
+    "lvl": 2,
+    "title": "Erstes Treffen im Büro",
+    "title_en": "First day at work",
+    "scene": "Es ist dein erster Arbeitstag und eine Kollegin zeigt dir das Büro.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hi! You must be Daniel. I'm Sarah, welcome to the team.",
+        "de": "Hi! Du musst Daniel sein. Ich bin Sarah, willkommen im Team."
+      },
+      {
+        "who": "B",
+        "en": "Thanks, Sarah. Nice to meet you. I'm a bit nervous.",
+        "de": "Danke, Sarah. Freut mich. Ich bin ein bisschen nervös."
+      },
+      {
+        "who": "A",
+        "en": "Don't worry, everyone is really friendly. This is your desk.",
+        "de": "Keine Sorge, alle sind wirklich nett. Das ist dein Schreibtisch."
+      },
+      {
+        "who": "B",
+        "en": "Great. Where's the kitchen?",
+        "de": "Super. Wo ist die Küche?"
+      },
+      {
+        "who": "A",
+        "en": "Down the hall on the left. We usually have lunch together at noon.",
+        "de": "Den Flur runter links. Wir essen meistens um zwölf zusammen."
+      },
+      {
+        "who": "B",
+        "en": "That sounds nice. When is the first meeting?",
+        "de": "Das klingt nett. Wann ist das erste Meeting?"
+      },
+      {
+        "who": "A",
+        "en": "At ten. I'll show you the conference room.",
+        "de": "Um zehn. Ich zeige dir den Konferenzraum."
+      },
+      {
+        "who": "B",
+        "en": "Thanks, I really appreciate it.",
+        "de": "Danke, das weiß ich wirklich zu schätzen."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "How does Daniel feel?",
+        "opts": [
+          "Angry",
+          "Bored",
+          "A bit nervous",
+          "Very tired"
+        ],
+        "a": 2
+      },
+      {
+        "q": "When is the first meeting?",
+        "opts": [
+          "At noon",
+          "At ten",
+          "At nine",
+          "At three"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "You must be Daniel.",
+        "de": "Du musst Daniel sein.",
+        "note": "'must be' = vermutlich."
+      },
+      {
+        "en": "Don't worry.",
+        "de": "Keine Sorge.",
+        "note": "Kurz und freundlich."
+      },
+      {
+        "en": "I really appreciate it.",
+        "de": "Das weiß ich sehr zu schätzen.",
+        "note": "Höflicher als 'thanks'."
+      }
+    ]
+  },
+  {
+    "id": "d19",
+    "lvl": 5,
+    "title": "Streit mit dem Vermieter",
+    "title_en": "A dispute with the landlord",
+    "scene": "Du sprichst mit deinem Vermieter über Schimmel in der Wohnung und eine geforderte Mieterhöhung.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Thanks for coming by. I wanted to discuss the rent increase I mentioned in my letter.",
+        "de": "Danke, dass Sie vorbeigekommen sind. Ich wollte die Mieterhöhung besprechen, die ich in meinem Brief erwähnt habe."
+      },
+      {
+        "who": "B",
+        "en": "Before we get to that, I'd like to raise an issue. There's mold in the bathroom that's been spreading for months.",
+        "de": "Bevor wir dazu kommen, möchte ich ein Problem ansprechen. Im Bad breitet sich seit Monaten Schimmel aus."
+      },
+      {
+        "who": "A",
+        "en": "That's news to me. Why didn't you notify me earlier?",
+        "de": "Das ist mir neu. Warum haben Sie mich nicht früher informiert?"
+      },
+      {
+        "who": "B",
+        "en": "I did. I emailed you twice, and I have the records here. Nothing was done.",
+        "de": "Habe ich. Ich habe Ihnen zweimal geschrieben, und ich habe die Belege hier. Es wurde nichts unternommen."
+      },
+      {
+        "who": "A",
+        "en": "Well, I must have overlooked them. I'll have a contractor take a look this week.",
+        "de": "Dann habe ich sie wohl übersehen. Ich lasse diese Woche einen Handwerker nachsehen."
+      },
+      {
+        "who": "B",
+        "en": "I appreciate that, but I can't agree to a rent increase while the apartment is in this condition.",
+        "de": "Das weiß ich zu schätzen, aber ich kann einer Mieterhöhung nicht zustimmen, solange die Wohnung in diesem Zustand ist."
+      },
+      {
+        "who": "A",
+        "en": "Fair enough. How about we postpone the increase until the repairs are done?",
+        "de": "Das ist nachvollziehbar. Wie wäre es, wenn wir die Erhöhung bis zum Abschluss der Reparaturen verschieben?"
+      },
+      {
+        "who": "B",
+        "en": "That's reasonable, provided we put it in writing, and the increase stays below ten percent.",
+        "de": "Das ist angemessen, sofern wir es schriftlich festhalten und die Erhöhung unter zehn Prozent bleibt."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What problem does the tenant raise?",
+        "opts": [
+          "Noisy neighbors",
+          "Mold in the bathroom",
+          "A broken heater",
+          "A leaking roof"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What do they agree on?",
+        "opts": [
+          "Cancel the rent increase for good",
+          "Postpone the increase until repairs are done",
+          "Move out",
+          "Lower the rent by ten percent"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "That's news to me.",
+        "de": "Das ist mir neu.",
+        "note": "Man hat davon nichts gewusst."
+      },
+      {
+        "en": "I can't agree to that.",
+        "de": "Dem kann ich nicht zustimmen.",
+        "note": "Klare, höfliche Ablehnung."
+      },
+      {
+        "en": "provided we put it in writing",
+        "de": "sofern wir es schriftlich festhalten",
+        "note": "'provided (that)' = unter der Bedingung."
+      }
+    ]
+  },
+  {
+    "id": "d20",
+    "lvl": 3,
+    "title": "Vorstellungsgespräch",
+    "title_en": "A job interview",
+    "scene": "Du bewirbst dich als Servicetechniker und sprichst mit der Personalchefin.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Thanks for coming in today. Can you tell me a bit about yourself?",
+        "de": "Danke, dass Sie gekommen sind. Können Sie etwas über sich erzählen?"
+      },
+      {
+        "who": "B",
+        "en": "Sure. I've been working as a mechanic for six years, mostly with industrial machines.",
+        "de": "Klar. Ich arbeite seit sechs Jahren als Mechaniker, hauptsächlich an Industriemaschinen."
+      },
+      {
+        "who": "A",
+        "en": "Why are you interested in this position?",
+        "de": "Warum interessieren Sie sich für diese Stelle?"
+      },
+      {
+        "who": "B",
+        "en": "I'm looking for a role where I can learn more about automation and work with a bigger team.",
+        "de": "Ich suche eine Rolle, in der ich mehr über Automatisierung lernen und mit einem größeren Team arbeiten kann."
+      },
+      {
+        "who": "A",
+        "en": "What would you say is your greatest strength?",
+        "de": "Was würden Sie als Ihre größte Stärke bezeichnen?"
+      },
+      {
+        "who": "B",
+        "en": "I'm good at solving problems under pressure, and I never give up until it's fixed.",
+        "de": "Ich bin gut darin, unter Druck Probleme zu lösen, und gebe nicht auf, bis es repariert ist."
+      },
+      {
+        "who": "A",
+        "en": "That's great. And do you have any questions for us?",
+        "de": "Das ist toll. Und haben Sie Fragen an uns?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, what does a typical day look like in this role?",
+        "de": "Ja, wie sieht ein typischer Tag in dieser Rolle aus?"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "How long has the candidate worked as a mechanic?",
+        "opts": [
+          "Two years",
+          "Six years",
+          "Ten years",
+          "One year"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does he want to learn more about?",
+        "opts": [
+          "Marketing",
+          "Cooking",
+          "Automation",
+          "Finance"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I've been working as a mechanic for six years.",
+        "de": "Ich arbeite seit sechs Jahren als Mechaniker.",
+        "note": "Present Perfect Continuous für andauernde Tätigkeit."
+      },
+      {
+        "en": "I'm good at solving problems.",
+        "de": "Ich bin gut darin, Probleme zu lösen.",
+        "note": "'good at' + -ing."
+      },
+      {
+        "en": "What does a typical day look like?",
+        "de": "Wie sieht ein typischer Tag aus?",
+        "note": "Gute Frage am Ende jedes Interviews."
+      }
+    ]
+  },
+  {
+    "id": "d21",
+    "lvl": 3,
+    "title": "Beschwerde im Restaurant",
+    "title_en": "Complaining at a restaurant",
+    "scene": "Dein Essen kommt kalt an und du sprichst den Kellner darauf an.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "How is everything so far?",
+        "de": "Wie ist bisher alles?"
+      },
+      {
+        "who": "B",
+        "en": "Honestly, not great. My pasta is cold, and we ordered it forty minutes ago.",
+        "de": "Ehrlich gesagt nicht so toll. Meine Pasta ist kalt, und wir haben sie vor vierzig Minuten bestellt."
+      },
+      {
+        "who": "A",
+        "en": "Oh, I'm so sorry about that. The kitchen is really busy tonight.",
+        "de": "Oh, das tut mir sehr leid. Die Küche ist heute Abend sehr voll."
+      },
+      {
+        "who": "B",
+        "en": "I understand, but it's still not acceptable. Could you bring me a fresh one?",
+        "de": "Das verstehe ich, aber es ist trotzdem nicht in Ordnung. Könnten Sie mir eine frische bringen?"
+      },
+      {
+        "who": "A",
+        "en": "Of course. I'll take care of it right away.",
+        "de": "Natürlich. Ich kümmere mich sofort darum."
+      },
+      {
+        "who": "A",
+        "en": "And the dessert is on the house to make up for it.",
+        "de": "Und das Dessert geht aufs Haus, als Entschädigung."
+      },
+      {
+        "who": "B",
+        "en": "That's kind of you, thank you.",
+        "de": "Das ist nett von Ihnen, danke."
+      },
+      {
+        "who": "A",
+        "en": "No problem. Again, sorry for the wait.",
+        "de": "Kein Problem. Nochmals Entschuldigung für die Wartezeit."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is wrong with the pasta?",
+        "opts": [
+          "It's too salty",
+          "It's cold",
+          "It's burnt",
+          "It's the wrong dish"
+        ],
+        "a": 1
+      },
+      {
+        "q": "How does the restaurant make up for it?",
+        "opts": [
+          "A free dessert",
+          "A free drink",
+          "A discount card",
+          "Nothing"
+        ],
+        "a": 0
+      }
+    ],
+    "phrases": [
+      {
+        "en": "It's still not acceptable.",
+        "de": "Es ist trotzdem nicht in Ordnung.",
+        "note": "Höflich, aber bestimmt."
+      },
+      {
+        "en": "Could you bring me a fresh one?",
+        "de": "Könnten Sie mir eine frische bringen?",
+        "note": "'Could you' wirkt höflich, auch bei Beschwerden."
+      },
+      {
+        "en": "It's on the house.",
+        "de": "Das geht aufs Haus.",
+        "note": "Gratis vom Restaurant."
+      }
+    ]
+  },
+  {
+    "id": "d22",
+    "lvl": 3,
+    "title": "Das erste Date",
+    "title_en": "A first date",
+    "scene": "Zwei Leute treffen sich zum ersten Mal in einer Bar und lernen sich kennen.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hey, you made it! I was starting to think you got lost.",
+        "de": "Hey, du hast es geschafft! Ich dachte schon, du hast dich verlaufen."
+      },
+      {
+        "who": "B",
+        "en": "Sorry, I'm a few minutes late. The traffic was crazy.",
+        "de": "Sorry, ich bin ein paar Minuten zu spät. Der Verkehr war verrückt."
+      },
+      {
+        "who": "A",
+        "en": "No worries. What are you drinking?",
+        "de": "Kein Problem. Was trinkst du?"
+      },
+      {
+        "who": "B",
+        "en": "Just a soda for me, I'm driving. So, what do you do for fun?",
+        "de": "Für mich nur eine Limo, ich fahre. Also, was machst du so zum Spaß?"
+      },
+      {
+        "who": "A",
+        "en": "I love hiking and I'm learning to play the guitar. How about you?",
+        "de": "Ich gehe gern wandern und lerne gerade Gitarre. Und du?"
+      },
+      {
+        "who": "B",
+        "en": "I'm into movies and cooking. I'm kind of a foodie, actually.",
+        "de": "Ich mag Filme und Kochen. Eigentlich bin ich ein ziemlicher Feinschmecker."
+      },
+      {
+        "who": "A",
+        "en": "Oh, nice. Maybe you could cook for me sometime.",
+        "de": "Oh, schön. Vielleicht könntest du irgendwann mal für mich kochen."
+      },
+      {
+        "who": "B",
+        "en": "Haha, maybe. Let's see how tonight goes first!",
+        "de": "Haha, vielleicht. Mal sehen, wie der Abend läuft!"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why is he/she drinking soda?",
+        "opts": [
+          "Doesn't like beer",
+          "Is driving",
+          "Is sick",
+          "It's cheaper"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What is speaker A learning?",
+        "opts": [
+          "Cooking",
+          "French",
+          "Guitar",
+          "Dancing"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "You made it!",
+        "de": "Du hast es geschafft! / Schön, dass du da bist!",
+        "note": "Freundliche Begrüßung für Ankömmlinge."
+      },
+      {
+        "en": "I'm into movies.",
+        "de": "Ich stehe auf Filme.",
+        "note": "'be into' = sich für etwas begeistern."
+      },
+      {
+        "en": "Let's see how it goes.",
+        "de": "Mal sehen, wie es läuft.",
+        "note": "Locker und unverbindlich."
+      }
+    ]
+  },
+  {
+    "id": "d23",
+    "lvl": 3,
+    "title": "Team-Meeting",
+    "title_en": "A team meeting",
+    "scene": "Dein Team bespricht im Meeting den Stand eines Projekts.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Okay, let's get started. Where are we with the website redesign?",
+        "de": "Okay, fangen wir an. Wie ist der Stand beim Website-Redesign?"
+      },
+      {
+        "who": "B",
+        "en": "We're about 70 percent done. The design is finished, but the testing is still ongoing.",
+        "de": "Wir sind zu etwa 70 Prozent fertig. Das Design steht, aber das Testen läuft noch."
+      },
+      {
+        "who": "A",
+        "en": "Are we going to hit the deadline on Friday?",
+        "de": "Schaffen wir die Frist am Freitag?"
+      },
+      {
+        "who": "B",
+        "en": "It's going to be tight. We're waiting for feedback from the client.",
+        "de": "Es wird knapp. Wir warten auf Rückmeldung vom Kunden."
+      },
+      {
+        "who": "A",
+        "en": "Could you follow up with them today?",
+        "de": "Könntest du heute bei ihnen nachfassen?"
+      },
+      {
+        "who": "B",
+        "en": "Sure, I'll send them an email right after this meeting.",
+        "de": "Klar, ich schicke ihnen direkt nach dem Meeting eine E-Mail."
+      },
+      {
+        "who": "A",
+        "en": "Great. If we don't hear back by tomorrow, let me know and I'll call them.",
+        "de": "Gut. Wenn wir bis morgen nichts hören, sag mir Bescheid, dann rufe ich an."
+      },
+      {
+        "who": "B",
+        "en": "Will do.",
+        "de": "Mach ich."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "How much of the project is finished?",
+        "opts": [
+          "30 percent",
+          "50 percent",
+          "70 percent",
+          "100 percent"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What is the team waiting for?",
+        "opts": [
+          "A new designer",
+          "Client feedback",
+          "More money",
+          "A new laptop"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "It's going to be tight.",
+        "de": "Es wird knapp.",
+        "note": "Zeitlich oder finanziell knapp."
+      },
+      {
+        "en": "I'll follow up with them.",
+        "de": "Ich hake bei ihnen nach.",
+        "note": "Sehr häufig im Job."
+      },
+      {
+        "en": "Will do.",
+        "de": "Mach ich.",
+        "note": "Kurz für 'I will do that'."
+      }
+    ]
+  },
+  {
+    "id": "d24",
+    "lvl": 3,
+    "title": "Anruf beim Kundenservice",
+    "title_en": "Calling customer service",
+    "scene": "Dein Internet funktioniert nicht und du rufst den Anbieter an.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Thank you for calling. My name is Chris, how can I help?",
+        "de": "Danke für Ihren Anruf. Mein Name ist Chris, wie kann ich helfen?"
+      },
+      {
+        "who": "B",
+        "en": "Hi Chris. My internet has been down since yesterday evening.",
+        "de": "Hi Chris. Mein Internet ist seit gestern Abend ausgefallen."
+      },
+      {
+        "who": "A",
+        "en": "I'm sorry to hear that. Have you tried restarting the router?",
+        "de": "Das tut mir leid. Haben Sie versucht, den Router neu zu starten?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, twice. The light is still blinking red.",
+        "de": "Ja, zweimal. Das Licht blinkt immer noch rot."
+      },
+      {
+        "who": "A",
+        "en": "Okay, let me check your line. Could you hold for a moment?",
+        "de": "Okay, ich prüfe Ihre Leitung. Könnten Sie einen Moment warten?"
+      },
+      {
+        "who": "B",
+        "en": "Sure, no problem.",
+        "de": "Klar, kein Problem."
+      },
+      {
+        "who": "A",
+        "en": "Thanks for waiting. There's an outage in your area. It should be fixed by tomorrow morning.",
+        "de": "Danke fürs Warten. Es gibt eine Störung in Ihrer Gegend. Sie sollte bis morgen früh behoben sein."
+      },
+      {
+        "who": "B",
+        "en": "Okay. Will I get a credit for the days without internet?",
+        "de": "Okay. Bekomme ich eine Gutschrift für die Tage ohne Internet?"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the problem?",
+        "opts": [
+          "A broken phone",
+          "No internet",
+          "A wrong bill",
+          "A slow TV"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What is the cause?",
+        "opts": [
+          "A broken router",
+          "An outage in the area",
+          "A cut cable at his home",
+          "An unpaid bill"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Could you hold for a moment?",
+        "de": "Könnten Sie kurz warten?",
+        "note": "Am Telefon: 'hold the line'."
+      },
+      {
+        "en": "It's been down since yesterday.",
+        "de": "Es ist seit gestern ausgefallen.",
+        "note": "'down' = außer Betrieb."
+      },
+      {
+        "en": "Will I get a credit?",
+        "de": "Bekomme ich eine Gutschrift?",
+        "note": "Wichtig bei Beschwerden."
+      }
+    ]
+  },
+  {
+    "id": "d25",
+    "lvl": 3,
+    "title": "Flug verpasst",
+    "title_en": "Missed connection",
+    "scene": "Wegen einer Verspätung hast du deinen Anschlussflug verpasst und fragst am Schalter nach.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Next, please. How can I help you?",
+        "de": "Der Nächste, bitte. Wie kann ich helfen?"
+      },
+      {
+        "who": "B",
+        "en": "My first flight was delayed, so I missed my connection to Chicago.",
+        "de": "Mein erster Flug hatte Verspätung, deshalb habe ich den Anschluss nach Chicago verpasst."
+      },
+      {
+        "who": "A",
+        "en": "I see. Let me look at your booking. Yes, I'm afraid that flight has already left.",
+        "de": "Ich verstehe. Ich sehe mir Ihre Buchung an. Ja, der Flug ist leider schon weg."
+      },
+      {
+        "who": "B",
+        "en": "What are my options? I have an important meeting tomorrow morning.",
+        "de": "Was für Möglichkeiten habe ich? Ich habe morgen früh ein wichtiges Meeting."
+      },
+      {
+        "who": "A",
+        "en": "There's another flight tonight at 9:40, but it's almost full.",
+        "de": "Es gibt heute Abend noch einen Flug um 21:40 Uhr, aber er ist fast voll."
+      },
+      {
+        "who": "B",
+        "en": "I'll take it, if you can still get me a seat.",
+        "de": "Den nehme ich, wenn Sie mir noch einen Platz besorgen können."
+      },
+      {
+        "who": "A",
+        "en": "You're in luck, I have one left. It's a middle seat, though.",
+        "de": "Sie haben Glück, ich habe noch einen. Allerdings ist es ein Mittelplatz."
+      },
+      {
+        "who": "B",
+        "en": "That's fine. Thank you so much for your help.",
+        "de": "Das ist in Ordnung. Vielen Dank für Ihre Hilfe."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why did he miss his flight?",
+        "opts": [
+          "He overslept",
+          "His first flight was late",
+          "He lost his passport",
+          "He went to the wrong gate"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What kind of seat does he get?",
+        "opts": [
+          "Window",
+          "Aisle",
+          "Middle",
+          "First class"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I missed my connection.",
+        "de": "Ich habe meinen Anschluss verpasst.",
+        "note": "'connecting flight' = Anschlussflug."
+      },
+      {
+        "en": "What are my options?",
+        "de": "Welche Möglichkeiten habe ich?",
+        "note": "Super Frage in Problemsituationen."
+      },
+      {
+        "en": "You're in luck.",
+        "de": "Da haben Sie Glück.",
+        "note": "Wortwörtlich: 'Sie sind im Glück'."
+      }
+    ]
+  },
+  {
+    "id": "d26",
+    "lvl": 3,
+    "title": "Wohnungsbesichtigung",
+    "title_en": "Viewing an apartment",
+    "scene": "Du besichtigst eine Wohnung, die du mieten möchtest.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Come on in. This is the living room. As you can see, it gets a lot of light.",
+        "de": "Kommen Sie rein. Das ist das Wohnzimmer. Wie Sie sehen, bekommt es viel Licht."
+      },
+      {
+        "who": "B",
+        "en": "It's really nice. Is the kitchen separate?",
+        "de": "Das ist wirklich schön. Ist die Küche separat?"
+      },
+      {
+        "who": "A",
+        "en": "Yes, it's right through here. It was renovated last year.",
+        "de": "Ja, hier durch. Sie wurde letztes Jahr renoviert."
+      },
+      {
+        "who": "B",
+        "en": "How much is the rent, and are utilities included?",
+        "de": "Wie hoch ist die Miete, und sind die Nebenkosten enthalten?"
+      },
+      {
+        "who": "A",
+        "en": "It's 1,200 a month, and water and heating are included. Electricity isn't.",
+        "de": "Es sind 1.200 im Monat, Wasser und Heizung sind inbegriffen. Strom nicht."
+      },
+      {
+        "who": "B",
+        "en": "Okay. Are pets allowed? I have a small cat.",
+        "de": "Okay. Sind Haustiere erlaubt? Ich habe eine kleine Katze."
+      },
+      {
+        "who": "A",
+        "en": "Yes, cats are fine, but you'd have to pay a small deposit.",
+        "de": "Ja, Katzen sind kein Problem, aber Sie müssten eine kleine Kaution zahlen."
+      },
+      {
+        "who": "B",
+        "en": "That works for me. When could I move in?",
+        "de": "Das passt für mich. Wann könnte ich einziehen?"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is NOT included in the rent?",
+        "opts": [
+          "Water",
+          "Heating",
+          "Electricity",
+          "Internet"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What pet does the tenant have?",
+        "opts": [
+          "A dog",
+          "A cat",
+          "A bird",
+          "None"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "Are utilities included?",
+        "de": "Sind die Nebenkosten enthalten?",
+        "note": "'utilities' = Strom, Wasser, Gas usw."
+      },
+      {
+        "en": "That works for me.",
+        "de": "Das passt für mich.",
+        "note": "Zustimmung bei Terminen/Bedingungen."
+      },
+      {
+        "en": "When could I move in?",
+        "de": "Wann könnte ich einziehen?",
+        "note": "'move in' / 'move out'."
+      }
+    ]
+  },
+  {
+    "id": "d27",
+    "lvl": 3,
+    "title": "Freunde reden über den Urlaub",
+    "title_en": "Friends talking about vacation",
+    "scene": "Zwei Freunde plaudern beim Abendessen über ihren letzten Urlaub.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "So, how was Portugal? I've been dying to hear about it.",
+        "de": "Und, wie war Portugal? Ich will unbedingt alles hören."
+      },
+      {
+        "who": "B",
+        "en": "Honestly, amazing. The food was incredible and everyone was so friendly.",
+        "de": "Ehrlich, fantastisch. Das Essen war unglaublich und alle waren so freundlich."
+      },
+      {
+        "who": "A",
+        "en": "Did you get any sun? It's been so grey here.",
+        "de": "Hattest du Sonne? Hier war es so grau."
+      },
+      {
+        "who": "B",
+        "en": "Every single day. I even got a bit of a sunburn on the first day.",
+        "de": "Jeden einzelnen Tag. Ich habe am ersten Tag sogar einen kleinen Sonnenbrand bekommen."
+      },
+      {
+        "who": "A",
+        "en": "Ouch! Did you rent a car or just stay in Lisbon?",
+        "de": "Autsch! Hast du ein Auto gemietet oder bist du nur in Lissabon geblieben?"
+      },
+      {
+        "who": "B",
+        "en": "We rented a car for three days and drove along the coast. It was gorgeous.",
+        "de": "Wir haben für drei Tage ein Auto gemietet und sind die Küste entlanggefahren. Es war traumhaft."
+      },
+      {
+        "who": "A",
+        "en": "Now I'm jealous. I need a vacation soon.",
+        "de": "Jetzt bin ich neidisch. Ich brauche bald Urlaub."
+      },
+      {
+        "who": "B",
+        "en": "You should go! I'll send you my list of favorite places.",
+        "de": "Du solltest fahren! Ich schicke dir meine Liste mit Lieblingsorten."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What happened on the first day?",
+        "opts": [
+          "He lost his bag",
+          "He got sunburned",
+          "He got sick",
+          "It rained"
+        ],
+        "a": 1
+      },
+      {
+        "q": "How long did they rent the car?",
+        "opts": [
+          "One day",
+          "Three days",
+          "A week",
+          "The whole trip"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I've been dying to hear about it.",
+        "de": "Ich will unbedingt davon hören.",
+        "note": "'dying to' = brennend darauf, etwas zu tun."
+      },
+      {
+        "en": "Every single day.",
+        "de": "Jeden einzelnen Tag.",
+        "note": "'single' betont."
+      },
+      {
+        "en": "It was gorgeous.",
+        "de": "Es war traumhaft.",
+        "note": "Stärker als 'beautiful'."
+      }
+    ]
+  },
+  {
+    "id": "d28",
+    "lvl": 4,
+    "title": "Gehaltsverhandlung",
+    "title_en": "Negotiating a salary",
+    "scene": "Du verhandelst nach einem Jobangebot mit deiner zukünftigen Chefin über das Gehalt.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "We'd like to offer you the position at 58,000 a year, plus the standard benefits.",
+        "de": "Wir möchten Ihnen die Stelle mit 58.000 im Jahr plus den üblichen Zusatzleistungen anbieten."
+      },
+      {
+        "who": "B",
+        "en": "Thank you, I'm really excited about the offer. I was hoping for something closer to 65,000, though.",
+        "de": "Danke, ich freue mich sehr über das Angebot. Ich hatte aber auf etwas näher an 65.000 gehofft."
+      },
+      {
+        "who": "A",
+        "en": "That's a bit above our range. What are you basing that figure on?",
+        "de": "Das liegt etwas über unserem Rahmen. Worauf stützen Sie diese Zahl?"
+      },
+      {
+        "who": "B",
+        "en": "My experience with similar systems, and the fact that I'd be taking on team-lead responsibilities from day one.",
+        "de": "Auf meine Erfahrung mit ähnlichen Systemen und darauf, dass ich von Anfang an Teamleitungsaufgaben übernehmen würde."
+      },
+      {
+        "who": "A",
+        "en": "That's fair. I could go up to 62,000, but I can't go beyond that.",
+        "de": "Das ist berechtigt. Ich könnte bis 62.000 gehen, aber nicht darüber hinaus."
+      },
+      {
+        "who": "B",
+        "en": "Would you consider adding an extra week of vacation to meet me halfway?",
+        "de": "Würden Sie in Betracht ziehen, eine zusätzliche Urlaubswoche dazuzugeben, um mir entgegenzukommen?"
+      },
+      {
+        "who": "A",
+        "en": "I think we can make that work. Let me run it by HR and get back to you tomorrow.",
+        "de": "Ich denke, das lässt sich machen. Ich spreche mit der Personalabteilung und melde mich morgen."
+      },
+      {
+        "who": "B",
+        "en": "That sounds fair. I appreciate you being flexible.",
+        "de": "Das klingt fair. Ich schätze Ihre Flexibilität."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the maximum salary the employer will offer?",
+        "opts": [
+          "58,000",
+          "60,000",
+          "62,000",
+          "65,000"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What extra thing does the candidate ask for?",
+        "opts": [
+          "A company car",
+          "An extra week of vacation",
+          "Working from home",
+          "A bonus"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I was hoping for something closer to 65,000.",
+        "de": "Ich hatte auf etwas näher an 65.000 gehofft.",
+        "note": "Höfliche Art, mehr zu verlangen."
+      },
+      {
+        "en": "Would you consider...?",
+        "de": "Würden Sie in Betracht ziehen...?",
+        "note": "Starker Einstieg bei Verhandlungen."
+      },
+      {
+        "en": "Let me run it by HR.",
+        "de": "Ich kläre das mit der Personalabteilung.",
+        "note": "'run it by' = vorlegen, abklären."
+      }
+    ]
+  },
+  {
+    "id": "d29",
+    "lvl": 4,
+    "title": "Defekten Laptop zurückgeben",
+    "title_en": "Returning a faulty laptop",
+    "scene": "Du bringst einen Laptop zurück, der nach einer Woche Probleme macht.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hi there, what can I do for you today?",
+        "de": "Hallo, was kann ich heute für Sie tun?"
+      },
+      {
+        "who": "B",
+        "en": "I bought this laptop here last week and the screen keeps flickering. I'd like a refund, please.",
+        "de": "Ich habe diesen Laptop letzte Woche hier gekauft und der Bildschirm flackert ständig. Ich hätte gern mein Geld zurück."
+      },
+      {
+        "who": "A",
+        "en": "I'm sorry to hear that. Do you have the receipt with you?",
+        "de": "Das tut mir leid. Haben Sie den Kassenbon dabei?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, here it is. It's still within the 14-day return window.",
+        "de": "Ja, hier. Es ist noch innerhalb der 14-tägigen Rückgabefrist."
+      },
+      {
+        "who": "A",
+        "en": "You're right. We usually offer an exchange for defective items rather than a refund, though.",
+        "de": "Sie haben recht. Bei defekten Artikeln bieten wir normalerweise aber einen Umtausch statt einer Erstattung an."
+      },
+      {
+        "who": "B",
+        "en": "I'd rather not have the same model again. Is there any chance of getting my money back?",
+        "de": "Ich möchte lieber nicht dasselbe Modell nochmal. Gibt es eine Möglichkeit, mein Geld zurückzubekommen?"
+      },
+      {
+        "who": "A",
+        "en": "Let me check with my manager. Given the circumstances, I think she'll agree.",
+        "de": "Ich frage meine Chefin. Unter den Umständen wird sie wohl zustimmen."
+      },
+      {
+        "who": "B",
+        "en": "I'd appreciate that. I really need this resolved today.",
+        "de": "Das wäre mir recht. Ich muss das wirklich heute klären."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is wrong with the laptop?",
+        "opts": [
+          "It won't turn on",
+          "The screen flickers",
+          "The battery dies fast",
+          "The keyboard is missing keys"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does the customer prefer?",
+        "opts": [
+          "An exchange",
+          "A refund",
+          "A repair",
+          "A store credit"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I'd like a refund, please.",
+        "de": "Ich hätte gern eine Erstattung.",
+        "note": "'refund' = Geld zurück."
+      },
+      {
+        "en": "It's still within the return window.",
+        "de": "Es ist noch innerhalb der Rückgabefrist.",
+        "note": "Starkes Argument im Laden."
+      },
+      {
+        "en": "I'd rather not have the same model.",
+        "de": "Ich möchte lieber nicht dasselbe Modell.",
+        "note": "'I'd rather' + Infinitiv ohne to."
+      }
+    ]
+  },
+  {
+    "id": "d30",
+    "lvl": 4,
+    "title": "Streit unter Freunden",
+    "title_en": "Clearing the air with a friend",
+    "scene": "Zwei Freunde klären einen Streit, weil einer seit Wochen nicht mehr zurückgeschrieben hat.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hey, thanks for meeting me. I feel like things have been weird between us lately.",
+        "de": "Hey, danke, dass du dich mit mir triffst. Ich habe das Gefühl, zwischen uns ist es in letzter Zeit komisch."
+      },
+      {
+        "who": "B",
+        "en": "Yeah, I've noticed it too. To be honest, I was a bit hurt that you didn't come to my birthday.",
+        "de": "Ja, das ist mir auch aufgefallen. Ehrlich gesagt war ich etwas verletzt, dass du nicht zu meinem Geburtstag gekommen bist."
+      },
+      {
+        "who": "A",
+        "en": "I know, and I'm sorry. I was going through a rough patch at work and I didn't want to bring everyone down.",
+        "de": "Ich weiß, und es tut mir leid. Ich hatte eine schwierige Phase im Job und wollte niemanden runterziehen."
+      },
+      {
+        "who": "B",
+        "en": "You could've just told me. That's what friends are for.",
+        "de": "Du hättest es mir einfach sagen können. Dafür sind Freunde da."
+      },
+      {
+        "who": "A",
+        "en": "You're right. I shouldn't have just disappeared on you.",
+        "de": "Du hast recht. Ich hätte nicht einfach abtauchen sollen."
+      },
+      {
+        "who": "B",
+        "en": "Thanks for saying that. I'm not mad anymore, I just wanted to understand.",
+        "de": "Danke, dass du das sagst. Ich bin nicht mehr sauer, ich wollte es nur verstehen."
+      },
+      {
+        "who": "A",
+        "en": "Let me make it up to you. Dinner is on me this weekend.",
+        "de": "Lass es mich wiedergutmachen. Das Essen am Wochenende geht auf mich."
+      },
+      {
+        "who": "B",
+        "en": "Deal. And next time, just call me.",
+        "de": "Abgemacht. Und ruf mich nächstes Mal einfach an."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why was B hurt?",
+        "opts": [
+          "A forgot to call",
+          "A didn't come to B's birthday",
+          "A borrowed money",
+          "A lied"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Why did A disappear?",
+        "opts": [
+          "A was on vacation",
+          "A had problems at work",
+          "A was angry",
+          "A moved away"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I shouldn't have disappeared on you.",
+        "de": "Ich hätte nicht einfach abtauchen sollen.",
+        "note": "'shouldn't have' + Partizip: Kritik an der Vergangenheit."
+      },
+      {
+        "en": "That's what friends are for.",
+        "de": "Dafür sind Freunde da.",
+        "note": "Feste Redewendung."
+      },
+      {
+        "en": "Let me make it up to you.",
+        "de": "Lass es mich wiedergutmachen.",
+        "note": "'make up for' / 'make it up to'."
+      }
+    ]
+  },
+  {
+    "id": "d31",
+    "lvl": 4,
+    "title": "Projektverzögerung",
+    "title_en": "A project delay",
+    "scene": "Der Projektleiter informiert den Kunden darüber, dass die Lieferung später kommt.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Thanks for joining the call. I'm afraid I have to share some less-than-ideal news.",
+        "de": "Danke, dass Sie dabei sind. Leider muss ich Ihnen nicht ganz so gute Nachrichten mitteilen."
+      },
+      {
+        "who": "B",
+        "en": "That doesn't sound good. What's going on?",
+        "de": "Das klingt nicht gut. Was ist los?"
+      },
+      {
+        "who": "A",
+        "en": "One of our suppliers had a production issue, so we won't be able to deliver by the 15th.",
+        "de": "Einer unserer Lieferanten hatte ein Produktionsproblem, deshalb können wir nicht bis zum 15. liefern."
+      },
+      {
+        "who": "B",
+        "en": "That's a real problem. We've already scheduled our launch around that date.",
+        "de": "Das ist ein echtes Problem. Wir haben unseren Start bereits auf dieses Datum gelegt."
+      },
+      {
+        "who": "A",
+        "en": "I completely understand. We're looking at the 22nd as a realistic new date.",
+        "de": "Das verstehe ich vollkommen. Wir sehen den 22. als realistischen neuen Termin."
+      },
+      {
+        "who": "B",
+        "en": "A week's delay is hard to absorb. Is there any way to speed things up?",
+        "de": "Eine Woche Verzögerung ist schwer aufzufangen. Gibt es eine Möglichkeit, es zu beschleunigen?"
+      },
+      {
+        "who": "A",
+        "en": "We could ship the first batch by air, at our expense, to partially close the gap.",
+        "de": "Wir könnten die erste Charge auf unsere Kosten per Luftfracht verschicken, um die Lücke teilweise zu schließen."
+      },
+      {
+        "who": "B",
+        "en": "That would help. Please send me the updated timeline in writing today.",
+        "de": "Das würde helfen. Bitte schicken Sie mir den aktualisierten Zeitplan heute schriftlich."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why is the delivery late?",
+        "opts": [
+          "A supplier had a problem",
+          "The customer changed the order",
+          "A truck broke down",
+          "A strike"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What does the company offer?",
+        "opts": [
+          "A refund",
+          "Air shipping of the first batch",
+          "A discount on the next order",
+          "Nothing"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I'm afraid I have some bad news.",
+        "de": "Leider habe ich schlechte Nachrichten.",
+        "note": "'I'm afraid' macht die Nachricht höflicher."
+      },
+      {
+        "en": "Is there any way to speed things up?",
+        "de": "Gibt es eine Möglichkeit, es zu beschleunigen?",
+        "note": "'speed up' = beschleunigen."
+      },
+      {
+        "en": "at our expense",
+        "de": "auf unsere Kosten",
+        "note": "Wer zahlt: 'at X's expense'."
+      }
+    ]
+  },
+  {
+    "id": "d32",
+    "lvl": 4,
+    "title": "Schaden am Mietwagen",
+    "title_en": "Damage on a rental car",
+    "scene": "Bei der Rückgabe des Mietwagens entdeckt der Mitarbeiter einen Kratzer.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Welcome back. Let me just do a quick inspection of the vehicle.",
+        "de": "Willkommen zurück. Ich mache kurz die Fahrzeugkontrolle."
+      },
+      {
+        "who": "A",
+        "en": "Hmm, there's a scratch on the rear bumper. It wasn't on the report when you picked it up.",
+        "de": "Hmm, am hinteren Stoßfänger ist ein Kratzer. Der stand bei der Abholung nicht im Bericht."
+      },
+      {
+        "who": "B",
+        "en": "That scratch was already there. I took photos when I picked up the car.",
+        "de": "Der Kratzer war schon da. Ich habe bei der Abholung Fotos gemacht."
+      },
+      {
+        "who": "A",
+        "en": "Do you mind showing them to me?",
+        "de": "Können Sie sie mir zeigen?"
+      },
+      {
+        "who": "B",
+        "en": "Sure. Here, you can see it clearly, and the timestamp is from Monday morning.",
+        "de": "Klar. Hier, man sieht es deutlich, und der Zeitstempel ist von Montagmorgen."
+      },
+      {
+        "who": "A",
+        "en": "You're right, it's the same scratch. I apologize for the confusion.",
+        "de": "Sie haben recht, es ist derselbe Kratzer. Entschuldigen Sie die Verwirrung."
+      },
+      {
+        "who": "B",
+        "en": "No problem, but I'd like it noted on my contract so I'm not charged later.",
+        "de": "Kein Problem, aber ich möchte, dass es in meinem Vertrag vermerkt wird, damit mir später nichts berechnet wird."
+      },
+      {
+        "who": "A",
+        "en": "Absolutely. I'll add a note and email you a confirmation.",
+        "de": "Selbstverständlich. Ich füge eine Notiz hinzu und schicke Ihnen eine Bestätigung per E-Mail."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What proves the scratch was already there?",
+        "opts": [
+          "A police report",
+          "Photos from pickup",
+          "A witness",
+          "The contract"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does the customer want at the end?",
+        "opts": [
+          "A discount",
+          "A note in the contract",
+          "A new car",
+          "An apology letter"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "It was already there.",
+        "de": "Das war schon da.",
+        "note": "Wichtig, um sich gegen Vorwürfe zu wehren."
+      },
+      {
+        "en": "I'd like it noted on my contract.",
+        "de": "Ich möchte, dass es im Vertrag vermerkt wird.",
+        "note": "Passiv mit 'like + Partizip'."
+      },
+      {
+        "en": "I apologize for the confusion.",
+        "de": "Ich entschuldige mich für die Verwirrung.",
+        "note": "Formell, im Service üblich."
+      }
+    ]
+  },
+  {
+    "id": "d33",
+    "lvl": 5,
+    "title": "Hitzige Debatte über Homeoffice",
+    "title_en": "A debate about remote work",
+    "scene": "Zwei Kollegen diskutieren in der Kaffeepause, ob Homeoffice langfristig sinnvoll ist.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "I get the appeal of working from home, but I honestly think it's eroding company culture.",
+        "de": "Ich verstehe den Reiz von Homeoffice, aber ehrlich gesagt untergräbt es meiner Meinung nach die Unternehmenskultur."
+      },
+      {
+        "who": "B",
+        "en": "I'd push back on that. People are more productive when they're not stuck in a commute for two hours a day.",
+        "de": "Da würde ich widersprechen. Menschen sind produktiver, wenn sie nicht jeden Tag zwei Stunden im Pendelverkehr festhängen."
+      },
+      {
+        "who": "A",
+        "en": "Productivity isn't the whole story, though. Spontaneous conversations at the coffee machine spark ideas you'd never get on a video call.",
+        "de": "Produktivität ist aber nicht alles. Spontane Gespräche an der Kaffeemaschine bringen Ideen hervor, die man in einem Videocall nie hätte."
+      },
+      {
+        "who": "B",
+        "en": "Fair point, but that's a trade-off I'd happily make for flexibility. Besides, juniors can still be mentored remotely if managers put in the effort.",
+        "de": "Guter Punkt, aber diesen Kompromiss gehe ich für Flexibilität gern ein. Außerdem können Berufseinsteiger auch remote betreut werden, wenn Vorgesetzte sich Mühe geben."
+      },
+      {
+        "who": "A",
+        "en": "That's the problem, though. It takes far more deliberate effort, and most managers simply don't do it.",
+        "de": "Das ist ja das Problem. Es erfordert deutlich mehr bewusste Anstrengung, und die meisten Vorgesetzten tun das einfach nicht."
+      },
+      {
+        "who": "B",
+        "en": "So the solution is better management, not mandatory office days.",
+        "de": "Die Lösung ist also besseres Management, nicht verpflichtende Bürotage."
+      },
+      {
+        "who": "A",
+        "en": "Maybe a hybrid model is the sweet spot, then. Three days in, two days out.",
+        "de": "Dann ist vielleicht ein Hybridmodell der Idealfall. Drei Tage im Büro, zwei außerhalb."
+      },
+      {
+        "who": "B",
+        "en": "I could live with that. We'd probably have to agree to disagree on the exact split.",
+        "de": "Damit könnte ich leben. Über die genaue Aufteilung müssten wir uns wohl einfach nicht einig sein."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does A worry about most?",
+        "opts": [
+          "Salaries",
+          "Company culture",
+          "Commute times",
+          "Office costs"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What compromise do they discuss?",
+        "opts": [
+          "Fully remote",
+          "Fully in the office",
+          "A hybrid model",
+          "Four-day weeks"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "I'd push back on that.",
+        "de": "Da würde ich widersprechen.",
+        "note": "Höflicher Widerspruch im Business."
+      },
+      {
+        "en": "It's a trade-off.",
+        "de": "Das ist ein Kompromiss / Abwägung.",
+        "note": "Vorteile gegen Nachteile."
+      },
+      {
+        "en": "We'll have to agree to disagree.",
+        "de": "Wir sind wohl unterschiedlicher Meinung.",
+        "note": "Beendet eine Diskussion freundlich."
+      }
+    ]
+  },
+  {
+    "id": "d34",
+    "lvl": 5,
+    "title": "Mitarbeitergespräch",
+    "title_en": "A performance review",
+    "scene": "Deine Vorgesetzte gibt dir im Jahresgespräch Feedback zu deiner Arbeit.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Let's start with the positives. Your handling of the Henderson account was outstanding. Clients keep mentioning it.",
+        "de": "Fangen wir mit dem Positiven an. Ihr Umgang mit dem Henderson-Konto war hervorragend. Kunden erwähnen es immer wieder."
+      },
+      {
+        "who": "B",
+        "en": "Thank you, that means a lot. It was a steep learning curve, but I'm glad it paid off.",
+        "de": "Danke, das bedeutet mir viel. Es war eine steile Lernkurve, aber ich bin froh, dass es sich ausgezahlt hat."
+      },
+      {
+        "who": "A",
+        "en": "That said, there's one area I'd like to see you improve: delegating. You tend to take too much on yourself.",
+        "de": "Allerdings gibt es einen Bereich, in dem ich Verbesserung sehen möchte: Delegieren. Sie neigen dazu, zu viel selbst zu übernehmen."
+      },
+      {
+        "who": "B",
+        "en": "That's a fair criticism. I think I've been reluctant to hand over tasks because I'm afraid they won't be done to my standards.",
+        "de": "Das ist eine berechtigte Kritik. Ich war wohl zögerlich beim Abgeben von Aufgaben, weil ich fürchte, sie werden nicht nach meinen Maßstäben erledigt."
+      },
+      {
+        "who": "A",
+        "en": "I understand, but if you want to move into a leadership role, learning to trust your team is essential.",
+        "de": "Das verstehe ich, aber wenn Sie in eine Führungsrolle wechseln wollen, ist es entscheidend, dem Team zu vertrauen."
+      },
+      {
+        "who": "B",
+        "en": "Absolutely. Would it help if I started by mentoring one of the new hires?",
+        "de": "Absolut. Würde es helfen, wenn ich damit anfange, einen der Neuen zu betreuen?"
+      },
+      {
+        "who": "A",
+        "en": "That's a great idea. Let's set a few concrete goals for the next quarter.",
+        "de": "Das ist eine tolle Idee. Setzen wir uns für das nächste Quartal ein paar konkrete Ziele."
+      },
+      {
+        "who": "B",
+        "en": "Sounds good. I'd like to have measurable targets so we can track my progress.",
+        "de": "Klingt gut. Ich hätte gern messbare Ziele, damit wir meinen Fortschritt verfolgen können."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does the manager want B to improve?",
+        "opts": [
+          "Punctuality",
+          "Delegating tasks",
+          "Writing emails",
+          "Speaking to clients"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does B suggest as a first step?",
+        "opts": [
+          "Taking a course",
+          "Mentoring a new hire",
+          "Changing teams",
+          "Working less"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "That said, there's one area to improve.",
+        "de": "Allerdings gibt es einen Bereich zur Verbesserung.",
+        "note": "'That said' leitet Kritik nach Lob ein."
+      },
+      {
+        "en": "It was a steep learning curve.",
+        "de": "Es war eine steile Lernkurve.",
+        "note": "Viel in kurzer Zeit gelernt."
+      },
+      {
+        "en": "That's a fair criticism.",
+        "de": "Das ist eine berechtigte Kritik.",
+        "note": "Zeigt Souveränität."
+      }
+    ]
+  },
+  {
+    "id": "d35",
+    "lvl": 5,
+    "title": "Networking-Event",
+    "title_en": "A networking event",
+    "scene": "Auf einer Branchenveranstaltung sprichst du eine fremde Person an und knüpfst Kontakt.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "Hi, I don't think we've met. I'm Maya, I run a small software consultancy.",
+        "de": "Hi, ich glaube, wir kennen uns noch nicht. Ich bin Maya, ich leite eine kleine Softwareberatung."
+      },
+      {
+        "who": "B",
+        "en": "Pleasure to meet you, Maya. I'm Daniel, I work in industrial automation. What brings you to this event?",
+        "de": "Freut mich, Maya. Ich bin Daniel, ich arbeite in der Industrieautomatisierung. Was führt dich hierher?"
+      },
+      {
+        "who": "A",
+        "en": "I'm hoping to find some manufacturing clients. Honestly, it's a new market for us.",
+        "de": "Ich hoffe, ein paar Kunden aus der Fertigung zu finden. Ehrlich gesagt ist das für uns ein neuer Markt."
+      },
+      {
+        "who": "B",
+        "en": "Interesting! That's actually where we're struggling. Our software is quite outdated, and we've been looking for a partner to modernize it.",
+        "de": "Interessant! Genau da haben wir Probleme. Unsere Software ist ziemlich veraltet und wir suchen einen Partner, um sie zu modernisieren."
+      },
+      {
+        "who": "A",
+        "en": "That could be a great fit. Do you mind if I ask what systems you're currently running?",
+        "de": "Das könnte gut passen. Darf ich fragen, welche Systeme ihr aktuell einsetzt?"
+      },
+      {
+        "who": "B",
+        "en": "Mostly legacy tools from the early 2000s. Integration is a nightmare.",
+        "de": "Hauptsächlich Altsysteme aus den frühen 2000ern. Die Integration ist ein Albtraum."
+      },
+      {
+        "who": "A",
+        "en": "I hear that a lot. Why don't we exchange cards and set up a call next week?",
+        "de": "Das höre ich oft. Wie wäre es, wenn wir Karten tauschen und nächste Woche telefonieren?"
+      },
+      {
+        "who": "B",
+        "en": "Absolutely. I'll connect with you on LinkedIn too, so we stay in touch.",
+        "de": "Sehr gern. Ich vernetze mich auch auf LinkedIn mit dir, damit wir in Kontakt bleiben."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is Maya looking for at the event?",
+        "opts": [
+          "A new job",
+          "Manufacturing clients",
+          "A new apartment",
+          "Investors"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What problem does Daniel's company have?",
+        "opts": [
+          "Too many clients",
+          "Outdated software",
+          "No money",
+          "Bad managers"
+        ],
+        "a": 1
+      }
+    ],
+    "phrases": [
+      {
+        "en": "What brings you to this event?",
+        "de": "Was führt dich hierher?",
+        "note": "Perfekt für den Einstieg bei Events."
+      },
+      {
+        "en": "That could be a great fit.",
+        "de": "Das könnte gut passen.",
+        "note": "Im Business für Kooperation."
+      },
+      {
+        "en": "Let's stay in touch.",
+        "de": "Lass uns in Kontakt bleiben.",
+        "note": "Standardabschluss."
+      }
+    ]
+  },
+  {
+    "id": "d36",
+    "lvl": 5,
+    "title": "Filmdiskussion",
+    "title_en": "Discussing a movie",
+    "scene": "Zwei Freunde diskutieren nach dem Kino darüber, wie ihnen ein Thriller gefallen hat.",
+    "lines": [
+      {
+        "who": "A",
+        "en": "So, what did you make of the ending? I'm still trying to wrap my head around it.",
+        "de": "Und, was hältst du vom Ende? Ich versuche immer noch, es zu verstehen."
+      },
+      {
+        "who": "B",
+        "en": "Honestly, I found it a bit contrived. The twist came out of nowhere, and it undermined everything that came before.",
+        "de": "Ehrlich gesagt fand ich es etwas konstruiert. Die Wendung kam aus dem Nichts und hat alles davor untergraben."
+      },
+      {
+        "who": "A",
+        "en": "I couldn't disagree more. If you pay attention, the clues are there from the very first scene.",
+        "de": "Da muss ich komplett widersprechen. Wenn man aufpasst, sind die Hinweise schon in der allerersten Szene."
+      },
+      {
+        "who": "B",
+        "en": "Maybe, but subtlety isn't the same as plausibility. A man like that wouldn't have behaved that way.",
+        "de": "Vielleicht, aber Subtilität ist nicht dasselbe wie Plausibilität. Ein Mann wie er hätte sich nicht so verhalten."
+      },
+      {
+        "who": "A",
+        "en": "People are unpredictable under pressure, that's kind of the point of the film.",
+        "de": "Menschen sind unter Druck unberechenbar, das ist doch gerade der Punkt des Films."
+      },
+      {
+        "who": "B",
+        "en": "Fair enough. I will say the cinematography was stunning, and the lead actor carried the whole thing.",
+        "de": "Okay, da ist was dran. Ich muss sagen, die Kameraarbeit war atemberaubend, und der Hauptdarsteller hat den ganzen Film getragen."
+      },
+      {
+        "who": "A",
+        "en": "Right? He elevated an average script into something memorable.",
+        "de": "Oder? Er hat ein durchschnittliches Drehbuch zu etwas Unvergesslichem gemacht."
+      },
+      {
+        "who": "B",
+        "en": "On that we agree. I'd happily watch it again just for his performance.",
+        "de": "Dem stimme ich zu. Ich würde ihn mir allein wegen seiner Leistung nochmal ansehen."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does B think about the ending?",
+        "opts": [
+          "It was perfect",
+          "It was contrived",
+          "It was boring",
+          "It was too short"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What do both agree on?",
+        "opts": [
+          "The script was great",
+          "The ending was clear",
+          "The lead actor was excellent",
+          "The movie was too long"
+        ],
+        "a": 2
+      }
+    ],
+    "phrases": [
+      {
+        "en": "What did you make of the ending?",
+        "de": "Was hältst du vom Ende?",
+        "note": "'make of' = deuten/bewerten."
+      },
+      {
+        "en": "I couldn't disagree more.",
+        "de": "Da muss ich ganz entschieden widersprechen.",
+        "note": "Stark, aber freundlich unter Freunden."
+      },
+      {
+        "en": "Fair enough.",
+        "de": "Okay, da ist was dran.",
+        "note": "Gibt dem Gegenüber recht."
+      }
+    ]
+  }
+]

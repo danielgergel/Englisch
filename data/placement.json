@@ -1,0 +1,857 @@
+[
+  {
+    "id": "p1",
+    "lvl": 1,
+    "type": "grammar",
+    "q": "I ___ a student.",
+    "opts": [
+      "be",
+      "is",
+      "am",
+      "are"
+    ],
+    "a": 2,
+    "why": "Zu \"I\" gehört \"am\"."
+  },
+  {
+    "id": "p2",
+    "lvl": 1,
+    "type": "grammar",
+    "q": "She ___ two brothers.",
+    "opts": [
+      "has",
+      "have",
+      "is",
+      "haves"
+    ],
+    "a": 0,
+    "why": "Bei he/she/it heißt es \"has\"."
+  },
+  {
+    "id": "p3",
+    "lvl": 1,
+    "type": "grammar",
+    "q": "___ you like pizza?",
+    "opts": [
+      "Is",
+      "Does",
+      "Are",
+      "Do"
+    ],
+    "a": 3,
+    "why": "Fragen mit \"you\" im Present Simple bilden wir mit \"Do\"."
+  },
+  {
+    "id": "p4",
+    "lvl": 1,
+    "type": "grammar",
+    "q": "There ___ a cat on the table.",
+    "opts": [
+      "are",
+      "is",
+      "have",
+      "be"
+    ],
+    "a": 1,
+    "why": "Singular (a cat) braucht \"there is\"."
+  },
+  {
+    "id": "p5",
+    "lvl": 1,
+    "type": "grammar",
+    "q": "This is ___ book.",
+    "opts": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
+    "a": 2,
+    "why": "Vor einem Nomen steht das Possessivpronomen \"my\"."
+  },
+  {
+    "id": "p6",
+    "lvl": 1,
+    "type": "vocab",
+    "q": "What is the opposite of \"big\"?",
+    "opts": [
+      "new",
+      "tall",
+      "fast",
+      "small"
+    ],
+    "a": 3,
+    "why": "Das Gegenteil von \"big\" (groß) ist \"small\" (klein)."
+  },
+  {
+    "id": "p7",
+    "lvl": 1,
+    "type": "vocab",
+    "q": "I drink ___ in the morning.",
+    "opts": [
+      "a book",
+      "coffee",
+      "a bus",
+      "shoes"
+    ],
+    "a": 1,
+    "why": "Nur \"coffee\" kann man trinken."
+  },
+  {
+    "id": "p8",
+    "lvl": 1,
+    "type": "vocab",
+    "q": "My mother's sister is my ___.",
+    "opts": [
+      "daughter",
+      "aunt",
+      "brother",
+      "uncle"
+    ],
+    "a": 1,
+    "why": "\"aunt\" = Tante."
+  },
+  {
+    "id": "p9",
+    "lvl": 1,
+    "type": "vocab",
+    "q": "It is 7 o'clock. Time to ___ up!",
+    "opts": [
+      "get",
+      "make",
+      "stand on",
+      "go"
+    ],
+    "a": 0,
+    "why": "\"get up\" = aufstehen."
+  },
+  {
+    "id": "p10",
+    "lvl": 1,
+    "type": "read",
+    "text": "Hi, I'm Anna. I'm from Spain. I like music and swimming.",
+    "q": "What does Anna like?",
+    "opts": [
+      "Cooking and music",
+      "Music and swimming",
+      "Books and tennis",
+      "Spain and football"
+    ],
+    "a": 1,
+    "why": "Im Text: \"I like music and swimming.\""
+  },
+  {
+    "id": "p11",
+    "lvl": 1,
+    "type": "read",
+    "text": "The shop opens at 9 o'clock and closes at 6 o'clock.",
+    "q": "When does the shop close?",
+    "opts": [
+      "At 9",
+      "At 8",
+      "At 6",
+      "At 7"
+    ],
+    "a": 2,
+    "why": "\"closes at 6 o'clock\" = schließt um 6."
+  },
+  {
+    "id": "p12",
+    "lvl": 1,
+    "type": "read",
+    "text": "Tom has a dog. The dog is brown. It likes to run in the park.",
+    "q": "Where does the dog like to run?",
+    "opts": [
+      "In the park",
+      "In the shop",
+      "At school",
+      "At home"
+    ],
+    "a": 0,
+    "why": "Im Text: \"run in the park\"."
+  },
+  {
+    "id": "p13",
+    "lvl": 2,
+    "type": "grammar",
+    "q": "I ___ to the cinema yesterday.",
+    "opts": [
+      "went",
+      "gone",
+      "go",
+      "goed"
+    ],
+    "a": 0,
+    "why": "\"yesterday\" verlangt Simple Past; \"go\" ist unregelmäßig: went."
+  },
+  {
+    "id": "p14",
+    "lvl": 2,
+    "type": "grammar",
+    "q": "She is taller ___ her sister.",
+    "opts": [
+      "then",
+      "as",
+      "that",
+      "than"
+    ],
+    "a": 3,
+    "why": "Nach dem Komparativ folgt \"than\"."
+  },
+  {
+    "id": "p15",
+    "lvl": 2,
+    "type": "grammar",
+    "q": "We ___ dinner when the phone rang.",
+    "opts": [
+      "are having",
+      "have",
+      "were having",
+      "has had"
+    ],
+    "a": 2,
+    "why": "Eine laufende Handlung, die unterbrochen wird: Past Continuous."
+  },
+  {
+    "id": "p16",
+    "lvl": 2,
+    "type": "grammar",
+    "q": "I have lived here ___ 2019.",
+    "opts": [
+      "for",
+      "since",
+      "from",
+      "at"
+    ],
+    "a": 1,
+    "why": "\"since\" nennt den Startzeitpunkt, \"for\" die Dauer."
+  },
+  {
+    "id": "p17",
+    "lvl": 2,
+    "type": "grammar",
+    "q": "You ___ park here. It's not allowed.",
+    "opts": [
+      "not must",
+      "don't have to",
+      "mustn't",
+      "don't must"
+    ],
+    "a": 2,
+    "why": "\"mustn't\" = nicht dürfen; \"don't have to\" = nicht müssen."
+  },
+  {
+    "id": "p18",
+    "lvl": 2,
+    "type": "vocab",
+    "q": "Can you ___ me your pen, please? I forgot mine.",
+    "opts": [
+      "take",
+      "lend",
+      "rent",
+      "borrow"
+    ],
+    "a": 1,
+    "why": "\"lend\" = verleihen, \"borrow\" = ausleihen (von jemandem)."
+  },
+  {
+    "id": "p19",
+    "lvl": 2,
+    "type": "vocab",
+    "q": "My flight was ___ because of the storm, so I arrived late.",
+    "opts": [
+      "delighted",
+      "delayed",
+      "deleted",
+      "delivered"
+    ],
+    "a": 1,
+    "why": "\"delayed\" = verspätet."
+  },
+  {
+    "id": "p20",
+    "lvl": 2,
+    "type": "vocab",
+    "q": "Please ___ the light when you leave the room.",
+    "opts": [
+      "take off",
+      "turn off",
+      "turn down",
+      "set off"
+    ],
+    "a": 1,
+    "why": "\"turn off\" = ausschalten."
+  },
+  {
+    "id": "p21",
+    "lvl": 2,
+    "type": "vocab",
+    "q": "He doesn't have a job. He is ___.",
+    "opts": [
+      "unkind",
+      "unknown",
+      "unemployed",
+      "unfair"
+    ],
+    "a": 2,
+    "why": "\"unemployed\" = arbeitslos."
+  },
+  {
+    "id": "p22",
+    "lvl": 2,
+    "type": "read",
+    "text": "Sorry I'm late! My bus broke down, so I walked the last two miles. I'll be there in ten minutes.",
+    "q": "Why is the writer late?",
+    "opts": [
+      "He missed the train",
+      "He woke up late",
+      "He got lost",
+      "The bus had a problem"
+    ],
+    "a": 3,
+    "why": "\"broke down\" = hatte eine Panne."
+  },
+  {
+    "id": "p23",
+    "lvl": 2,
+    "type": "read",
+    "text": "Dear Sam, thanks for the invitation. I'd love to come to your party on Saturday, but I have to work until 8. Can I arrive late?",
+    "q": "What does the writer ask?",
+    "opts": [
+      "If the party is on Sunday",
+      "If Sam can work",
+      "If he can come later",
+      "If he can bring a friend"
+    ],
+    "a": 2,
+    "why": "Er fragt: \"Can I arrive late?\""
+  },
+  {
+    "id": "p24",
+    "lvl": 2,
+    "type": "read",
+    "text": "Max usually takes the train to work, but today he is driving because there is a strike.",
+    "q": "Why is Max driving today?",
+    "opts": [
+      "The trains are not running",
+      "He likes driving",
+      "He is late",
+      "He bought a car"
+    ],
+    "a": 0,
+    "why": "\"strike\" = Streik, also fahren keine Züge."
+  },
+  {
+    "id": "p25",
+    "lvl": 3,
+    "type": "grammar",
+    "q": "If I ___ more time, I would learn Spanish.",
+    "opts": [
+      "have",
+      "had",
+      "will have",
+      "would have"
+    ],
+    "a": 1,
+    "why": "Conditional II: if + Simple Past, would + Verb."
+  },
+  {
+    "id": "p26",
+    "lvl": 3,
+    "type": "grammar",
+    "q": "The house ___ in 1920.",
+    "opts": [
+      "was built",
+      "is building",
+      "built",
+      "has built"
+    ],
+    "a": 0,
+    "why": "Passiv im Simple Past: was/were + Partizip."
+  },
+  {
+    "id": "p27",
+    "lvl": 3,
+    "type": "grammar",
+    "q": "She asked me where ___.",
+    "opts": [
+      "did I live",
+      "I do live",
+      "I lived",
+      "do I live"
+    ],
+    "a": 2,
+    "why": "In indirekten Fragen gilt die normale Satzstellung, ohne \"do/did\"."
+  },
+  {
+    "id": "p28",
+    "lvl": 3,
+    "type": "grammar",
+    "q": "I'm not used to ___ up so early.",
+    "opts": [
+      "got",
+      "get",
+      "getting",
+      "be get"
+    ],
+    "a": 2,
+    "why": "\"be used to\" wird von der -ing-Form gefolgt."
+  },
+  {
+    "id": "p29",
+    "lvl": 3,
+    "type": "grammar",
+    "q": "He said he ___ call me the next day.",
+    "opts": [
+      "did",
+      "would",
+      "will",
+      "has"
+    ],
+    "a": 1,
+    "why": "In der indirekten Rede wird \"will\" zu \"would\"."
+  },
+  {
+    "id": "p30",
+    "lvl": 3,
+    "type": "vocab",
+    "q": "The meeting was ___ until next week.",
+    "opts": [
+      "preferred",
+      "postponed",
+      "prevented",
+      "predicted"
+    ],
+    "a": 1,
+    "why": "\"postponed\" = verschoben."
+  },
+  {
+    "id": "p31",
+    "lvl": 3,
+    "type": "vocab",
+    "q": "To ___ for the job, send your CV and a cover letter.",
+    "opts": [
+      "ask",
+      "apply",
+      "request",
+      "offer"
+    ],
+    "a": 1,
+    "why": "\"apply for a job\" = sich bewerben."
+  },
+  {
+    "id": "p32",
+    "lvl": 3,
+    "type": "vocab",
+    "q": "You can trust Jenny. She's very ___.",
+    "opts": [
+      "relevant",
+      "reliable",
+      "reasonable",
+      "relative"
+    ],
+    "a": 1,
+    "why": "\"reliable\" = zuverlässig (nicht \"relevant\")."
+  },
+  {
+    "id": "p33",
+    "lvl": 3,
+    "type": "vocab",
+    "q": "I can't ___ with this noise any longer!",
+    "opts": [
+      "look out",
+      "come up",
+      "get over",
+      "put up"
+    ],
+    "a": 3,
+    "why": "\"put up with\" = etwas aushalten."
+  },
+  {
+    "id": "p34",
+    "lvl": 3,
+    "type": "read",
+    "text": "Because of the heavy snow, all flights from Chicago were cancelled yesterday. Passengers can rebook for free.",
+    "q": "What can passengers do?",
+    "opts": [
+      "Change their flight without paying",
+      "Fly from another city",
+      "Get their money back in cash",
+      "Wait for the snow"
+    ],
+    "a": 0,
+    "why": "\"rebook for free\" = kostenlos umbuchen."
+  },
+  {
+    "id": "p35",
+    "lvl": 3,
+    "type": "read",
+    "text": "I used to play football every weekend, but since I hurt my knee I mostly watch games on TV.",
+    "q": "What does the writer do now?",
+    "opts": [
+      "Plays football every weekend",
+      "Works at a TV station",
+      "Hurts his knee on purpose",
+      "Watches football on TV"
+    ],
+    "a": 3,
+    "why": "\"used to\" = früher; jetzt schaut er meist im TV."
+  },
+  {
+    "id": "p36",
+    "lvl": 3,
+    "type": "read",
+    "text": "Although the restaurant was expensive, the food was disappointing and the service was slow. We won't go back.",
+    "q": "What does the writer think?",
+    "opts": [
+      "The service was fast",
+      "The prices were low",
+      "The food was excellent",
+      "It wasn't worth the money"
+    ],
+    "a": 3,
+    "why": "Teuer, enttäuschendes Essen, langsamer Service."
+  },
+  {
+    "id": "p37",
+    "lvl": 4,
+    "type": "grammar",
+    "q": "By the time we arrived, the film ___.",
+    "opts": [
+      "was already start",
+      "had already started",
+      "would already start",
+      "has already started"
+    ],
+    "a": 1,
+    "why": "Vorzeitigkeit in der Vergangenheit: Past Perfect."
+  },
+  {
+    "id": "p38",
+    "lvl": 4,
+    "type": "grammar",
+    "q": "I wish I ___ harder when I was at school.",
+    "opts": [
+      "would study",
+      "had studied",
+      "studied",
+      "study"
+    ],
+    "a": 1,
+    "why": "Bedauern über die Vergangenheit: wish + Past Perfect."
+  },
+  {
+    "id": "p39",
+    "lvl": 4,
+    "type": "grammar",
+    "q": "Not only ___ late, but he also forgot the documents.",
+    "opts": [
+      "he did arrive",
+      "he arrived",
+      "arrived he",
+      "did he arrive"
+    ],
+    "a": 3,
+    "why": "Nach \"Not only\" am Satzanfang folgt Inversion mit do/did."
+  },
+  {
+    "id": "p40",
+    "lvl": 4,
+    "type": "grammar",
+    "q": "She suggested ___ a taxi because it was raining.",
+    "opts": [
+      "taking",
+      "to take",
+      "take",
+      "to taking"
+    ],
+    "a": 0,
+    "why": "\"suggest\" wird von der -ing-Form gefolgt."
+  },
+  {
+    "id": "p41",
+    "lvl": 4,
+    "type": "grammar",
+    "q": "The report, ___ was published last week, caused a stir.",
+    "opts": [
+      "that",
+      "which",
+      "what",
+      "who"
+    ],
+    "a": 1,
+    "why": "Nicht-einschränkender Relativsatz (mit Kommas): \"which\", nicht \"that\"."
+  },
+  {
+    "id": "p42",
+    "lvl": 4,
+    "type": "vocab",
+    "q": "His excuse didn't sound very ___, so nobody believed him.",
+    "opts": [
+      "conscious",
+      "confidential",
+      "continuous",
+      "convincing"
+    ],
+    "a": 3,
+    "why": "\"convincing\" = überzeugend."
+  },
+  {
+    "id": "p43",
+    "lvl": 4,
+    "type": "vocab",
+    "q": "Sales have ___ by 15% compared to last year.",
+    "opts": [
+      "risen",
+      "raised",
+      "rised",
+      "arisen"
+    ],
+    "a": 0,
+    "why": "\"rise\" ist intransitiv (rise-rose-risen); \"raise\" braucht ein Objekt."
+  },
+  {
+    "id": "p44",
+    "lvl": 4,
+    "type": "vocab",
+    "q": "The two companies decided to ___ and form one bigger firm.",
+    "opts": [
+      "merge",
+      "marry",
+      "meet",
+      "mix"
+    ],
+    "a": 0,
+    "why": "\"merge\" = fusionieren."
+  },
+  {
+    "id": "p45",
+    "lvl": 4,
+    "type": "vocab",
+    "q": "It's hard to ___ a living as a freelance artist.",
+    "opts": [
+      "win",
+      "do",
+      "make",
+      "gain"
+    ],
+    "a": 2,
+    "why": "Feste Wendung: \"make a living\" = seinen Lebensunterhalt verdienen."
+  },
+  {
+    "id": "p46",
+    "lvl": 4,
+    "type": "read",
+    "text": "Researchers found that people who take short walks after meals have lower blood sugar. However, the study was small, so more research is needed.",
+    "q": "What can we conclude?",
+    "opts": [
+      "Walking is proven to cure diabetes",
+      "No further research is needed",
+      "The study included many people",
+      "The result is promising but not final"
+    ],
+    "a": 3,
+    "why": "Kleine Studie, \"more research is needed\" = vielversprechend, aber nicht gesichert."
+  },
+  {
+    "id": "p47",
+    "lvl": 4,
+    "type": "read",
+    "text": "The CEO denied the rumours, insisting that the company had no plans to lay off staff. Yet several employees say they have already been told to look for other jobs.",
+    "q": "What does the text suggest?",
+    "opts": [
+      "The rumours are definitely false",
+      "The CEO's statement may not be true",
+      "Employees are being promoted",
+      "The CEO confirmed the layoffs"
+    ],
+    "a": 1,
+    "why": "\"Yet\" signalisiert den Widerspruch zur Aussage des CEO."
+  },
+  {
+    "id": "p48",
+    "lvl": 4,
+    "type": "read",
+    "text": "Rather than raising prices, the café cut its menu and reduced portion sizes, a move customers barely noticed.",
+    "q": "What did the café do?",
+    "opts": [
+      "Hired more staff",
+      "Opened more locations",
+      "Made portions smaller without raising prices",
+      "Raised its prices"
+    ],
+    "a": 2,
+    "why": "\"Rather than raising prices\" + \"reduced portion sizes\"."
+  },
+  {
+    "id": "p49",
+    "lvl": 5,
+    "type": "grammar",
+    "q": "Had I known about the delay, I ___ earlier.",
+    "opts": [
+      "left",
+      "had left",
+      "would leave",
+      "would have left"
+    ],
+    "a": 3,
+    "why": "Invertierter Conditional III (Had I known = If I had known)."
+  },
+  {
+    "id": "p50",
+    "lvl": 5,
+    "type": "grammar",
+    "q": "Hardly ___ the house when it started to pour.",
+    "opts": [
+      "had we left",
+      "we left",
+      "we had left",
+      "did we leave"
+    ],
+    "a": 0,
+    "why": "Nach \"Hardly\" am Satzanfang: Inversion mit Past Perfect."
+  },
+  {
+    "id": "p51",
+    "lvl": 5,
+    "type": "grammar",
+    "q": "It is essential that every employee ___ the safety rules.",
+    "opts": [
+      "followed",
+      "will follow",
+      "follow",
+      "is following"
+    ],
+    "a": 2,
+    "why": "Subjunctive nach \"essential that\": Grundform ohne -s (BrE oft auch \"should follow\")."
+  },
+  {
+    "id": "p52",
+    "lvl": 5,
+    "type": "grammar",
+    "q": "She behaved as though nothing ___ the day before.",
+    "opts": [
+      "would happen",
+      "was happening",
+      "had happened",
+      "has happened"
+    ],
+    "a": 2,
+    "why": "Zeitlich vor der Vergangenheit: \"as though\" + Past Perfect."
+  },
+  {
+    "id": "p53",
+    "lvl": 5,
+    "type": "grammar",
+    "q": "I'd rather you ___ smoke in here.",
+    "opts": [
+      "mustn't",
+      "haven't",
+      "didn't",
+      "don't"
+    ],
+    "a": 2,
+    "why": "\"would rather\" + Person + Simple Past, auch für die Gegenwart."
+  },
+  {
+    "id": "p54",
+    "lvl": 5,
+    "type": "vocab",
+    "q": "Don't take it seriously; he's just ___.",
+    "opts": [
+      "twisting your arm",
+      "breaking your back",
+      "pulling your leg",
+      "pushing your luck"
+    ],
+    "a": 2,
+    "why": "\"pull someone's leg\" = jemanden auf den Arm nehmen."
+  },
+  {
+    "id": "p55",
+    "lvl": 5,
+    "type": "vocab",
+    "q": "If you are \"taken aback\", you are ___.",
+    "opts": [
+      "very pleased",
+      "moved backwards",
+      "badly hurt",
+      "surprised and a little shocked"
+    ],
+    "a": 3,
+    "why": "\"taken aback\" = verblüfft, überrumpelt."
+  },
+  {
+    "id": "p56",
+    "lvl": 5,
+    "type": "vocab",
+    "q": "The plan sounds good, but his story just doesn't hold ___.",
+    "opts": [
+      "rain",
+      "water",
+      "sand",
+      "air"
+    ],
+    "a": 1,
+    "why": "Idiom: \"doesn't hold water\" = hält einer Prüfung nicht stand."
+  },
+  {
+    "id": "p57",
+    "lvl": 5,
+    "type": "vocab",
+    "q": "The mayor's decision caused a public ___, and thousands signed a petition.",
+    "opts": [
+      "outset",
+      "output",
+      "outlook",
+      "outcry"
+    ],
+    "a": 3,
+    "why": "\"outcry\" = öffentlicher Aufschrei."
+  },
+  {
+    "id": "p58",
+    "lvl": 5,
+    "type": "read",
+    "text": "The film's visuals are undeniably stunning, yet one cannot help feeling that style has been prioritised at the expense of substance.",
+    "q": "What is the writer's view?",
+    "opts": [
+      "Ugly but deeply moving",
+      "Too long but well acted",
+      "Beautiful to look at but lacking depth",
+      "Strong in both look and story"
+    ],
+    "a": 2,
+    "why": "\"style at the expense of substance\" = Optik auf Kosten des Inhalts."
+  },
+  {
+    "id": "p59",
+    "lvl": 5,
+    "type": "read",
+    "text": "Far from being a setback, the failed launch proved a blessing in disguise: it exposed flaws that would have been far costlier to fix later.",
+    "q": "How does the writer see the failed launch?",
+    "opts": [
+      "As a minor embarrassment",
+      "As ultimately beneficial",
+      "As completely unavoidable",
+      "As a complete disaster"
+    ],
+    "a": 1,
+    "why": "\"blessing in disguise\" = verkappter Segen."
+  },
+  {
+    "id": "p60",
+    "lvl": 5,
+    "type": "read",
+    "text": "While few would dispute that remote work offers flexibility, critics argue that it quietly erodes the informal exchanges from which new ideas often spring.",
+    "q": "What is the critics' main concern?",
+    "opts": [
+      "Lower salaries",
+      "Higher costs for firms",
+      "Lack of flexibility",
+      "Loss of spontaneous contact that sparks ideas"
+    ],
+    "a": 3,
+    "why": "\"erodes the informal exchanges\" = spontaner Austausch geht verloren."
+  }
+]

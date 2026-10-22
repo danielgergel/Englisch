@@ -1,0 +1,1116 @@
+{
+  "reductions": [
+    {
+      "spoken": "gonna",
+      "full": "going to",
+      "de": "werde / habe vor",
+      "ex": "I'm gonna call you later.",
+      "exde": "Ich ruf dich später an.",
+      "say": "gö-nə",
+      "lvl": 2
+    },
+    {
+      "spoken": "wanna",
+      "full": "want to",
+      "de": "will / möchte",
+      "ex": "I wanna go home now.",
+      "exde": "Ich will jetzt nach Hause.",
+      "say": "wo-nə",
+      "lvl": 2
+    },
+    {
+      "spoken": "gotta",
+      "full": "have got to / have to",
+      "de": "muss",
+      "ex": "I gotta get some sleep.",
+      "exde": "Ich muss etwas schlafen.",
+      "say": "ga-də (amerik. weiches d)",
+      "lvl": 2
+    },
+    {
+      "spoken": "lemme",
+      "full": "let me",
+      "de": "lass mich",
+      "ex": "Lemme check my phone.",
+      "exde": "Lass mich mal mein Handy checken.",
+      "say": "lä-mi",
+      "lvl": 2
+    },
+    {
+      "spoken": "gimme",
+      "full": "give me",
+      "de": "gib mir",
+      "ex": "Gimme a second, okay?",
+      "exde": "Gib mir eine Sekunde, ok?",
+      "say": "gi-mi",
+      "lvl": 2
+    },
+    {
+      "spoken": "kinda",
+      "full": "kind of",
+      "de": "irgendwie / ein bisschen",
+      "ex": "It's kinda cold in here.",
+      "exde": "Es ist irgendwie kalt hier drin.",
+      "say": "kain-də",
+      "lvl": 2
+    },
+    {
+      "spoken": "sorta",
+      "full": "sort of",
+      "de": "irgendwie / so ein bisschen",
+      "ex": "I sorta like him.",
+      "exde": "Ich mag ihn irgendwie.",
+      "say": "sor-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "dunno",
+      "full": "I don't know",
+      "de": "weiß nicht",
+      "ex": "Dunno, maybe tomorrow?",
+      "exde": "Weiß nicht, vielleicht morgen?",
+      "say": "də-nou",
+      "lvl": 2
+    },
+    {
+      "spoken": "y'all",
+      "full": "you all",
+      "de": "ihr alle (Süden der USA)",
+      "ex": "Y'all coming to the party?",
+      "exde": "Kommt ihr alle zur Party?",
+      "say": "jål",
+      "lvl": 3
+    },
+    {
+      "spoken": "ain't",
+      "full": "am not / is not / are not / has not",
+      "de": "bin nicht / ist nicht (umgangssprachlich)",
+      "ex": "That ain't right.",
+      "exde": "Das ist nicht richtig.",
+      "say": "ehnt",
+      "lvl": 2
+    },
+    {
+      "spoken": "'cause",
+      "full": "because",
+      "de": "weil",
+      "ex": "I left 'cause I was tired.",
+      "exde": "Ich bin gegangen, weil ich müde war.",
+      "say": "kås / kəz",
+      "lvl": 2
+    },
+    {
+      "spoken": "outta",
+      "full": "out of",
+      "de": "aus / ohne mehr von",
+      "ex": "We're outta milk again.",
+      "exde": "Uns ist schon wieder die Milch ausgegangen.",
+      "say": "au-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "whatcha",
+      "full": "what are you / what you",
+      "de": "was machst du / was ...du",
+      "ex": "Whatcha lookin' at?",
+      "exde": "Was guckst du da?",
+      "say": "wa-tschə",
+      "lvl": 2
+    },
+    {
+      "spoken": "didja",
+      "full": "did you",
+      "de": "hast du / hast du (Frage Vergangenheit)",
+      "ex": "Didja see that movie?",
+      "exde": "Hast du den Film gesehen?",
+      "say": "di-dschə",
+      "lvl": 3
+    },
+    {
+      "spoken": "c'mon",
+      "full": "come on",
+      "de": "komm schon",
+      "ex": "C'mon, we're gonna be late!",
+      "exde": "Komm schon, wir kommen zu spät!",
+      "say": "kə-mån",
+      "lvl": 1
+    },
+    {
+      "spoken": "'em",
+      "full": "them",
+      "de": "sie / ihnen",
+      "ex": "Tell 'em I'm on my way.",
+      "exde": "Sag ihnen, ich bin unterwegs.",
+      "say": "əm",
+      "lvl": 3
+    },
+    {
+      "spoken": "'til",
+      "full": "until",
+      "de": "bis",
+      "ex": "Wait 'til I get back.",
+      "exde": "Warte, bis ich zurück bin.",
+      "say": "til",
+      "lvl": 2
+    },
+    {
+      "spoken": "shoulda",
+      "full": "should have",
+      "de": "hätte sollen",
+      "ex": "I shoulda stayed home.",
+      "exde": "Ich hätte zu Hause bleiben sollen.",
+      "say": "schu-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "coulda",
+      "full": "could have",
+      "de": "hätte können",
+      "ex": "She coulda won the game.",
+      "exde": "Sie hätte das Spiel gewinnen können.",
+      "say": "ku-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "woulda",
+      "full": "would have",
+      "de": "hätte (würde)",
+      "ex": "I woulda called, but my phone died.",
+      "exde": "Ich hätte angerufen, aber mein Handy war leer.",
+      "say": "wu-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "ya",
+      "full": "you",
+      "de": "du / dich / dir",
+      "ex": "I'll see ya tomorrow.",
+      "exde": "Wir sehen uns morgen.",
+      "say": "jə",
+      "lvl": 1
+    },
+    {
+      "spoken": "innit",
+      "full": "isn't it",
+      "de": "nicht wahr? (brit.)",
+      "ex": "Nice weather, innit?",
+      "exde": "Schönes Wetter, oder?",
+      "say": "i-nit",
+      "lvl": 3
+    },
+    {
+      "spoken": "d'you",
+      "full": "do you",
+      "de": "machst du / hast du (Frage)",
+      "ex": "D'you wanna grab lunch?",
+      "exde": "Willst du was zu Mittag essen?",
+      "say": "dschu",
+      "lvl": 2
+    },
+    {
+      "spoken": "whaddaya",
+      "full": "what do you",
+      "de": "was ... du",
+      "ex": "Whaddaya think about this?",
+      "exde": "Was hältst du davon?",
+      "say": "wa-də-jə",
+      "lvl": 3
+    },
+    {
+      "spoken": "hafta",
+      "full": "have to",
+      "de": "muss",
+      "ex": "I hafta work this weekend.",
+      "exde": "Ich muss dieses Wochenende arbeiten.",
+      "say": "häf-tə",
+      "lvl": 2
+    },
+    {
+      "spoken": "gotcha",
+      "full": "got you / I understand",
+      "de": "verstanden / hab dich",
+      "ex": "Gotcha, I'll be there at six.",
+      "exde": "Alles klar, ich bin um sechs da.",
+      "say": "gat-schə",
+      "lvl": 2
+    },
+    {
+      "spoken": "lotta",
+      "full": "lot of",
+      "de": "viel / viele",
+      "ex": "That's a lotta money.",
+      "exde": "Das ist eine Menge Geld.",
+      "say": "la-də",
+      "lvl": 2
+    },
+    {
+      "spoken": "tryna",
+      "full": "trying to",
+      "de": "versuche zu",
+      "ex": "I'm tryna sleep, man.",
+      "exde": "Ich versuche zu schlafen, Mann.",
+      "say": "trai-nə",
+      "lvl": 3
+    },
+    {
+      "spoken": "finna",
+      "full": "fixing to / about to",
+      "de": "gleich, im Begriff zu",
+      "ex": "I'm finna head out.",
+      "exde": "Ich mach mich gleich auf den Weg.",
+      "say": "fi-nə",
+      "lvl": 4
+    },
+    {
+      "spoken": "imma",
+      "full": "I'm going to",
+      "de": "ich werde",
+      "ex": "Imma call you back.",
+      "exde": "Ich ruf dich zurück.",
+      "say": "ai-mə",
+      "lvl": 3
+    },
+    {
+      "spoken": "betcha",
+      "full": "bet you",
+      "de": "wetten, dass du",
+      "ex": "Betcha can't do it.",
+      "exde": "Wetten, dass du das nicht schaffst.",
+      "say": "bet-schə",
+      "lvl": 3
+    },
+    {
+      "spoken": "mighta",
+      "full": "might have",
+      "de": "könnte (vielleicht) gewesen sein",
+      "ex": "He mighta forgotten.",
+      "exde": "Er hat es vielleicht vergessen.",
+      "say": "mai-də",
+      "lvl": 4
+    },
+    {
+      "spoken": "musta",
+      "full": "must have",
+      "de": "muss ... haben",
+      "ex": "You musta been so tired.",
+      "exde": "Du musst so müde gewesen sein.",
+      "say": "mas-tə",
+      "lvl": 4
+    },
+    {
+      "spoken": "oughta",
+      "full": "ought to",
+      "de": "sollte",
+      "ex": "You oughta see a doctor.",
+      "exde": "Du solltest zum Arzt gehen.",
+      "say": "å-də",
+      "lvl": 4
+    },
+    {
+      "spoken": "prolly",
+      "full": "probably",
+      "de": "wahrscheinlich",
+      "ex": "I'll prolly be late.",
+      "exde": "Ich komme wahrscheinlich zu spät.",
+      "say": "pra-li",
+      "lvl": 3
+    },
+    {
+      "spoken": "'bout",
+      "full": "about",
+      "de": "über / um",
+      "ex": "What's it 'bout?",
+      "exde": "Worum geht es?",
+      "say": "baut",
+      "lvl": 2
+    },
+    {
+      "spoken": "'round",
+      "full": "around",
+      "de": "herum / ungefähr",
+      "ex": "Let's meet 'round noon.",
+      "exde": "Treffen wir uns gegen Mittag.",
+      "say": "raund",
+      "lvl": 2
+    },
+    {
+      "spoken": "thru",
+      "full": "through",
+      "de": "durch",
+      "ex": "We drove thru the night.",
+      "exde": "Wir sind die ganze Nacht durchgefahren.",
+      "say": "thru",
+      "lvl": 3
+    },
+    {
+      "spoken": "wassup",
+      "full": "what's up",
+      "de": "was geht / wie läuft's",
+      "ex": "Hey man, wassup?",
+      "exde": "Hey Mann, was geht?",
+      "say": "wa-sap",
+      "lvl": 1
+    },
+    {
+      "spoken": "howdya",
+      "full": "how did you",
+      "de": "wie hast du",
+      "ex": "Howdya get here so fast?",
+      "exde": "Wie bist du so schnell hergekommen?",
+      "say": "hau-dschə",
+      "lvl": 4
+    },
+    {
+      "spoken": "dontcha",
+      "full": "don't you",
+      "de": "nicht wahr / tust du nicht",
+      "ex": "Dontcha think it's too late?",
+      "exde": "Findest du nicht, dass es zu spät ist?",
+      "say": "dount-schə",
+      "lvl": 3
+    },
+    {
+      "spoken": "wouldja",
+      "full": "would you",
+      "de": "würdest du",
+      "ex": "Wouldja mind closing the door?",
+      "exde": "Würde es dir etwas ausmachen, die Tür zu schließen?",
+      "say": "wu-dschə",
+      "lvl": 3
+    },
+    {
+      "spoken": "couldja",
+      "full": "could you",
+      "de": "könntest du",
+      "ex": "Couldja help me with this?",
+      "exde": "Könntest du mir damit helfen?",
+      "say": "ku-dschə",
+      "lvl": 3
+    },
+    {
+      "spoken": "s'pose",
+      "full": "suppose",
+      "de": "nehme an",
+      "ex": "I s'pose you're right.",
+      "exde": "Ich schätze, du hast recht.",
+      "say": "spous",
+      "lvl": 4
+    },
+    {
+      "spoken": "'kay",
+      "full": "okay",
+      "de": "ok",
+      "ex": "'Kay, see you there.",
+      "exde": "Ok, bis dort.",
+      "say": "kei",
+      "lvl": 1
+    },
+    {
+      "spoken": "nothin'",
+      "full": "nothing",
+      "de": "nichts",
+      "ex": "I got nothin' to say.",
+      "exde": "Ich hab nichts zu sagen.",
+      "say": "na-thin",
+      "lvl": 2
+    },
+    {
+      "spoken": "somethin'",
+      "full": "something",
+      "de": "etwas",
+      "ex": "Want somethin' to drink?",
+      "exde": "Willst du etwas zu trinken?",
+      "say": "sam-thin",
+      "lvl": 2
+    },
+    {
+      "spoken": "goin'",
+      "full": "going",
+      "de": "gehend (-ing ohne g)",
+      "ex": "Where you goin' tonight?",
+      "exde": "Wohin gehst du heute Abend?",
+      "say": "gou-in",
+      "lvl": 1
+    },
+    {
+      "spoken": "lookin'",
+      "full": "looking",
+      "de": "schauend (-ing ohne g)",
+      "ex": "What are you lookin' for?",
+      "exde": "Wonach suchst du?",
+      "say": "lu-kin",
+      "lvl": 1
+    },
+    {
+      "spoken": "cuppa",
+      "full": "cup of",
+      "de": "eine Tasse (brit.)",
+      "ex": "Fancy a cuppa tea?",
+      "exde": "Lust auf eine Tasse Tee?",
+      "say": "ka-pə",
+      "lvl": 3
+    },
+    {
+      "spoken": "fer",
+      "full": "for",
+      "de": "für",
+      "ex": "This one's fer you.",
+      "exde": "Das hier ist für dich.",
+      "say": "fər",
+      "lvl": 2
+    },
+    {
+      "spoken": "ta",
+      "full": "to",
+      "de": "zu / nach",
+      "ex": "I'm headin' ta work.",
+      "exde": "Ich fahre zur Arbeit.",
+      "say": "tə",
+      "lvl": 2
+    },
+    {
+      "spoken": "yer",
+      "full": "your",
+      "de": "dein",
+      "ex": "Is that yer car?",
+      "exde": "Ist das dein Auto?",
+      "say": "jər",
+      "lvl": 2
+    },
+    {
+      "spoken": "y'know",
+      "full": "you know",
+      "de": "weißt du / ne",
+      "ex": "It's, y'know, kinda complicated.",
+      "exde": "Es ist, na ja, irgendwie kompliziert.",
+      "say": "jə-nou",
+      "lvl": 2
+    },
+    {
+      "spoken": "jeet",
+      "full": "did you eat",
+      "de": "hast du schon gegessen",
+      "ex": "Jeet yet? Let's get food.",
+      "exde": "Schon gegessen? Lass uns was holen.",
+      "say": "dschiit",
+      "lvl": 4
+    },
+    {
+      "spoken": "sup",
+      "full": "what's up",
+      "de": "was geht",
+      "ex": "Sup, how's it going?",
+      "exde": "Was geht, wie läuft's?",
+      "say": "sap",
+      "lvl": 2
+    },
+    {
+      "spoken": "'im",
+      "full": "him",
+      "de": "ihn / ihm",
+      "ex": "Just ask 'im yourself.",
+      "exde": "Frag ihn einfach selbst.",
+      "say": "im",
+      "lvl": 3
+    },
+    {
+      "spoken": "'er",
+      "full": "her",
+      "de": "sie / ihr",
+      "ex": "I told 'er the truth.",
+      "exde": "Ich habe ihr die Wahrheit gesagt.",
+      "say": "ər",
+      "lvl": 3
+    },
+    {
+      "spoken": "o'",
+      "full": "of",
+      "de": "von / aus",
+      "ex": "Cup o' coffee, please.",
+      "exde": "Eine Tasse Kaffee, bitte.",
+      "say": "ə",
+      "lvl": 2
+    },
+    {
+      "spoken": "an'",
+      "full": "and",
+      "de": "und",
+      "ex": "Rock an' roll never dies.",
+      "exde": "Rock 'n' Roll stirbt nie.",
+      "say": "ən",
+      "lvl": 1
+    },
+    {
+      "spoken": "whole 'nother",
+      "full": "whole other / another",
+      "de": "ein ganz anderes",
+      "ex": "That's a whole 'nother story.",
+      "exde": "Das ist eine ganz andere Geschichte.",
+      "say": "hool nå-thər",
+      "lvl": 4
+    },
+    {
+      "spoken": "whadda",
+      "full": "what do / what a",
+      "de": "was ... / was für ein",
+      "ex": "Whadda you mean?",
+      "exde": "Was meinst du damit?",
+      "say": "wa-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "hadda",
+      "full": "had to",
+      "de": "musste",
+      "ex": "I hadda leave early.",
+      "exde": "Ich musste früh gehen.",
+      "say": "hä-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "needa",
+      "full": "need to",
+      "de": "muss / brauche zu",
+      "ex": "We needa talk.",
+      "exde": "Wir müssen reden.",
+      "say": "nii-də",
+      "lvl": 3
+    },
+    {
+      "spoken": "useta",
+      "full": "used to",
+      "de": "früher mal / pflegte",
+      "ex": "I useta live in Berlin.",
+      "exde": "Ich habe früher in Berlin gewohnt.",
+      "say": "juu-stə",
+      "lvl": 3
+    },
+    {
+      "spoken": "supposta",
+      "full": "supposed to",
+      "de": "soll / sollte",
+      "ex": "You're supposta call me.",
+      "exde": "Du sollst mich anrufen.",
+      "say": "sə-pous-tə",
+      "lvl": 4
+    },
+    {
+      "spoken": "d'ya",
+      "full": "do you",
+      "de": "tust du / hast du",
+      "ex": "D'ya know where it is?",
+      "exde": "Weißt du, wo es ist?",
+      "say": "dschə",
+      "lvl": 2
+    },
+    {
+      "spoken": "a napple",
+      "full": "an apple (Linking)",
+      "de": "ein Apfel – Wörter verschmelzen",
+      "ex": "I ate an apple. (klingt: a napple)",
+      "exde": "Ich habe einen Apfel gegessen.",
+      "say": "ə-näpl – das n wandert zum nächsten Wort",
+      "lvl": 3
+    },
+    {
+      "spoken": "whadduyou",
+      "full": "what do you (Linking)",
+      "de": "was ... du – komplett verschliffen",
+      "ex": "What do you want from me?",
+      "exde": "Was willst du von mir?",
+      "say": "wa-də-jə",
+      "lvl": 3
+    },
+    {
+      "spoken": "pickitup",
+      "full": "pick it up (Linking)",
+      "de": "heb es auf – Wörter fließen",
+      "ex": "Pick it up, please.",
+      "exde": "Heb es bitte auf.",
+      "say": "pi-ki-dap",
+      "lvl": 3
+    }
+  ],
+  "dict": [
+    {
+      "en": "What are you doing tonight?",
+      "heard": "Whatcha doin' tonight?",
+      "de": "Was machst du heute Abend?",
+      "lvl": 1
+    },
+    {
+      "en": "I don't know what to say.",
+      "heard": "I dunno what ta say.",
+      "de": "Ich weiß nicht, was ich sagen soll.",
+      "lvl": 1
+    },
+    {
+      "en": "Come on, let's go home.",
+      "heard": "C'mon, let's go home.",
+      "de": "Komm schon, lass uns nach Hause gehen.",
+      "lvl": 1
+    },
+    {
+      "en": "Do you want some water?",
+      "heard": "D'you want some water?",
+      "de": "Willst du etwas Wasser?",
+      "lvl": 1
+    },
+    {
+      "en": "I want to go to bed.",
+      "heard": "I wanna go ta bed.",
+      "de": "Ich will ins Bett gehen.",
+      "lvl": 1
+    },
+    {
+      "en": "See you tomorrow, okay?",
+      "heard": "See ya tomorrow, 'kay?",
+      "de": "Bis morgen, ok?",
+      "lvl": 1
+    },
+    {
+      "en": "Give me the phone, please.",
+      "heard": "Gimme the phone, please.",
+      "de": "Gib mir bitte das Telefon.",
+      "lvl": 1
+    },
+    {
+      "en": "What is your name again?",
+      "heard": "What's yer name again?",
+      "de": "Wie war noch mal dein Name?",
+      "lvl": 1
+    },
+    {
+      "en": "I have to go now.",
+      "heard": "I hafta go now.",
+      "de": "Ich muss jetzt gehen.",
+      "lvl": 1
+    },
+    {
+      "en": "Let me see that picture.",
+      "heard": "Lemme see that picture.",
+      "de": "Lass mich das Bild sehen.",
+      "lvl": 1
+    },
+    {
+      "en": "Are you going to the party?",
+      "heard": "You goin' ta the party?",
+      "de": "Gehst du zur Party?",
+      "lvl": 1
+    },
+    {
+      "en": "I am going to call my mom.",
+      "heard": "I'm gonna call my mom.",
+      "de": "Ich rufe meine Mama an.",
+      "lvl": 1
+    },
+    {
+      "en": "Wait until I come back.",
+      "heard": "Wait 'til I come back.",
+      "de": "Warte, bis ich zurückkomme.",
+      "lvl": 1
+    },
+    {
+      "en": "Thank you for your help.",
+      "heard": "Thank ya fer yer help.",
+      "de": "Danke für deine Hilfe.",
+      "lvl": 1
+    },
+    {
+      "en": "What is up with you today?",
+      "heard": "Wassup with ya today?",
+      "de": "Was ist heute mit dir los?",
+      "lvl": 1
+    },
+    {
+      "en": "Where do you want to eat?",
+      "heard": "Where d'ya wanna eat?",
+      "de": "Wo willst du essen?",
+      "lvl": 2
+    },
+    {
+      "en": "I am not sure about that.",
+      "heard": "I ain't sure 'bout that.",
+      "de": "Da bin ich mir nicht sicher.",
+      "lvl": 2
+    },
+    {
+      "en": "Did you see the new episode?",
+      "heard": "Didja see the new episode?",
+      "de": "Hast du die neue Folge gesehen?",
+      "lvl": 2
+    },
+    {
+      "en": "I have got to finish this report.",
+      "heard": "I gotta finish this report.",
+      "de": "Ich muss diesen Bericht fertig machen.",
+      "lvl": 2
+    },
+    {
+      "en": "It is kind of hard to explain.",
+      "heard": "It's kinda hard ta explain.",
+      "de": "Es ist irgendwie schwer zu erklären.",
+      "lvl": 2
+    },
+    {
+      "en": "Tell them I am running late.",
+      "heard": "Tell 'em I'm runnin' late.",
+      "de": "Sag ihnen, ich komme spät.",
+      "lvl": 2
+    },
+    {
+      "en": "I could not sleep last night.",
+      "heard": "I couldn't sleep last night.",
+      "de": "Ich konnte letzte Nacht nicht schlafen.",
+      "lvl": 2
+    },
+    {
+      "en": "What do you think about this?",
+      "heard": "Whaddaya think 'bout this?",
+      "de": "Was hältst du davon?",
+      "lvl": 2
+    },
+    {
+      "en": "Do you know where my keys are?",
+      "heard": "D'ya know where my keys are?",
+      "de": "Weißt du, wo meine Schlüssel sind?",
+      "lvl": 2
+    },
+    {
+      "en": "I will see you around noon.",
+      "heard": "I'll see ya 'round noon.",
+      "de": "Wir sehen uns gegen Mittag.",
+      "lvl": 2
+    },
+    {
+      "en": "We are out of coffee again.",
+      "heard": "We're outta coffee again.",
+      "de": "Uns ist schon wieder der Kaffee ausgegangen.",
+      "lvl": 2
+    },
+    {
+      "en": "Let me know when you get there.",
+      "heard": "Lemme know when ya get there.",
+      "de": "Sag mir Bescheid, wenn du da bist.",
+      "lvl": 2
+    },
+    {
+      "en": "I am just looking around.",
+      "heard": "I'm just lookin' 'round.",
+      "de": "Ich schaue mich nur um.",
+      "lvl": 2
+    },
+    {
+      "en": "Because it is raining outside.",
+      "heard": "'Cause it's rainin' outside.",
+      "de": "Weil es draußen regnet.",
+      "lvl": 2
+    },
+    {
+      "en": "You should call him back.",
+      "heard": "Ya should call 'im back.",
+      "de": "Du solltest ihn zurückrufen.",
+      "lvl": 2
+    },
+    {
+      "en": "Would you like another coffee?",
+      "heard": "Wouldja like another coffee?",
+      "de": "Möchtest du noch einen Kaffee?",
+      "lvl": 2
+    },
+    {
+      "en": "I used to play guitar in a band.",
+      "heard": "I useta play guitar in a band.",
+      "de": "Ich habe früher in einer Band Gitarre gespielt.",
+      "lvl": 3
+    },
+    {
+      "en": "You should have told me earlier.",
+      "heard": "You shoulda told me earlier.",
+      "de": "Du hättest es mir früher sagen sollen.",
+      "lvl": 3
+    },
+    {
+      "en": "I am trying to focus right now.",
+      "heard": "I'm tryna focus right now.",
+      "de": "Ich versuche gerade, mich zu konzentrieren.",
+      "lvl": 3
+    },
+    {
+      "en": "Could you close the window, please?",
+      "heard": "Couldja close the window, please?",
+      "de": "Könntest du bitte das Fenster schließen?",
+      "lvl": 3
+    },
+    {
+      "en": "I think we ought to leave soon.",
+      "heard": "I think we oughta leave soon.",
+      "de": "Ich denke, wir sollten bald gehen.",
+      "lvl": 3
+    },
+    {
+      "en": "That is a whole other story.",
+      "heard": "That's a whole 'nother story.",
+      "de": "Das ist eine ganz andere Geschichte.",
+      "lvl": 3
+    },
+    {
+      "en": "She would have come if you asked.",
+      "heard": "She woulda come if ya asked.",
+      "de": "Sie wäre gekommen, wenn du gefragt hättest.",
+      "lvl": 3
+    },
+    {
+      "en": "I bet you cannot guess what happened.",
+      "heard": "Betcha can't guess what happened.",
+      "de": "Ich wette, du errätst nicht, was passiert ist.",
+      "lvl": 3
+    },
+    {
+      "en": "Don't you think it's too expensive?",
+      "heard": "Dontcha think it's too expensive?",
+      "de": "Findest du das nicht zu teuer?",
+      "lvl": 3
+    },
+    {
+      "en": "We have a lot of work to do.",
+      "heard": "We got a lotta work ta do.",
+      "de": "Wir haben eine Menge Arbeit vor uns.",
+      "lvl": 3
+    },
+    {
+      "en": "I am about to leave the house.",
+      "heard": "I'm finna leave the house.",
+      "de": "Ich verlasse gleich das Haus.",
+      "lvl": 3
+    },
+    {
+      "en": "He must have forgotten about it.",
+      "heard": "He musta forgot about it.",
+      "de": "Er muss es vergessen haben.",
+      "lvl": 3
+    },
+    {
+      "en": "What did you do last weekend?",
+      "heard": "Whaddja do last weekend?",
+      "de": "Was hast du letztes Wochenende gemacht?",
+      "lvl": 3
+    },
+    {
+      "en": "I'm sorry, I did not mean to.",
+      "heard": "I'm sorry, I didn't mean ta.",
+      "de": "Tut mir leid, das wollte ich nicht.",
+      "lvl": 3
+    },
+    {
+      "en": "You are supposed to wait here.",
+      "heard": "You're supposta wait here.",
+      "de": "Du sollst hier warten.",
+      "lvl": 3
+    },
+    {
+      "en": "I don't know, honestly. No idea.",
+      "heard": "I dunno, honestly. No idea.",
+      "de": "Ich weiß es ehrlich gesagt nicht. Keine Ahnung.",
+      "lvl": 3
+    },
+    {
+      "en": "Give me a minute and I will explain.",
+      "heard": "Gimme a minute an' I'll explain.",
+      "de": "Gib mir eine Minute, dann erkläre ich es.",
+      "lvl": 3
+    },
+    {
+      "en": "They said that you could not come.",
+      "heard": "They said ya couldn't come.",
+      "de": "Sie sagten, du könntest nicht kommen.",
+      "lvl": 3
+    },
+    {
+      "en": "I got to say, that was impressive.",
+      "heard": "I gotta say, that was impressive.",
+      "de": "Ich muss sagen, das war beeindruckend.",
+      "lvl": 3
+    },
+    {
+      "en": "Why did you not tell me before?",
+      "heard": "Why didn't ya tell me before?",
+      "de": "Warum hast du es mir nicht vorher gesagt?",
+      "lvl": 3
+    },
+    {
+      "en": "It might have been a misunderstanding.",
+      "heard": "It mighta been a misunderstandin'.",
+      "de": "Es könnte ein Missverständnis gewesen sein.",
+      "lvl": 4
+    },
+    {
+      "en": "How did you manage to finish so early?",
+      "heard": "Howdya manage ta finish so early?",
+      "de": "Wie hast du es geschafft, so früh fertig zu werden?",
+      "lvl": 4
+    },
+    {
+      "en": "I would have gone if I had known.",
+      "heard": "I woulda gone if I'd known.",
+      "de": "Ich wäre gegangen, wenn ich es gewusst hätte.",
+      "lvl": 4
+    },
+    {
+      "en": "You have got to be kidding me.",
+      "heard": "You gotta be kiddin' me.",
+      "de": "Das kann nicht dein Ernst sein.",
+      "lvl": 4
+    },
+    {
+      "en": "What do you want me to do about it?",
+      "heard": "Whaddaya want me ta do 'bout it?",
+      "de": "Was soll ich deiner Meinung nach dagegen tun?",
+      "lvl": 4
+    },
+    {
+      "en": "I suppose that could work, though.",
+      "heard": "I s'pose that could work, though.",
+      "de": "Ich nehme an, das könnte klappen.",
+      "lvl": 4
+    },
+    {
+      "en": "Did you eat yet, or should we order?",
+      "heard": "Jeet yet, or should we order?",
+      "de": "Hast du schon gegessen, oder sollen wir bestellen?",
+      "lvl": 4
+    },
+    {
+      "en": "I had to cancel because of the weather.",
+      "heard": "I hadda cancel 'cause of the weather.",
+      "de": "Ich musste wegen des Wetters absagen.",
+      "lvl": 4
+    },
+    {
+      "en": "Where have you been all this time?",
+      "heard": "Where ya been all this time?",
+      "de": "Wo warst du die ganze Zeit?",
+      "lvl": 4
+    },
+    {
+      "en": "It's kind of a big deal, you know.",
+      "heard": "It's kinda a big deal, y'know.",
+      "de": "Es ist schon eine ziemlich große Sache, weißt du.",
+      "lvl": 4
+    },
+    {
+      "en": "Would you mind if I opened a window?",
+      "heard": "Wouldja mind if I opened a window?",
+      "de": "Hättest du etwas dagegen, wenn ich ein Fenster öffne?",
+      "lvl": 2
+    },
+    {
+      "en": "I was going to tell you, but I forgot.",
+      "heard": "I was gonna tell ya, but I forgot.",
+      "de": "Ich wollte es dir sagen, hab es aber vergessen.",
+      "lvl": 4
+    },
+    {
+      "en": "Don't you dare walk out of here.",
+      "heard": "Don'tcha dare walk outta here.",
+      "de": "Wage es ja nicht, hier rauszugehen.",
+      "lvl": 4
+    },
+    {
+      "en": "Sort of makes sense when you think about it.",
+      "heard": "Sorta makes sense when ya think 'bout it.",
+      "de": "Wenn man darüber nachdenkt, ergibt es irgendwie Sinn.",
+      "lvl": 4
+    },
+    {
+      "en": "She probably did not see the message.",
+      "heard": "She prolly didn't see the message.",
+      "de": "Sie hat die Nachricht wahrscheinlich nicht gesehen.",
+      "lvl": 4
+    },
+    {
+      "en": "I'm not going to let that slide.",
+      "heard": "I'm not gonna let that slide.",
+      "de": "Das lasse ich nicht einfach durchgehen.",
+      "lvl": 4
+    },
+    {
+      "en": "Out of all the places, you chose this one?",
+      "heard": "Outta all the places, ya chose this one?",
+      "de": "Von allen Orten hast du ausgerechnet diesen gewählt?",
+      "lvl": 5
+    },
+    {
+      "en": "If I had known, I would have said something.",
+      "heard": "If I'da known, I woulda said somethin'.",
+      "de": "Wenn ich es gewusst hätte, hätte ich etwas gesagt.",
+      "lvl": 5
+    },
+    {
+      "en": "What are you trying to get at, exactly?",
+      "heard": "Whatcha tryna get at, exactly?",
+      "de": "Worauf willst du genau hinaus?",
+      "lvl": 5
+    },
+    {
+      "en": "You ought to have seen the look on his face.",
+      "heard": "Ya oughta've seen the look on his face.",
+      "de": "Du hättest sein Gesicht sehen sollen.",
+      "lvl": 5
+    },
+    {
+      "en": "Let me tell you what I think of that idea.",
+      "heard": "Lemme tell ya what I think of that idea.",
+      "de": "Lass mich dir sagen, was ich von der Idee halte.",
+      "lvl": 5
+    },
+    {
+      "en": "I don't know what you want me to say.",
+      "heard": "I dunno whatcha want me ta say.",
+      "de": "Ich weiß nicht, was du von mir hören willst.",
+      "lvl": 5
+    },
+    {
+      "en": "Where did you get a chance to practice that?",
+      "heard": "Where'dja get a chance ta practice that?",
+      "de": "Wo hattest du die Gelegenheit, das zu üben?",
+      "lvl": 5
+    },
+    {
+      "en": "It could have gone a lot worse, to be honest.",
+      "heard": "It coulda gone a lotta worse, ta be honest.",
+      "de": "Es hätte ehrlich gesagt viel schlimmer laufen können.",
+      "lvl": 5
+    },
+    {
+      "en": "I'm going to give it a shot, whether you like it or not.",
+      "heard": "I'm gonna give it a shot, whether ya like it or not.",
+      "de": "Ich probiere es aus, ob es dir gefällt oder nicht.",
+      "lvl": 5
+    },
+    {
+      "en": "Because of you, I got to see the whole thing.",
+      "heard": "'Cause of ya, I got ta see the whole thing.",
+      "de": "Dank dir konnte ich das Ganze sehen.",
+      "lvl": 5
+    },
+    {
+      "en": "I want to see a movie tonight.",
+      "heard": "I wanna see a movie tonight.",
+      "de": "Ich möchte heute Abend einen Film sehen.",
+      "lvl": 2
+    },
+    {
+      "en": "Let me help you with that bag.",
+      "heard": "Lemme help ya with that bag.",
+      "de": "Lass mich dir mit der Tasche helfen.",
+      "lvl": 2
+    },
+    {
+      "en": "What do you want for dinner?",
+      "heard": "Whaddaya want fer dinner?",
+      "de": "Was möchtest du zum Abendessen?",
+      "lvl": 2
+    }
+  ]
+}

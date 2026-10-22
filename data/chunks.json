@@ -1,0 +1,2717 @@
+[
+  {
+    "en": "to give up",
+    "de": "aufgeben",
+    "ex": "Don't give up, you're almost there!",
+    "exde": "Gib nicht auf, du bist fast da!",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to wake up",
+    "de": "aufwachen, aufstehen",
+    "ex": "I woke up late this morning.",
+    "exde": "Ich bin heute Morgen spät aufgewacht.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to turn on",
+    "de": "einschalten, anmachen",
+    "ex": "Can you turn on the TV?",
+    "exde": "Kannst du den Fernseher anmachen?",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to turn off",
+    "de": "ausschalten, ausmachen",
+    "ex": "Turn off your phone during the movie.",
+    "exde": "Mach dein Handy während des Films aus.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to look for",
+    "de": "suchen",
+    "ex": "I'm looking for my keys.",
+    "exde": "Ich suche meine Schlüssel.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to come over",
+    "de": "vorbeikommen",
+    "ex": "Do you want to come over tonight?",
+    "exde": "Willst du heute Abend vorbeikommen?",
+    "lvl": 2,
+    "type": "phrasal",
+    "note": "Sehr häufig in Serien, wenn man jemanden zu sich einlädt."
+  },
+  {
+    "en": "to hang out",
+    "de": "abhängen, Zeit verbringen",
+    "ex": "We just hang out at my place.",
+    "exde": "Wir hängen einfach bei mir ab.",
+    "lvl": 2,
+    "type": "phrasal",
+    "note": "Locker, unter Freunden. Für Erwachsene im Beruf eher unüblich."
+  },
+  {
+    "en": "to pick up",
+    "de": "abholen, aufheben",
+    "ex": "I'll pick you up at eight.",
+    "exde": "Ich hole dich um acht ab.",
+    "lvl": 2,
+    "type": "phrasal",
+    "note": "Auch: lernen (\"pick up a language\") oder rangehen."
+  },
+  {
+    "en": "to find out",
+    "de": "herausfinden, erfahren",
+    "ex": "I just found out she's moving.",
+    "exde": "Ich habe gerade erfahren, dass sie umzieht.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to put on",
+    "de": "anziehen, aufsetzen",
+    "ex": "Put on a jacket, it's cold.",
+    "exde": "Zieh eine Jacke an, es ist kalt.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to take off",
+    "de": "ausziehen, abheben, losgehen",
+    "ex": "Take off your shoes, please.",
+    "exde": "Zieh bitte deine Schuhe aus.",
+    "lvl": 2,
+    "type": "phrasal",
+    "note": "Auch: Flugzeug hebt ab, oder \"abhauen\"."
+  },
+  {
+    "en": "to go out",
+    "de": "ausgehen, weggehen",
+    "ex": "Let's go out for dinner tonight.",
+    "exde": "Lass uns heute Abend essen gehen.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to show up",
+    "de": "auftauchen, erscheinen",
+    "ex": "He never shows up on time.",
+    "exde": "Er taucht nie pünktlich auf.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to check out",
+    "de": "ansehen, auschecken",
+    "ex": "Check out this song, it's amazing.",
+    "exde": "Hör dir mal diesen Song an, der ist toll.",
+    "lvl": 2,
+    "type": "phrasal",
+    "note": "Sehr häufig als \"guck dir das mal an\"."
+  },
+  {
+    "en": "to calm down",
+    "de": "sich beruhigen",
+    "ex": "Just calm down and tell me what happened.",
+    "exde": "Beruhig dich und erzähl mir, was passiert ist.",
+    "lvl": 2,
+    "type": "phrasal"
+  },
+  {
+    "en": "to figure out",
+    "de": "herausfinden, verstehen",
+    "ex": "I can't figure out this app.",
+    "exde": "Ich komme mit dieser App nicht klar.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Sehr häufig, wenn man etwas selbst durch Nachdenken löst."
+  },
+  {
+    "en": "to run into",
+    "de": "zufällig treffen",
+    "ex": "I ran into my ex at the store.",
+    "exde": "Ich habe meinen Ex im Laden zufällig getroffen.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Auch: auf ein Problem stoßen."
+  },
+  {
+    "en": "to work out",
+    "de": "klappen, Sport machen, lösen",
+    "ex": "Things will work out, trust me.",
+    "exde": "Das wird sich schon fügen, vertrau mir.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Drei Bedeutungen: trainieren, gut ausgehen, ausrechnen."
+  },
+  {
+    "en": "to point out",
+    "de": "hinweisen auf, anmerken",
+    "ex": "She pointed out a mistake in my email.",
+    "exde": "Sie hat mich auf einen Fehler in meiner Mail hingewiesen.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to break down",
+    "de": "kaputtgehen, zusammenbrechen",
+    "ex": "My car broke down on the highway.",
+    "exde": "Mein Auto ist auf der Autobahn liegen geblieben.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to carry on",
+    "de": "weitermachen",
+    "ex": "Carry on, I didn't mean to interrupt.",
+    "exde": "Macht weiter, ich wollte nicht stören.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Britisch etwas häufiger als \"keep going\"."
+  },
+  {
+    "en": "to cheer up",
+    "de": "aufmuntern, Laune bekommen",
+    "ex": "Come on, cheer up! It's Friday!",
+    "exde": "Komm schon, Kopf hoch! Es ist Freitag!",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to catch up",
+    "de": "aufholen, sich austauschen",
+    "ex": "We should catch up over coffee soon.",
+    "exde": "Wir sollten uns bald bei einem Kaffee updaten.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "\"Let's catch up\" = sich mal wieder austauschen."
+  },
+  {
+    "en": "to end up",
+    "de": "landen, am Ende enden",
+    "ex": "We ended up watching three episodes.",
+    "exde": "Am Ende haben wir drei Folgen geschaut.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to fill out",
+    "de": "ausfüllen",
+    "ex": "Please fill out this form.",
+    "exde": "Bitte füllen Sie dieses Formular aus.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Britisch oft \"fill in\"."
+  },
+  {
+    "en": "to get along",
+    "de": "sich verstehen",
+    "ex": "Do you get along with your boss?",
+    "exde": "Verstehst du dich gut mit deinem Chef?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to get over",
+    "de": "verkraften, überwinden",
+    "ex": "It took me months to get over him.",
+    "exde": "Ich habe Monate gebraucht, um über ihn hinwegzukommen.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to give back",
+    "de": "zurückgeben",
+    "ex": "Can you give me my charger back?",
+    "exde": "Kannst du mir mein Ladekabel zurückgeben?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to hold on",
+    "de": "warten, festhalten",
+    "ex": "Hold on, I'll be right back.",
+    "exde": "Warte kurz, ich bin gleich wieder da.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Auch am Telefon: \"Bleiben Sie dran\"."
+  },
+  {
+    "en": "to keep up",
+    "de": "mithalten, weitermachen",
+    "ex": "You walk so fast, I can't keep up.",
+    "exde": "Du gehst so schnell, ich komme nicht mit.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "\"Keep it up!\" = weiter so!"
+  },
+  {
+    "en": "to look after",
+    "de": "sich kümmern um",
+    "ex": "Can you look after my dog this weekend?",
+    "exde": "Kannst du dieses Wochenende auf meinen Hund aufpassen?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to make up",
+    "de": "sich ausdenken, sich versöhnen",
+    "ex": "Stop making up excuses.",
+    "exde": "Hör auf, dir Ausreden auszudenken.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Auch: \"make up with someone\" = sich versöhnen."
+  },
+  {
+    "en": "to mess up",
+    "de": "vermasseln",
+    "ex": "I totally messed up the interview.",
+    "exde": "Ich habe das Vorstellungsgespräch total vermasselt.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Umgangssprachlich, sehr häufig."
+  },
+  {
+    "en": "to pass out",
+    "de": "ohnmächtig werden",
+    "ex": "He almost passed out from the heat.",
+    "exde": "Er wäre fast wegen der Hitze umgekippt.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to pay back",
+    "de": "zurückzahlen",
+    "ex": "I'll pay you back on Friday.",
+    "exde": "Ich zahle dir das am Freitag zurück.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to put off",
+    "de": "aufschieben",
+    "ex": "Stop putting off your homework.",
+    "exde": "Hör auf, deine Hausaufgaben aufzuschieben.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to run out",
+    "de": "ausgehen, aufgebraucht sein",
+    "ex": "We ran out of coffee again.",
+    "exde": "Uns ist schon wieder der Kaffee ausgegangen.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Meist \"run out of something\"."
+  },
+  {
+    "en": "to set up",
+    "de": "einrichten, aufbauen",
+    "ex": "Can you help me set up my new phone?",
+    "exde": "Kannst du mir helfen, mein neues Handy einzurichten?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to sign up",
+    "de": "sich anmelden",
+    "ex": "I signed up for a yoga class.",
+    "exde": "Ich habe mich für einen Yogakurs angemeldet.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to sort out",
+    "de": "klären, regeln",
+    "ex": "Let's sort this out right now.",
+    "exde": "Lass uns das jetzt sofort klären.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Sehr britisch, aber überall verständlich."
+  },
+  {
+    "en": "to stand up for",
+    "de": "eintreten für, verteidigen",
+    "ex": "You need to stand up for yourself.",
+    "exde": "Du musst für dich selbst einstehen.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to throw away",
+    "de": "wegwerfen",
+    "ex": "Don't throw that away, I still need it.",
+    "exde": "Wirf das nicht weg, ich brauche es noch.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to try out",
+    "de": "ausprobieren",
+    "ex": "I want to try out the new burger place.",
+    "exde": "Ich will den neuen Burgerladen ausprobieren.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to turn down",
+    "de": "ablehnen, leiser stellen",
+    "ex": "She turned down the job offer.",
+    "exde": "Sie hat das Jobangebot abgelehnt.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Auch: Lautstärke runterdrehen."
+  },
+  {
+    "en": "to turn up",
+    "de": "auftauchen, lauter machen",
+    "ex": "Turn it up, I love this song!",
+    "exde": "Mach lauter, ich liebe diesen Song!",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Auch: überraschend auftauchen."
+  },
+  {
+    "en": "to use up",
+    "de": "aufbrauchen",
+    "ex": "Who used up all the milk?",
+    "exde": "Wer hat die ganze Milch aufgebraucht?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to work on",
+    "de": "arbeiten an, üben",
+    "ex": "I'm working on my English every day.",
+    "exde": "Ich arbeite jeden Tag an meinem Englisch.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to back up",
+    "de": "sichern, unterstützen",
+    "ex": "Did you back up your photos?",
+    "exde": "Hast du deine Fotos gesichert?",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Auch: \"Back me up\" = unterstütz mich."
+  },
+  {
+    "en": "to bring up",
+    "de": "ansprechen, großziehen",
+    "ex": "Please don't bring up politics at dinner.",
+    "exde": "Bitte sprich beim Essen nicht über Politik.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to call off",
+    "de": "absagen",
+    "ex": "They called off the concert because of rain.",
+    "exde": "Sie haben das Konzert wegen Regen abgesagt.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to come up with",
+    "de": "sich ausdenken, einfallen",
+    "ex": "Can you come up with a better idea?",
+    "exde": "Fällt dir eine bessere Idee ein?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to cut off",
+    "de": "abschneiden, unterbrechen",
+    "ex": "Sorry, I didn't mean to cut you off.",
+    "exde": "Sorry, ich wollte dich nicht unterbrechen.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to drop off",
+    "de": "absetzen, abgeben",
+    "ex": "Can you drop me off at the station?",
+    "exde": "Kannst du mich am Bahnhof absetzen?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to get back",
+    "de": "zurückkommen",
+    "ex": "When do you get back from your trip?",
+    "exde": "Wann kommst du von deiner Reise zurück?",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Auch: \"get back to you\" = sich später melden."
+  },
+  {
+    "en": "to get through",
+    "de": "durchkommen, überstehen",
+    "ex": "I don't know how I'll get through this week.",
+    "exde": "Ich weiß nicht, wie ich diese Woche überstehen soll.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to go ahead",
+    "de": "loslegen, fortfahren",
+    "ex": "Go ahead, I'm listening.",
+    "exde": "Leg los, ich höre zu.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Als Antwort: \"Klar, mach nur\"."
+  },
+  {
+    "en": "to hang up",
+    "de": "auflegen",
+    "ex": "She hung up before I could explain.",
+    "exde": "Sie hat aufgelegt, bevor ich es erklären konnte.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to log in",
+    "de": "einloggen",
+    "ex": "I can't log in to my account.",
+    "exde": "Ich kann mich nicht in mein Konto einloggen.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to look forward to",
+    "de": "sich freuen auf",
+    "ex": "I'm really looking forward to the weekend.",
+    "exde": "Ich freue mich echt aufs Wochenende.",
+    "lvl": 3,
+    "type": "phrasal",
+    "note": "Danach kommt -ing, nicht Infinitiv."
+  },
+  {
+    "en": "to move on",
+    "de": "weitermachen, abschließen",
+    "ex": "It's time to move on from the past.",
+    "exde": "Es ist Zeit, die Vergangenheit hinter sich zu lassen.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to open up",
+    "de": "sich öffnen, anvertrauen",
+    "ex": "He finally opened up about his problems.",
+    "exde": "Er hat sich endlich über seine Probleme geöffnet.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to plug in",
+    "de": "anstecken",
+    "ex": "Is the charger plugged in?",
+    "exde": "Ist das Ladegerät eingesteckt?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to take over",
+    "de": "übernehmen",
+    "ex": "Can you take over for a minute?",
+    "exde": "Kannst du kurz übernehmen?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to speak up",
+    "de": "lauter sprechen, sich äußern",
+    "ex": "Could you speak up a little?",
+    "exde": "Könntest du etwas lauter sprechen?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to slow down",
+    "de": "langsamer werden",
+    "ex": "Slow down, you're talking too fast.",
+    "exde": "Langsamer, du sprichst zu schnell.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to count on",
+    "de": "sich verlassen auf",
+    "ex": "You can count on me.",
+    "exde": "Du kannst dich auf mich verlassen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to settle down",
+    "de": "sesshaft werden, sich beruhigen",
+    "ex": "They want to settle down and have kids.",
+    "exde": "Sie wollen sesshaft werden und Kinder bekommen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to back out",
+    "de": "einen Rückzieher machen",
+    "ex": "He backed out at the last minute.",
+    "exde": "Er hat in letzter Minute einen Rückzieher gemacht.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to blow up",
+    "de": "explodieren, ausrasten, viral gehen",
+    "ex": "That video blew up overnight.",
+    "exde": "Das Video ist über Nacht viral gegangen.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Im Netz: plötzlich sehr beliebt."
+  },
+  {
+    "en": "to break up",
+    "de": "Schluss machen",
+    "ex": "They broke up after two years.",
+    "exde": "Sie haben sich nach zwei Jahren getrennt.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to brush up on",
+    "de": "auffrischen",
+    "ex": "I need to brush up on my grammar.",
+    "exde": "Ich muss meine Grammatik auffrischen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to call back",
+    "de": "zurückrufen",
+    "ex": "I'll call you back in ten minutes.",
+    "exde": "Ich rufe dich in zehn Minuten zurück.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to carry out",
+    "de": "durchführen",
+    "ex": "They carried out the plan perfectly.",
+    "exde": "Sie haben den Plan perfekt durchgeführt.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to check in",
+    "de": "einchecken, sich melden",
+    "ex": "I'll check in with you tomorrow.",
+    "exde": "Ich melde mich morgen bei dir.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to chill out",
+    "de": "runterkommen, entspannen",
+    "ex": "Just chill out and enjoy the show.",
+    "exde": "Entspann dich und genieß die Show.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Umgangssprachlich, sehr häufig."
+  },
+  {
+    "en": "to come across",
+    "de": "zufällig finden, wirken",
+    "ex": "I came across some old photos today.",
+    "exde": "Ich bin heute auf alte Fotos gestoßen.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Auch: \"He comes across as shy\" = wirkt schüchtern."
+  },
+  {
+    "en": "to come through",
+    "de": "es schaffen, liefern",
+    "ex": "Thanks for coming through for me.",
+    "exde": "Danke, dass du für mich da warst.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to cut back on",
+    "de": "reduzieren",
+    "ex": "I'm trying to cut back on sugar.",
+    "exde": "Ich versuche, weniger Zucker zu essen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to deal with",
+    "de": "sich befassen mit, umgehen mit",
+    "ex": "I don't want to deal with this right now.",
+    "exde": "Damit will ich mich jetzt nicht befassen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to dress up",
+    "de": "sich schick machen, verkleiden",
+    "ex": "We had to dress up for the party.",
+    "exde": "Wir mussten uns für die Party schick machen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to drop out",
+    "de": "abbrechen, aussteigen",
+    "ex": "He dropped out of college in his second year.",
+    "exde": "Er hat das Studium im zweiten Jahr abgebrochen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to fall apart",
+    "de": "auseinanderfallen, zusammenbrechen",
+    "ex": "My whole plan fell apart.",
+    "exde": "Mein ganzer Plan ist zusammengebrochen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to fall for",
+    "de": "sich verlieben in, hereinfallen auf",
+    "ex": "She fell for his charm right away.",
+    "exde": "Sie ist sofort auf seinen Charme hereingefallen.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Beides: Verliebtsein und Reinfallen."
+  },
+  {
+    "en": "to get away with",
+    "de": "davonkommen mit",
+    "ex": "He always gets away with everything.",
+    "exde": "Er kommt immer mit allem davon.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to get by",
+    "de": "über die Runden kommen",
+    "ex": "We get by on very little money.",
+    "exde": "Wir kommen mit sehr wenig Geld klar.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to give in",
+    "de": "nachgeben",
+    "ex": "I finally gave in and bought it.",
+    "exde": "Irgendwann habe ich nachgegeben und es gekauft.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to go through",
+    "de": "durchmachen, durchgehen",
+    "ex": "She's going through a tough time.",
+    "exde": "Sie macht gerade eine schwere Zeit durch.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to grow up",
+    "de": "erwachsen werden, aufwachsen",
+    "ex": "I grew up in a small town.",
+    "exde": "Ich bin in einer Kleinstadt aufgewachsen.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "\"Grow up!\" = Werd erwachsen!"
+  },
+  {
+    "en": "to hold back",
+    "de": "zurückhalten",
+    "ex": "Don't hold back, tell me what you think.",
+    "exde": "Halt dich nicht zurück, sag mir, was du denkst.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to kick off",
+    "de": "beginnen, anstoßen",
+    "ex": "The show kicks off at eight.",
+    "exde": "Die Show beginnt um acht.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to let down",
+    "de": "enttäuschen",
+    "ex": "I don't want to let you down.",
+    "exde": "Ich will dich nicht enttäuschen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to look up to",
+    "de": "aufschauen zu, bewundern",
+    "ex": "I really look up to my sister.",
+    "exde": "Ich schaue echt zu meiner Schwester auf.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to make out",
+    "de": "erkennen, knutschen",
+    "ex": "I can't make out what he's saying.",
+    "exde": "Ich kann nicht verstehen, was er sagt.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Auch umgangssprachlich: rumknutschen."
+  },
+  {
+    "en": "to mix up",
+    "de": "verwechseln",
+    "ex": "I always mix up their names.",
+    "exde": "Ich verwechsle immer ihre Namen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to pull off",
+    "de": "schaffen, hinkriegen",
+    "ex": "I can't believe we pulled it off!",
+    "exde": "Ich kann nicht glauben, dass wir das geschafft haben!",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to put up with",
+    "de": "ertragen, aushalten",
+    "ex": "I can't put up with this noise anymore.",
+    "exde": "Ich halte diesen Lärm nicht mehr aus.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to rip off",
+    "de": "übers Ohr hauen",
+    "ex": "That place totally ripped us off.",
+    "exde": "Der Laden hat uns total abgezockt.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Umgangssprachlich; \"rip-off\" = Wucher."
+  },
+  {
+    "en": "to run away",
+    "de": "weglaufen",
+    "ex": "You can't just run away from your problems.",
+    "exde": "Du kannst nicht einfach vor deinen Problemen weglaufen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to show off",
+    "de": "angeben",
+    "ex": "He's always showing off his new car.",
+    "exde": "Er gibt ständig mit seinem neuen Auto an.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to stand out",
+    "de": "herausstechen",
+    "ex": "Her voice really stands out.",
+    "exde": "Ihre Stimme sticht wirklich heraus.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to step up",
+    "de": "sich mehr einsetzen",
+    "ex": "Someone has to step up and help.",
+    "exde": "Jemand muss Verantwortung übernehmen und helfen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to take up",
+    "de": "anfangen mit, einnehmen",
+    "ex": "I took up running last year.",
+    "exde": "Ich habe letztes Jahr mit dem Laufen angefangen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to turn out",
+    "de": "sich herausstellen, ausgehen",
+    "ex": "It turned out to be a great night.",
+    "exde": "Es wurde am Ende ein toller Abend.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Sehr häufig in Geschichten."
+  },
+  {
+    "en": "to walk out",
+    "de": "rausgehen, verlassen",
+    "ex": "She walked out in the middle of the movie.",
+    "exde": "Sie ist mitten im Film rausgegangen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to wipe out",
+    "de": "ausradieren, erschöpfen",
+    "ex": "I'm totally wiped out after that hike.",
+    "exde": "Ich bin nach der Wanderung völlig platt.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "\"Wiped out\" = völlig erschöpft."
+  },
+  {
+    "en": "to zone out",
+    "de": "abschalten, weggetreten sein",
+    "ex": "Sorry, I totally zoned out for a second.",
+    "exde": "Sorry, ich war kurz komplett weggetreten.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to look into",
+    "de": "untersuchen, prüfen",
+    "ex": "We'll look into it and get back to you.",
+    "exde": "Wir prüfen das und melden uns bei dir.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to hand in",
+    "de": "abgeben, einreichen",
+    "ex": "Did you hand in your essay yet?",
+    "exde": "Hast du deinen Aufsatz schon abgegeben?",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to cut down on",
+    "de": "einschränken",
+    "ex": "I need to cut down on coffee.",
+    "exde": "Ich muss weniger Kaffee trinken.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to sleep in",
+    "de": "ausschlafen",
+    "ex": "I love sleeping in on Sundays.",
+    "exde": "Ich liebe es, sonntags auszuschlafen.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to bail on",
+    "de": "im Stich lassen, absagen",
+    "ex": "Don't bail on me again tonight.",
+    "exde": "Lass mich heute Abend nicht schon wieder sitzen.",
+    "lvl": 5,
+    "type": "phrasal",
+    "note": "Umgangssprachlich: kurzfristig absagen."
+  },
+  {
+    "en": "to blow off",
+    "de": "schwänzen, ignorieren",
+    "ex": "He blew off the meeting completely.",
+    "exde": "Er hat das Meeting einfach geschwänzt.",
+    "lvl": 5,
+    "type": "phrasal",
+    "note": "Auch \"Dampf ablassen\" (blow off steam)."
+  },
+  {
+    "en": "to boil down to",
+    "de": "im Kern darauf hinauslaufen",
+    "ex": "It all boils down to trust.",
+    "exde": "Am Ende kommt es auf Vertrauen an.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to bounce back",
+    "de": "sich erholen, zurückkommen",
+    "ex": "She bounced back quickly after the injury.",
+    "exde": "Sie hat sich nach der Verletzung schnell erholt.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to brush off",
+    "de": "abtun, ignorieren",
+    "ex": "He just brushed off my concerns.",
+    "exde": "Er hat meine Bedenken einfach abgetan.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to buckle down",
+    "de": "sich ranhalten, konzentrieren",
+    "ex": "I need to buckle down and study.",
+    "exde": "Ich muss mich jetzt hinsetzen und lernen.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to chip in",
+    "de": "zusammenlegen, beisteuern",
+    "ex": "We all chipped in for her gift.",
+    "exde": "Wir haben alle für ihr Geschenk zusammengelegt.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to clam up",
+    "de": "verstummen, dichtmachen",
+    "ex": "He clammed up when I asked about it.",
+    "exde": "Er hat dichtgemacht, als ich danach fragte.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to come down with",
+    "de": "erkranken an",
+    "ex": "I think I'm coming down with something.",
+    "exde": "Ich glaube, ich werde krank.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to drag on",
+    "de": "sich hinziehen",
+    "ex": "The meeting dragged on for hours.",
+    "exde": "Das Meeting zog sich über Stunden hin.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to fall through",
+    "de": "ins Wasser fallen, platzen",
+    "ex": "Our plans fell through at the last minute.",
+    "exde": "Unsere Pläne sind in letzter Minute geplatzt.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to fizzle out",
+    "de": "im Sand verlaufen",
+    "ex": "The excitement slowly fizzled out.",
+    "exde": "Die Begeisterung ist langsam verpufft.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to get around to",
+    "de": "dazu kommen",
+    "ex": "I never got around to calling her.",
+    "exde": "Ich bin nie dazu gekommen, sie anzurufen.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to iron out",
+    "de": "ausbügeln, klären",
+    "ex": "We still need to iron out a few details.",
+    "exde": "Wir müssen noch ein paar Details klären.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to live up to",
+    "de": "gerecht werden",
+    "ex": "The movie didn't live up to the hype.",
+    "exde": "Der Film wurde dem Hype nicht gerecht.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to own up to",
+    "de": "zugeben, gestehen",
+    "ex": "He finally owned up to his mistake.",
+    "exde": "Er hat seinen Fehler endlich zugegeben.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to pan out",
+    "de": "sich entwickeln, klappen",
+    "ex": "Let's see how things pan out.",
+    "exde": "Mal sehen, wie sich das entwickelt.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to play down",
+    "de": "herunterspielen",
+    "ex": "She tried to play down the problem.",
+    "exde": "Sie versuchte, das Problem herunterzuspielen.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to pass up",
+    "de": "sich entgehen lassen",
+    "ex": "I can't pass up an offer like that.",
+    "exde": "So ein Angebot kann ich mir nicht entgehen lassen.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "to rule out",
+    "de": "ausschließen",
+    "ex": "We can't rule out bad weather.",
+    "exde": "Wir können schlechtes Wetter nicht ausschließen.",
+    "lvl": 5,
+    "type": "phrasal"
+  },
+  {
+    "en": "a piece of cake",
+    "de": "ein Kinderspiel",
+    "ex": "The test was a piece of cake.",
+    "exde": "Der Test war ein Kinderspiel.",
+    "lvl": 2,
+    "type": "idiom"
+  },
+  {
+    "en": "break a leg",
+    "de": "Hals- und Beinbruch",
+    "ex": "Break a leg tonight, you'll do great!",
+    "exde": "Hals- und Beinbruch heute Abend, du schaffst das!",
+    "lvl": 2,
+    "type": "idiom",
+    "note": "Wird vor Auftritten gesagt."
+  },
+  {
+    "en": "under the weather",
+    "de": "angeschlagen, nicht fit",
+    "ex": "I'm feeling a bit under the weather.",
+    "exde": "Ich fühle mich ein bisschen angeschlagen.",
+    "lvl": 2,
+    "type": "idiom"
+  },
+  {
+    "en": "to hit the road",
+    "de": "losfahren, aufbrechen",
+    "ex": "We should hit the road before noon.",
+    "exde": "Wir sollten vor Mittag losfahren.",
+    "lvl": 2,
+    "type": "idiom"
+  },
+  {
+    "en": "to call it a day",
+    "de": "Feierabend machen",
+    "ex": "It's late, let's call it a day.",
+    "exde": "Es ist spät, lass uns Schluss machen.",
+    "lvl": 2,
+    "type": "idiom"
+  },
+  {
+    "en": "to spill the beans",
+    "de": "ein Geheimnis verraten",
+    "ex": "Who spilled the beans about the party?",
+    "exde": "Wer hat die Party-Überraschung verraten?",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to let the cat out of the bag",
+    "de": "etwas ausplaudern",
+    "ex": "Oops, I let the cat out of the bag.",
+    "exde": "Ups, ich habe mich verplappert.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "once in a blue moon",
+    "de": "alle Jubeljahre",
+    "ex": "I only see him once in a blue moon.",
+    "exde": "Ich sehe ihn nur alle Jubeljahre.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "out of the blue",
+    "de": "aus heiterem Himmel",
+    "ex": "She called me out of the blue.",
+    "exde": "Sie hat mich aus heiterem Himmel angerufen.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to cost an arm and a leg",
+    "de": "ein Vermögen kosten",
+    "ex": "This phone cost an arm and a leg.",
+    "exde": "Dieses Handy hat ein Vermögen gekostet.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to bite the bullet",
+    "de": "in den sauren Apfel beißen",
+    "ex": "I just have to bite the bullet and pay.",
+    "exde": "Ich muss einfach in den sauren Apfel beißen und zahlen.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to hit the sack",
+    "de": "sich aufs Ohr hauen",
+    "ex": "I'm exhausted, I'm gonna hit the sack.",
+    "exde": "Ich bin fertig, ich hau mich aufs Ohr.",
+    "lvl": 3,
+    "type": "idiom",
+    "note": "Umgangssprachlich für \"ins Bett gehen\"."
+  },
+  {
+    "en": "in the long run",
+    "de": "auf lange Sicht",
+    "ex": "It's cheaper in the long run.",
+    "exde": "Auf lange Sicht ist es billiger.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to be on the same page",
+    "de": "einer Meinung sein",
+    "ex": "Let's make sure we're on the same page.",
+    "exde": "Lass uns sichergehen, dass wir uns einig sind.",
+    "lvl": 3,
+    "type": "idiom",
+    "note": "Sehr häufig im Job."
+  },
+  {
+    "en": "the last straw",
+    "de": "der Tropfen, der das Fass zum Überlaufen bringt",
+    "ex": "Being late again was the last straw.",
+    "exde": "Schon wieder zu spät zu sein, war der letzte Tropfen.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "speak of the devil",
+    "de": "wenn man vom Teufel spricht",
+    "ex": "Speak of the devil, here she comes!",
+    "exde": "Wenn man vom Teufel spricht, da kommt sie!",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "you can say that again",
+    "de": "das kannst du laut sagen",
+    "ex": "\"It's freezing.\" \"You can say that again!\"",
+    "exde": "\"Es ist eiskalt.\" \"Das kannst du laut sagen!\"",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to beat around the bush",
+    "de": "um den heißen Brei herumreden",
+    "ex": "Stop beating around the bush and tell me.",
+    "exde": "Hör auf, um den heißen Brei zu reden, und sag es mir.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to cut corners",
+    "de": "an der falschen Stelle sparen",
+    "ex": "They cut corners and the house fell apart.",
+    "exde": "Sie haben gespart, und das Haus fiel auseinander.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to get cold feet",
+    "de": "kalte Füße bekommen",
+    "ex": "He got cold feet right before the wedding.",
+    "exde": "Er hat kurz vor der Hochzeit kalte Füße bekommen.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to go the extra mile",
+    "de": "sich besonders anstrengen",
+    "ex": "She always goes the extra mile for her clients.",
+    "exde": "Sie gibt sich für ihre Kunden immer besonders Mühe.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to keep an eye on",
+    "de": "im Auge behalten",
+    "ex": "Can you keep an eye on my bag?",
+    "exde": "Kannst du auf meine Tasche aufpassen?",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to pull someone's leg",
+    "de": "jemanden auf den Arm nehmen",
+    "ex": "Relax, I'm just pulling your leg.",
+    "exde": "Entspann dich, ich nehme dich nur auf den Arm.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to take it easy",
+    "de": "es ruhig angehen lassen",
+    "ex": "Take it easy, don't work too hard.",
+    "exde": "Mach langsam, arbeite nicht zu viel.",
+    "lvl": 3,
+    "type": "idiom",
+    "note": "Auch als Verabschiedung: \"Take it easy!\""
+  },
+  {
+    "en": "the ball is in your court",
+    "de": "du bist am Zug",
+    "ex": "I've made my offer. The ball is in your court.",
+    "exde": "Ich habe mein Angebot gemacht. Du bist am Zug.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "back to square one",
+    "de": "zurück auf Anfang",
+    "ex": "The deal failed, so it's back to square one.",
+    "exde": "Der Deal ist geplatzt, also zurück auf Anfang.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "easier said than done",
+    "de": "leichter gesagt als getan",
+    "ex": "Just relax? That's easier said than done.",
+    "exde": "Einfach entspannen? Leichter gesagt als getan.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to play it by ear",
+    "de": "spontan entscheiden",
+    "ex": "I don't have a plan, let's play it by ear.",
+    "exde": "Ich habe keinen Plan, lass uns spontan schauen.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to miss the boat",
+    "de": "die Gelegenheit verpassen",
+    "ex": "If you wait too long, you'll miss the boat.",
+    "exde": "Wenn du zu lange wartest, verpasst du die Chance.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to sleep on it",
+    "de": "eine Nacht darüber schlafen",
+    "ex": "Let me sleep on it and tell you tomorrow.",
+    "exde": "Lass mich drüber schlafen, ich sage dir morgen Bescheid.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to take a rain check",
+    "de": "auf später verschieben",
+    "ex": "Can I take a rain check on dinner?",
+    "exde": "Können wir das Abendessen auf ein andermal verschieben?",
+    "lvl": 3,
+    "type": "idiom",
+    "note": "Höfliche Absage mit Aussicht auf einen neuen Termin."
+  },
+  {
+    "en": "a blessing in disguise",
+    "de": "ein verkapptes Glück",
+    "ex": "Losing that job was a blessing in disguise.",
+    "exde": "Der Jobverlust war im Nachhinein ein Glück.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to learn the ropes",
+    "de": "sich einarbeiten",
+    "ex": "It takes a few weeks to learn the ropes.",
+    "exde": "Es dauert ein paar Wochen, bis man sich eingearbeitet hat.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to be on the fence",
+    "de": "unentschlossen sein",
+    "ex": "I'm still on the fence about moving.",
+    "exde": "Ich bin beim Umziehen noch unentschlossen.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "up in the air",
+    "de": "noch offen, unklar",
+    "ex": "Our vacation plans are still up in the air.",
+    "exde": "Unsere Urlaubspläne sind noch offen.",
+    "lvl": 3,
+    "type": "idiom"
+  },
+  {
+    "en": "to break the ice",
+    "de": "das Eis brechen",
+    "ex": "A joke is a good way to break the ice.",
+    "exde": "Ein Witz ist ein guter Weg, das Eis zu brechen.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to hit the nail on the head",
+    "de": "den Nagel auf den Kopf treffen",
+    "ex": "You hit the nail on the head.",
+    "exde": "Du hast den Nagel auf den Kopf getroffen.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to jump the gun",
+    "de": "voreilig handeln",
+    "ex": "Don't jump the gun, wait for the results.",
+    "exde": "Sei nicht voreilig, warte die Ergebnisse ab.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to bend over backwards",
+    "de": "sich alle Mühe geben",
+    "ex": "They bent over backwards to help us.",
+    "exde": "Sie haben sich alle Mühe gegeben, uns zu helfen.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to burn the midnight oil",
+    "de": "bis spät nachts arbeiten",
+    "ex": "I was burning the midnight oil to finish it.",
+    "exde": "Ich habe bis spät in die Nacht gearbeitet, um fertig zu werden.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "no use crying over spilled milk",
+    "de": "Geschehenes lässt sich nicht ändern",
+    "ex": "It's done. No use crying over spilled milk.",
+    "exde": "Es ist passiert. Man kann es nicht mehr ändern.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to get out of hand",
+    "de": "außer Kontrolle geraten",
+    "ex": "The party got out of hand fast.",
+    "exde": "Die Party ist schnell außer Kontrolle geraten.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "back to the drawing board",
+    "de": "zurück an den Zeichentisch",
+    "ex": "It failed, so back to the drawing board.",
+    "exde": "Es ist gescheitert, also zurück an den Zeichentisch.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to be in over your head",
+    "de": "überfordert sein",
+    "ex": "I think I'm in over my head here.",
+    "exde": "Ich glaube, ich bin hier überfordert.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "keep your chin up",
+    "de": "Kopf hoch",
+    "ex": "Keep your chin up, things will get better.",
+    "exde": "Kopf hoch, es wird besser werden.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to kill two birds with one stone",
+    "de": "zwei Fliegen mit einer Klappe schlagen",
+    "ex": "Let's kill two birds with one stone and shop on the way.",
+    "exde": "Lass uns zwei Fliegen mit einer Klappe schlagen und unterwegs einkaufen.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "let sleeping dogs lie",
+    "de": "schlafende Hunde nicht wecken",
+    "ex": "Just leave it, let sleeping dogs lie.",
+    "exde": "Lass es, weck keine schlafenden Hunde.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to be on thin ice",
+    "de": "auf dünnem Eis sein",
+    "ex": "You're on thin ice with your boss.",
+    "exde": "Du bist bei deinem Chef auf dünnem Eis.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "out of your league",
+    "de": "eine Nummer zu groß",
+    "ex": "She's way out of his league.",
+    "exde": "Sie ist eine Nummer zu groß für ihn.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to pull strings",
+    "de": "Beziehungen spielen lassen",
+    "ex": "He pulled some strings to get me the job.",
+    "exde": "Er hat seine Beziehungen spielen lassen, damit ich den Job bekomme.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to read between the lines",
+    "de": "zwischen den Zeilen lesen",
+    "ex": "If you read between the lines, he's upset.",
+    "exde": "Wenn man zwischen den Zeilen liest, ist er sauer.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to see eye to eye",
+    "de": "einer Meinung sein",
+    "ex": "We don't always see eye to eye.",
+    "exde": "Wir sind nicht immer einer Meinung.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "the elephant in the room",
+    "de": "das heikle Thema, das keiner anspricht",
+    "ex": "Money is the elephant in the room.",
+    "exde": "Geld ist das heikle Thema, das keiner anspricht.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to throw in the towel",
+    "de": "das Handtuch werfen",
+    "ex": "After three tries, I threw in the towel.",
+    "exde": "Nach drei Versuchen habe ich das Handtuch geworfen.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to add insult to injury",
+    "de": "das Ganze noch schlimmer machen",
+    "ex": "He forgot my birthday, and to add insult to injury, he laughed.",
+    "exde": "Er hat meinen Geburtstag vergessen und, schlimmer noch, gelacht.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to walk on eggshells",
+    "de": "vorsichtig auftreten",
+    "ex": "I'm walking on eggshells around her lately.",
+    "exde": "Ich muss in letzter Zeit bei ihr sehr vorsichtig sein.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to wrap your head around",
+    "de": "etwas begreifen",
+    "ex": "I can't wrap my head around this rule.",
+    "exde": "Ich kann diese Regel einfach nicht begreifen.",
+    "lvl": 4,
+    "type": "idiom",
+    "note": "Sehr häufig bei schwer zu verstehenden Dingen."
+  },
+  {
+    "en": "under the radar",
+    "de": "unbemerkt",
+    "ex": "He kept his plans under the radar.",
+    "exde": "Er hielt seine Pläne unter dem Radar.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "at the end of my rope",
+    "de": "am Ende meiner Kräfte",
+    "ex": "I'm at the end of my rope with this project.",
+    "exde": "Ich bin mit diesem Projekt am Ende meiner Kräfte.",
+    "lvl": 4,
+    "type": "idiom",
+    "note": "Britisch: \"at the end of my tether\"."
+  },
+  {
+    "en": "to call the shots",
+    "de": "das Sagen haben",
+    "ex": "Who calls the shots around here?",
+    "exde": "Wer hat hier das Sagen?",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to cut to the chase",
+    "de": "zum Punkt kommen",
+    "ex": "Let's cut to the chase. What do you want?",
+    "exde": "Kommen wir zum Punkt. Was willst du?",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to drive someone up the wall",
+    "de": "jemanden wahnsinnig machen",
+    "ex": "This noise is driving me up the wall.",
+    "exde": "Dieser Lärm macht mich wahnsinnig.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to get the hang of",
+    "de": "den Dreh raushaben",
+    "ex": "I'm finally getting the hang of this game.",
+    "exde": "Ich habe den Dreh bei diesem Spiel endlich raus.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "the tip of the iceberg",
+    "de": "die Spitze des Eisbergs",
+    "ex": "These problems are just the tip of the iceberg.",
+    "exde": "Diese Probleme sind nur die Spitze des Eisbergs.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "to steal the show",
+    "de": "allen die Show stehlen",
+    "ex": "The little kid stole the show.",
+    "exde": "Der kleine Junge hat allen die Show gestohlen.",
+    "lvl": 4,
+    "type": "idiom"
+  },
+  {
+    "en": "the whole nine yards",
+    "de": "das volle Programm",
+    "ex": "They gave us the whole nine yards: dinner, drinks, music.",
+    "exde": "Wir bekamen das volle Programm: Essen, Drinks, Musik.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "a hard pill to swallow",
+    "de": "eine bittere Pille",
+    "ex": "Losing the final was a hard pill to swallow.",
+    "exde": "Das Finale zu verlieren war eine bittere Pille.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "to bite off more than you can chew",
+    "de": "sich zu viel zumuten",
+    "ex": "I think I bit off more than I could chew.",
+    "exde": "Ich glaube, ich habe mir zu viel zugemutet.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "by the skin of your teeth",
+    "de": "mit knapper Not",
+    "ex": "We passed the exam by the skin of our teeth.",
+    "exde": "Wir haben die Prüfung mit knapper Not bestanden.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "a wild goose chase",
+    "de": "eine sinnlose Suche",
+    "ex": "The whole search was a wild goose chase.",
+    "exde": "Die ganze Suche war reine Zeitverschwendung.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "to throw someone under the bus",
+    "de": "jemanden ans Messer liefern",
+    "ex": "He threw me under the bus to save himself.",
+    "exde": "Er hat mich verraten, um sich zu retten.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "the writing is on the wall",
+    "de": "das Ende ist absehbar",
+    "ex": "The writing's on the wall for that company.",
+    "exde": "Für die Firma ist das Ende absehbar.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "to bark up the wrong tree",
+    "de": "auf dem Holzweg sein",
+    "ex": "If you think I did it, you're barking up the wrong tree.",
+    "exde": "Wenn du denkst, ich war es, bist du auf dem Holzweg.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "to pass the buck",
+    "de": "die Verantwortung abschieben",
+    "ex": "Stop passing the buck and fix it.",
+    "exde": "Hör auf, die Verantwortung abzuschieben, und reparier es.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "the tables have turned",
+    "de": "das Blatt hat sich gewendet",
+    "ex": "Now the tables have turned, and he needs my help.",
+    "exde": "Jetzt hat sich das Blatt gewendet, und er braucht meine Hilfe.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "on the back burner",
+    "de": "auf Eis gelegt",
+    "ex": "The project has been on the back burner for months.",
+    "exde": "Das Projekt liegt seit Monaten auf Eis.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "cross that bridge when we come to it",
+    "de": "das sehen wir, wenn es soweit ist",
+    "ex": "What if it rains? We'll cross that bridge when we come to it.",
+    "exde": "Und wenn es regnet? Das sehen wir, wenn es soweit ist.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "tongue in cheek",
+    "de": "augenzwinkernd, ironisch",
+    "ex": "I said it tongue in cheek, don't take it seriously.",
+    "exde": "Ich habe das ironisch gemeint, nimm es nicht ernst.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "to face the music",
+    "de": "die Konsequenzen tragen",
+    "ex": "You broke it, so now you face the music.",
+    "exde": "Du hast es kaputt gemacht, jetzt trag die Konsequenzen.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "to stir the pot",
+    "de": "Streit anfachen",
+    "ex": "He loves stirring the pot at family dinners.",
+    "exde": "Er liebt es, bei Familienessen Streit anzuzetteln.",
+    "lvl": 5,
+    "type": "idiom"
+  },
+  {
+    "en": "dude",
+    "de": "Alter, Mann",
+    "ex": "Dude, you have to see this!",
+    "exde": "Alter, das musst du sehen!",
+    "lvl": 2,
+    "type": "slang",
+    "note": "Amerikanisch, unter Freunden, auch für Frauen unter Freundinnen möglich."
+  },
+  {
+    "en": "awesome",
+    "de": "geil, großartig",
+    "ex": "That concert was awesome!",
+    "exde": "Das Konzert war der Hammer!",
+    "lvl": 2,
+    "type": "slang"
+  },
+  {
+    "en": "no way",
+    "de": "echt jetzt? Auf keinen Fall",
+    "ex": "No way! You got the job?",
+    "exde": "Echt jetzt?! Du hast den Job bekommen?",
+    "lvl": 2,
+    "type": "slang",
+    "note": "Kann Überraschung oder \"auf keinen Fall\" bedeuten."
+  },
+  {
+    "en": "chill",
+    "de": "entspannt, cool",
+    "ex": "Don't worry, he's pretty chill.",
+    "exde": "Keine Sorge, er ist ziemlich entspannt.",
+    "lvl": 2,
+    "type": "slang",
+    "note": "Als Verb: \"chill\" = entspannen."
+  },
+  {
+    "en": "my bad",
+    "de": "mein Fehler",
+    "ex": "Oh, my bad, I took your seat.",
+    "exde": "Oh, mein Fehler, ich hab deinen Platz genommen.",
+    "lvl": 2,
+    "type": "slang"
+  },
+  {
+    "en": "gonna / wanna / gotta",
+    "de": "werde / will / muss",
+    "ex": "I'm gonna grab a coffee, you wanna come?",
+    "exde": "Ich hol mir einen Kaffee, willst du mit?",
+    "lvl": 2,
+    "type": "slang",
+    "note": "Gesprochene Kurzformen von going to, want to, got to. Nicht schreiben im Formellen."
+  },
+  {
+    "en": "sweet",
+    "de": "super, cool",
+    "ex": "You got tickets? Sweet!",
+    "exde": "Du hast Tickets? Super!",
+    "lvl": 2,
+    "type": "slang"
+  },
+  {
+    "en": "bummer",
+    "de": "schade, ärgerlich",
+    "ex": "You missed the show? What a bummer.",
+    "exde": "Du hast die Show verpasst? Wie schade.",
+    "lvl": 2,
+    "type": "slang"
+  },
+  {
+    "en": "legit",
+    "de": "echt, seriös",
+    "ex": "Is this website legit?",
+    "exde": "Ist diese Webseite seriös?",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Kurz für \"legitimate\". Auch als Lob: \"That's legit good.\""
+  },
+  {
+    "en": "to hook up",
+    "de": "sich treffen, was anfangen",
+    "ex": "They hooked up at the party.",
+    "exde": "Sie sind auf der Party zusammengekommen.",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Je nach Kontext: Treffen, Anschließen oder Flirt/Sex. Vorsicht, nicht neutral!"
+  },
+  {
+    "en": "sketchy",
+    "de": "zwielichtig, unseriös",
+    "ex": "That alley looks really sketchy.",
+    "exde": "Die Gasse sieht echt zwielichtig aus.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "to binge-watch",
+    "de": "serienweise schauen",
+    "ex": "We binge-watched the whole season.",
+    "exde": "Wir haben die ganze Staffel durchgeschaut.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "to ghost someone",
+    "de": "jemanden plötzlich ignorieren",
+    "ex": "He ghosted me after our second date.",
+    "exde": "Er hat nach dem zweiten Date den Kontakt abgebrochen.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "to flex",
+    "de": "angeben, protzen",
+    "ex": "Stop flexing your new watch.",
+    "exde": "Hör auf, mit deiner neuen Uhr anzugeben.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "bestie",
+    "de": "beste Freundin / bester Freund",
+    "ex": "She's been my bestie since high school.",
+    "exde": "Sie ist meine beste Freundin seit der Schulzeit.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "cringe",
+    "de": "peinlich, fremdschämen",
+    "ex": "That video is so cringe.",
+    "exde": "Dieses Video ist so peinlich.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "lame",
+    "de": "langweilig, uncool",
+    "ex": "That party was kind of lame.",
+    "exde": "Die Party war ziemlich lahm.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "to crash",
+    "de": "pennen, übernachten",
+    "ex": "Can I crash at your place tonight?",
+    "exde": "Kann ich heute Nacht bei dir pennen?",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "hit me up",
+    "de": "meld dich bei mir",
+    "ex": "Hit me up if you need anything.",
+    "exde": "Meld dich, wenn du etwas brauchst.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "stoked",
+    "de": "total begeistert",
+    "ex": "I'm so stoked for the trip!",
+    "exde": "Ich freue mich so krass auf den Trip!",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "hyped",
+    "de": "aufgeregt, voller Vorfreude",
+    "ex": "Everyone is hyped for the new season.",
+    "exde": "Alle sind total gespannt auf die neue Staffel.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "mate",
+    "de": "Kumpel",
+    "ex": "Cheers, mate, I owe you one.",
+    "exde": "Danke, Kumpel, ich schulde dir was.",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Britisch, australisch. Sehr gängig in britischen Serien."
+  },
+  {
+    "en": "dope",
+    "de": "geil, cool",
+    "ex": "Your new sneakers are dope.",
+    "exde": "Deine neuen Sneaker sind der Hammer.",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Amerikanisch, eher unter Jüngeren."
+  },
+  {
+    "en": "epic",
+    "de": "krass, legendär",
+    "ex": "Last night was epic!",
+    "exde": "Gestern Nacht war legendär!",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "swamped",
+    "de": "überlastet, bis über beide Ohren in Arbeit",
+    "ex": "I'm swamped at work this week.",
+    "exde": "Ich ersaufe diese Woche in Arbeit.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "lowkey",
+    "de": "irgendwie, heimlich",
+    "ex": "I'm lowkey tired of this show.",
+    "exde": "Ich habe diese Serie irgendwie satt.",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Schwächt eine Aussage ab. Typisch für Jüngere."
+  },
+  {
+    "en": "yikes",
+    "de": "huch, oje",
+    "ex": "Yikes, that looks painful.",
+    "exde": "Huch, das sieht schmerzhaft aus.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "random",
+    "de": "zufällig, komisch",
+    "ex": "It was so random, but funny.",
+    "exde": "Es war total random, aber lustig.",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Oft: überraschend und ohne Zusammenhang."
+  },
+  {
+    "en": "wicked",
+    "de": "krass, super",
+    "ex": "That roller coaster was wicked!",
+    "exde": "Die Achterbahn war der Hammer!",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Britisch/Neuengland: \"wicked good\" = sehr gut."
+  },
+  {
+    "en": "bloke",
+    "de": "Typ, Kerl",
+    "ex": "He's a nice bloke, you'll like him.",
+    "exde": "Er ist ein netter Kerl, du wirst ihn mögen.",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Britisch."
+  },
+  {
+    "en": "pumped",
+    "de": "aufgedreht, motiviert",
+    "ex": "I'm so pumped for the game tonight!",
+    "exde": "Ich bin so heiß auf das Spiel heute Abend!",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "cheesy",
+    "de": "kitschig",
+    "ex": "The movie was cheesy but fun.",
+    "exde": "Der Film war kitschig, aber lustig.",
+    "lvl": 3,
+    "type": "slang"
+  },
+  {
+    "en": "to throw shade",
+    "de": "jemanden subtil schlecht machen",
+    "ex": "She was throwing shade at me all night.",
+    "exde": "Sie hat den ganzen Abend gegen mich gestichelt.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "salty",
+    "de": "eingeschnappt, genervt",
+    "ex": "He's still salty about losing.",
+    "exde": "Er ist immer noch angefressen, weil er verloren hat.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "to spill the tea",
+    "de": "Klatsch erzählen",
+    "ex": "Okay, spill the tea. What happened?",
+    "exde": "Okay, erzähl den Klatsch. Was ist passiert?",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "basic",
+    "de": "08/15, mainstream",
+    "ex": "Pumpkin spice latte? So basic.",
+    "exde": "Pumpkin Spice Latte? So 08/15.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Eher abwertend."
+  },
+  {
+    "en": "extra",
+    "de": "übertrieben, dramatisch",
+    "ex": "Why are you being so extra today?",
+    "exde": "Warum übertreibst du heute so?",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "shook",
+    "de": "schockiert, erschüttert",
+    "ex": "I'm shook, I did not expect that ending.",
+    "exde": "Ich bin geschockt, mit dem Ende hätte ich nie gerechnet.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "sus",
+    "de": "verdächtig",
+    "ex": "That guy seems kind of sus.",
+    "exde": "Der Typ wirkt irgendwie verdächtig.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Kurz für \"suspicious\"."
+  },
+  {
+    "en": "vibe",
+    "de": "Stimmung, Ausstrahlung",
+    "ex": "I like the vibe of this café.",
+    "exde": "Mir gefällt die Atmosphäre in diesem Café.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Auch Verb: \"We were just vibing.\""
+  },
+  {
+    "en": "FOMO",
+    "de": "Angst, etwas zu verpassen",
+    "ex": "I went out just because of FOMO.",
+    "exde": "Ich bin nur aus Angst, was zu verpassen, ausgegangen.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Fear of missing out."
+  },
+  {
+    "en": "glow-up",
+    "de": "positive Verwandlung",
+    "ex": "Her glow-up this year is unreal.",
+    "exde": "Ihre Verwandlung dieses Jahr ist unglaublich.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "bougie",
+    "de": "versnobt, edel",
+    "ex": "This restaurant is a little too bougie for me.",
+    "exde": "Das Restaurant ist mir ein bisschen zu schick.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "hangry",
+    "de": "schlecht gelaunt vor Hunger",
+    "ex": "Don't talk to me, I'm hangry.",
+    "exde": "Sprich mich nicht an, ich bin hungrig und genervt.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "clutch",
+    "de": "im entscheidenden Moment stark",
+    "ex": "That last-second shot was clutch.",
+    "exde": "Der Wurf in letzter Sekunde war entscheidend.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "GOAT",
+    "de": "der Größte aller Zeiten",
+    "ex": "Many fans call him the GOAT.",
+    "exde": "Viele Fans nennen ihn den Größten aller Zeiten.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Greatest of all time."
+  },
+  {
+    "en": "fire",
+    "de": "richtig gut",
+    "ex": "That new track is fire.",
+    "exde": "Der neue Track ist richtig stark.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "mood",
+    "de": "so geht es mir auch",
+    "ex": "\"I need a nap.\" \"Mood.\"",
+    "exde": "\"Ich brauche ein Nickerchen.\" \"Same.\"",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "no cap",
+    "de": "ohne Scherz, ehrlich",
+    "ex": "That was the best pizza ever, no cap.",
+    "exde": "Das war die beste Pizza aller Zeiten, ehrlich.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "bet",
+    "de": "abgemacht, okay",
+    "ex": "\"Meet at eight?\" \"Bet.\"",
+    "exde": "\"Treffen wir uns um acht?\" \"Abgemacht.\"",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "to slap",
+    "de": "richtig gut sein",
+    "ex": "This song absolutely slaps.",
+    "exde": "Dieser Song ist absolut der Knaller.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Meist über Musik oder Essen."
+  },
+  {
+    "en": "grind",
+    "de": "harte Arbeit",
+    "ex": "I'm on the grind every day.",
+    "exde": "Ich schufte jeden Tag.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Auch Verb: \"to grind\"."
+  },
+  {
+    "en": "to stan",
+    "de": "Superfan sein",
+    "ex": "I stan this band so hard.",
+    "exde": "Ich bin ein riesiger Fan dieser Band.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "lit",
+    "de": "toll, ausgelassen",
+    "ex": "The party was lit!",
+    "exde": "Die Party war der Wahnsinn!",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "woke",
+    "de": "politisch bewusst",
+    "ex": "People argue a lot about what \"woke\" means.",
+    "exde": "Die Leute streiten viel darüber, was \"woke\" heißt.",
+    "lvl": 4,
+    "type": "slang",
+    "note": "Je nach Sprecher positiv oder abwertend gemeint."
+  },
+  {
+    "en": "to gaslight",
+    "de": "manipulieren, Wahrnehmung einreden",
+    "ex": "Don't gaslight me, I know what I saw.",
+    "exde": "Rede mir nichts ein, ich weiß, was ich gesehen habe.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "ick",
+    "de": "plötzliche Abneigung",
+    "ex": "He chewed loudly and I got the ick.",
+    "exde": "Er hat laut gekaut und mir war er plötzlich unsympathisch.",
+    "lvl": 4,
+    "type": "slang"
+  },
+  {
+    "en": "rizz",
+    "de": "Charme beim Flirten",
+    "ex": "He's got serious rizz.",
+    "exde": "Er hat echt Charme bei Frauen.",
+    "lvl": 5,
+    "type": "slang",
+    "note": "Von \"charisma\". Sehr Gen Z."
+  },
+  {
+    "en": "to yeet",
+    "de": "schmeißen",
+    "ex": "I yeeted my bag onto the couch.",
+    "exde": "Ich habe meine Tasche aufs Sofa gepfeffert.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "to gatekeep",
+    "de": "etwas für sich behalten",
+    "ex": "Stop gatekeeping that recipe!",
+    "exde": "Hör auf, das Rezept geheim zu halten!",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "delulu",
+    "de": "realitätsfern",
+    "ex": "She's delulu if she thinks he'll call.",
+    "exde": "Sie macht sich was vor, wenn sie denkt, er ruft an.",
+    "lvl": 5,
+    "type": "slang",
+    "note": "Von \"delusional\", scherzhaft."
+  },
+  {
+    "en": "touch grass",
+    "de": "geh mal raus",
+    "ex": "You've been online all day, go touch grass.",
+    "exde": "Du hängst den ganzen Tag im Netz, geh mal raus.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "mid",
+    "de": "mittelmäßig",
+    "ex": "The movie was kinda mid.",
+    "exde": "Der Film war eher mittelmäßig.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "to understand the assignment",
+    "de": "genau das Richtige tun",
+    "ex": "She totally understood the assignment.",
+    "exde": "Sie hat genau das Richtige geliefert.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "it's giving...",
+    "de": "es wirkt wie ...",
+    "ex": "It's giving old Hollywood.",
+    "exde": "Das hat so ein Alt-Hollywood-Flair.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "hot take",
+    "de": "provokante Meinung",
+    "ex": "Here's my hot take: sequels are better.",
+    "exde": "Meine provokante These: Fortsetzungen sind besser.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "red flag",
+    "de": "Warnsignal",
+    "ex": "Ignoring your texts is a red flag.",
+    "exde": "Deine Nachrichten zu ignorieren ist ein Warnsignal.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "to take an L",
+    "de": "eine Niederlage einstecken",
+    "ex": "I'll take the L on that one.",
+    "exde": "Die Niederlage nehme ich an dieser Stelle hin.",
+    "lvl": 5,
+    "type": "slang",
+    "note": "\"L\" = loss."
+  },
+  {
+    "en": "side-eye",
+    "de": "skeptischer Seitenblick",
+    "ex": "She gave me the side-eye.",
+    "exde": "Sie hat mich skeptisch von der Seite angeschaut.",
+    "lvl": 5,
+    "type": "slang"
+  },
+  {
+    "en": "sick",
+    "de": "krass, geil",
+    "ex": "That trick was sick!",
+    "exde": "Der Trick war krass!",
+    "lvl": 3,
+    "type": "slang",
+    "note": "Positiv gemeint, anders als das normale \"krank\"."
+  },
+  {
+    "en": "by the way",
+    "de": "übrigens",
+    "ex": "By the way, did you call her?",
+    "exde": "Übrigens, hast du sie angerufen?",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "no worries",
+    "de": "kein Problem, alles gut",
+    "ex": "\"Sorry I'm late.\" \"No worries!\"",
+    "exde": "\"Sorry, dass ich spät bin.\" \"Kein Ding!\"",
+    "lvl": 2,
+    "type": "chunk",
+    "note": "Sehr verbreitet, besonders britisch und australisch."
+  },
+  {
+    "en": "I guess",
+    "de": "ich schätze, wohl",
+    "ex": "I guess we could try that.",
+    "exde": "Wir könnten das wohl versuchen.",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "how come?",
+    "de": "wieso denn?",
+    "ex": "How come you're not coming tonight?",
+    "exde": "Wieso kommst du heute Abend nicht?",
+    "lvl": 2,
+    "type": "chunk",
+    "note": "Lockerer als \"why\"."
+  },
+  {
+    "en": "what's up?",
+    "de": "was geht? was ist los?",
+    "ex": "Hey, what's up?",
+    "exde": "Hey, was geht?",
+    "lvl": 2,
+    "type": "chunk",
+    "note": "Die Antwort ist oft \"Not much\" statt einer echten Auskunft."
+  },
+  {
+    "en": "take care",
+    "de": "mach's gut",
+    "ex": "Take care, see you next week!",
+    "exde": "Mach's gut, bis nächste Woche!",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "sounds good",
+    "de": "klingt gut",
+    "ex": "Dinner at seven? Sounds good.",
+    "exde": "Abendessen um sieben? Klingt gut.",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "never mind",
+    "de": "vergiss es, egal",
+    "ex": "Never mind, I'll do it myself.",
+    "exde": "Vergiss es, ich mache es selbst.",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "of course",
+    "de": "natürlich",
+    "ex": "Of course I'll help you.",
+    "exde": "Natürlich helfe ich dir.",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "just kidding",
+    "de": "war nur Spaß",
+    "ex": "I hate you. Just kidding!",
+    "exde": "Ich hasse dich. War nur Spaß!",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "long time no see",
+    "de": "lange nicht gesehen",
+    "ex": "Hey, long time no see!",
+    "exde": "Hey, lange nicht gesehen!",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "I'm not sure",
+    "de": "ich bin nicht sicher",
+    "ex": "I'm not sure what you mean.",
+    "exde": "Ich bin nicht sicher, was du meinst.",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "I mean",
+    "de": "ich meine, also",
+    "ex": "I mean, it's not that bad.",
+    "exde": "Also, so schlimm ist es nicht.",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Füllwort beim Präzisieren, super häufig im Gespräch."
+  },
+  {
+    "en": "to be honest",
+    "de": "ehrlich gesagt",
+    "ex": "To be honest, I didn't like it.",
+    "exde": "Ehrlich gesagt hat es mir nicht gefallen.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "fair enough",
+    "de": "na gut, verständlich",
+    "ex": "\"I'm busy.\" \"Fair enough.\"",
+    "exde": "\"Ich bin beschäftigt.\" \"Okay, verständlich.\"",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Akzeptiert Argument, ohne begeistert zu sein."
+  },
+  {
+    "en": "you know what?",
+    "de": "weißt du was?",
+    "ex": "You know what? Let's just go.",
+    "exde": "Weißt du was? Lass uns einfach gehen.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "as far as I know",
+    "de": "soweit ich weiß",
+    "ex": "As far as I know, she's still there.",
+    "exde": "Soweit ich weiß, ist sie noch da.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "to be fair",
+    "de": "fairerweise",
+    "ex": "To be fair, he did warn us.",
+    "exde": "Fairerweise muss man sagen, er hat uns gewarnt.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "speaking of which",
+    "de": "apropos",
+    "ex": "Speaking of which, where's my money?",
+    "exde": "Apropos, wo ist mein Geld?",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "come to think of it",
+    "de": "wenn ich so darüber nachdenke",
+    "ex": "Come to think of it, I did see him.",
+    "exde": "Wenn ich so darüber nachdenke, habe ich ihn gesehen.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "that makes sense",
+    "de": "das ergibt Sinn",
+    "ex": "Oh, that makes sense now.",
+    "exde": "Ach, jetzt ergibt das Sinn.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "the thing is...",
+    "de": "die Sache ist die ...",
+    "ex": "The thing is, I don't have time.",
+    "exde": "Die Sache ist die, ich habe keine Zeit.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "tell me about it",
+    "de": "wem sagst du das",
+    "ex": "\"Mondays are awful.\" \"Tell me about it.\"",
+    "exde": "\"Montage sind furchtbar.\" \"Wem sagst du das.\"",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Zustimmung, nicht Aufforderung zum Erzählen."
+  },
+  {
+    "en": "it depends",
+    "de": "das kommt drauf an",
+    "ex": "\"Is it expensive?\" \"It depends.\"",
+    "exde": "\"Ist es teuer?\" \"Kommt drauf an.\"",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "I was about to",
+    "de": "ich wollte gerade",
+    "ex": "I was about to call you.",
+    "exde": "Ich wollte dich gerade anrufen.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "what do you mean?",
+    "de": "was meinst du damit?",
+    "ex": "What do you mean, you quit?",
+    "exde": "Was meinst du damit, du hast gekündigt?",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "for what it's worth",
+    "de": "für was es auch immer wert ist",
+    "ex": "For what it's worth, I think you're right.",
+    "exde": "Für das, was es wert ist: Ich glaube, du hast recht.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "if you ask me",
+    "de": "wenn du mich fragst",
+    "ex": "If you ask me, it's a bad idea.",
+    "exde": "Wenn du mich fragst, ist das eine schlechte Idee.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "let's face it",
+    "de": "seien wir ehrlich",
+    "ex": "Let's face it, we're lost.",
+    "exde": "Seien wir ehrlich, wir haben uns verlaufen.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "long story short",
+    "de": "kurz gesagt",
+    "ex": "Long story short, we missed the flight.",
+    "exde": "Kurz gesagt, wir haben den Flug verpasst.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "no offense",
+    "de": "nimm's nicht persönlich",
+    "ex": "No offense, but that's wrong.",
+    "exde": "Nimm's nicht persönlich, aber das ist falsch.",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "Amerikanisch. Britisch: \"no offence\"."
+  },
+  {
+    "en": "that being said",
+    "de": "dennoch, trotzdem",
+    "ex": "That being said, I still like him.",
+    "exde": "Trotzdem mag ich ihn.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "I'm not gonna lie",
+    "de": "ich will nicht lügen",
+    "ex": "I'm not gonna lie, I was scared.",
+    "exde": "Ich will nichts vorspielen, ich hatte Angst.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "off the top of my head",
+    "de": "aus dem Stegreif",
+    "ex": "Off the top of my head, I'd say ten.",
+    "exde": "Aus dem Stegreif würde ich zehn sagen.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "as a matter of fact",
+    "de": "tatsächlich",
+    "ex": "As a matter of fact, I live nearby.",
+    "exde": "Tatsächlich wohne ich in der Nähe.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "bear with me",
+    "de": "hab kurz Geduld",
+    "ex": "Bear with me, I'm almost done.",
+    "exde": "Hab kurz Geduld, ich bin gleich fertig.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "not to mention",
+    "de": "ganz zu schweigen von",
+    "ex": "It's late, not to mention cold.",
+    "exde": "Es ist spät, ganz zu schweigen von kalt.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "for the record",
+    "de": "fürs Protokoll",
+    "ex": "For the record, I never said that.",
+    "exde": "Fürs Protokoll: Das habe ich nie gesagt.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "needless to say",
+    "de": "selbstverständlich",
+    "ex": "Needless to say, we were thrilled.",
+    "exde": "Es versteht sich, dass wir begeistert waren.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "all things considered",
+    "de": "alles in allem",
+    "ex": "All things considered, it went well.",
+    "exde": "Alles in allem ist es gut gelaufen.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "at the end of the day",
+    "de": "letztendlich",
+    "ex": "At the end of the day, it's your choice.",
+    "exde": "Letztendlich ist es deine Entscheidung.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "having said that",
+    "de": "trotzdem, allerdings",
+    "ex": "Having said that, I'd do it again.",
+    "exde": "Trotzdem würde ich es wieder tun.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "be that as it may",
+    "de": "wie dem auch sei",
+    "ex": "Be that as it may, we have to leave.",
+    "exde": "Wie dem auch sei, wir müssen los.",
+    "lvl": 5,
+    "type": "chunk",
+    "note": "Etwas förmlicher."
+  },
+  {
+    "en": "I couldn't care less",
+    "de": "das ist mir völlig egal",
+    "ex": "Honestly, I couldn't care less.",
+    "exde": "Ehrlich, das ist mir völlig egal.",
+    "lvl": 5,
+    "type": "chunk",
+    "note": "Nicht \"I could care less\" sagen, wenn man es sauber meint (im US-Englisch aber üblich)."
+  },
+  {
+    "en": "don't get me wrong",
+    "de": "versteh mich nicht falsch",
+    "ex": "Don't get me wrong, I love her.",
+    "exde": "Versteh mich nicht falsch, ich mag sie sehr.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "it goes without saying",
+    "de": "es versteht sich von selbst",
+    "ex": "It goes without saying that you can stay.",
+    "exde": "Es versteht sich von selbst, dass du bleiben kannst.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "with all due respect",
+    "de": "bei allem Respekt",
+    "ex": "With all due respect, you're wrong.",
+    "exde": "Bei allem Respekt, du liegst falsch.",
+    "lvl": 5,
+    "type": "chunk",
+    "note": "Höflich eingeleitete Kritik."
+  },
+  {
+    "en": "to put it mildly",
+    "de": "gelinde gesagt",
+    "ex": "He was unhappy, to put it mildly.",
+    "exde": "Er war gelinde gesagt unglücklich.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "if memory serves",
+    "de": "wenn ich mich recht erinnere",
+    "ex": "If memory serves, it was in 2019.",
+    "exde": "Wenn ich mich recht erinnere, war es 2019.",
+    "lvl": 5,
+    "type": "chunk"
+  },
+  {
+    "en": "that's beside the point",
+    "de": "das ist nebensächlich",
+    "ex": "That's beside the point, he lied.",
+    "exde": "Das ist nebensächlich, er hat gelogen.",
+    "lvl": 5,
+    "type": "chunk"
+  }
+]
