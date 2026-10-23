@@ -1,9 +1,10 @@
 /* Service Worker: App und Lerninhalte werden zwischengespeichert, damit sie auch ohne Internet starten. */
-const V="englisch-v4-stimme";
+const V="englisch-v5-playback";
 const CORE=[
   "./",
   "index.html",
   "apple-touch-icon.png",
+  "silence.wav",
   "data/vocab.json",
   "data/chunks.json",
   "data/sentences.json",

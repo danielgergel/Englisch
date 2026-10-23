@@ -29,7 +29,14 @@ test("Lerninhalte liegen in JSON und nicht mehr in index.html", () => {
   assert.equal(listening.reductions.length, 70);
   assert.equal(listening.dict.length, 80);
   assert.ok(sw.includes("data/listening.json"));
-  assert.ok(sw.includes("englisch-v4-stimme"), "Cache-Version nicht erhöht");
+  assert.ok(sw.includes("englisch-v5-playback"), "Cache-Version nicht erhöht");
+  assert.ok(sw.includes("silence.wav"), "Stille Audiodatei fehlt im Service Worker");
+  const wav = fs.readFileSync(new URL("../silence.wav", import.meta.url));
+  assert.equal(wav.slice(0, 4).toString(), "RIFF");
+  assert.ok(wav.length < 5000, "Stille-Datei ist unnötig groß");
+  assert.ok(html.includes('s.type="playback"'), "Audio-Session wird nicht auf Wiedergabe gesetzt");
+  assert.ok(html.includes("Hörst du trotzdem nichts? Stumm-Schalter am iPhone auf Ton stellen."), "Hinweis zum Stumm-Schalter fehlt");
+  assert.ok(html.includes("gestartet "), "Start/Ende der Ansage fehlt in der Diagnose");
   assert.ok(html.includes("Englische Stimmen"), "TTS-Diagnose fehlt");
   assert.ok(html.includes("kein Start"), "TTS-Wiederholung ohne Stimme fehlt");
   assert.ok(!html.includes('new SpeechSynthesisUtterance(" ")'), "stummes Unlock-Stück ist noch da");
