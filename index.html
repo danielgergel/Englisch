@@ -345,6 +345,7 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
         u.pitch=o.pitch||1;
         u.onstart=()=>{if(my!==ttsTok)return;started=true;this.lastOk=true;this.lastError="";paintTtsDiag();};
         u.onend=()=>{
+          u._done=true;
           if(fin)return;
           if(my!==ttsTok){end();return;}
           if(ttsHold!==u)return;
@@ -352,6 +353,7 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
           end();
         };
         u.onerror=ev=>{
+          u._done=true;
           if(fin)return;
           if(my!==ttsTok){end();return;}
           const code=(ev&&ev.error)||"Fehler";
@@ -370,7 +372,7 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
       const kick=withVoice=>{
         const u=make(withVoice);
         let busy=false;try{busy=!!(speechSynthesis.speaking||speechSynthesis.pending);}catch(e){}
-        if(busy&&ttsHold){
+        if(busy&&ttsHold&&!ttsHold._done){
           try{speechSynthesis.cancel();}catch(e){}
           setTimeout(()=>{if(fin||my!==ttsTok){end();return;}say(make(withVoice));},IS_IOS?80:30);
         }else say(u);
@@ -386,7 +388,7 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
       safety=setTimeout(()=>{if(!started){this.lastError=this.lastError||"kein Start";this.lastOk=false;}end();},Math.max(6000,raw.length*140+3000));
     });
   },
-  stop(){ttsTok++;try{if("speechSynthesis"in window)speechSynthesis.cancel();}catch(e){}}};
+  stop(){ttsTok++;if(ttsHold)ttsHold._done=true;try{if("speechSynthesis"in window)speechSynthesis.cancel();}catch(e){}}};
 addEventListener("pointerdown",()=>{
   if(!("speechSynthesis"in window))return;
   try{speechSynthesis.resume();}catch(e){}
