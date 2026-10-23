@@ -8,3 +8,9 @@ compatibility_date = "2026-01-01"
 AI_BASE_URL = "https://api.openai.com/v1"
 AI_MODEL = "gpt-4o-mini"
 # AI_JSON_MODE = "off"
+# Online-Stimme: Groq Orpheus. Dieselben Variablen wie der Chat, kein neuer Schlüssel.
+# Wenn AI_BASE_URL schon api.groq.com ist, nimmt /tts diese Adresse.
+# Sonst geht /tts direkt an https://api.groq.com/openai/v1 und braucht einen Groq-Schlüssel in AI_API_KEY.
+# TTS_MODEL = "canopylabs/orpheus-v1-english"
+# TTS_VOICE = "hannah"
+# TTS_BASE_URL = "https://api.groq.com/openai/v1"

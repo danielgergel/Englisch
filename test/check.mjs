@@ -29,7 +29,10 @@ test("Lerninhalte liegen in JSON und nicht mehr in index.html", () => {
   assert.equal(listening.reductions.length, 70);
   assert.equal(listening.dict.length, 80);
   assert.ok(sw.includes("data/listening.json"));
-  assert.ok(sw.includes("englisch-v5-playback"), "Cache-Version nicht erhöht");
+  assert.ok(sw.includes("englisch-v6-voices"), "Cache-Version nicht erhöht");
+  assert.ok(html.includes("Online-Stimme verwenden (wenn iPhone-Stimme stumm bleibt)"), "Schalter für die Online-Stimme fehlt");
+  assert.ok(html.includes("function speechTooFast"), "Erkennung stummer Stimmen fehlt");
+  assert.ok(html.includes("badVoices"), "Stumme Stimmen werden nicht gespeichert");
   assert.ok(sw.includes("silence.wav"), "Stille Audiodatei fehlt im Service Worker");
   const wav = fs.readFileSync(new URL("../silence.wav", import.meta.url));
   assert.equal(wav.slice(0, 4).toString(), "RIFF");
@@ -152,6 +155,70 @@ test("Proxy hält den Schlüssel serverseitig und spricht nur bekannte Szenen", 
     assert.equal(seenBody.model, "demo-model");
     assert.ok(seenBody.messages[0].content.includes("A1"));
     assert.ok(!JSON.stringify(cj).includes("secret-key"));
+  } finally {
+    globalThis.fetch = orig;
+  }
+});
+
+test("Kurze onend-Zeit gilt als stumme Stimme", () => {
+  const m = html.match(/function speechTooFast\(chars,ms,rate\)\{[\s\S]*?\}/);
+  assert.ok(m, "speechTooFast nicht gefunden");
+  const fn = vm.runInNewContext(m[0] + "\nspeechTooFast");
+  assert.equal(fn(8, 20, 1), false);
+  assert.equal(fn(48, 30, 0.9), true);
+  assert.equal(fn(48, 5000, 0.9), false);
+});
+
+test("Proxy /tts spricht über Groq und gibt den Schlüssel nicht heraus", async () => {
+  const missing = await worker.fetch(req("/tts", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "CF-Connecting-IP": "tts-a" },
+    body: JSON.stringify({ text: "Hello there", accent: "en-US" })
+  }), {});
+  assert.equal(missing.status, 500);
+
+  const denied = await worker.fetch(req("/tts", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Authorization": "Bearer no", "CF-Connecting-IP": "tts-b" },
+    body: JSON.stringify({ text: "Hello there" })
+  }), { AI_API_KEY: "secret-key", APP_TOKEN: "tok" });
+  assert.equal(denied.status, 401);
+
+  const orig = globalThis.fetch;
+  let seen = null;
+  globalThis.fetch = async (url, opts) => {
+    seen = { url, auth: opts.headers.Authorization, body: JSON.parse(opts.body) };
+    const wav = new Uint8Array([82, 73, 70, 70, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]);
+    return new Response(wav, { status: 200, headers: { "Content-Type": "audio/wav" } });
+  };
+  try {
+    const long = "Hello from the trainer. ".repeat(20);
+    const res = await worker.fetch(req("/tts", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "CF-Connecting-IP": "tts-c" },
+      body: JSON.stringify({ text: long, accent: "en-GB", voice: "not-a-voice" })
+    }), { AI_API_KEY: "secret-key", AI_BASE_URL: "https://api.openai.com/v1" });
+    assert.equal(res.status, 200);
+    assert.equal(res.headers.get("content-type"), "audio/wav");
+    assert.equal(res.headers.get("cache-control"), "no-store");
+    const buf = new Uint8Array(await res.arrayBuffer());
+    assert.equal(String.fromCharCode(buf[0], buf[1], buf[2], buf[3]), "RIFF");
+    assert.equal(seen.url, "https://api.groq.com/openai/v1/audio/speech");
+    assert.equal(seen.auth, "Bearer secret-key");
+    assert.equal(seen.body.model, "canopylabs/orpheus-v1-english");
+    assert.equal(seen.body.voice, "daniel");
+    assert.equal(seen.body.response_format, "wav");
+    assert.ok(seen.body.input.length <= 200);
+    assert.ok(!Buffer.from(buf).toString().includes("secret-key"));
+
+    const us = await worker.fetch(req("/tts", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "CF-Connecting-IP": "tts-d" },
+      body: JSON.stringify({ text: "Hello there", accent: "en-US" })
+    }), { AI_API_KEY: "secret-key", AI_BASE_URL: "https://api.groq.com/openai/v1" });
+    assert.equal(us.status, 200);
+    assert.equal(seen.url, "https://api.groq.com/openai/v1/audio/speech");
+    assert.equal(seen.body.voice, "hannah");
   } finally {
     globalThis.fetch = orig;
   }

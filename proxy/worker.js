@@ -4,6 +4,7 @@
  * und wird nie an die App geschickt.
  *
  * POST /chat   { scenario, level, history }
+ * POST /tts    { text, accent }  -> audio/wav (Groq Orpheus, nicht speichern)
  * GET  /health
  */
 
@@ -96,6 +97,62 @@ function clip(v, n) {
   return String(v == null ? "" : v).replace(/\s+/g, " ").trim().slice(0, n);
 }
 
+const TTS_VOICES = ["autumn", "diana", "hannah", "austin", "daniel", "troy"];
+const ttsBuckets = new Map();
+
+function ttsLimited(ip) {
+  const now = Date.now();
+  const b = ttsBuckets.get(ip) || { t: now, n: 0 };
+  if (now - b.t > 60000) { b.t = now; b.n = 0; }
+  b.n += 1;
+  ttsBuckets.set(ip, b);
+  if (ttsBuckets.size > 5000) ttsBuckets.clear();
+  return b.n > 8;
+}
+
+function ttsBase(env) {
+  if (env.TTS_BASE_URL) return String(env.TTS_BASE_URL).replace(/\/+$/, "");
+  const chat = String(env.AI_BASE_URL || "");
+  if (/groq\.com/i.test(chat)) return chat.replace(/\/+$/, "");
+  return "https://api.groq.com/openai/v1";
+}
+
+function ttsVoice(body, env) {
+  const asked = String(body && body.voice || "").toLowerCase();
+  if (TTS_VOICES.includes(asked)) return asked;
+  const acc = String(body && body.accent || "").toLowerCase();
+  if (acc === "en-gb" || acc.startsWith("en-gb")) return "daniel";
+  return env.TTS_VOICE && TTS_VOICES.includes(String(env.TTS_VOICE).toLowerCase()) ? String(env.TTS_VOICE).toLowerCase() : "hannah";
+}
+
+function wavResponse(buf, status) {
+  return new Response(buf, {
+    status: status || 200,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+      "Content-Type": "audio/wav",
+      "Cache-Control": "no-store"
+    }
+  });
+}
+
+async function callTts(env, text, voice) {
+  const payload = {
+    model: env.TTS_MODEL || "canopylabs/orpheus-v1-english",
+    input: text,
+    voice,
+    response_format: "wav"
+  };
+  return fetch(ttsBase(env) + "/audio/speech", {
+    method: "POST",
+    headers: { "Authorization": "Bearer " + env.AI_API_KEY, "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+    signal: typeof AbortSignal !== "undefined" && AbortSignal.timeout ? AbortSignal.timeout(20000) : undefined
+  });
+}
+
 async function callModel(env, messages, jsonMode) {
   const base = String(env.AI_BASE_URL || "https://api.openai.com/v1").replace(/\/+$/, "");
   const model = env.AI_MODEL || "gpt-4o-mini";
@@ -116,7 +173,32 @@ export default {
     const authed = !env.APP_TOKEN || request.headers.get("Authorization") === "Bearer " + env.APP_TOKEN;
     if (url.pathname === "/health" || (url.pathname === "/" && request.method === "GET")) {
       if (!authed) return cors({ error: "unauthorized" }, 401);
-      return cors({ ok: true, configured: !!env.AI_API_KEY, model: env.AI_MODEL || "gpt-4o-mini" });
+      return cors({
+        ok: true,
+        configured: !!env.AI_API_KEY,
+        model: env.AI_MODEL || "gpt-4o-mini",
+        tts: true,
+        ttsModel: env.TTS_MODEL || "canopylabs/orpheus-v1-english"
+      });
+    }
+    if (url.pathname === "/tts" && request.method === "POST") {
+      if (!authed) return cors({ error: "unauthorized" }, 401);
+      const ip = request.headers.get("CF-Connecting-IP") || "local";
+      if (ttsLimited(ip)) return cors({ error: "rate" }, 429);
+      if (!env.AI_API_KEY) return cors({ error: "missing-key" }, 500);
+      let body;
+      try { body = await request.json(); }
+      catch (e) { return cors({ error: "bad-json" }, 400); }
+      const text = clip(body && body.text, 200);
+      if (!text) return cors({ error: "empty" }, 400);
+      const voice = ttsVoice(body, env);
+      let upstream;
+      try { upstream = await callTts(env, text, voice); }
+      catch (e) { return cors({ error: "upstream" }, 502); }
+      if (!upstream.ok) return cors({ error: "upstream" }, 502);
+      const buf = await upstream.arrayBuffer();
+      if (!buf || buf.byteLength < 16) return cors({ error: "empty" }, 502);
+      return wavResponse(buf, 200);
     }
     if (url.pathname !== "/chat" || request.method !== "POST") return cors({ error: "not-found" }, 404);
     if (!authed) return cors({ error: "unauthorized" }, 401);

@@ -186,10 +186,11 @@ function cefrExact(L){return L<1.5?"A1":L<2.5?"A2":L<3.5?"B1":L<4.5?"B2":"C1";}
 const KEY="englisch-v1";
 let S;
 function defaults(){return{v:1,created:Date.now(),placed:false,L:2,Lhist:[],cards:{},gram:{},dict:{},xp:0,streak:0,best:0,lastDay:"",days:{},today:{d:"",done:{}},
-  set:{goal:30,acc:"en-US",rate:0.9,theme:"auto",showDe:true,voice:"",autoNext:true,proxyUrl:"",proxyToken:""},acc:[],media:0,pq:[],lastBackup:0,seen:{},tests:[],pron:{words:{},sounds:{}}};}
+  set:{goal:30,acc:"en-US",rate:0.9,theme:"auto",showDe:true,voice:"",autoNext:true,proxyUrl:"",proxyToken:"",onlineVoice:false,badVoices:{}},acc:[],media:0,pq:[],lastBackup:0,seen:{},tests:[],pron:{words:{},sounds:{}}};}
 function load(){
   let o={};try{o=JSON.parse(localStorage.getItem(KEY)||"{}")||{};}catch(e){try{localStorage.setItem(KEY+"-corrupt",localStorage.getItem(KEY));}catch(x){}}
   const d=defaults();S=Object.assign(d,o);S.set=Object.assign(defaults().set,o.set||{});
+  if(!S.set.badVoices||typeof S.set.badVoices!=="object")S.set.badVoices={};
   const pr=o.pron&&typeof o.pron==="object"?o.pron:{};
   S.pron={words:(pr.words&&typeof pr.words==="object")?pr.words:{},sounds:(pr.sounds&&typeof pr.sounds==="object")?pr.sounds:{}};
   if(!S.today||S.today.d!==dayKey()){S.today={d:dayKey(),done:{}};}
@@ -334,16 +335,42 @@ function armPlayback(){
   if(!setPlaybackSession())startSilentLoop();
   paintTtsDiag();
 }
-const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",session:"",sawStart:false,sawEnd:false,bed:"",
+function riskyVoice(v){return /premium|enhanced|neural|siri|bad news|bells|bahh|boing|bubbles|cellos|wobble|zarvox|trinoids|whisper|jester|organ|superstar|good news|pipe organ|\balbert\b|\bfred\b|junior|\bralph\b|\bkathy\b/i.test((v&&(v.name||"")+" "+(v.voiceURI||""))||"");}
+function plainVoice(v){return /samantha|daniel|karen|moira|rishi|tessa|fiona|alex|allison|ava|susan|serena|nicky|victoria|kate|oliver|arthur|martha/i.test(v&&v.name||"");}
+function voiceBroken(uri){const m=S&&S.set&&S.set.badVoices;return !!(uri&&m&&m[uri]);}
+function markBroken(uri){
+  if(!uri||!S||!S.set)return;
+  if(!S.set.badVoices||typeof S.set.badVoices!=="object")S.set.badVoices={};
+  S.set.badVoices[uri]=Date.now();
+  const ks=Object.keys(S.set.badVoices);
+  if(ks.length>40)ks.slice(0,ks.length-30).forEach(k=>{delete S.set.badVoices[k];});
+  save();
+}
+function speechTooFast(chars,ms,rate){if(chars<=10)return false;const expect=chars/12*1000/Math.max(0.5,rate||1);return ms<expect*0.4;}
+function splitTts(text){
+  const raw=String(text||"").replace(/\s+/g," ").trim();
+  const out=[];let rest=raw;
+  while(rest){
+    if(rest.length<=180){out.push(rest);break;}
+    let cut=rest.lastIndexOf(" ",180);
+    if(cut<40)cut=180;
+    out.push(rest.slice(0,cut).trim());
+    rest=rest.slice(cut).trim();
+    if(out.length>=4){if(rest)out[out.length-1]=(out[out.length-1]+" "+rest).slice(0,180);break;}
+  }
+  return out.filter(Boolean);
+}
+const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",session:"",sawStart:false,sawEnd:false,bed:"",usedName:"",usedUri:"",usedSilent:false,audio:null,
   load(){try{this.voices=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));}catch(e){this.voices=[];}paintTtsDiag();},
   list(){const pref=this.voices.filter(v=>v.lang.replace("_","-").toLowerCase()===S.set.acc.toLowerCase());
     let pool=pref.length?pref:this.voices.slice();
     if(navigator.onLine===false){const local=pool.filter(v=>v.localService);if(!local.length){const any=this.voices.filter(v=>v.localService);if(any.length)pool=any;}else pool=local;}
-    const sc=v=>(/premium|enhanced|neural/i.test(v.name)?3:0)+(/samantha|daniel|karen|ava|allison|serena|moira|susan|nicky|alex/i.test(v.name)?1:0)+(v.localService?2:0);
+    const sc=v=>(IS_IOS&&riskyVoice(v)?-8:0)+(!IS_IOS&&/premium|enhanced|neural/i.test(v.name)?3:0)+(plainVoice(v)?4:0)+(v.localService?2:0)+(voiceBroken(v.voiceURI)?-20:0);
     return pool.slice().sort((a,b)=>sc(b)-sc(a));},
+  safeList(){return this.list().filter(v=>!voiceBroken(v.voiceURI)&&!(IS_IOS&&riskyVoice(v)));},
   pick(i){
-    if(i===0&&S.set.voice){const f=this.voices.find(v=>v.voiceURI===S.set.voice);if(f&&(navigator.onLine!==false||f.localService))return f;}
-    const l=this.list();return l.length?l[i%l.length]:null;},
+    if(i===0&&S.set.voice){const f=this.voices.find(v=>v.voiceURI===S.set.voice);if(f&&!voiceBroken(f.voiceURI)&&(navigator.onLine!==false||f.localService))return f;}
+    const l=this.safeList();return l.length?l[i%l.length]:null;},
   voiceOk(v){
     if(!v)return null;
     let all=[];try{all=speechSynthesis.getVoices()||[];}catch(e){all=[];}
@@ -351,78 +378,157 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",sessio
     if(all.indexOf(v)>=0)return v;
     return all.find(x=>x.voiceURI&&x.voiceURI===v.voiceURI)||null;
   },
+  queueFor(o){
+    const q=[];const seen=new Set();
+    const add=v=>{const ok=this.voiceOk(v);if(!ok||!ok.voiceURI||seen.has(ok.voiceURI))return;seen.add(ok.voiceURI);q.push(ok);};
+    const idx=(o&&o.voice)||0;
+    if(!idx&&S.set.voice){const f=this.voices.find(v=>v.voiceURI===S.set.voice);if(f&&!voiceBroken(f.voiceURI))add(f);}
+    const safe=this.safeList();
+    if(idx&&safe[idx])add(safe[idx]);
+    safe.slice(0,3).forEach(add);
+    q.push(null);
+    return q.slice(0,5);
+  },
+  speakDevice(raw,o){
+    if(!("speechSynthesis"in window)){this.lastError="nicht vorhanden";this.lastOk=false;paintTtsDiag();return Promise.resolve(false);}
+    const my=++ttsTok;
+    const queue=this.queueFor(o||{});
+    return new Promise(res=>{
+      let fin=false,qi=0,step=0,watch=0,safety=0,curUri="";
+      const finish=ok=>{if(fin)return;fin=true;clearTimeout(watch);clearTimeout(safety);res(!!ok);paintTtsDiag();};
+      const say=u=>{
+        const prev=ttsHold;
+        ttsHold=u;
+        if(IS_IOS)armPlayback();
+        try{speechSynthesis.resume();}catch(e){}
+        let busy=false;try{busy=!!(speechSynthesis.speaking||speechSynthesis.pending);}catch(e){}
+        const go=()=>{try{speechSynthesis.speak(u);}catch(e){this.lastError=(e&&e.message)||"speak";this.usedSilent=true;if(curUri)markBroken(curUri);next();}};
+        if(busy&&prev&&!prev._done){
+          try{prev._done=true;speechSynthesis.cancel();}catch(e){}
+          setTimeout(()=>{if(!fin&&my===ttsTok)go();},IS_IOS?80:30);
+        }else go();
+      };
+      const next=()=>{
+        if(fin||my!==ttsTok){finish(false);return;}
+        if(qi>=queue.length){this.usedSilent=true;this.lastError=this.lastError||"stumm";finish(false);return;}
+        const gen=++step;
+        const v=queue[qi++];
+        curUri=v&&v.voiceURI||"";
+        this.usedName=v?v.name:"nur Sprache";
+        this.usedUri=curUri;
+        let started=false,t0=0;
+        const u=new SpeechSynthesisUtterance(raw);
+        u.lang=(S&&S.set&&S.set.acc)||"en-US";
+        if(v){const ok=this.voiceOk(v);if(ok){try{u.voice=ok;if(ok.lang)u.lang=ok.lang;}catch(e){u.voice=null;}}}
+        u.rate=Math.max(0.3,((o&&o.rate)||1)*((S&&S.set&&S.set.rate)||1));
+        u.pitch=(o&&o.pitch)||1;
+        u.onstart=()=>{if(gen!==step||my!==ttsTok)return;started=true;t0=Date.now();this.sawStart=true;this.lastOk=true;this.lastError="";paintTtsDiag();};
+        u.onerror=ev=>{
+          u._done=true;
+          if(gen!==step||fin)return;
+          if(my!==ttsTok){finish(false);return;}
+          const code=(ev&&ev.error)||"Fehler";
+          if(code==="interrupted"||code==="canceled"||code==="cancelled")return;
+          this.lastError=code;this.lastOk=false;this.usedSilent=true;
+          if(curUri)markBroken(curUri);
+          next();
+        };
+        u.onend=()=>{
+          u._done=true;
+          if(gen!==step||fin)return;
+          if(my!==ttsTok){finish(false);return;}
+          if(ttsHold!==u)return;
+          const ms=t0?Date.now()-t0:0;
+          if(!started||speechTooFast(raw.length,ms,u.rate)){
+            if(curUri)markBroken(curUri);
+            this.usedSilent=true;
+            this.lastError="stumm";
+            if(started)this.sawEnd=true;
+            next();
+            return;
+          }
+          this.usedSilent=false;this.lastError="";this.sawEnd=true;
+          finish(true);
+        };
+        clearTimeout(watch);
+        watch=setTimeout(()=>{
+          if(fin||gen!==step||my!==ttsTok||started)return;
+          if(curUri)markBroken(curUri);
+          this.usedSilent=true;this.lastError=this.lastError||"kein Start";
+          try{speechSynthesis.cancel();}catch(e){}
+          next();
+        },1500);
+        say(u);
+      };
+      safety=setTimeout(()=>{if(!fin)finish(false);},Math.max(8000,raw.length*140+4000));
+      next();
+    });
+  },
+  stopAudio(){
+    const a=this.audio;this.audio=null;
+    if(!a)return;
+    try{a.pause();}catch(e){}
+    if(a._url){try{URL.revokeObjectURL(a._url);}catch(e){}}
+  },
+  playOnline(raw){
+    const parts=splitTts(raw);
+    if(!parts.length)return Promise.resolve(false);
+    if(!netOn()||!proxyBase())return Promise.resolve(false);
+    const my=++ttsTok;
+    this.usedName="Online";this.usedUri="";this.usedSilent=false;this.lastError="";
+    if(IS_IOS)armPlayback();
+    const headers={"Content-Type":"application/json"};
+    const token=(S.set.proxyToken||"").trim();
+    if(token)headers.Authorization="Bearer "+token;
+    const one=text=>new Promise(res=>{
+      let done=false;const end=ok=>{if(done)return;done=true;res(ok);};
+      if(my!==ttsTok){end(false);return;}
+      const ctrl=new AbortController();
+      const tm=setTimeout(()=>ctrl.abort(),20000);
+      fetch(proxyBase()+"/tts",{method:"POST",headers,body:JSON.stringify({text,accent:(S.set&&S.set.acc)||"en-US"}),signal:ctrl.signal}).then(r=>{
+        if(!r.ok)throw new Error("http-"+r.status);
+        return r.blob();
+      }).then(blob=>{
+        if(my!==ttsTok){end(false);return;}
+        this.stopAudio();
+        const url=URL.createObjectURL(blob);
+        const a=document.createElement("audio");
+        a.src=url;a._url=url;a.playsInline=true;a.setAttribute("playsinline","");a.preload="auto";
+        this.audio=a;
+        if(IS_IOS)armPlayback();
+        a.onended=()=>{this.sawEnd=true;this.stopAudio();paintTtsDiag();end(true);};
+        a.onerror=()=>{this.lastError="Online-Ton";this.stopAudio();paintTtsDiag();end(false);};
+        const p=a.play();
+        this.sawStart=true;this.lastOk=true;paintTtsDiag();
+        if(p&&p.catch)p.catch(()=>{this.lastError="Online-Ton blockiert";this.sawStart=false;this.lastOk=false;this.stopAudio();paintTtsDiag();end(false);});
+      }).catch(()=>{this.lastError="Online-Stimme nicht erreichbar";paintTtsDiag();end(false);}).finally(()=>clearTimeout(tm));
+    });
+    return (async()=>{for(const part of parts){if(my!==ttsTok)return false;const ok=await one(part);if(!ok)return false;}return true;})();
+  },
   speak(text,o){
     o=o||{};
     this.tried=true;
     this.lastError="";
     this.sawStart=false;
     this.sawEnd=false;
+    this.usedSilent=false;
     if(IS_IOS)armPlayback();
-    if(!("speechSynthesis"in window)){this.lastError="nicht vorhanden";this.lastOk=false;paintTtsDiag();return Promise.resolve(false);}
     const raw=String(text||"").replace(/\s*\/\s*/g,", ").trim();
     if(!raw)return Promise.resolve(false);
-    this.load();
-    const my=++ttsTok;
-    return new Promise(res=>{
-      let fin=false,started=false,retried=false,watch=0,safety=0;
-      const end=()=>{if(fin)return;fin=true;clearTimeout(watch);clearTimeout(safety);res(my===ttsTok&&started);paintTtsDiag();};
-      const make=withVoice=>{
-        const u=new SpeechSynthesisUtterance(raw);
-        u.lang=(S&&S.set&&S.set.acc)||"en-US";
-        if(withVoice){
-          const v=this.voiceOk(this.pick(o.voice||0));
-          if(v){try{u.voice=v;if(v.lang)u.lang=v.lang;}catch(e){this.lastError="Stimme ungültig";u.voice=null;}}
-        }
-        u.rate=Math.max(0.3,(o.rate||1)*((S&&S.set&&S.set.rate)||1));
-        u.pitch=o.pitch||1;
-        u.onstart=()=>{if(my!==ttsTok)return;started=true;this.sawStart=true;this.lastOk=true;this.lastError="";paintTtsDiag();};
-        u.onend=()=>{
-          u._done=true;
-          if(my===ttsTok&&started)this.sawEnd=true;
-          if(fin)return;
-          if(my!==ttsTok){end();return;}
-          if(ttsHold!==u)return;
-          if(!started){if(!retried)retry();return;}
-          end();
-        };
-        u.onerror=ev=>{
-          u._done=true;
-          if(fin)return;
-          if(my!==ttsTok){end();return;}
-          const code=(ev&&ev.error)||"Fehler";
-          if(code==="interrupted"||code==="canceled"||code==="cancelled")return;
-          this.lastError=code;this.lastOk=false;
-          if(!started&&!retried){retry();return;}
-          end();
-        };
-        return u;
-      };
-      const say=u=>{
-        ttsHold=u;
-        if(IS_IOS)armPlayback();
-        try{speechSynthesis.resume();}catch(e){}
-        try{speechSynthesis.speak(u);}catch(e){this.lastError=(e&&e.message)||"speak";this.lastOk=false;if(!retried){retry();return;}end();}
-      };
-      const kick=withVoice=>{
-        const u=make(withVoice);
-        let busy=false;try{busy=!!(speechSynthesis.speaking||speechSynthesis.pending);}catch(e){}
-        if(busy&&ttsHold&&!ttsHold._done){
-          try{speechSynthesis.cancel();}catch(e){}
-          setTimeout(()=>{if(fin||my!==ttsTok){end();return;}say(make(withVoice));},IS_IOS?80:30);
-        }else say(u);
-      };
-      const retry=()=>{
-        if(fin||retried||my!==ttsTok){if(!fin&&my!==ttsTok)end();return;}
-        retried=true;clearTimeout(watch);
-        kick(false);
-        watch=setTimeout(()=>{if(fin||my!==ttsTok||started)return;this.lastError=this.lastError||"kein Start";this.lastOk=false;end();},1500);
-      };
-      kick(true);
-      watch=setTimeout(()=>{if(fin||my!==ttsTok||started)return;if(!retried)retry();else{this.lastError=this.lastError||"kein Start";this.lastOk=false;end();}},1500);
-      safety=setTimeout(()=>{if(!started){this.lastError=this.lastError||"kein Start";this.lastOk=false;}end();},Math.max(6000,raw.length*140+3000));
+    try{this.load();}catch(e){}
+    const online=!!(netOn()&&proxyBase());
+    if(S.set.onlineVoice&&online)return this.playOnline(raw).then(ok=>ok?true:this.speakDevice(raw,o));
+    if(!("speechSynthesis"in window)){
+      if(online)return this.playOnline(raw);
+      this.lastError="nicht vorhanden";this.lastOk=false;paintTtsDiag();return Promise.resolve(false);
+    }
+    return this.speakDevice(raw,o).then(ok=>{
+      if(ok)return true;
+      if(this.usedSilent&&online)return this.playOnline(raw);
+      return false;
     });
   },
-  stop(){ttsTok++;if(ttsHold)ttsHold._done=true;try{if("speechSynthesis"in window)speechSynthesis.cancel();}catch(e){}}};
+  stop(){ttsTok++;if(ttsHold)ttsHold._done=true;this.stopAudio();try{if("speechSynthesis"in window)speechSynthesis.cancel();}catch(e){}}};
 addEventListener("pointerdown",()=>{
   armPlayback();
   if(!("speechSynthesis"in window))return;
@@ -1543,23 +1649,26 @@ function settingsView(){
   seg("Tagesziel",[[20,"20 min"],[30,"30 min"],[45,"45 min"],[60,"60 min"]],()=>S.set.goal,v=>S.set.goal=v);
   seg("Bei richtiger Antwort",[[true,"automatisch weiter"],[false,"mit Weiter-Tippen"]],()=>S.set.autoNext,v=>S.set.autoNext=v);
   seg("Akzent",[["en-US","Amerikanisch"],["en-GB","Britisch"]],()=>S.set.acc,v=>{S.set.acc=v;S.set.voice="";});
+  seg("Online-Stimme verwenden (wenn iPhone-Stimme stumm bleibt)",[[false,"aus"],[true,"an"]],()=>!!S.set.onlineVoice,v=>{S.set.onlineVoice=!!v;});
   seg("Übersetzung in Dialogen",[[true,"anzeigen"],[false,"verstecken"]],()=>S.set.showDe,v=>S.set.showDe=v);
   seg("Design",[["auto","Automatisch"],["light","Hell"],["dark","Dunkel"]],()=>S.set.theme,v=>{S.set.theme=v;applyTheme();});
   const rate=h("input",{type:"range",min:"0.6",max:"1.1",step:"0.05",value:String(S.set.rate),"aria-label":"Sprechtempo",style:{width:"100%"},oninput:()=>{S.set.rate=+rate.value;save();}});
   el.append(h("label",{class:"fl"},"Sprechtempo der Stimme"),rate);
   const vs=TTS.list();
-  if(vs.length){const sel=h("select",{"aria-label":"Stimme",onchange:()=>{S.set.voice=sel.value;save();TTS.speak("Hello! This is how I sound.");}},h("option",{value:""},"Automatisch (beste Stimme)"),vs.map(v=>h("option",{value:v.voiceURI,selected:S.set.voice===v.voiceURI},v.name+" ("+v.lang+")")));el.append(h("label",{class:"fl"},"Stimme"),sel);}
+  if(vs.length){const sel=h("select",{"aria-label":"Stimme",onchange:()=>{S.set.voice=sel.value;if(S.set.badVoices)delete S.set.badVoices[sel.value];save();TTS.speak("Hello! This is how I sound.");}},h("option",{value:""},"Automatisch (feste Systemstimme)"),vs.map(v=>h("option",{value:v.voiceURI,selected:S.set.voice===v.voiceURI},v.name+" ("+v.lang+")"+(voiceBroken(v.voiceURI)?" · stumm":""))));el.append(h("label",{class:"fl"},"Stimme"),sel);}
   const diag=h("p",{class:"small muted","aria-live":"polite",style:{marginTop:"8px"}});
   const hint=h("p",{class:"small muted"});
   const paint=()=>{
     const has="speechSynthesis"in window;
     const sess=TTS.session==="playback"?"playback":(TTS.session||"nein");
-    diag.textContent="Sprachausgabe: "+(has?"ja":"nein")+" · Englische Stimmen: "+TTS.voices.length+" · Letzter Fehler: "+(TTS.lastError||"keiner")+" · Audio-Session: "+sess+" · gestartet "+(TTS.sawStart?"✓":"–")+" / beendet "+(TTS.sawEnd?"✓":"–");
+    const who=TTS.usedName||"–";
+    diag.textContent="Sprachausgabe: "+(has?"ja":"nein")+" · Englische Stimmen: "+TTS.voices.length+" · Letzter Fehler: "+(TTS.lastError||"keiner")+" · Audio-Session: "+sess+" · gestartet "+(TTS.sawStart?"✓":"–")+" / beendet "+(TTS.sawEnd?"✓":"–")+" · Stimme: "+who+(TTS.usedSilent?" · stumm":"");
     hint.hidden=false;
     hint.textContent="Hörst du trotzdem nichts? Stumm-Schalter am iPhone auf Ton stellen.";
   };
   TTS.paintDiag=paint;TTS.load();paint();
   el.append(h("button",{class:"btn small",type:"button",style:{marginTop:"12px"},onclick:()=>{TTS.speak("Hello! Let's learn some English together.").then(paint);setTimeout(paint,1700);}},"🔊 Stimme testen"),diag,hint);
+  el.append(h("p",{class:"small muted"},"Online-Stimme braucht Internet und die Proxy-Adresse. Der Ton wird abgespielt und nicht auf dem Gerät gespeichert. Erweiterte iPhone-Stimmen, die nicht geladen sind, bleiben stumm – die App nimmt dann eine einfache Stimme oder die Online-Stimme."));
   el.append(h("p",{class:"small muted"},"Kein Ton? Prüfe den Klingelschalter und die Lautstärke. Tipp für bessere Stimmen: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Englisch → „Erweitert“ laden."));
   el.append(h("p",{class:"small muted"},"Sprechen auf dem iPhone: Mikrofon für Safari erlauben und die Diktierfunktion einschalten (Einstellungen → Allgemein → Tastatur). Die Erkennung braucht kurz Internet, das Vorlesen nicht. Geht die Erkennung nicht, kannst du die Antwort tippen."));
   el.append(h("h2",null,"KI-Gesprächspartner"));
