@@ -1,0 +1,3 @@
+AI_API_KEY=sk-hier-dein-schluessel
+# Optional. Wenn gesetzt, muss die App denselben Wert als Token schicken.
+# APP_TOKEN=ein-langes-geheimnis

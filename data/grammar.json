@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "g_to_be",
+    "lvl": 1,
+    "title": "To be (sein)",
+    "tip": "'to be' heißt sein: I am, you are, he/she/it is, we/you/they are.\nDeutsche Falle: Das Alter wird mit 'sein' gesagt, nicht mit 'haben': 'Ich habe 30 Jahre' -> I am 30.\nAuch bei Gefühlen: 'Mir ist kalt' -> I am cold. Verneinung: I am not, he is not (isn't).\nBeispiele: I'm from Germany. (Ich komme aus Deutschland.)\nShe isn't at home. (Sie ist nicht zu Hause.)\nAre you tired? (Bist du müde?)",
+    "items": [
+      {
+        "q": "I ___ 30 years old.",
+        "opts": [
+          "have",
+          "am",
+          "are",
+          "is"
+        ],
+        "a": 1,
+        "why": "Alter mit 'to be': I am 30, nicht 'have'."
+      },
+      {
+        "q": "She ___ a teacher.",
+        "opts": [
+          "am",
+          "are",
+          "is",
+          "be"
+        ],
+        "a": 2,
+        "why": "Zu he/she/it gehört 'is'."
+      },
+      {
+        "q": "We ___ friends.",
+        "opts": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "a": 2,
+        "why": "Zu we/you/they gehört 'are'."
+      },
+      {
+        "q": "___ you hungry?",
+        "opts": [
+          "Is",
+          "Am",
+          "Are",
+          "Do"
+        ],
+        "a": 2,
+        "why": "Frage mit you: Are you ...?"
+      },
+      {
+        "q": "They ___ at work today.",
+        "opts": [
+          "is",
+          "are",
+          "am",
+          "does"
+        ],
+        "a": 1,
+        "why": "They -> are."
+      },
+      {
+        "q": "My brother ___ not at home.",
+        "opts": [
+          "are",
+          "am",
+          "do",
+          "is"
+        ],
+        "a": 3,
+        "why": "My brother = he -> is not."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I have cold.",
+          "I am cold.",
+          "I cold am.",
+          "I do cold."
+        ],
+        "a": 1,
+        "why": "Gefühle mit 'to be': I am cold."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "He have 25 years.",
+          "He is 25 years.",
+          "He is 25.",
+          "He has 25."
+        ],
+        "a": 2,
+        "why": "Alter: He is 25. (ohne 'years')"
+      },
+      {
+        "q": "It ___ a beautiful day.",
+        "opts": [
+          "are",
+          "am",
+          "is",
+          "be"
+        ],
+        "a": 2,
+        "why": "It -> is."
+      },
+      {
+        "q": "I ___ from Germany.",
+        "opts": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "a": 2,
+        "why": "Zu I gehört 'am'."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Are you a student?",
+          "Do you a student?",
+          "Is you a student?",
+          "You a student are?"
+        ],
+        "a": 0,
+        "why": "Frage mit to be: Verb vor das Subjekt."
+      },
+      {
+        "q": "The kids ___ not ready yet.",
+        "opts": [
+          "is",
+          "are",
+          "am",
+          "does"
+        ],
+        "a": 1,
+        "why": "The kids = they -> are."
+      }
+    ]
+  },
+  {
+    "id": "g_present_simple",
+    "lvl": 1,
+    "title": "Present Simple",
+    "tip": "Present Simple nutzt du für Gewohnheiten und Fakten: I work, you work, he works.\nBei he/she/it kommt ein -s ans Verb (works, goes).\nFragen und Verneinung mit do/does: Do you work? She doesn't work. Nach does bleibt das Verb ohne -s!\nDeutsche Falle: nicht 'Works she?' sagen, sondern Does she work?\nBeispiele: He plays guitar every day. (Er spielt jeden Tag Gitarre.)\nDo you like coffee? (Magst du Kaffee?)\nShe doesn't eat meat. (Sie isst kein Fleisch.)",
+    "items": [
+      {
+        "q": "She ___ to work every day.",
+        "opts": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "a": 1,
+        "why": "he/she/it braucht -s: goes."
+      },
+      {
+        "q": "___ you like pizza?",
+        "opts": [
+          "Does",
+          "Do",
+          "Are",
+          "Is"
+        ],
+        "a": 1,
+        "why": "Frage mit you: Do you ...?"
+      },
+      {
+        "q": "He ___ not like coffee.",
+        "opts": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "a": 1,
+        "why": "Bei he/she/it: does not."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Does she works here?",
+          "Does she work here?",
+          "Do she work here?",
+          "She do work here?"
+        ],
+        "a": 1,
+        "why": "Nach does bleibt das Verb ohne -s."
+      },
+      {
+        "q": "My parents ___ in Berlin.",
+        "opts": [
+          "lives",
+          "live",
+          "living",
+          "is live"
+        ],
+        "a": 1,
+        "why": "Parents = they, also ohne -s."
+      },
+      {
+        "q": "What time ___ the shop open?",
+        "opts": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "a": 1,
+        "why": "The shop = it -> does."
+      },
+      {
+        "q": "I ___ get up at seven on Sundays.",
+        "opts": [
+          "doesn't",
+          "don't",
+          "isn't",
+          "not"
+        ],
+        "a": 1,
+        "why": "Verneinung mit I: don't + Grundform."
+      },
+      {
+        "q": "We ___ watch TV in the morning.",
+        "opts": [
+          "doesn't",
+          "don't",
+          "aren't",
+          "isn't"
+        ],
+        "a": 1,
+        "why": "Verneinung mit we: don't."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "He go to school.",
+          "He goes to school.",
+          "He is go to school.",
+          "He gos to school."
+        ],
+        "a": 1,
+        "why": "go + he: goes."
+      },
+      {
+        "q": "She ___ her homework after dinner.",
+        "opts": [
+          "do",
+          "does",
+          "doing",
+          "dos"
+        ],
+        "a": 1,
+        "why": "do wird zu does (he/she/it)."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "She don't like fish.",
+          "She doesn't likes fish.",
+          "She doesn't like fish.",
+          "She not like fish."
+        ],
+        "a": 2,
+        "why": "doesn't + Grundform ohne -s."
+      },
+      {
+        "q": "Water ___ at 100 degrees.",
+        "opts": [
+          "boil",
+          "boils",
+          "boiling",
+          "is boil"
+        ],
+        "a": 1,
+        "why": "Fakt, 3. Person: boils."
+      }
+    ]
+  },
+  {
+    "id": "g_present_continuous",
+    "lvl": 1,
+    "title": "Present Continuous",
+    "tip": "Present Continuous (be + Verb-ing) beschreibt, was gerade passiert oder vorübergehend ist: I am working.\nDeutsche Falle: Deutsch hat keine eigene Form dafür. 'Ich arbeite gerade' -> I am working (nicht I work now).\nBestimmte Verben (like, know, want) stehen nicht in der -ing-Form.\nBeispiele: She is cooking dinner. (Sie kocht gerade das Abendessen.)\nWhat are you doing? (Was machst du gerade?)\nThey aren't listening. (Sie hören nicht zu.)",
+    "items": [
+      {
+        "q": "Look! It ___ outside.",
+        "opts": [
+          "rains",
+          "is raining",
+          "rain",
+          "raining"
+        ],
+        "a": 1,
+        "why": "Gerade jetzt: is raining."
+      },
+      {
+        "q": "I ___ a book right now.",
+        "opts": [
+          "read",
+          "am reading",
+          "reads",
+          "reading"
+        ],
+        "a": 1,
+        "why": "I + am + Verb-ing."
+      },
+      {
+        "q": "What ___ you doing?",
+        "opts": [
+          "do",
+          "are",
+          "is",
+          "does"
+        ],
+        "a": 1,
+        "why": "Frage: What are you doing?"
+      },
+      {
+        "q": "She ___ TV at the moment.",
+        "opts": [
+          "watch",
+          "watches",
+          "is watching",
+          "are watching"
+        ],
+        "a": 2,
+        "why": "She is + Verb-ing."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "They are play football.",
+          "They playing football.",
+          "They are playing football.",
+          "They playing are football."
+        ],
+        "a": 2,
+        "why": "are + playing."
+      },
+      {
+        "q": "We ___ dinner right now.",
+        "opts": [
+          "isn't have",
+          "aren't having",
+          "don't having",
+          "not having"
+        ],
+        "a": 1,
+        "why": "Verneinung: aren't + having."
+      },
+      {
+        "q": "He ___ now. Please be quiet.",
+        "opts": [
+          "sleeps",
+          "is sleeping",
+          "sleep",
+          "are sleeping"
+        ],
+        "a": 1,
+        "why": "Passiert gerade: is sleeping."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I am knowing the answer.",
+          "I know the answer.",
+          "I am know the answer.",
+          "I knowing the answer."
+        ],
+        "a": 1,
+        "why": "'know' steht nicht in der -ing-Form."
+      },
+      {
+        "q": "___ it raining?",
+        "opts": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "a": 2,
+        "why": "it -> Is it raining?"
+      },
+      {
+        "q": "The kids ___ in the garden.",
+        "opts": [
+          "is playing",
+          "plays",
+          "are playing",
+          "playing"
+        ],
+        "a": 2,
+        "why": "Plural: are playing."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "She is run to the bus.",
+          "She is running to the bus.",
+          "She running to the bus.",
+          "She is runing to the bus."
+        ],
+        "a": 1,
+        "why": "run -> running (n wird verdoppelt)."
+      },
+      {
+        "q": "I ___ for a new job this month.",
+        "opts": [
+          "look",
+          "am looking",
+          "looks",
+          "looking"
+        ],
+        "a": 1,
+        "why": "Vorübergehende Situation: am looking."
+      }
+    ]
+  },
+  {
+    "id": "g_articles",
+    "lvl": 1,
+    "title": "Artikel (a, an, the)",
+    "tip": "Englisch hat nur einen bestimmten Artikel: the (der/die/das). Unbestimmt: a vor Konsonantklang, an vor Vokalklang.\nEs zählt der Klang: an hour, a university.\nDeutsche Falle: Bei Berufen steht a: I am a teacher (nicht: I am teacher). Bei allgemeinen Aussagen ohne Artikel: I like music.\nBeispiele: She has a dog. The dog is big. (Sie hat einen Hund. Der Hund ist groß.)\nHe is an engineer. (Er ist Ingenieur.)\nI love coffee. (Ich liebe Kaffee.)",
+    "items": [
+      {
+        "q": "She is ___ doctor.",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 0,
+        "why": "Beruf mit Artikel: a doctor."
+      },
+      {
+        "q": "I need ___ umbrella.",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 1,
+        "why": "umbrella beginnt mit Vokalklang: an."
+      },
+      {
+        "q": "He waits for ___ hour.",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 1,
+        "why": "hour: h ist stumm, also an."
+      },
+      {
+        "q": "I like ___ music.",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 3,
+        "why": "Allgemein, unzählbar: ohne Artikel."
+      },
+      {
+        "q": "Can you close ___ door, please?",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 2,
+        "why": "Eine bestimmte Tür: the."
+      },
+      {
+        "q": "I have ___ uniform for work.",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 0,
+        "why": "uniform klingt wie 'ju': a."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I am teacher.",
+          "I am a teacher.",
+          "I am the teacher.",
+          "I a teacher am."
+        ],
+        "a": 1,
+        "why": "Berufe brauchen a/an."
+      },
+      {
+        "q": "I have a dog. ___ dog is brown.",
+        "opts": [
+          "A",
+          "An",
+          "The",
+          "-"
+        ],
+        "a": 2,
+        "why": "Schon erwähnt: the dog."
+      },
+      {
+        "q": "___ sun is very hot today.",
+        "opts": [
+          "A",
+          "An",
+          "The",
+          "-"
+        ],
+        "a": 2,
+        "why": "Es gibt nur eine Sonne: the."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "She plays the guitar.",
+          "She plays a the guitar.",
+          "She plays guitars the.",
+          "She play the guitar."
+        ],
+        "a": 0,
+        "why": "Bei Instrumenten steht the: the guitar."
+      },
+      {
+        "q": "We usually have ___ breakfast at 7.",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 3,
+        "why": "Mahlzeiten ohne Artikel: have breakfast."
+      },
+      {
+        "q": "He is ___ honest man.",
+        "opts": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "a": 1,
+        "why": "honest: h ist stumm, daher an."
+      }
+    ]
+  },
+  {
+    "id": "g_possessive",
+    "lvl": 1,
+    "title": "Possessiv (my, mine, 's)",
+    "tip": "Besitz zeigst du mit my, your, his, her, its, our, their (vor einem Nomen).\nAlleinstehend: mine, yours, his, hers, ours, theirs.\nBei Personen und Namen nutzt du 's: Tom's car (Toms Auto).\nDeutsche Falle: his/her richtet sich nach dem Besitzer, nicht nach dem Besitztum: Sarah and her brother.\nBeispiele: This is my phone. (Das ist mein Handy.)\nThe book is mine. (Das Buch gehört mir.)\nIs this Anna's bag? (Ist das Annas Tasche?)",
+    "items": [
+      {
+        "q": "This is ___ phone. (I)",
+        "opts": [
+          "me",
+          "my",
+          "mine",
+          "I"
+        ],
+        "a": 1,
+        "why": "Vor einem Nomen: my."
+      },
+      {
+        "q": "Sarah loves ___ job. (she)",
+        "opts": [
+          "his",
+          "her",
+          "hers",
+          "she"
+        ],
+        "a": 1,
+        "why": "Besitzerin Sarah -> her."
+      },
+      {
+        "q": "That bag is not yours. It is ___.",
+        "opts": [
+          "my",
+          "me",
+          "mine",
+          "I"
+        ],
+        "a": 2,
+        "why": "Ohne Nomen: mine."
+      },
+      {
+        "q": "We love ___ house. (we)",
+        "opts": [
+          "we",
+          "us",
+          "our",
+          "ours"
+        ],
+        "a": 2,
+        "why": "Vor Nomen: our."
+      },
+      {
+        "q": "___ car is red. (Tom)",
+        "opts": [
+          "Tom",
+          "Toms'",
+          "Tom's",
+          "Toms"
+        ],
+        "a": 2,
+        "why": "Besitz bei Personen: Tom's."
+      },
+      {
+        "q": "The dog wags ___ tail. (it)",
+        "opts": [
+          "it's",
+          "its",
+          "their",
+          "it"
+        ],
+        "a": 1,
+        "why": "its (ohne Apostroph) = sein/ihr bei Dingen."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "This is the Anna book.",
+          "This is Anna's book.",
+          "This is Annas book.",
+          "This is Anna book."
+        ],
+        "a": 1,
+        "why": "Besitz: Anna's book."
+      },
+      {
+        "q": "These keys are ___. (they)",
+        "opts": [
+          "their",
+          "theirs",
+          "them",
+          "they"
+        ],
+        "a": 1,
+        "why": "Ohne Nomen: theirs."
+      },
+      {
+        "q": "He is with ___ wife. (he)",
+        "opts": [
+          "her",
+          "his",
+          "him",
+          "he"
+        ],
+        "a": 1,
+        "why": "Besitzer ist er: his wife."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "The parents house of me is big.",
+          "My parents' house is big.",
+          "My parent's house are big.",
+          "My parents house is big."
+        ],
+        "a": 1,
+        "why": "Plural mit s: parents' house."
+      },
+      {
+        "q": "Is this pen yours or ___?",
+        "opts": [
+          "my",
+          "me",
+          "mine",
+          "I"
+        ],
+        "a": 2,
+        "why": "Gegenüber von yours: mine."
+      },
+      {
+        "q": "I forgot ___ keys. (I)",
+        "opts": [
+          "me",
+          "mine",
+          "my",
+          "myself"
+        ],
+        "a": 2,
+        "why": "Vor Nomen: my keys."
+      }
+    ]
+  },
+  {
+    "id": "g_there_is_are",
+    "lvl": 1,
+    "title": "There is / There are",
+    "tip": "Mit 'there is' (Einzahl) und 'there are' (Mehrzahl) sagst du, dass etwas existiert: 'es gibt'.\nDeutsche Falle: 'Es gibt' heißt nicht 'it gives'. Sag: There is a park near here.\nVerneinung: There isn't / There aren't. Frage: Is there ...? Are there ...?\nBeispiele: There is a café on the corner. (Da ist ein Café an der Ecke.)\nThere are two bedrooms. (Es gibt zwei Schlafzimmer.)\nIs there a bank near here? (Gibt es hier eine Bank in der Nähe?)",
+    "items": [
+      {
+        "q": "There ___ a cat on the sofa.",
+        "opts": [
+          "are",
+          "is",
+          "have",
+          "gives"
+        ],
+        "a": 1,
+        "why": "Einzahl: There is."
+      },
+      {
+        "q": "There ___ three students in the room.",
+        "opts": [
+          "is",
+          "are",
+          "have",
+          "be"
+        ],
+        "a": 1,
+        "why": "Mehrzahl: There are."
+      },
+      {
+        "q": "___ there a supermarket near here?",
+        "opts": [
+          "Are",
+          "Is",
+          "Does",
+          "Do"
+        ],
+        "a": 1,
+        "why": "Einzahl: Is there ...?"
+      },
+      {
+        "q": "___ there any questions?",
+        "opts": [
+          "Is",
+          "Are",
+          "Do",
+          "Does"
+        ],
+        "a": 1,
+        "why": "questions = Mehrzahl: Are there ...?"
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "It gives a bank here.",
+          "There is a bank here.",
+          "There have a bank here.",
+          "Is a bank here."
+        ],
+        "a": 1,
+        "why": "'Es gibt' = There is."
+      },
+      {
+        "q": "There ___ any milk left.",
+        "opts": [
+          "aren't",
+          "isn't",
+          "doesn't",
+          "don't"
+        ],
+        "a": 1,
+        "why": "milk ist unzählbar: isn't."
+      },
+      {
+        "q": "There ___ many people at the party last night.",
+        "opts": [
+          "was",
+          "were",
+          "is",
+          "be"
+        ],
+        "a": 1,
+        "why": "Vergangenheit, Mehrzahl: were."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "There are a lot of cars.",
+          "There is a lot of cars.",
+          "There has a lot of cars.",
+          "Are a lot of cars."
+        ],
+        "a": 0,
+        "why": "cars = Mehrzahl: There are."
+      },
+      {
+        "q": "There ___ some water in the bottle.",
+        "opts": [
+          "is",
+          "are",
+          "have",
+          "do"
+        ],
+        "a": 0,
+        "why": "water unzählbar: There is."
+      },
+      {
+        "q": "There ___ two beds in this room.",
+        "opts": [
+          "is",
+          "are",
+          "has",
+          "does"
+        ],
+        "a": 1,
+        "why": "Mehrzahl: are."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Is there a good restaurant here?",
+          "Are there a good restaurant here?",
+          "Does there a good restaurant here?",
+          "There a good restaurant is here?"
+        ],
+        "a": 0,
+        "why": "Einzahl-Frage: Is there ...?"
+      },
+      {
+        "q": "There ___ a problem with my phone.",
+        "opts": [
+          "are",
+          "is",
+          "have",
+          "has"
+        ],
+        "a": 1,
+        "why": "a problem = Einzahl: is."
+      }
+    ]
+  },
+  {
+    "id": "g_countable",
+    "lvl": 1,
+    "title": "Zählbar / unzählbar (some, any, much, many)",
+    "tip": "Zählbare Dinge kannst du zählen: one apple, two apples. Unzählbare nicht: water, money, time.\nsome nutzt du in Aussagen, any in Fragen und Verneinungen: I have some water. Do you have any water?\nmany steht bei zählbaren (how many apples), much bei unzählbaren (how much water).\nDeutsche Falle: information, advice und news sind unzählbar: some information, nicht 'an information'.\nBeispiele: I don't have much time. (Ich habe nicht viel Zeit.)\nHow many people are there? (Wie viele Leute sind da?)\nWe need some bread. (Wir brauchen etwas Brot.)",
+    "items": [
+      {
+        "q": "I need ___ water.",
+        "opts": [
+          "some",
+          "many",
+          "a",
+          "two"
+        ],
+        "a": 0,
+        "why": "Aussage, unzählbar: some."
+      },
+      {
+        "q": "Do you have ___ brothers?",
+        "opts": [
+          "some",
+          "any",
+          "much",
+          "a"
+        ],
+        "a": 1,
+        "why": "Frage, Mehrzahl: any."
+      },
+      {
+        "q": "How ___ money do you have?",
+        "opts": [
+          "many",
+          "much",
+          "some",
+          "a"
+        ],
+        "a": 1,
+        "why": "money unzählbar: much."
+      },
+      {
+        "q": "How ___ people are there?",
+        "opts": [
+          "much",
+          "many",
+          "any",
+          "a"
+        ],
+        "a": 1,
+        "why": "people zählbar: many."
+      },
+      {
+        "q": "I don't have ___ time.",
+        "opts": [
+          "some",
+          "many",
+          "any",
+          "a"
+        ],
+        "a": 2,
+        "why": "Verneinung: any."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I need an information.",
+          "I need some informations.",
+          "I need some information.",
+          "I need a informations."
+        ],
+        "a": 2,
+        "why": "information ist unzählbar: some information."
+      },
+      {
+        "q": "She has ___ friends in Berlin.",
+        "opts": [
+          "much",
+          "a lot of",
+          "any",
+          "a"
+        ],
+        "a": 1,
+        "why": "a lot of geht bei beidem."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "We have not much apples.",
+          "We do not have many apples.",
+          "We do not have much apples.",
+          "We have not many apple."
+        ],
+        "a": 1,
+        "why": "apples zählbar: many."
+      },
+      {
+        "q": "Would you like ___ coffee?",
+        "opts": [
+          "some",
+          "any",
+          "many",
+          "a few"
+        ],
+        "a": 0,
+        "why": "Angebot: some."
+      },
+      {
+        "q": "There isn't ___ milk left.",
+        "opts": [
+          "some",
+          "any",
+          "many",
+          "a"
+        ],
+        "a": 1,
+        "why": "Verneinung: any."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Can you give me some advices?",
+          "Can you give me an advice?",
+          "Can you give me some advice?",
+          "Can you give me advices?"
+        ],
+        "a": 2,
+        "why": "advice ist unzählbar: some advice."
+      },
+      {
+        "q": "I have only ___ euros in my pocket.",
+        "opts": [
+          "a little",
+          "a few",
+          "much",
+          "any"
+        ],
+        "a": 1,
+        "why": "euros zählbar: a few."
+      }
+    ]
+  },
+  {
+    "id": "g_prepositions",
+    "lvl": 2,
+    "title": "Präpositionen (Zeit und Ort)",
+    "tip": "Zeit: at bei Uhrzeiten (at 5 pm), on bei Tagen und Datum (on Monday, on May 5), in bei Monaten, Jahren, Tageszeiten (in July, in 2024, in the morning).\nOrt: at bei Punkten (at the station), in bei Räumen/Städten (in Berlin), on bei Flächen (on the table).\nDeutsche Falle: 'im Winter' = in winter, 'am Wochenende' = on the weekend (US), at the weekend (UK).\nBeispiele: See you at 8. (Bis 8 Uhr.)\nI was born in 1995. (Ich wurde 1995 geboren.)\nThe keys are on the table. (Die Schlüssel liegen auf dem Tisch.)",
+    "items": [
+      {
+        "q": "The meeting is ___ 9 o'clock.",
+        "opts": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "a": 2,
+        "why": "Uhrzeit: at."
+      },
+      {
+        "q": "My birthday is ___ June.",
+        "opts": [
+          "at",
+          "on",
+          "in",
+          "of"
+        ],
+        "a": 2,
+        "why": "Monat: in."
+      },
+      {
+        "q": "We have class ___ Monday.",
+        "opts": [
+          "in",
+          "at",
+          "on",
+          "by"
+        ],
+        "a": 2,
+        "why": "Wochentag: on."
+      },
+      {
+        "q": "She lives ___ London.",
+        "opts": [
+          "at",
+          "on",
+          "in",
+          "to"
+        ],
+        "a": 2,
+        "why": "Stadt: in."
+      },
+      {
+        "q": "The book is ___ the table.",
+        "opts": [
+          "in",
+          "at",
+          "on",
+          "under"
+        ],
+        "a": 2,
+        "why": "Auf einer Fläche: on."
+      },
+      {
+        "q": "I wake up ___ the morning.",
+        "opts": [
+          "at",
+          "on",
+          "in",
+          "by"
+        ],
+        "a": 2,
+        "why": "Tageszeit: in the morning."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I am at home on 7 pm.",
+          "I am at home at 7 pm.",
+          "I am at home in 7 pm.",
+          "I am home in 7 pm."
+        ],
+        "a": 1,
+        "why": "Uhrzeit: at 7 pm."
+      },
+      {
+        "q": "He was born ___ 1990.",
+        "opts": [
+          "at",
+          "on",
+          "in",
+          "of"
+        ],
+        "a": 2,
+        "why": "Jahr: in."
+      },
+      {
+        "q": "Wait for me ___ the bus stop.",
+        "opts": [
+          "at",
+          "on",
+          "to",
+          "of"
+        ],
+        "a": 0,
+        "why": "Punkt/Haltestelle: at."
+      },
+      {
+        "q": "We go skiing ___ winter.",
+        "opts": [
+          "on",
+          "at",
+          "in",
+          "by"
+        ],
+        "a": 2,
+        "why": "Jahreszeit: in winter."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I will see you at Friday.",
+          "I will see you in Friday.",
+          "I will see you on Friday.",
+          "I will see you Friday on."
+        ],
+        "a": 2,
+        "why": "Wochentag: on Friday."
+      },
+      {
+        "q": "She is ___ work until 6.",
+        "opts": [
+          "at",
+          "on",
+          "of",
+          "to"
+        ],
+        "a": 0,
+        "why": "at work (feste Wendung)."
+      }
+    ]
+  },
+  {
+    "id": "g_past_simple",
+    "lvl": 1,
+    "title": "Past Simple (regelmäßig und unregelmäßig)",
+    "tip": "Past Simple nutzt du für abgeschlossene Handlungen in der Vergangenheit: yesterday, last week, in 2020.\nRegelmäßig: Verb + -ed (work -> worked). Unregelmäßig musst du lernen: go -> went, see -> saw, have -> had.\nFragen und Verneinung mit did: Did you go? I didn't go. Danach steht die Grundform!\nDeutsche Falle: Im Deutschen sagt man oft 'Ich bin gegangen' (Perfekt), im Englischen reicht I went.\nBeispiele: I watched a movie last night. (Ich habe gestern Abend einen Film gesehen.)\nShe went to Paris in May. (Sie war im Mai in Paris.)\nDid you call him? (Hast du ihn angerufen?)",
+    "items": [
+      {
+        "q": "I ___ a movie last night.",
+        "opts": [
+          "watch",
+          "watched",
+          "watching",
+          "watches"
+        ],
+        "a": 1,
+        "why": "Regelmäßig + -ed: watched."
+      },
+      {
+        "q": "She ___ to Spain last summer.",
+        "opts": [
+          "goed",
+          "went",
+          "gone",
+          "go"
+        ],
+        "a": 1,
+        "why": "go -> went."
+      },
+      {
+        "q": "___ you see the game yesterday?",
+        "opts": [
+          "Do",
+          "Did",
+          "Were",
+          "Have"
+        ],
+        "a": 1,
+        "why": "Frage Vergangenheit: Did you ...?"
+      },
+      {
+        "q": "He did not ___ the answer.",
+        "opts": [
+          "knew",
+          "know",
+          "known",
+          "knows"
+        ],
+        "a": 1,
+        "why": "Nach did not: Grundform know."
+      },
+      {
+        "q": "We ___ a great time in Rome.",
+        "opts": [
+          "have",
+          "has",
+          "had",
+          "haved"
+        ],
+        "a": 2,
+        "why": "have -> had."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I buyed a new phone.",
+          "I bought a new phone.",
+          "I did bought a new phone.",
+          "I buy a new phone yesterday."
+        ],
+        "a": 1,
+        "why": "buy -> bought."
+      },
+      {
+        "q": "They ___ home at midnight.",
+        "opts": [
+          "arrive",
+          "arrived",
+          "arriving",
+          "did arrived"
+        ],
+        "a": 1,
+        "why": "arrive + d: arrived."
+      },
+      {
+        "q": "What time ___ you get up today?",
+        "opts": [
+          "do",
+          "did",
+          "were",
+          "are"
+        ],
+        "a": 1,
+        "why": "Frage im Past Simple: did."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "She didn't went to school.",
+          "She didn't go to school.",
+          "She not went to school.",
+          "She wasn't go to school."
+        ],
+        "a": 1,
+        "why": "didn't + Grundform: go."
+      },
+      {
+        "q": "I ___ him at the party on Friday.",
+        "opts": [
+          "see",
+          "seen",
+          "saw",
+          "seed"
+        ],
+        "a": 2,
+        "why": "see -> saw."
+      },
+      {
+        "q": "The film ___ at 8 and ended at 10.",
+        "opts": [
+          "start",
+          "starts",
+          "started",
+          "did start"
+        ],
+        "a": 2,
+        "why": "Regelmäßig: started."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I have eaten pizza yesterday.",
+          "I ate pizza yesterday.",
+          "I eat pizza yesterday.",
+          "I did ate pizza yesterday."
+        ],
+        "a": 1,
+        "why": "Mit yesterday: Past Simple ate."
+      }
+    ]
+  },
+  {
+    "id": "g_questions",
+    "lvl": 2,
+    "title": "Fragewörter und Wortstellung",
+    "tip": "Fragewörter: what, where, when, who, why, how, which.\nStruktur: Fragewort + Hilfsverb + Subjekt + Verb: Where do you live?\nDeutsche Falle: Im Deutschen sagt man 'Wohnst du hier?', im Englischen braucht es do/does: Do you live here?\nBei 'who/what' als Subjekt kein do: Who called you? (nicht: Who did call you?)\nBeispiele: What do you do? (Was machst du beruflich?)\nWhy are you late? (Warum bist du spät?)\nHow often do you go to the gym? (Wie oft gehst du ins Fitnessstudio?)",
+    "items": [
+      {
+        "q": "___ do you live?",
+        "opts": [
+          "What",
+          "Where",
+          "Who",
+          "Why"
+        ],
+        "a": 1,
+        "why": "Nach dem Ort fragt man mit Where."
+      },
+      {
+        "q": "___ is your birthday?",
+        "opts": [
+          "When",
+          "Where",
+          "Who",
+          "Which"
+        ],
+        "a": 0,
+        "why": "Nach dem Zeitpunkt: When."
+      },
+      {
+        "q": "___ is that man?",
+        "opts": [
+          "What",
+          "When",
+          "Who",
+          "How"
+        ],
+        "a": 2,
+        "why": "Nach einer Person: Who."
+      },
+      {
+        "q": "How ___ do you go to the gym?",
+        "opts": [
+          "much",
+          "often",
+          "long time",
+          "many"
+        ],
+        "a": 1,
+        "why": "Häufigkeit: How often."
+      },
+      {
+        "q": "What ___ you do on weekends?",
+        "opts": [
+          "are",
+          "do",
+          "does",
+          "is"
+        ],
+        "a": 1,
+        "why": "you + do: What do you do?"
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Where you live?",
+          "Where do you live?",
+          "Where live you?",
+          "Where you do live?"
+        ],
+        "a": 1,
+        "why": "Fragewort + do + Subjekt + Verb."
+      },
+      {
+        "q": "___ does she work?",
+        "opts": [
+          "What time",
+          "Which time",
+          "How long time",
+          "Who"
+        ],
+        "a": 0,
+        "why": "Uhrzeit erfragen: What time ...?"
+      },
+      {
+        "q": "Why ___ you so late?",
+        "opts": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "a": 2,
+        "why": "Mit to be: Why are you ...?"
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Who did called you?",
+          "Who called you?",
+          "Who calls did you?",
+          "Who you called?"
+        ],
+        "a": 1,
+        "why": "Who als Subjekt: kein did."
+      },
+      {
+        "q": "___ is your name?",
+        "opts": [
+          "Who",
+          "How",
+          "What",
+          "Where"
+        ],
+        "a": 2,
+        "why": "Name: What is your name?"
+      },
+      {
+        "q": "How ___ is this jacket?",
+        "opts": [
+          "much",
+          "many",
+          "often",
+          "soon"
+        ],
+        "a": 0,
+        "why": "Preis: How much ...?"
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Does he plays football?",
+          "Does he play football?",
+          "Do he play football?",
+          "Does he football play?"
+        ],
+        "a": 1,
+        "why": "Does + he + Grundform."
+      }
+    ]
+  },
+  {
+    "id": "g_comparatives",
+    "lvl": 2,
+    "title": "Vergleiche (-er, -est, more)",
+    "tip": "Kurze Adjektive: -er / -est (cheap, cheaper, the cheapest). Lange Adjektive: more / the most (more expensive, the most expensive).\nUnregelmäßig: good, better, best; bad, worse, worst.\nNach dem Komparativ steht than (nicht 'als' oder 'as'): taller than me.\nDeutsche Falle: 'so groß wie' = as tall as. 'größer als' = taller than.\nBeispiele: This phone is cheaper than that one. (Dieses Handy ist günstiger als jenes.)\nShe is the best player. (Sie ist die beste Spielerin.)\nHe is as tall as me. (Er ist so groß wie ich.)",
+    "items": [
+      {
+        "q": "My car is ___ than yours.",
+        "opts": [
+          "fast",
+          "faster",
+          "fastest",
+          "more fast"
+        ],
+        "a": 1,
+        "why": "Kurzes Adjektiv: faster."
+      },
+      {
+        "q": "This is the ___ restaurant in town.",
+        "opts": [
+          "good",
+          "better",
+          "best",
+          "most good"
+        ],
+        "a": 2,
+        "why": "good -> best (unregelmäßig)."
+      },
+      {
+        "q": "This book is ___ than that one.",
+        "opts": [
+          "interesting",
+          "more interesting",
+          "most interesting",
+          "interestinger"
+        ],
+        "a": 1,
+        "why": "Langes Adjektiv: more interesting."
+      },
+      {
+        "q": "She is taller ___ me.",
+        "opts": [
+          "as",
+          "than",
+          "that",
+          "then"
+        ],
+        "a": 1,
+        "why": "Nach Komparativ: than."
+      },
+      {
+        "q": "He is as old ___ my brother.",
+        "opts": [
+          "than",
+          "as",
+          "like",
+          "that"
+        ],
+        "a": 1,
+        "why": "so alt wie: as ... as."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Today is more hot than yesterday.",
+          "Today is hotter than yesterday.",
+          "Today is hoter than yesterday.",
+          "Today is hottest than yesterday."
+        ],
+        "a": 1,
+        "why": "hot -> hotter (t wird verdoppelt)."
+      },
+      {
+        "q": "This is the ___ day of my life!",
+        "opts": [
+          "happy",
+          "happier",
+          "happiest",
+          "most happy"
+        ],
+        "a": 2,
+        "why": "happy -> the happiest."
+      },
+      {
+        "q": "The weather today is ___ than last week.",
+        "opts": [
+          "bad",
+          "worse",
+          "worst",
+          "badder"
+        ],
+        "a": 1,
+        "why": "bad -> worse."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Berlin is bigger as Munich.",
+          "Berlin is more big than Munich.",
+          "Berlin is bigger than Munich.",
+          "Berlin is biggest than Munich."
+        ],
+        "a": 2,
+        "why": "Kurzes Adjektiv + than: bigger than."
+      },
+      {
+        "q": "Which is ___ expensive, the red or the blue one?",
+        "opts": [
+          "more",
+          "most",
+          "the most",
+          "much"
+        ],
+        "a": 0,
+        "why": "Vergleich zweier Dinge: more expensive."
+      },
+      {
+        "q": "She is the ___ person I know.",
+        "opts": [
+          "kind",
+          "kinder",
+          "kindest",
+          "most kinder"
+        ],
+        "a": 2,
+        "why": "Superlativ kurz: the kindest."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Tom is not as tall like Jim.",
+          "Tom is not as tall as Jim.",
+          "Tom is not so tall than Jim.",
+          "Tom is no as tall as Jim."
+        ],
+        "a": 1,
+        "why": "not as ... as."
+      }
+    ]
+  },
+  {
+    "id": "g_future",
+    "lvl": 2,
+    "title": "Zukunft (going to / will)",
+    "tip": "going to nutzt du für Pläne und Dinge, die man schon sieht: I'm going to visit my aunt.\nwill nutzt du für spontane Entscheidungen, Versprechen, Vorhersagen: I'll help you.\nDeutsche Falle: Im Deutschen sagt man oft Präsens ('Ich rufe dich morgen an'). Im Englischen brauchst du will/going to: I will call you tomorrow.\nBeispiele: We're going to move next year. (Wir ziehen nächstes Jahr um.)\nI'll carry your bag. (Ich trage deine Tasche.)\nIt's going to rain. (Es wird gleich regnen.)",
+    "items": [
+      {
+        "q": "Look at those clouds! It ___ rain.",
+        "opts": [
+          "would",
+          "is going to",
+          "goes to",
+          "is going"
+        ],
+        "a": 1,
+        "why": "Sichtbares Zeichen: is going to."
+      },
+      {
+        "q": "I ___ visit my grandma this weekend. (plan)",
+        "opts": [
+          "would",
+          "am going to",
+          "go to",
+          "am go to"
+        ],
+        "a": 1,
+        "why": "Plan: am going to."
+      },
+      {
+        "q": "The phone is ringing. I ___ get it.",
+        "opts": [
+          "am going to",
+          "will",
+          "go to",
+          "am"
+        ],
+        "a": 1,
+        "why": "Spontan: I'll get it."
+      },
+      {
+        "q": "Tonight I ___ stay home and watch a movie. (plan)",
+        "opts": [
+          "going to",
+          "am going to",
+          "will to",
+          "am go to"
+        ],
+        "a": 1,
+        "why": "Plan: I am going to + Grundform."
+      },
+      {
+        "q": "I think it ___ be a great party.",
+        "opts": [
+          "is going",
+          "will",
+          "goes",
+          "does"
+        ],
+        "a": 1,
+        "why": "Vorhersage/Meinung: will."
+      },
+      {
+        "q": "They ___ buy a new car next year.",
+        "opts": [
+          "going to",
+          "are going to",
+          "will to",
+          "is going to"
+        ],
+        "a": 1,
+        "why": "they + are going to."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I will to call you later.",
+          "I will call you later.",
+          "I will calling you later.",
+          "I am will call you later."
+        ],
+        "a": 1,
+        "why": "will + Grundform ohne to."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "He isn't going to come.",
+          "He doesn't going to come.",
+          "He not going to come.",
+          "He isn't go to come."
+        ],
+        "a": 0,
+        "why": "Verneinung: isn't going to."
+      },
+      {
+        "q": "___ you going to study tonight?",
+        "opts": [
+          "Do",
+          "Are",
+          "Will",
+          "Is"
+        ],
+        "a": 1,
+        "why": "Frage: Are you going to ...?"
+      },
+      {
+        "q": "Don't worry. I ___ help you.",
+        "opts": [
+          "am going",
+          "will",
+          "do",
+          "go to"
+        ],
+        "a": 1,
+        "why": "Versprechen: will."
+      },
+      {
+        "q": "We ___ to the beach tomorrow if it is sunny.",
+        "opts": [
+          "will go",
+          "went",
+          "are gone",
+          "going"
+        ],
+        "a": 0,
+        "why": "Zukunft: will go."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I call you tomorrow.",
+          "I will call you tomorrow.",
+          "I will to call you tomorrow.",
+          "I calling you tomorrow."
+        ],
+        "a": 1,
+        "why": "Zukunft braucht will."
+      }
+    ]
+  },
+  {
+    "id": "g_modals",
+    "lvl": 2,
+    "title": "Modalverben (can, could, must, should)",
+    "tip": "can = können, could = konnte/könnte, must = müssen, should = sollten, may/might = vielleicht.\nNach Modalverben steht die Grundform ohne to und ohne -s: She can swim.\nDeutsche Falle: mustn't heißt 'darf nicht', nicht 'muss nicht'. 'Muss nicht' = don't have to.\nFragen ohne do: Can you help me? (nicht: Do you can help me?)\nBeispiele: Can I open the window? (Darf ich das Fenster öffnen?)\nYou should see a doctor. (Du solltest zum Arzt gehen.)\nYou mustn't park here. (Hier darfst du nicht parken.)",
+    "items": [
+      {
+        "q": "She ___ speak three languages.",
+        "opts": [
+          "can",
+          "cans",
+          "can to",
+          "is can"
+        ],
+        "a": 0,
+        "why": "Modalverb ohne -s: can."
+      },
+      {
+        "q": "___ you help me, please?",
+        "opts": [
+          "Do",
+          "Can",
+          "Are",
+          "Does"
+        ],
+        "a": 1,
+        "why": "Bitte: Can you ...?"
+      },
+      {
+        "q": "You ___ see a doctor. You look sick.",
+        "opts": [
+          "should",
+          "must to",
+          "shoulds",
+          "are should"
+        ],
+        "a": 0,
+        "why": "Rat: should."
+      },
+      {
+        "q": "You ___ park here. It is forbidden.",
+        "opts": [
+          "don't have to",
+          "mustn't",
+          "shouldn't to",
+          "can to"
+        ],
+        "a": 1,
+        "why": "mustn't = darf nicht (Verbot)."
+      },
+      {
+        "q": "You ___ come tomorrow. It is optional.",
+        "opts": [
+          "mustn't",
+          "don't have to",
+          "can't",
+          "shouldn't"
+        ],
+        "a": 1,
+        "why": "don't have to = muss nicht."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "He can to swim.",
+          "He cans swim.",
+          "He can swim.",
+          "He is can swim."
+        ],
+        "a": 2,
+        "why": "can + Grundform ohne to."
+      },
+      {
+        "q": "When I was a kid, I ___ swim.",
+        "opts": [
+          "can",
+          "could",
+          "able",
+          "am able"
+        ],
+        "a": 1,
+        "why": "Vergangenheit: could."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Do you can speak English?",
+          "Can you speak English?",
+          "You can speaking English?",
+          "Can you to speak English?"
+        ],
+        "a": 1,
+        "why": "Frage mit can: Can you ...?"
+      },
+      {
+        "q": "I'm not sure. It ___ be true.",
+        "opts": [
+          "might",
+          "must to",
+          "do",
+          "will to"
+        ],
+        "a": 0,
+        "why": "Vielleicht: might."
+      },
+      {
+        "q": "We ___ finish this today. The boss wants it.",
+        "opts": [
+          "must",
+          "can to",
+          "might to",
+          "mustn't"
+        ],
+        "a": 0,
+        "why": "Pflicht: must."
+      },
+      {
+        "q": "___ I borrow your pen?",
+        "opts": [
+          "Can",
+          "Do",
+          "Am",
+          "Will to"
+        ],
+        "a": 0,
+        "why": "Erlaubnis: Can I ...?"
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "You shouldn't to eat so much.",
+          "You shouldn't eat so much.",
+          "You don't should eat so much.",
+          "You not should eat so much."
+        ],
+        "a": 1,
+        "why": "shouldn't + Grundform."
+      }
+    ]
+  },
+  {
+    "id": "g_present_perfect",
+    "lvl": 2,
+    "title": "Present Perfect (Grundlagen)",
+    "tip": "Present Perfect = have/has + Partizip (done, seen, been). Du nutzt es für Erfahrungen und Ergebnisse mit Bezug zur Gegenwart.\nDeutsche Falle: Das deutsche Perfekt ('Ich habe gestern gearbeitet') ist im Englischen Past Simple, sobald eine Zeit wie yesterday dabei steht: I worked yesterday.\nSeit/für: since + Zeitpunkt, for + Dauer: I have lived here for 5 years.\nBeispiele: I have seen that movie. (Ich habe den Film gesehen.)\nHave you ever been to London? (Warst du schon mal in London?)\nShe has lost her keys. (Sie hat ihre Schlüssel verloren.)",
+    "items": [
+      {
+        "q": "I ___ never been to Japan.",
+        "opts": [
+          "have",
+          "has",
+          "am",
+          "did"
+        ],
+        "a": 0,
+        "why": "I + have + Partizip."
+      },
+      {
+        "q": "She ___ lost her keys.",
+        "opts": [
+          "have",
+          "has",
+          "is",
+          "did"
+        ],
+        "a": 1,
+        "why": "she + has."
+      },
+      {
+        "q": "___ you ever eaten sushi?",
+        "opts": [
+          "Did",
+          "Have",
+          "Do",
+          "Are"
+        ],
+        "a": 1,
+        "why": "Erfahrung: Have you ever ...?"
+      },
+      {
+        "q": "I have ___ here since 2020.",
+        "opts": [
+          "live",
+          "lived",
+          "living",
+          "lives"
+        ],
+        "a": 1,
+        "why": "Partizip: lived."
+      },
+      {
+        "q": "We have known each other ___ ten years.",
+        "opts": [
+          "since",
+          "for",
+          "from",
+          "during"
+        ],
+        "a": 1,
+        "why": "Dauer: for."
+      },
+      {
+        "q": "They have lived here ___ 2019.",
+        "opts": [
+          "for",
+          "since",
+          "during",
+          "from"
+        ],
+        "a": 1,
+        "why": "Zeitpunkt: since."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I have seen him yesterday.",
+          "I saw him yesterday.",
+          "I have saw him yesterday.",
+          "I did see him yesterday ago."
+        ],
+        "a": 1,
+        "why": "Mit yesterday: Past Simple."
+      },
+      {
+        "q": "He has ___ his homework already.",
+        "opts": [
+          "do",
+          "did",
+          "done",
+          "doing"
+        ],
+        "a": 2,
+        "why": "do -> done (Partizip)."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Have you ever be to Paris?",
+          "Have you ever been to Paris?",
+          "Did you ever been to Paris?",
+          "Are you ever been to Paris?"
+        ],
+        "a": 1,
+        "why": "be -> been."
+      },
+      {
+        "q": "I ___ not finished my work yet.",
+        "opts": [
+          "has",
+          "have",
+          "am",
+          "did"
+        ],
+        "a": 1,
+        "why": "Verneinung: have not."
+      },
+      {
+        "q": "She has ___ three emails today.",
+        "opts": [
+          "write",
+          "wrote",
+          "written",
+          "writing"
+        ],
+        "a": 2,
+        "why": "write -> written."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I am living here since two years.",
+          "I live here since two years.",
+          "I have lived here for two years.",
+          "I have lived here since two years."
+        ],
+        "a": 2,
+        "why": "for + Dauer: for two years."
+      }
+    ]
+  },
+  {
+    "id": "g_present_perfect_vs_past",
+    "lvl": 3,
+    "title": "Present Perfect vs Past Simple",
+    "tip": "Present Perfect (have/has + 3. Form) nutzt du, wenn die Vergangenheit für jetzt wichtig ist oder die Zeit offen ist: Erfahrungen, Ergebnisse, \"schon/noch nicht\". Past Simple nutzt du für abgeschlossene Zeitpunkte (yesterday, in 2019, ago).\nTypischer Fehler: \"I have seen him yesterday\" – mit genauer Zeitangabe ist nur Past Simple möglich. Auch: \"I live here since 2020\" ist falsch, richtig: \"I have lived here since 2020\".\nBeispiele:\nI have never been to Spain. = Ich war noch nie in Spanien.\nI went to Spain last summer. = Ich war letzten Sommer in Spanien.\nShe has lost her keys. = Sie hat ihre Schlüssel verloren (und sie sind weg).",
+    "items": [
+      {
+        "q": "I ___ to London three times so far.",
+        "opts": [
+          "went",
+          "have been",
+          "was",
+          "am being"
+        ],
+        "a": 1,
+        "why": "Erfahrung bis jetzt (\"so far\") = Present Perfect."
+      },
+      {
+        "q": "We ___ the movie last night.",
+        "opts": [
+          "watched",
+          "have watched",
+          "had watched",
+          "watch"
+        ],
+        "a": 0,
+        "why": "\"last night\" ist ein abgeschlossener Zeitpunkt = Past Simple."
+      },
+      {
+        "q": "She ___ here since 2021.",
+        "opts": [
+          "works",
+          "worked",
+          "is working",
+          "has worked"
+        ],
+        "a": 3,
+        "why": "\"since\" mit Beginn in der Vergangenheit, noch aktuell = Present Perfect."
+      },
+      {
+        "q": "___ you ever eaten sushi?",
+        "opts": [
+          "Did",
+          "Do",
+          "Have",
+          "Are"
+        ],
+        "a": 2,
+        "why": "\"ever\" fragt nach Lebenserfahrung = Present Perfect."
+      },
+      {
+        "q": "I ___ my phone yesterday, but I found it this morning.",
+        "opts": [
+          "have lost",
+          "lost",
+          "has lost",
+          "am losing"
+        ],
+        "a": 1,
+        "why": "\"yesterday\" verlangt Past Simple."
+      },
+      {
+        "q": "He ___ just ___ home.",
+        "opts": [
+          "has / left",
+          "did / leave",
+          "had / left",
+          "is / leaving"
+        ],
+        "a": 0,
+        "why": "\"just\" mit aktuellem Bezug = Present Perfect."
+      },
+      {
+        "q": "When ___ you move to Berlin?",
+        "opts": [
+          "have",
+          "do",
+          "were",
+          "did"
+        ],
+        "a": 3,
+        "why": "Frage nach dem Zeitpunkt (\"When\") = Past Simple."
+      },
+      {
+        "q": "They ___ married for ten years.",
+        "opts": [
+          "were",
+          "are being",
+          "have been",
+          "had"
+        ],
+        "a": 2,
+        "why": "Zustand dauert bis heute an = Present Perfect."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I live here since 2020.",
+          "I have lived here since 2020.",
+          "I am living here since 2020.",
+          "I lived here since 2020."
+        ],
+        "a": 1,
+        "why": "Mit \"since\" und noch andauernd: Present Perfect."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "We saw that film two weeks ago.",
+          "We have seen that film two weeks ago.",
+          "We have saw that film two weeks ago.",
+          "We seen that film two weeks ago."
+        ],
+        "a": 0,
+        "why": "\"ago\" gehört immer zum Past Simple."
+      },
+      {
+        "q": "I ___ my homework yet.",
+        "opts": [
+          "didn't finished",
+          "don't finish",
+          "hadn't finish",
+          "haven't finished"
+        ],
+        "a": 3,
+        "why": "\"yet\" in Verneinung = Present Perfect."
+      },
+      {
+        "q": "Last year, she ___ a new job in Munich.",
+        "opts": [
+          "has got",
+          "had got",
+          "got",
+          "gets"
+        ],
+        "a": 2,
+        "why": "\"Last year\" = abgeschlossene Zeit = Past Simple."
+      }
+    ]
+  },
+  {
+    "id": "g_past_continuous",
+    "lvl": 3,
+    "title": "Past Continuous",
+    "tip": "Past Continuous (was/were + -ing) beschreibt, was zu einem bestimmten Moment in der Vergangenheit gerade ablief – oft als Hintergrund, während etwas anderes (Past Simple) passiert.\nTypischer Fehler: Deutsche nehmen für alles das Past Simple. Dabei zeigt \"I was cooking when you called\" die Handlung im Verlauf, die unterbrochen wurde.\nMit \"while\" steht meist Past Continuous, mit \"when\" für die kurze Unterbrechung Past Simple.\nBeispiele:\nI was sleeping when the phone rang. = Ich schlief, als das Telefon klingelte.\nWhat were you doing at 8? = Was hast du um 8 gemacht?\nThey were talking while I was working. = Sie redeten, während ich arbeitete.",
+    "items": [
+      {
+        "q": "I ___ TV when you called.",
+        "opts": [
+          "watched",
+          "were watching",
+          "have watched",
+          "was watching"
+        ],
+        "a": 3,
+        "why": "Handlung im Verlauf, unterbrochen: was + -ing."
+      },
+      {
+        "q": "They ___ dinner at 7 last night.",
+        "opts": [
+          "was having",
+          "had had",
+          "were having",
+          "have"
+        ],
+        "a": 2,
+        "why": "Mehrzahl \"They\" = were + -ing."
+      },
+      {
+        "q": "While she ___, the lights went out.",
+        "opts": [
+          "read",
+          "was reading",
+          "is reading",
+          "has read"
+        ],
+        "a": 1,
+        "why": "\"while\" + Handlung im Verlauf = Past Continuous."
+      },
+      {
+        "q": "What ___ you doing at midnight?",
+        "opts": [
+          "were",
+          "was",
+          "did",
+          "have"
+        ],
+        "a": 0,
+        "why": "Zu \"you\" gehört im Past Continuous \"were\"."
+      },
+      {
+        "q": "It ___ hard, so we stayed inside.",
+        "opts": [
+          "rained",
+          "were raining",
+          "is raining",
+          "was raining"
+        ],
+        "a": 3,
+        "why": "Hintergrundsituation = was + -ing."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I walked home when it was starting to rain.",
+          "I was walk home when it started to rain.",
+          "I was walking home when it started to rain.",
+          "I am walking home when it started to rain."
+        ],
+        "a": 2,
+        "why": "Verlauf (walking) + kurze Unterbrechung (started)."
+      },
+      {
+        "q": "He ___ his keys while he was running.",
+        "opts": [
+          "was losing",
+          "lost",
+          "were losing",
+          "has lost"
+        ],
+        "a": 1,
+        "why": "Das kurze, einmalige Ereignis steht im Past Simple."
+      },
+      {
+        "q": "We ___ when the teacher came in.",
+        "opts": [
+          "weren't listening",
+          "wasn't listening",
+          "didn't listening",
+          "aren't listening"
+        ],
+        "a": 0,
+        "why": "Verneinung: were not + -ing."
+      },
+      {
+        "q": "At 9 pm yesterday, I ___ a book.",
+        "opts": [
+          "read",
+          "am reading",
+          "had read",
+          "was reading"
+        ],
+        "a": 3,
+        "why": "Bestimmter Moment in der Vergangenheit = Verlauf."
+      },
+      {
+        "q": "___ she sleeping when you got home?",
+        "opts": [
+          "Were",
+          "Did",
+          "Was",
+          "Is"
+        ],
+        "a": 2,
+        "why": "Zu \"she\" gehört \"Was\"."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "While I cooked, he plays guitar.",
+          "While I was cooking, he was playing guitar.",
+          "While I was cook, he was play guitar.",
+          "While I am cooking, he was playing guitar."
+        ],
+        "a": 1,
+        "why": "Zwei parallele Handlungen: beide im Past Continuous."
+      },
+      {
+        "q": "The kids ___ in the garden when the storm began.",
+        "opts": [
+          "were playing",
+          "was playing",
+          "played",
+          "are playing"
+        ],
+        "a": 0,
+        "why": "\"kids\" ist Mehrzahl: were playing."
+      }
+    ]
+  },
+  {
+    "id": "g_present_perfect_continuous",
+    "lvl": 4,
+    "title": "Present Perfect Continuous",
+    "tip": "Form: have/has been + -ing. Du betonst damit die Dauer einer Handlung, die bis jetzt läuft oder gerade erst aufgehört hat und deren Spuren man sieht.\nTypischer Fehler: \"I learn English since two years\" – im Englischen ist das Present Perfect (Continuous) Pflicht: \"I have been learning English for two years.\"\nfor = Zeitspanne, since = Startpunkt. Zustandsverben (know, like) bleiben in der einfachen Form.\nBeispiele:\nI have been waiting for an hour. = Ich warte schon seit einer Stunde.\nShe has been running, so she is tired. = Sie ist gelaufen, deshalb ist sie müde.\nHow long have you been living here? = Wie lange wohnst du schon hier?",
+    "items": [
+      {
+        "q": "I ___ for you for an hour!",
+        "opts": [
+          "am waiting",
+          "have been waiting",
+          "waited",
+          "was waiting"
+        ],
+        "a": 1,
+        "why": "Dauer bis jetzt = have been + -ing."
+      },
+      {
+        "q": "She ___ English since 2022.",
+        "opts": [
+          "has been learning",
+          "is learning",
+          "learns",
+          "learned"
+        ],
+        "a": 0,
+        "why": "\"since\" + andauernde Handlung."
+      },
+      {
+        "q": "How long ___ you ___ here?",
+        "opts": [
+          "do / working",
+          "did / working",
+          "are / worked",
+          "have / been working"
+        ],
+        "a": 3,
+        "why": "Frage nach Dauer bis jetzt."
+      },
+      {
+        "q": "My eyes hurt. I ___ at the screen all day.",
+        "opts": [
+          "stare",
+          "was staring",
+          "have been staring",
+          "am staring"
+        ],
+        "a": 2,
+        "why": "Handlung mit sichtbarem Ergebnis jetzt."
+      },
+      {
+        "q": "It ___ since morning. Everything is wet.",
+        "opts": [
+          "rains",
+          "has been raining",
+          "is raining",
+          "rained"
+        ],
+        "a": 1,
+        "why": "Regen seit dem Morgen, bis jetzt."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "We have been living here for five years.",
+          "We are living here since five years.",
+          "We live here for five years.",
+          "We have been live here for five years."
+        ],
+        "a": 0,
+        "why": "for + Zeitspanne mit have been + -ing."
+      },
+      {
+        "q": "He ___ tired because he ___ all night.",
+        "opts": [
+          "was / is working",
+          "is / works",
+          "has / worked",
+          "is / has been working"
+        ],
+        "a": 3,
+        "why": "Jetziger Zustand durch bisherige Dauerhandlung."
+      },
+      {
+        "q": "I ___ this song for days. I love it!",
+        "opts": [
+          "am listening to",
+          "listen to",
+          "have been listening to",
+          "was listening to"
+        ],
+        "a": 2,
+        "why": "Wiederholt und andauernd bis jetzt."
+      },
+      {
+        "q": "They ___ for two hours, so they are hungry.",
+        "opts": [
+          "are cycling",
+          "have been cycling",
+          "cycled",
+          "were cycling"
+        ],
+        "a": 1,
+        "why": "Dauer + Folge = Present Perfect Continuous."
+      },
+      {
+        "q": "I ___ him for ages (= Zustand).",
+        "opts": [
+          "have known",
+          "have been knowing",
+          "am knowing",
+          "know since"
+        ],
+        "a": 0,
+        "why": "\"know\" ist ein Zustandsverb, kein -ing."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "She is working here since March.",
+          "She works here since March.",
+          "She has been work here since March.",
+          "She has been working here since March."
+        ],
+        "a": 3,
+        "why": "\"since\" verlangt Present Perfect (Continuous)."
+      },
+      {
+        "q": "Why are your hands dirty? ___ you ___ in the garden?",
+        "opts": [
+          "Did / been working",
+          "Are / working",
+          "Have / been working",
+          "Were / work"
+        ],
+        "a": 2,
+        "why": "Spuren jetzt sichtbar: Have you been working?"
+      }
+    ]
+  },
+  {
+    "id": "g_past_perfect",
+    "lvl": 4,
+    "title": "Past Perfect",
+    "tip": "Form: had + 3. Form. Past Perfect zeigt, dass etwas schon vor einem anderen Moment in der Vergangenheit passiert war – die \"Vorvergangenheit\".\nTypischer Fehler: Deutsche lassen es weg, weil man im Deutschen oft einfach Perfekt/Präteritum nimmt. Im Englischen macht es die Reihenfolge klar.\nSignalwörter: before, after, by the time, already, when.\nBeispiele:\nWhen I arrived, the film had already started. = Als ich ankam, hatte der Film schon begonnen.\nShe was sad because she had lost her ring. = Sie war traurig, weil sie ihren Ring verloren hatte.\nI had never seen snow before that trip. = Vor dieser Reise hatte ich nie Schnee gesehen.",
+    "items": [
+      {
+        "q": "When we got to the station, the train ___.",
+        "opts": [
+          "left",
+          "has left",
+          "was leaving",
+          "had left"
+        ],
+        "a": 3,
+        "why": "Zug war schon weg, bevor wir ankamen: Past Perfect."
+      },
+      {
+        "q": "She ___ already eaten when I called.",
+        "opts": [
+          "has",
+          "was",
+          "had",
+          "did"
+        ],
+        "a": 2,
+        "why": "had + eaten = Past Perfect."
+      },
+      {
+        "q": "I was nervous because I ___ never flown before.",
+        "opts": [
+          "have",
+          "had",
+          "was",
+          "did"
+        ],
+        "a": 1,
+        "why": "Erfahrung vor dem Zeitpunkt in der Vergangenheit."
+      },
+      {
+        "q": "After he ___ his homework, he played games.",
+        "opts": [
+          "had finished",
+          "has finished",
+          "finishes",
+          "was finishing"
+        ],
+        "a": 0,
+        "why": "\"After\" + frühere Handlung = Past Perfect."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "By the time I woke up, he has gone.",
+          "By the time I had woke up, he went.",
+          "By the time I woke up, he was go.",
+          "By the time I woke up, he had gone."
+        ],
+        "a": 3,
+        "why": "Wegfahren war vor dem Aufwachen."
+      },
+      {
+        "q": "They ___ the house before it started to rain.",
+        "opts": [
+          "leave",
+          "were leaving",
+          "had left",
+          "have left"
+        ],
+        "a": 2,
+        "why": "Die frühere Handlung steht im Past Perfect."
+      },
+      {
+        "q": "I ___ him before, so I didn't recognize him.",
+        "opts": [
+          "haven't met",
+          "hadn't met",
+          "didn't meet before",
+          "wasn't meeting"
+        ],
+        "a": 1,
+        "why": "Verneinung: hadn't + 3. Form."
+      },
+      {
+        "q": "___ you already seen the film before we went?",
+        "opts": [
+          "Had",
+          "Have",
+          "Did",
+          "Were"
+        ],
+        "a": 0,
+        "why": "Frage im Past Perfect: Had you ...?"
+      },
+      {
+        "q": "She told me she ___ the keys in the car.",
+        "opts": [
+          "leaves",
+          "has left",
+          "was leaving",
+          "had left"
+        ],
+        "a": 3,
+        "why": "Frühere Handlung innerhalb einer Erzählung."
+      },
+      {
+        "q": "He was late because he ___ the bus.",
+        "opts": [
+          "has missed",
+          "misses",
+          "had missed",
+          "was missing"
+        ],
+        "a": 2,
+        "why": "Grund liegt zeitlich vor der Verspätung."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "When I arrived, they already ate.",
+          "When I arrived, they had already eaten.",
+          "When I had arrived, they already eat.",
+          "When I arrived, they have already eaten."
+        ],
+        "a": 1,
+        "why": "Essen war vor meiner Ankunft vorbei."
+      },
+      {
+        "q": "I realized that I ___ my wallet at home.",
+        "opts": [
+          "had forgotten",
+          "forget",
+          "have forgotten",
+          "was forgetting"
+        ],
+        "a": 0,
+        "why": "Vergessen kam vor dem Merken."
+      }
+    ]
+  },
+  {
+    "id": "g_conditionals",
+    "lvl": 4,
+    "title": "Conditionals 0/1/2/3",
+    "tip": "Vier Typen: 0 = allgemeine Wahrheit (If + Present, Present: If you heat ice, it melts.), 1 = mögliche Zukunft (If + Present, will: If it rains, we will stay home.), 2 = unwahrscheinlich in der Gegenwart (If + Past, would: If I had time, I would learn Spanish.), 3 = unerfüllt in der Vergangenheit (If + Past Perfect, would have + 3. Form: If I had known, I would have helped.).\nTypischer Deutsch-Fehler: \"would\" im If-Satz (\"If I would have time...\") und \"will\" im If-Satz (\"If it will rain...\"). Im If-Satz stehen normalerweise nie will/would (Ausnahme: höfliche Bitte, \"If you would wait here...\").\nBei Typ 2 sagt man \"If I were you...\".\nBeispiele:\nIf you mix red and blue, you get purple. = Mischt man Rot und Blau, entsteht Lila.\nIf I won the lottery, I would travel. = Wenn ich im Lotto gewänne, würde ich reisen.\nIf she had left earlier, she wouldn't have missed the train. = Wäre sie früher gegangen, hätte sie den Zug nicht verpasst.",
+    "items": [
+      {
+        "q": "If you heat water to 100 degrees, it ___.",
+        "opts": [
+          "will boil",
+          "boils",
+          "boiled",
+          "would boil"
+        ],
+        "a": 1,
+        "why": "Naturgesetz: Present Simple."
+      },
+      {
+        "q": "If I ___ coffee at night, I can't sleep.",
+        "opts": [
+          "drink",
+          "will drink",
+          "drank",
+          "would drink"
+        ],
+        "a": 0,
+        "why": "Im If-Satz kein will: Present Simple."
+      },
+      {
+        "q": "If it rains, the streets ___ wet.",
+        "opts": [
+          "will got",
+          "would get",
+          "getting",
+          "get"
+        ],
+        "a": 3,
+        "why": "Allgemeine Regel, Present Simple."
+      },
+      {
+        "q": "If it rains tomorrow, we ___ at home.",
+        "opts": [
+          "would stay",
+          "stayed",
+          "stay would",
+          "will stay"
+        ],
+        "a": 3,
+        "why": "Mögliche Zukunft: will im Hauptsatz."
+      },
+      {
+        "q": "If you ___ me, I will help you.",
+        "opts": [
+          "will ask",
+          "asked",
+          "ask",
+          "would ask"
+        ],
+        "a": 2,
+        "why": "Im If-Satz Present Simple, kein will."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "If I will see him, I will tell him.",
+          "If I see him, I will tell him.",
+          "If I saw him, I will tell him.",
+          "If I see him, I would tell him."
+        ],
+        "a": 1,
+        "why": "If + Present Simple, will + Infinitiv."
+      },
+      {
+        "q": "If I ___ more time, I would learn Spanish.",
+        "opts": [
+          "have",
+          "had",
+          "would have",
+          "has"
+        ],
+        "a": 1,
+        "why": "If-Satz: Past Simple, kein would."
+      },
+      {
+        "q": "If I ___ you, I would talk to him.",
+        "opts": [
+          "were",
+          "am",
+          "would be",
+          "will be"
+        ],
+        "a": 0,
+        "why": "\"If I were you\" ist die feste Wendung."
+      },
+      {
+        "q": "She ___ a bigger car if she were rich.",
+        "opts": [
+          "will buy",
+          "bought",
+          "would bought",
+          "would buy"
+        ],
+        "a": 3,
+        "why": "Hauptsatz: would + Infinitiv."
+      },
+      {
+        "q": "If I ___ harder, I would have passed the exam.",
+        "opts": [
+          "studied",
+          "would study",
+          "have studied",
+          "had studied"
+        ],
+        "a": 3,
+        "why": "If-Satz: Past Perfect."
+      },
+      {
+        "q": "She would have come if she ___ about the party.",
+        "opts": [
+          "knew",
+          "would know",
+          "had known",
+          "has known"
+        ],
+        "a": 2,
+        "why": "Past Perfect nach if."
+      },
+      {
+        "q": "If we had left earlier, we ___ the flight.",
+        "opts": [
+          "wouldn't miss",
+          "wouldn't have missed",
+          "didn't miss",
+          "won't have missed"
+        ],
+        "a": 1,
+        "why": "Hauptsatz: would have + 3. Form."
+      }
+    ]
+  },
+  {
+    "id": "g_modals_deduction",
+    "lvl": 4,
+    "title": "Modalverben der Vermutung",
+    "tip": "Mit Modalverben drückst du aus, wie sicher du dir bist. Gegenwart: must be (sicher), might/may/could be (vielleicht), can't be (unmöglich). Vergangenheit: must/might/could/can't + have + 3. Form.\nTypischer Fehler: \"mustn't be\" für \"kann nicht sein\" – richtig ist \"can't be\". \"Mustn't\" bedeutet \"darf nicht\" (Verbot).\nBeispiele:\nHe must be tired. = Er muss müde sein.\nShe can't have left yet. = Sie kann noch nicht gegangen sein.\nThey might have missed the bus. = Sie haben vielleicht den Bus verpasst.",
+    "items": [
+      {
+        "q": "He has worked all day. He ___ be tired.",
+        "opts": [
+          "can't",
+          "must",
+          "mustn't",
+          "shall"
+        ],
+        "a": 1,
+        "why": "Sehr sicher: must be."
+      },
+      {
+        "q": "That ___ be Tom. He is in Spain right now.",
+        "opts": [
+          "can't",
+          "must",
+          "mustn't",
+          "might"
+        ],
+        "a": 0,
+        "why": "Unmöglich: can't be."
+      },
+      {
+        "q": "She isn't answering. She ___ be busy.",
+        "opts": [
+          "can't",
+          "mustn't",
+          "shall",
+          "might"
+        ],
+        "a": 3,
+        "why": "Mögliche Vermutung: might be."
+      },
+      {
+        "q": "The lights are on. They ___ be home.",
+        "opts": [
+          "can't be not",
+          "mustn't",
+          "must",
+          "will can"
+        ],
+        "a": 2,
+        "why": "Logische Schlussfolgerung: must be."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "He must forgot the meeting.",
+          "He must have forgotten the meeting.",
+          "He must forgetting the meeting.",
+          "He must have forget the meeting."
+        ],
+        "a": 1,
+        "why": "must have + 3. Form für Schluss über Vergangenheit."
+      },
+      {
+        "q": "The ground is wet. It ___ rained last night.",
+        "opts": [
+          "must have",
+          "must",
+          "can have",
+          "must has"
+        ],
+        "a": 0,
+        "why": "Schluss aus Indizien: must have + 3. Form."
+      },
+      {
+        "q": "She ___ have seen me. She walked right past!",
+        "opts": [
+          "mustn't",
+          "might not to",
+          "must",
+          "can't"
+        ],
+        "a": 3,
+        "why": "\"can't have\" = kann nicht (gesehen) haben."
+      },
+      {
+        "q": "I don't know where he is. He ___ have missed his train.",
+        "opts": [
+          "must not to",
+          "should to",
+          "might",
+          "can't be"
+        ],
+        "a": 2,
+        "why": "Möglichkeit: might have + 3. Form."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "That mustn't be true!",
+          "That can't be true!",
+          "That can't to be true!",
+          "That not can be true!"
+        ],
+        "a": 1,
+        "why": "\"Das kann nicht sein\" = can't be."
+      },
+      {
+        "q": "You ___ be joking! That price is crazy.",
+        "opts": [
+          "must",
+          "shall",
+          "mustn't",
+          "might to"
+        ],
+        "a": 0,
+        "why": "Starker Schluss aus Eindruck."
+      },
+      {
+        "q": "They ___ have taken the wrong road. We don't know yet.",
+        "opts": [
+          "should to",
+          "must to",
+          "can't to",
+          "could"
+        ],
+        "a": 3,
+        "why": "Möglichkeit in der Vergangenheit: could have."
+      },
+      {
+        "q": "He ___ be at work – it's Sunday.",
+        "opts": [
+          "must",
+          "might to",
+          "can't",
+          "should to"
+        ],
+        "a": 2,
+        "why": "Sonntag, also unmöglich: can't be."
+      }
+    ]
+  },
+  {
+    "id": "g_passive",
+    "lvl": 4,
+    "title": "Passiv",
+    "tip": "Passiv = be + 3. Form. Man nutzt es, wenn die Handlung wichtiger ist als der Handelnde. Die Zeit zeigt sich an \"be\": is made, was made, has been made, will be made.\nTypischer Fehler: \"It becomes made\" – das deutsche \"werden\" ist im Englischen nicht \"become\", sondern \"be\".\nDen Handelnden nennst du mit \"by\", wenn nötig.\nBeispiele:\nEnglish is spoken all over the world. = Englisch wird auf der ganzen Welt gesprochen.\nThe window was broken yesterday. = Das Fenster wurde gestern zerbrochen.\nThe report will be finished tomorrow. = Der Bericht wird morgen fertig sein.",
+    "items": [
+      {
+        "q": "English ___ in many countries.",
+        "opts": [
+          "speaks",
+          "is speaking",
+          "becomes spoken",
+          "is spoken"
+        ],
+        "a": 3,
+        "why": "Passiv Präsens: is + 3. Form."
+      },
+      {
+        "q": "The car ___ in Germany last year.",
+        "opts": [
+          "built",
+          "was building",
+          "was built",
+          "has built"
+        ],
+        "a": 2,
+        "why": "Passiv Vergangenheit: was + 3. Form."
+      },
+      {
+        "q": "The letter ___ yet.",
+        "opts": [
+          "wasn't sending",
+          "hasn't been sent",
+          "isn't sent",
+          "hasn't sent"
+        ],
+        "a": 1,
+        "why": "Passiv Present Perfect: has been + 3. Form."
+      },
+      {
+        "q": "The room ___ every day.",
+        "opts": [
+          "is cleaned",
+          "cleans",
+          "is cleaning",
+          "cleaned"
+        ],
+        "a": 0,
+        "why": "Regelmäßig, Handelnder unwichtig: Passiv."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "The window broke by a ball.",
+          "The window was breaking by a ball.",
+          "The window has broke by a ball.",
+          "The window was broken by a ball."
+        ],
+        "a": 3,
+        "why": "was + 3. Form (broken) + by."
+      },
+      {
+        "q": "A new bridge ___ next year.",
+        "opts": [
+          "will build",
+          "is building",
+          "will be built",
+          "will be build"
+        ],
+        "a": 2,
+        "why": "Zukunft Passiv: will be + 3. Form."
+      },
+      {
+        "q": "The dishes ___ right now.",
+        "opts": [
+          "are washing",
+          "are being washed",
+          "is washed",
+          "were washing"
+        ],
+        "a": 1,
+        "why": "Passiv Verlaufsform: are being + 3. Form."
+      },
+      {
+        "q": "My phone ___ last week.",
+        "opts": [
+          "was stolen",
+          "stole",
+          "has stolen",
+          "was stealing"
+        ],
+        "a": 0,
+        "why": "Mir wurde es gestohlen = Passiv."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "The pizza ate by the kids.",
+          "The pizza was eat by the kids.",
+          "The pizza is ate by the kids.",
+          "The pizza was eaten by the kids."
+        ],
+        "a": 3,
+        "why": "Richtige Form: was + eaten."
+      },
+      {
+        "q": "The meeting ___ because of the storm.",
+        "opts": [
+          "cancelled",
+          "has cancel",
+          "was cancelled",
+          "was cancelling"
+        ],
+        "a": 2,
+        "why": "Das Meeting wurde abgesagt."
+      },
+      {
+        "q": "This song ___ by millions of people.",
+        "opts": [
+          "has heard",
+          "has been heard",
+          "is hearing",
+          "was hear"
+        ],
+        "a": 1,
+        "why": "Passiv Present Perfect."
+      },
+      {
+        "q": "Dinner ___ at 7 tonight.",
+        "opts": [
+          "will be served",
+          "serves",
+          "will serve",
+          "is serve"
+        ],
+        "a": 0,
+        "why": "Passiv Futur: will be served."
+      }
+    ]
+  },
+  {
+    "id": "g_reported_speech",
+    "lvl": 4,
+    "title": "Reported Speech",
+    "tip": "Bei indirekter Rede rutscht die Zeit meist eine Stufe zurück (Backshift): am/is -> was, will -> would, can -> could, Present Perfect/Past Simple -> Past Perfect. Auch Pronomen und Zeitangaben ändern sich (today -> that day, here -> there).\nTypischer Fehler: Deutsche nehmen den Konjunktiv (\"Er sagte, er sei müde\") und vergessen im Englischen den Backshift: \"He said he was tired.\"\nFragen werden zu Aussagesatz-Stellung ohne do: \"She asked where I lived.\"\nBeispiele:\n\"I am tired.\" -> He said (that) he was tired.\n\"I will call you.\" -> She said she would call me.\n\"Where do you live?\" -> He asked where I lived.",
+    "items": [
+      {
+        "q": "\"I am hungry,\" he said. -> He said he ___ hungry.",
+        "opts": [
+          "is",
+          "was",
+          "be",
+          "were being"
+        ],
+        "a": 1,
+        "why": "Backshift: am/is -> was."
+      },
+      {
+        "q": "\"I will help you.\" -> She said she ___ help me.",
+        "opts": [
+          "would",
+          "will",
+          "shall",
+          "wills"
+        ],
+        "a": 0,
+        "why": "will -> would."
+      },
+      {
+        "q": "\"I can swim.\" -> He told me he ___ swim.",
+        "opts": [
+          "can",
+          "cans",
+          "would can",
+          "could"
+        ],
+        "a": 3,
+        "why": "can -> could."
+      },
+      {
+        "q": "\"Where do you live?\" -> She asked me where I ___.",
+        "opts": [
+          "do live",
+          "live did",
+          "lived",
+          "did live"
+        ],
+        "a": 2,
+        "why": "In indirekter Frage: Aussagesatz ohne do, Past Simple."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "He said that he were tired.",
+          "He said that he was tired.",
+          "He said that he be tired.",
+          "He said me that he was tired."
+        ],
+        "a": 1,
+        "why": "Backshift; nach \"said\" kein Objekt."
+      },
+      {
+        "q": "\"I have finished.\" -> She said she ___ finished.",
+        "opts": [
+          "had",
+          "has",
+          "was",
+          "have"
+        ],
+        "a": 0,
+        "why": "Present Perfect -> Past Perfect."
+      },
+      {
+        "q": "\"I live in Berlin.\" -> He told me he ___ in Berlin.",
+        "opts": [
+          "lives",
+          "was live",
+          "lives in",
+          "lived"
+        ],
+        "a": 3,
+        "why": "Present Simple -> Past Simple."
+      },
+      {
+        "q": "\"Are you ready?\" -> She asked me ___ I was ready.",
+        "opts": [
+          "that",
+          "what",
+          "if",
+          "is"
+        ],
+        "a": 2,
+        "why": "Ja/Nein-Fragen: if oder whether."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "She asked me where did I work.",
+          "She asked me where I worked.",
+          "She asked me where do I work.",
+          "She asked me where I do worked."
+        ],
+        "a": 1,
+        "why": "Normale Satzstellung, kein do."
+      },
+      {
+        "q": "\"Don't be late,\" she said. -> She told me ___ late.",
+        "opts": [
+          "not to be",
+          "to not being",
+          "don't be",
+          "not be"
+        ],
+        "a": 0,
+        "why": "Aufforderung: tell + Objekt + (not) to + Infinitiv."
+      },
+      {
+        "q": "\"I saw him yesterday.\" -> She said she ___ him the day before.",
+        "opts": [
+          "saw yesterday",
+          "has seen",
+          "sees",
+          "had seen"
+        ],
+        "a": 3,
+        "why": "Past Simple -> Past Perfect; yesterday -> the day before."
+      },
+      {
+        "q": "He said he ___ call me tomorrow (original: \"I will call you tomorrow\").",
+        "opts": [
+          "will",
+          "shall",
+          "would",
+          "is going"
+        ],
+        "a": 2,
+        "why": "will -> would."
+      }
+    ]
+  },
+  {
+    "id": "g_relative_clauses",
+    "lvl": 3,
+    "title": "Relativsätze",
+    "tip": "Relativsätze geben mehr Informationen über ein Nomen. who/that = Personen, which/that = Sachen, whose = dessen/deren, where = Ort.\nDefining (ohne Komma): wichtige Info, \"that\" möglich, Pronomen weglassbar, wenn es Objekt ist (\"The book I read\"). Non-defining (mit Kommas): Zusatzinfo, nur who/which, kein that.\nTypischer Fehler: \"The man who he lives next door\" – das Pronomen steht nur einmal.\nBeispiele:\nThe woman who lives next door is nice. = Die Frau, die nebenan wohnt, ist nett.\nThis is the book (that) I read. = Das ist das Buch, das ich gelesen habe.\nMy brother, who lives in Paris, is a chef. = Mein Bruder, der in Paris wohnt, ist Koch.",
+    "items": [
+      {
+        "q": "The man ___ lives next door is a doctor.",
+        "opts": [
+          "which",
+          "whose",
+          "where",
+          "who"
+        ],
+        "a": 3,
+        "why": "Person als Subjekt: who."
+      },
+      {
+        "q": "This is the phone ___ I bought last week.",
+        "opts": [
+          "who",
+          "where",
+          "that",
+          "whose"
+        ],
+        "a": 2,
+        "why": "Sache: that/which (oder weglassen)."
+      },
+      {
+        "q": "She is the girl ___ brother plays in a band.",
+        "opts": [
+          "who",
+          "whose",
+          "which",
+          "that"
+        ],
+        "a": 1,
+        "why": "Besitz: whose."
+      },
+      {
+        "q": "That is the café ___ we first met.",
+        "opts": [
+          "where",
+          "which",
+          "who",
+          "whose"
+        ],
+        "a": 0,
+        "why": "Ort: where."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "The woman who she works here is my aunt.",
+          "The woman which works here is my aunt.",
+          "The woman whose works here is my aunt.",
+          "The woman who works here is my aunt."
+        ],
+        "a": 3,
+        "why": "Person: who; Pronomen nicht doppeln."
+      },
+      {
+        "q": "My car, ___ is ten years old, still runs well.",
+        "opts": [
+          "that",
+          "who",
+          "which",
+          "what"
+        ],
+        "a": 2,
+        "why": "Mit Kommas: kein that, sondern which."
+      },
+      {
+        "q": "The book ___ you lent me was great.",
+        "opts": [
+          "whose",
+          "that",
+          "where",
+          "who"
+        ],
+        "a": 1,
+        "why": "Sache als Objekt: that (oder weglassen)."
+      },
+      {
+        "q": "I know a guy ___ speaks five languages.",
+        "opts": [
+          "who",
+          "which",
+          "whom to",
+          "where"
+        ],
+        "a": 0,
+        "why": "Person: who."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "The film that we watched it was boring.",
+          "The film what we watched was boring.",
+          "The film who we watched was boring.",
+          "The film (that) we watched was boring."
+        ],
+        "a": 3,
+        "why": "Kein zusätzliches \"it\"; \"what\" ist falsch."
+      },
+      {
+        "q": "Tom, ___ lives in Rome, is visiting us.",
+        "opts": [
+          "that",
+          "which",
+          "who",
+          "whose"
+        ],
+        "a": 2,
+        "why": "Zusatzinfo über Person mit Kommas: who."
+      },
+      {
+        "q": "That is the town ___ I grew up.",
+        "opts": [
+          "which",
+          "where",
+          "whose",
+          "who"
+        ],
+        "a": 1,
+        "why": "Ort = where."
+      },
+      {
+        "q": "Everything ___ he said was true.",
+        "opts": [
+          "that",
+          "what",
+          "which it",
+          "who"
+        ],
+        "a": 0,
+        "why": "Nach \"everything\" steht that, nicht what."
+      }
+    ]
+  },
+  {
+    "id": "g_gerund_infinitive",
+    "lvl": 4,
+    "title": "Gerund vs Infinitive",
+    "tip": "Nach manchen Verben steht -ing (enjoy, avoid, finish, mind, suggest, keep), nach anderen to + Infinitiv (want, decide, hope, plan, need, promise). Nach Präpositionen steht immer -ing.\nBei remember/stop/try ändert sich die Bedeutung: stop doing = aufhören; stop to do = anhalten, um zu.\nTypischer Fehler: \"I look forward to see you\" – nach \"to\" als Präposition steht -ing: \"look forward to seeing\".\nBeispiele:\nI enjoy cooking. = Ich koche gern.\nI decided to leave. = Ich habe beschlossen zu gehen.\nShe stopped to take a photo. = Sie hielt an, um ein Foto zu machen.",
+    "items": [
+      {
+        "q": "I enjoy ___ to music.",
+        "opts": [
+          "to listen",
+          "listening",
+          "listen",
+          "listened"
+        ],
+        "a": 1,
+        "why": "enjoy + -ing."
+      },
+      {
+        "q": "She decided ___ a new job.",
+        "opts": [
+          "to find",
+          "finding",
+          "find",
+          "found"
+        ],
+        "a": 0,
+        "why": "decide + to-Infinitiv."
+      },
+      {
+        "q": "We're looking forward to ___ you.",
+        "opts": [
+          "see",
+          "to see",
+          "saw",
+          "seeing"
+        ],
+        "a": 3,
+        "why": "\"to\" ist hier Präposition: -ing."
+      },
+      {
+        "q": "He avoided ___ the question.",
+        "opts": [
+          "to answer",
+          "answer",
+          "answering",
+          "answered"
+        ],
+        "a": 2,
+        "why": "avoid + -ing."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I want learning English.",
+          "I want to learn English.",
+          "I want learn English.",
+          "I want that learn English."
+        ],
+        "a": 1,
+        "why": "want + to-Infinitiv."
+      },
+      {
+        "q": "She stopped ___ when she saw the doctor (hat aufgehört).",
+        "opts": [
+          "smoking",
+          "to smoke",
+          "smoke",
+          "smoked"
+        ],
+        "a": 0,
+        "why": "stop + -ing = aufhören."
+      },
+      {
+        "q": "He stopped ___ a coffee on the way.",
+        "opts": [
+          "buying",
+          "buy",
+          "bought",
+          "to buy"
+        ],
+        "a": 3,
+        "why": "stop to do = anhalten, um zu."
+      },
+      {
+        "q": "Thanks for ___ me.",
+        "opts": [
+          "help",
+          "to help",
+          "helping",
+          "helped"
+        ],
+        "a": 2,
+        "why": "Nach Präposition: -ing."
+      },
+      {
+        "q": "I can't afford ___ a new car.",
+        "opts": [
+          "buying",
+          "to buy",
+          "buy",
+          "bought"
+        ],
+        "a": 1,
+        "why": "afford + to-Infinitiv."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "He suggested going to the cinema.",
+          "He suggested to go to the cinema.",
+          "He suggested go to the cinema.",
+          "He suggested to going to the cinema."
+        ],
+        "a": 0,
+        "why": "suggest + -ing."
+      },
+      {
+        "q": "Don't forget ___ the door when you leave.",
+        "opts": [
+          "locking",
+          "lock",
+          "locked",
+          "to lock"
+        ],
+        "a": 3,
+        "why": "forget to do = nicht daran denken, etwas zu tun."
+      },
+      {
+        "q": "She is good at ___ people.",
+        "opts": [
+          "understand",
+          "to understand",
+          "understanding",
+          "understood"
+        ],
+        "a": 2,
+        "why": "Nach Präposition (at): -ing."
+      }
+    ]
+  },
+  {
+    "id": "g_phrasal_verbs_grammar",
+    "lvl": 4,
+    "title": "Phrasal Verbs: Stellung",
+    "tip": "Phrasal Verbs = Verb + Partikel (pick up, turn off). Es gibt trennbare (separable) und untrennbare (inseparable) Verben.\nBei trennbaren steht ein Pronomen (it, them, him) IMMER zwischen Verb und Partikel: \"turn it off\", nicht \"turn off it\". Bei Nomen sind beide Stellungen möglich: \"turn off the light\" / \"turn the light off\".\nUntrennbare (look after, get over, run into) bleiben zusammen: \"look after them\".\nTypischer Fehler: \"pick up it\" – falsch.\nBeispiele:\nPlease turn it off. = Mach es bitte aus.\nShe looks after her mother. = Sie kümmert sich um ihre Mutter.\nI ran into an old friend. = Ich bin zufällig einem alten Freund begegnet.",
+    "items": [
+      {
+        "q": "The light is on. Please turn ___.",
+        "opts": [
+          "off it",
+          "it of",
+          "off-it",
+          "it off"
+        ],
+        "a": 3,
+        "why": "Pronomen steht zwischen Verb und Partikel."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I picked up it.",
+          "I up picked it.",
+          "I picked it up.",
+          "I picked up-it."
+        ],
+        "a": 2,
+        "why": "Bei trennbaren Verben: pick + it + up."
+      },
+      {
+        "q": "She's looking ___ her little brother today.",
+        "opts": [
+          "it after",
+          "after",
+          "at after",
+          "on after"
+        ],
+        "a": 1,
+        "why": "look after = sich kümmern (untrennbar)."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Can you turn the music down?",
+          "Can you turn down it?",
+          "Can you down turn the music?",
+          "Can you turn down-it the music?"
+        ],
+        "a": 0,
+        "why": "Nomen: beide Stellungen; Pronomen nur \"turn it down\"."
+      },
+      {
+        "q": "I met him by chance. I ___ him.",
+        "opts": [
+          "ran him into",
+          "ran in to",
+          "ran up into",
+          "ran into"
+        ],
+        "a": 3,
+        "why": "run into ist untrennbar; Objekt danach."
+      },
+      {
+        "q": "These shoes are old. I'll throw ___ away.",
+        "opts": [
+          "away them",
+          "it",
+          "them",
+          "those away"
+        ],
+        "a": 2,
+        "why": "Pronomen \"them\" steht in der Mitte."
+      },
+      {
+        "q": "He gave ___ smoking last year.",
+        "opts": [
+          "at",
+          "up",
+          "it out",
+          "off"
+        ],
+        "a": 1,
+        "why": "give up = aufgeben, aufhören."
+      },
+      {
+        "q": "Can you ___ the form for me?",
+        "opts": [
+          "fill out",
+          "out fill it",
+          "fill it of",
+          "fill up out"
+        ],
+        "a": 0,
+        "why": "fill out the form / fill the form out."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Let me write down it.",
+          "Let me down write it.",
+          "Let me write down-it.",
+          "Let me write it down."
+        ],
+        "a": 3,
+        "why": "Pronomen in die Mitte."
+      },
+      {
+        "q": "The meeting was ___ because of rain.",
+        "opts": [
+          "called it off the",
+          "off called",
+          "called off",
+          "called of"
+        ],
+        "a": 2,
+        "why": "call off = absagen."
+      },
+      {
+        "q": "I can't ___ with his attitude.",
+        "opts": [
+          "put it up him",
+          "put up",
+          "up put",
+          "put out up"
+        ],
+        "a": 1,
+        "why": "put up with = ertragen (untrennbar)."
+      },
+      {
+        "q": "She woke ___ early and made coffee.",
+        "opts": [
+          "up",
+          "to",
+          "at",
+          "on"
+        ],
+        "a": 0,
+        "why": "wake up = aufwachen."
+      }
+    ]
+  },
+  {
+    "id": "g_wishes",
+    "lvl": 4,
+    "title": "Wishes: I wish / If only",
+    "tip": "I wish / If only drücken Bedauern oder unerfüllte Wünsche aus. Gegenwart: wish + Past Simple (\"I wish I had more time\"). Vergangenheit: wish + Past Perfect (\"I wish I had called\"). Ärger über Verhalten: wish + would (\"I wish you would stop\").\nTypischer Fehler: \"I wish I would have more money\" oder \"I wish I have...\" – nach wish steht eine Past-Form, kein would für den eigenen Wunsch.\nBei to be: \"I wish I were / was taller\".\nBeispiele:\nI wish I had a car. = Ich wünschte, ich hätte ein Auto.\nI wish I had studied more. = Ich wünschte, ich hätte mehr gelernt.\nIf only he would listen! = Wenn er doch nur zuhören würde!",
+    "items": [
+      {
+        "q": "I wish I ___ more free time.",
+        "opts": [
+          "have",
+          "had",
+          "would have",
+          "will have"
+        ],
+        "a": 1,
+        "why": "Wunsch für die Gegenwart: Past Simple."
+      },
+      {
+        "q": "I wish I ___ taller.",
+        "opts": [
+          "were",
+          "am",
+          "will be",
+          "would be"
+        ],
+        "a": 0,
+        "why": "wish + were/was."
+      },
+      {
+        "q": "I wish I ___ harder in school.",
+        "opts": [
+          "studied",
+          "would study",
+          "have studied",
+          "had studied"
+        ],
+        "a": 3,
+        "why": "Bedauern über Vergangenes: Past Perfect."
+      },
+      {
+        "q": "If only it ___ stop raining!",
+        "opts": [
+          "will",
+          "did",
+          "would",
+          "does"
+        ],
+        "a": 2,
+        "why": "Ärger/Wunsch an die Zukunft: would."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I wish I know the answer.",
+          "I wish I knew the answer.",
+          "I wish I would know the answer.",
+          "I wish I will know the answer."
+        ],
+        "a": 1,
+        "why": "wish + Past Simple."
+      },
+      {
+        "q": "She wishes she ___ in Spain now.",
+        "opts": [
+          "were",
+          "is",
+          "would be",
+          "will be"
+        ],
+        "a": 0,
+        "why": "Wunsch für die Gegenwart."
+      },
+      {
+        "q": "I wish you ___ so loudly!",
+        "opts": [
+          "don't talk",
+          "didn't talked",
+          "won't talk",
+          "wouldn't talk"
+        ],
+        "a": 3,
+        "why": "Ärger über Verhalten: wish + would."
+      },
+      {
+        "q": "If only I ___ him earlier!",
+        "opts": [
+          "met",
+          "would meet",
+          "had met",
+          "have met"
+        ],
+        "a": 2,
+        "why": "Bedauern über Vergangenes."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "I wish I would buy that ticket.",
+          "I wish I had bought that ticket.",
+          "I wish I have bought that ticket.",
+          "I wish I buy that ticket."
+        ],
+        "a": 1,
+        "why": "Vergangenheit: wish + had + 3. Form."
+      },
+      {
+        "q": "I wish I ___ speak French.",
+        "opts": [
+          "could",
+          "can",
+          "would",
+          "will"
+        ],
+        "a": 0,
+        "why": "wish + could für Fähigkeiten."
+      },
+      {
+        "q": "He wishes he ___ so tired all the time.",
+        "opts": [
+          "isn't",
+          "won't be",
+          "hadn't",
+          "weren't"
+        ],
+        "a": 3,
+        "why": "Wunsch bezogen auf Gegenwart."
+      },
+      {
+        "q": "If only we ___ a bigger flat!",
+        "opts": [
+          "have",
+          "would have",
+          "had",
+          "having"
+        ],
+        "a": 2,
+        "why": "If only + Past Simple."
+      }
+    ]
+  },
+  {
+    "id": "g_question_tags",
+    "lvl": 3,
+    "title": "Question Tags",
+    "tip": "Question Tags sind kurze Fragen am Satzende (\"..., oder?\" / \"..., nicht wahr?\"). Regel: Positiver Satz -> negativer Tag, negativer Satz -> positiver Tag. Das Hilfsverb des Satzes wird wiederholt; ohne Hilfsverb nimmst du do/does/did.\nTypischer Fehler: Deutsche sagen überall \"isn't it?\" (wie \"nicht wahr?\"). Im Englischen muss der Tag zum Satz passen: \"You like it, don't you?\"\nSonderfälle: I am -> aren't I?; Let's -> shall we?; Imperativ -> will you?\nBeispiele:\nYou are tired, aren't you? = Du bist müde, oder?\nShe doesn't smoke, does she? = Sie raucht nicht, oder?\nHe can swim, can't he? = Er kann schwimmen, oder?",
+    "items": [
+      {
+        "q": "You are from Germany, ___?",
+        "opts": [
+          "isn't it",
+          "don't you",
+          "are you",
+          "aren't you"
+        ],
+        "a": 3,
+        "why": "Positiver Satz mit \"are\" -> aren't you?"
+      },
+      {
+        "q": "She likes pizza, ___?",
+        "opts": [
+          "isn't she",
+          "does she",
+          "doesn't she",
+          "don't she"
+        ],
+        "a": 2,
+        "why": "Present Simple, 3. Person: doesn't she."
+      },
+      {
+        "q": "They didn't come, ___?",
+        "opts": [
+          "didn't they",
+          "did they",
+          "were they",
+          "do they"
+        ],
+        "a": 1,
+        "why": "Verneinter Satz -> positiver Tag."
+      },
+      {
+        "q": "He can swim, ___?",
+        "opts": [
+          "can't he",
+          "doesn't he",
+          "can he",
+          "isn't he"
+        ],
+        "a": 0,
+        "why": "Hilfsverb can wiederholen."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "It's cold today, don't it?",
+          "It's cold today, it isn't?",
+          "It's cold today, is it?",
+          "It's cold today, isn't it?"
+        ],
+        "a": 3,
+        "why": "Positiver Satz -> negativer Tag mit demselben Verb."
+      },
+      {
+        "q": "You haven't met him, ___?",
+        "opts": [
+          "haven't you",
+          "did you",
+          "have you",
+          "do you"
+        ],
+        "a": 2,
+        "why": "Verneint -> positiver Tag."
+      },
+      {
+        "q": "I'm late, ___?",
+        "opts": [
+          "amn't I",
+          "aren't I",
+          "am not I",
+          "isn't I"
+        ],
+        "a": 1,
+        "why": "Sonderform: aren't I?"
+      },
+      {
+        "q": "Let's go out tonight, ___?",
+        "opts": [
+          "shall we",
+          "will we",
+          "don't we",
+          "let we"
+        ],
+        "a": 0,
+        "why": "Let's -> shall we?"
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "You live in Berlin, aren't you?",
+          "You live in Berlin, isn't it?",
+          "You live in Berlin, do you?",
+          "You live in Berlin, don't you?"
+        ],
+        "a": 3,
+        "why": "Present Simple -> don't you?"
+      },
+      {
+        "q": "Close the door, ___?",
+        "opts": [
+          "do you",
+          "shall we",
+          "will you",
+          "are you"
+        ],
+        "a": 2,
+        "why": "Imperativ -> will you?"
+      },
+      {
+        "q": "She was angry, ___?",
+        "opts": [
+          "didn't she",
+          "wasn't she",
+          "isn't she",
+          "was she"
+        ],
+        "a": 1,
+        "why": "was -> wasn't she?"
+      },
+      {
+        "q": "Nobody called, ___?",
+        "opts": [
+          "did they",
+          "didn't they",
+          "did he",
+          "do they"
+        ],
+        "a": 0,
+        "why": "nobody ist verneinend -> positiver Tag mit they."
+      }
+    ]
+  },
+  {
+    "id": "g_inversion_emphasis",
+    "lvl": 5,
+    "title": "Inversion & Emphasis",
+    "tip": "In formellem oder betontem Englisch stellt man bestimmte Wörter an den Satzanfang und dreht danach Hilfsverb und Subjekt um (wie bei einer Frage): Never have I seen..., Rarely does he..., Not only did she..., Hardly had I arrived when...\nTypischer Fehler: Die normale Satzstellung nach dem Einleitungswort beibehalten: \"Never I have seen\" ist falsch.\nZur Betonung gibt es außerdem Spaltsätze (It was Tom who...) und do/does/did (\"I did tell you!\").\nBeispiele:\nNever have I felt so happy. = Nie habe ich mich so glücklich gefühlt.\nNot only did he win, he also broke a record. = Er gewann nicht nur, sondern brach auch einen Rekord.\nIt was Anna who called me. = Es war Anna, die mich anrief.",
+    "items": [
+      {
+        "q": "Never ___ such a beautiful sunset.",
+        "opts": [
+          "I have seen",
+          "have I seen",
+          "I saw",
+          "seen I have"
+        ],
+        "a": 1,
+        "why": "Nach Never: Hilfsverb vor Subjekt."
+      },
+      {
+        "q": "Rarely ___ late for work.",
+        "opts": [
+          "does he arrive",
+          "he arrives",
+          "arrives he",
+          "he does arrive"
+        ],
+        "a": 0,
+        "why": "Rarely + do/does + Subjekt + Infinitiv."
+      },
+      {
+        "q": "Not only ___ the exam, she also got the highest score.",
+        "opts": [
+          "she passed",
+          "she did pass",
+          "passed she",
+          "did she pass"
+        ],
+        "a": 3,
+        "why": "Not only + did + Subjekt + Infinitiv."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Hardly we had arrived when it started to rain.",
+          "Hardly we arrived when had it started to rain.",
+          "Hardly had we arrived when it started to rain.",
+          "Hardly had we arrived than it start to rain."
+        ],
+        "a": 2,
+        "why": "Hardly + had + Subjekt + 3. Form."
+      },
+      {
+        "q": "Only then ___ the truth.",
+        "opts": [
+          "I realized",
+          "did I realize",
+          "I did realize",
+          "realized I"
+        ],
+        "a": 1,
+        "why": "Only then + Inversion."
+      },
+      {
+        "q": "Under no circumstances ___ the door.",
+        "opts": [
+          "should you open",
+          "you should open",
+          "you open",
+          "open you"
+        ],
+        "a": 0,
+        "why": "Negativ-Einleitung -> Inversion."
+      },
+      {
+        "q": "It ___ Anna who called me, not Maria.",
+        "opts": [
+          "did",
+          "has",
+          "were",
+          "was"
+        ],
+        "a": 3,
+        "why": "Spaltsatz: It was ... who."
+      },
+      {
+        "q": "I ___ tell you about the party! Don't you remember?",
+        "opts": [
+          "do",
+          "was",
+          "did",
+          "have"
+        ],
+        "a": 2,
+        "why": "Betonung mit did + Infinitiv."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "No sooner he had sat down than the phone rang.",
+          "No sooner had he sat down than the phone rang.",
+          "No sooner had he sat down when the phone rang.",
+          "No sooner did he sat down than the phone rang."
+        ],
+        "a": 1,
+        "why": "No sooner + had + Subjekt ... than."
+      },
+      {
+        "q": "Little ___ she know what was waiting for her.",
+        "opts": [
+          "did",
+          "does",
+          "was",
+          "had"
+        ],
+        "a": 0,
+        "why": "Little + did + Subjekt + Infinitiv."
+      },
+      {
+        "q": "Not until yesterday ___ the news.",
+        "opts": [
+          "I heard",
+          "heard I",
+          "I did hear",
+          "did I hear"
+        ],
+        "a": 3,
+        "why": "Not until + Inversion im Hauptsatz."
+      },
+      {
+        "q": "What I need ___ a holiday.",
+        "opts": [
+          "are",
+          "be",
+          "is",
+          "has"
+        ],
+        "a": 2,
+        "why": "Spaltsatz mit What: What I need is ..."
+      }
+    ]
+  },
+  {
+    "id": "g_future_perfect_continuous",
+    "lvl": 5,
+    "title": "Future Perfect & Continuous",
+    "tip": "Future Continuous (will be + -ing): etwas läuft zu einem bestimmten Zeitpunkt in der Zukunft gerade ab (\"This time tomorrow I'll be flying\").\nFuture Perfect (will have + 3. Form): etwas ist bis zu einem Zeitpunkt in der Zukunft abgeschlossen (\"By Friday I will have finished\"). Signalwort: by.\nTypischer Fehler: Deutsche nehmen einfach Präsens (\"Morgen um 8 schlafe ich noch\"). Englisch markiert den Verlauf: \"I'll be sleeping.\"\nBeispiele:\nThis time next week, I'll be lying on a beach. = Nächste Woche um diese Zeit liege ich am Strand.\nBy 2030, she will have finished university. = Bis 2030 hat sie das Studium abgeschlossen.\nWill you be using the car tonight? = Brauchst du das Auto heute Abend?",
+    "items": [
+      {
+        "q": "This time tomorrow, I ___ on a plane.",
+        "opts": [
+          "sit",
+          "will sit",
+          "have sat",
+          "'ll be sitting"
+        ],
+        "a": 3,
+        "why": "Zukünftiger Moment, Handlung im Verlauf."
+      },
+      {
+        "q": "By next June, she ___ her degree.",
+        "opts": [
+          "would finish",
+          "finishes",
+          "will have finished",
+          "is finishing"
+        ],
+        "a": 2,
+        "why": "\"by\" + Abschluss = Future Perfect."
+      },
+      {
+        "q": "Don't call at 8. I ___ dinner.",
+        "opts": [
+          "have",
+          "'ll be having",
+          "will had",
+          "'ll have had"
+        ],
+        "a": 1,
+        "why": "Handlung zu einem Zeitpunkt in der Zukunft."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "By the end of the year, we will have saved enough.",
+          "By the end of the year, we will saved enough.",
+          "By the end of the year, we will be save enough.",
+          "By the end of the year, we have will saved enough."
+        ],
+        "a": 0,
+        "why": "will have + 3. Form."
+      },
+      {
+        "q": "___ you ___ the car tonight?",
+        "opts": [
+          "Do / use",
+          "Are / use",
+          "Have / used",
+          "Will / be using"
+        ],
+        "a": 3,
+        "why": "Höfliche Frage nach Plänen: Future Continuous."
+      },
+      {
+        "q": "In ten years, he ___ in Canada.",
+        "opts": [
+          "will lives",
+          "lives",
+          "will be living",
+          "has lived"
+        ],
+        "a": 2,
+        "why": "Zustand/Handlung im Verlauf zu einem Zeitpunkt."
+      },
+      {
+        "q": "By the time you arrive, I ___ cooking.",
+        "opts": [
+          "will finish",
+          "will have finished",
+          "am finishing",
+          "finished"
+        ],
+        "a": 1,
+        "why": "Bis du kommst, bin ich fertig."
+      },
+      {
+        "q": "I ___ for this company for 10 years by next May.",
+        "opts": [
+          "will have worked",
+          "will work",
+          "worked",
+          "am working"
+        ],
+        "a": 0,
+        "why": "Dauer bis zu einem Zeitpunkt."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "This time next week, I ski.",
+          "This time next week, I'll skied.",
+          "This time next week, I'll be ski.",
+          "This time next week, I'll be skiing."
+        ],
+        "a": 3,
+        "why": "will be + -ing."
+      },
+      {
+        "q": "She ___ the report by 5 pm, so call after that.",
+        "opts": [
+          "would send",
+          "has sent",
+          "will have sent",
+          "sends"
+        ],
+        "a": 2,
+        "why": "Abgeschlossen bis zu einem Zeitpunkt."
+      },
+      {
+        "q": "At 10 tomorrow, they ___ a meeting.",
+        "opts": [
+          "will have had",
+          "will be having",
+          "having",
+          "had"
+        ],
+        "a": 1,
+        "why": "Verlauf zu einem Zeitpunkt in der Zukunft."
+      },
+      {
+        "q": "By the time we get there, the film ___.",
+        "opts": [
+          "will have started",
+          "will start",
+          "starts",
+          "started"
+        ],
+        "a": 0,
+        "why": "\"By the time\" + abgeschlossen = Future Perfect."
+      }
+    ]
+  },
+  {
+    "id": "g_linking_words",
+    "lvl": 3,
+    "title": "Linking Words / Konnektoren",
+    "tip": "Konnektoren verbinden Gedanken. Gegensatz: but, although/though (+ Satz), despite/in spite of (+ Nomen oder -ing), however (neuer Satz). Grund: because (+ Satz), because of (+ Nomen). Folge: so, therefore. Zusatz: and, also, besides.\nTypischer Fehler: \"Although it was raining, but we went out\" – im Englischen nur eins von beiden! Ebenfalls: \"despite of\" ist falsch, richtig ist \"despite\" oder \"in spite of\".\nBeispiele:\nAlthough it was late, we kept talking. = Obwohl es spät war, redeten wir weiter.\nDespite the rain, we went out. = Trotz des Regens gingen wir raus.\nI stayed home because I was sick. = Ich blieb zu Hause, weil ich krank war.",
+    "items": [
+      {
+        "q": "___ it was raining, we went for a walk.",
+        "opts": [
+          "Despite",
+          "Although",
+          "Because",
+          "Therefore"
+        ],
+        "a": 1,
+        "why": "Obwohl + Satz = although."
+      },
+      {
+        "q": "___ the rain, we went for a walk.",
+        "opts": [
+          "Despite",
+          "Although",
+          "Because",
+          "However"
+        ],
+        "a": 0,
+        "why": "Trotz + Nomen = despite."
+      },
+      {
+        "q": "I stayed home ___ I was sick.",
+        "opts": [
+          "because of",
+          "so",
+          "despite",
+          "because"
+        ],
+        "a": 3,
+        "why": "because + Satz."
+      },
+      {
+        "q": "I stayed home ___ my cold.",
+        "opts": [
+          "because",
+          "although",
+          "because of",
+          "so that"
+        ],
+        "a": 2,
+        "why": "because of + Nomen."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "Although he was tired, but he kept working.",
+          "Although he was tired, he kept working.",
+          "Despite he was tired, he kept working.",
+          "Although of he was tired, he kept working."
+        ],
+        "a": 1,
+        "why": "Kein \"but\" nach although."
+      },
+      {
+        "q": "I was hungry, ___ I made a sandwich.",
+        "opts": [
+          "so",
+          "because",
+          "although",
+          "despite"
+        ],
+        "a": 0,
+        "why": "so leitet die Folge ein."
+      },
+      {
+        "q": "The food was good. ___, it was too expensive.",
+        "opts": [
+          "Although",
+          "Despite",
+          "Because",
+          "However"
+        ],
+        "a": 3,
+        "why": "However leitet einen neuen Satz mit Gegensatz ein."
+      },
+      {
+        "q": "___ of the traffic, we were late.",
+        "opts": [
+          "Despite",
+          "Although",
+          "Because",
+          "But"
+        ],
+        "a": 2,
+        "why": "because of the traffic = wegen des Verkehrs."
+      },
+      {
+        "q": "Welcher Satz ist richtig?",
+        "opts": [
+          "In spite of the noise, but I slept well.",
+          "In spite of the noise, I slept well.",
+          "Despite of the noise, I slept well.",
+          "In spite the noise, I slept well."
+        ],
+        "a": 1,
+        "why": "\"In spite of\" + Nomen; kein \"despite of\"."
+      },
+      {
+        "q": "She studied hard ___ she could pass the exam.",
+        "opts": [
+          "so that",
+          "because of",
+          "despite",
+          "however"
+        ],
+        "a": 0,
+        "why": "so that = damit (Zweck)."
+      },
+      {
+        "q": "He is rich. ___, he never buys anything nice.",
+        "opts": [
+          "Although",
+          "Because",
+          "So that",
+          "Nevertheless"
+        ],
+        "a": 3,
+        "why": "Nevertheless/However = trotzdem, neuer Satz."
+      },
+      {
+        "q": "___ she was ill, she went to work.",
+        "opts": [
+          "Despite",
+          "Because of",
+          "Even though",
+          "In spite"
+        ],
+        "a": 2,
+        "why": "Even though = obwohl (verstärkt)."
+      }
+    ]
+  }
+]

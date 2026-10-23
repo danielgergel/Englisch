@@ -1,0 +1,1146 @@
+[
+  {
+    "id": "s1",
+    "lvl": 1,
+    "title": "Home Tonight (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "I'm coming home tonight",
+        "de": "Ich komme heute Nacht nach Hause"
+      },
+      {
+        "en": "The street is quiet and the stars are bright",
+        "de": "Die Straße ist still und die Sterne leuchten hell"
+      },
+      {
+        "en": "I miss your smile, I miss your voice",
+        "de": "Ich vermisse dein Lächeln, ich vermisse deine Stimme"
+      },
+      {
+        "en": "Every day I make the same choice",
+        "de": "Jeden Tag treffe ich dieselbe Wahl"
+      },
+      {
+        "en": "I want to be with you",
+        "de": "Ich will bei dir sein"
+      },
+      {
+        "en": "Open the door, I'm coming through",
+        "de": "Mach die Tür auf, ich komme rein"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "coming"
+      },
+      {
+        "line": 2,
+        "word": "smile"
+      },
+      {
+        "line": 4,
+        "word": "want"
+      }
+    ],
+    "culture": "Einfache Pop-Texte nutzen kurze Sätze und Reime (night/bright, voice/choice). 'I miss you' ist eine der häufigsten Zeilen in Songs."
+  },
+  {
+    "id": "s2",
+    "lvl": 1,
+    "title": "Sunny Day (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "The sun is up, the sky is blue",
+        "de": "Die Sonne ist da, der Himmel ist blau"
+      },
+      {
+        "en": "I'm feeling good, and so are you",
+        "de": "Mir geht es gut, und dir auch"
+      },
+      {
+        "en": "Let's dance in the street all day",
+        "de": "Lass uns den ganzen Tag auf der Straße tanzen"
+      },
+      {
+        "en": "Nothing can take this joy away",
+        "de": "Nichts kann diese Freude wegnehmen"
+      },
+      {
+        "en": "Sing it loud, sing it clear",
+        "de": "Sing es laut, sing es klar"
+      },
+      {
+        "en": "Happy days are finally here",
+        "de": "Glückliche Tage sind endlich da"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "sky"
+      },
+      {
+        "line": 2,
+        "word": "dance"
+      },
+      {
+        "line": 4,
+        "word": "loud"
+      }
+    ],
+    "culture": "Gute-Laune-Songs arbeiten mit Wetter-Bildern (sun, blue sky) als Symbol für Glück. Imperativ-Zeilen wie 'Let's dance' laden zum Mitmachen ein."
+  },
+  {
+    "id": "s3",
+    "lvl": 1,
+    "title": "Call Me Back (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "I called you twice, you didn't pick up",
+        "de": "Ich habe dich zweimal angerufen, du bist nicht rangegangen"
+      },
+      {
+        "en": "Where are you now, what's going on",
+        "de": "Wo bist du jetzt, was ist los"
+      },
+      {
+        "en": "Call me back, call me back",
+        "de": "Ruf mich zurück, ruf mich zurück"
+      },
+      {
+        "en": "I just need to hear your voice",
+        "de": "Ich muss nur deine Stimme hören"
+      },
+      {
+        "en": "Text me something, anything",
+        "de": "Schreib mir irgendetwas"
+      },
+      {
+        "en": "Tell me that we're still okay",
+        "de": "Sag mir, dass bei uns noch alles gut ist"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "twice"
+      },
+      {
+        "line": 3,
+        "word": "voice"
+      },
+      {
+        "line": 4,
+        "word": "Text"
+      }
+    ],
+    "culture": "'Pick up' (ans Telefon gehen) und 'text me' (mir schreiben) sind typische moderne Phrasen. Wiederholungen wie 'call me back' bilden den Refrain."
+  },
+  {
+    "id": "s4",
+    "lvl": 1,
+    "title": "Dream Big (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "Close your eyes and make a wish",
+        "de": "Schließ die Augen und wünsch dir etwas"
+      },
+      {
+        "en": "Tomorrow is a brand new day",
+        "de": "Morgen ist ein ganz neuer Tag"
+      },
+      {
+        "en": "You can be what you want to be",
+        "de": "Du kannst sein, was du sein willst"
+      },
+      {
+        "en": "Don't let anyone say no",
+        "de": "Lass dir von niemandem Nein sagen"
+      },
+      {
+        "en": "Dream big, dream big",
+        "de": "Träum groß, träum groß"
+      },
+      {
+        "en": "The world is waiting for you",
+        "de": "Die Welt wartet auf dich"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "wish"
+      },
+      {
+        "line": 1,
+        "word": "new"
+      },
+      {
+        "line": 4,
+        "word": "big"
+      }
+    ],
+    "culture": "Motivationssongs sprechen den Hörer direkt mit 'you' an. 'Make a wish' ist ein festes Bild: sich bei Geburtstagskerzen oder Sternschnuppen etwas wünschen."
+  },
+  {
+    "id": "s5",
+    "lvl": 2,
+    "title": "Midnight Road (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "I'm driving through the night, gotta clear my mind",
+        "de": "Ich fahre durch die Nacht, muss meinen Kopf frei kriegen"
+      },
+      {
+        "en": "The radio is playing songs that remind me of you",
+        "de": "Im Radio laufen Songs, die mich an dich erinnern"
+      },
+      {
+        "en": "I wanna turn around but I know I can't",
+        "de": "Ich will umdrehen, aber ich weiß, dass ich nicht kann"
+      },
+      {
+        "en": "Yesterday is gone and I'm movin' on",
+        "de": "Gestern ist vorbei und ich mache weiter"
+      },
+      {
+        "en": "Lights are flashing by like a movie scene",
+        "de": "Lichter rauschen vorbei wie in einer Filmszene"
+      },
+      {
+        "en": "I'm leaving all my doubts behind",
+        "de": "Ich lasse alle Zweifel hinter mir"
+      },
+      {
+        "en": "Midnight road, take me where I belong",
+        "de": "Mitternachtsstraße, bring mich dorthin, wo ich hingehöre"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "clear"
+      },
+      {
+        "line": 3,
+        "word": "gone"
+      },
+      {
+        "line": 5,
+        "word": "doubts"
+      }
+    ],
+    "culture": "Typische Songsprache: Verschleifungen wie 'gotta', 'wanna', 'movin''. Die Straße und die Nacht stehen oft für Neuanfang und Loslassen."
+  },
+  {
+    "id": "s6",
+    "lvl": 2,
+    "title": "Coffee and Rain (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "Sunday morning, coffee and rain",
+        "de": "Sonntagmorgen, Kaffee und Regen"
+      },
+      {
+        "en": "You're still sleeping, I'm watching the window",
+        "de": "Du schläfst noch, ich schaue aus dem Fenster"
+      },
+      {
+        "en": "Nobody calls, nobody knocks",
+        "de": "Niemand ruft an, niemand klopft"
+      },
+      {
+        "en": "It's just us in our little world",
+        "de": "Es sind nur wir in unserer kleinen Welt"
+      },
+      {
+        "en": "I could stay like this forever",
+        "de": "Ich könnte für immer so bleiben"
+      },
+      {
+        "en": "Slow down, time, don't take this away",
+        "de": "Langsamer, Zeit, nimm das nicht weg"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "sleeping"
+      },
+      {
+        "line": 2,
+        "word": "knocks"
+      },
+      {
+        "line": 4,
+        "word": "forever"
+      }
+    ],
+    "culture": "Ruhige Popsongs zeichnen kleine Alltagsszenen. Mit Personifikation wie 'Slow down, time' wird die Zeit direkt angesprochen."
+  },
+  {
+    "id": "s7",
+    "lvl": 2,
+    "title": "Friday Feeling (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "Five o'clock, I'm out the door",
+        "de": "Fünf Uhr, ich bin zur Tür raus"
+      },
+      {
+        "en": "Friday night, I want some more",
+        "de": "Freitagabend, ich will mehr"
+      },
+      {
+        "en": "Call the crew, we're hitting the town",
+        "de": "Ruf die Crew an, wir ziehen durch die Stadt"
+      },
+      {
+        "en": "Nobody's gonna bring us down",
+        "de": "Niemand wird uns runterziehen"
+      },
+      {
+        "en": "Turn it up, turn the music loud",
+        "de": "Dreh auf, mach die Musik laut"
+      },
+      {
+        "en": "We're the kings of the crowd",
+        "de": "Wir sind die Könige der Menge"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 2,
+        "word": "crew"
+      },
+      {
+        "line": 3,
+        "word": "gonna"
+      },
+      {
+        "line": 4,
+        "word": "music"
+      }
+    ],
+    "culture": "'Hit the town' bedeutet ausgehen und feiern. Party-Songs nutzen kurze Reimzeilen und Imperative wie 'turn it up'."
+  },
+  {
+    "id": "s8",
+    "lvl": 2,
+    "title": "Without You (Original)",
+    "style": "Ballade",
+    "lines": [
+      {
+        "en": "The house feels empty since you left",
+        "de": "Das Haus fühlt sich leer an, seit du weg bist"
+      },
+      {
+        "en": "Your coffee cup is still on the shelf",
+        "de": "Deine Kaffeetasse steht noch im Regal"
+      },
+      {
+        "en": "I don't know how to be alone",
+        "de": "Ich weiß nicht, wie man allein ist"
+      },
+      {
+        "en": "I keep on staring at my phone",
+        "de": "Ich starre immer wieder auf mein Handy"
+      },
+      {
+        "en": "Maybe you'll call, maybe you won't",
+        "de": "Vielleicht rufst du an, vielleicht nicht"
+      },
+      {
+        "en": "But I'll be here, I'll be here",
+        "de": "Aber ich bin hier, ich bin hier"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "empty"
+      },
+      {
+        "line": 2,
+        "word": "alone"
+      },
+      {
+        "line": 3,
+        "word": "staring"
+      }
+    ],
+    "culture": "Trennungsballaden erzählen über kleine Gegenstände (Tasse, Handy), die an die Person erinnern. 'I keep on + -ing' beschreibt ein Gewohnheitsverhalten."
+  },
+  {
+    "id": "s9",
+    "lvl": 2,
+    "title": "Summer Town (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "We rode our bikes down to the sea",
+        "de": "Wir sind mit den Rädern zum Meer gefahren"
+      },
+      {
+        "en": "Salt in the air, sand on our feet",
+        "de": "Salz in der Luft, Sand an den Füßen"
+      },
+      {
+        "en": "You laughed so hard you couldn't breathe",
+        "de": "Du hast so gelacht, dass du keine Luft bekamst"
+      },
+      {
+        "en": "That summer day is all I need",
+        "de": "Dieser Sommertag ist alles, was ich brauche"
+      },
+      {
+        "en": "Take me back to the summer town",
+        "de": "Bring mich zurück in die Sommerstadt"
+      },
+      {
+        "en": "Where nothing could ever bring us down",
+        "de": "Wo uns nichts je runterziehen konnte"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "bikes"
+      },
+      {
+        "line": 2,
+        "word": "breathe"
+      },
+      {
+        "line": 4,
+        "word": "summer"
+      }
+    ],
+    "culture": "Nostalgie-Songs blicken auf vergangene Sommer zurück, meist mit Past Simple. 'Bring someone down' heißt jemanden deprimieren."
+  },
+  {
+    "id": "s10",
+    "lvl": 2,
+    "title": "Count on Me (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "When the road gets rough and the night gets long",
+        "de": "Wenn der Weg holprig wird und die Nacht lang"
+      },
+      {
+        "en": "I'll be there, I'll be your song",
+        "de": "Ich werde da sein, ich werde dein Song sein"
+      },
+      {
+        "en": "You can count on me, count on me",
+        "de": "Du kannst auf mich zählen, auf mich zählen"
+      },
+      {
+        "en": "Through the sun and through the storm",
+        "de": "Durch Sonne und durch Sturm"
+      },
+      {
+        "en": "I won't let you fall",
+        "de": "Ich lasse dich nicht fallen"
+      },
+      {
+        "en": "I won't let you fall apart",
+        "de": "Ich lasse dich nicht zerbrechen"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "rough"
+      },
+      {
+        "line": 2,
+        "word": "count"
+      },
+      {
+        "line": 4,
+        "word": "fall"
+      }
+    ],
+    "culture": "'Count on someone' (sich auf jemanden verlassen) ist ein häufiger Freundschaftsspruch in Songs. Sturm und Sonne stehen für gute und schlechte Zeiten."
+  },
+  {
+    "id": "s11",
+    "lvl": 3,
+    "title": "Neon Lights (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "Neon lights on the wet pavement tonight",
+        "de": "Neonlichter auf dem nassen Pflaster heute Nacht"
+      },
+      {
+        "en": "I'm chasing a feeling I can't quite explain",
+        "de": "Ich jage einem Gefühl hinterher, das ich nicht ganz erklären kann"
+      },
+      {
+        "en": "Everybody's dancing but I'm lost in thought",
+        "de": "Alle tanzen, aber ich bin in Gedanken versunken"
+      },
+      {
+        "en": "Wondering if you ever think of me",
+        "de": "Ich frage mich, ob du je an mich denkst"
+      },
+      {
+        "en": "Tell me what it takes to make you stay",
+        "de": "Sag mir, was es braucht, damit du bleibst"
+      },
+      {
+        "en": "'Cause I'm running out of ways to say it",
+        "de": "Denn mir gehen die Worte aus, es zu sagen"
+      },
+      {
+        "en": "Neon lights, don't let me fade away",
+        "de": "Neonlichter, lass mich nicht verblassen"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "chasing"
+      },
+      {
+        "line": 2,
+        "word": "lost"
+      },
+      {
+        "line": 5,
+        "word": "running"
+      }
+    ],
+    "culture": "Stadt-Nacht-Bilder (neon, wet pavement) schaffen Stimmung. 'Run out of' (etwas geht aus) und 'lost in thought' sind feste Wendungen."
+  },
+  {
+    "id": "s12",
+    "lvl": 3,
+    "title": "Second Chance (Original)",
+    "style": "Ballade",
+    "lines": [
+      {
+        "en": "I know I let you down last year",
+        "de": "Ich weiß, ich habe dich letztes Jahr enttäuscht"
+      },
+      {
+        "en": "I should've listened when you cried",
+        "de": "Ich hätte zuhören sollen, als du geweint hast"
+      },
+      {
+        "en": "Now I'm standing at your door again",
+        "de": "Jetzt stehe ich wieder vor deiner Tür"
+      },
+      {
+        "en": "With nothing but a promise in my hands",
+        "de": "Mit nichts als einem Versprechen in den Händen"
+      },
+      {
+        "en": "Give me one more chance to make it right",
+        "de": "Gib mir noch eine Chance, es richtig zu machen"
+      },
+      {
+        "en": "I'll change, I swear, I'll change",
+        "de": "Ich ändere mich, ich schwöre, ich ändere mich"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "let"
+      },
+      {
+        "line": 1,
+        "word": "listened"
+      },
+      {
+        "line": 4,
+        "word": "chance"
+      }
+    ],
+    "culture": "'Let someone down' heißt jemanden enttäuschen. Reue-Songs nutzen 'should've' (should have) und Schwüre wie 'I swear'."
+  },
+  {
+    "id": "s13",
+    "lvl": 3,
+    "title": "Runaway Train (Original)",
+    "style": "Rock",
+    "lines": [
+      {
+        "en": "I've been running on empty for too long",
+        "de": "Ich laufe schon zu lange auf Reserve"
+      },
+      {
+        "en": "My heart's a train that's off the track",
+        "de": "Mein Herz ist ein Zug, der aus den Schienen ist"
+      },
+      {
+        "en": "They say I'm crazy but I don't care",
+        "de": "Sie sagen, ich bin verrückt, aber das ist mir egal"
+      },
+      {
+        "en": "I'm done pretending that I'm fine",
+        "de": "Ich habe keine Lust mehr, so zu tun, als ginge es mir gut"
+      },
+      {
+        "en": "Pull the brakes or let me burn",
+        "de": "Zieh die Bremse oder lass mich brennen"
+      },
+      {
+        "en": "Runaway train, I'm never coming back",
+        "de": "Außer Kontrolle geratener Zug, ich komme nie zurück"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "empty"
+      },
+      {
+        "line": 2,
+        "word": "crazy"
+      },
+      {
+        "line": 3,
+        "word": "pretending"
+      }
+    ],
+    "culture": "Rocksongs nutzen kräftige Metaphern (Zug außer Kontrolle) für Gefühlschaos. 'Be done with something' bedeutet, genug davon zu haben."
+  },
+  {
+    "id": "s14",
+    "lvl": 3,
+    "title": "City Kid (Original)",
+    "style": "Hip-Hop",
+    "lines": [
+      {
+        "en": "Grew up on a block where the lights never slept",
+        "de": "Aufgewachsen in einem Block, wo das Licht nie schlief"
+      },
+      {
+        "en": "Mama worked two jobs so we could eat",
+        "de": "Mama hatte zwei Jobs, damit wir essen konnten"
+      },
+      {
+        "en": "Now I'm on the grind, chasing my dream",
+        "de": "Jetzt ackere ich und jage meinen Traum"
+      },
+      {
+        "en": "Every setback made me stronger",
+        "de": "Jeder Rückschlag hat mich stärker gemacht"
+      },
+      {
+        "en": "They doubted me, but I kept my faith",
+        "de": "Sie haben an mir gezweifelt, aber ich habe meinen Glauben behalten"
+      },
+      {
+        "en": "Look at me now, I'm finally free",
+        "de": "Schau mich jetzt an, ich bin endlich frei"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "block"
+      },
+      {
+        "line": 2,
+        "word": "grind"
+      },
+      {
+        "line": 3,
+        "word": "setback"
+      }
+    ],
+    "culture": "Hip-Hop erzählt oft eine Aufstiegsgeschichte aus einfachen Verhältnissen. 'The grind' ist Slang für harte, ständige Arbeit, 'block' meint das Wohnviertel."
+  },
+  {
+    "id": "s15",
+    "lvl": 3,
+    "title": "Paper Planes (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "We folded all our secrets into paper planes",
+        "de": "Wir falteten all unsere Geheimnisse zu Papierfliegern"
+      },
+      {
+        "en": "And threw them from the rooftop to the rain",
+        "de": "Und warfen sie vom Dach in den Regen"
+      },
+      {
+        "en": "Nobody knew what we were running from",
+        "de": "Niemand wusste, wovor wir weggelaufen sind"
+      },
+      {
+        "en": "But we were young and we were free",
+        "de": "Aber wir waren jung und frei"
+      },
+      {
+        "en": "Now the years have flown away",
+        "de": "Jetzt sind die Jahre davongeflogen"
+      },
+      {
+        "en": "I wonder where those planes ended up",
+        "de": "Ich frage mich, wo die Flieger gelandet sind"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "folded"
+      },
+      {
+        "line": 2,
+        "word": "running"
+      },
+      {
+        "line": 5,
+        "word": "wonder"
+      }
+    ],
+    "culture": "Songs verwenden gerne ein zentrales Bild (Papierflieger) als Symbol für Jugend und Erinnerung. 'End up' bedeutet irgendwo landen."
+  },
+  {
+    "id": "s16",
+    "lvl": 3,
+    "title": "Break the Silence (Original)",
+    "style": "Rock",
+    "lines": [
+      {
+        "en": "We sit in silence at the kitchen table",
+        "de": "Wir sitzen schweigend am Küchentisch"
+      },
+      {
+        "en": "Neither of us knows where to begin",
+        "de": "Keiner von uns weiß, wo er anfangen soll"
+      },
+      {
+        "en": "The clock keeps ticking, louder and louder",
+        "de": "Die Uhr tickt weiter, immer lauter"
+      },
+      {
+        "en": "Say something, anything, just say it",
+        "de": "Sag etwas, irgendetwas, sag es einfach"
+      },
+      {
+        "en": "I'd rather fight than feel this cold",
+        "de": "Ich würde lieber streiten, als diese Kälte zu spüren"
+      },
+      {
+        "en": "Break the silence before it breaks us",
+        "de": "Brich das Schweigen, bevor es uns bricht"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "silence"
+      },
+      {
+        "line": 2,
+        "word": "ticking"
+      },
+      {
+        "line": 4,
+        "word": "rather"
+      }
+    ],
+    "culture": "Das Wortspiel 'break the silence / breaks us' ist typisch für Songtexte. 'I'd rather ... than ...' drückt eine Vorliebe aus."
+  },
+  {
+    "id": "s17",
+    "lvl": 3,
+    "title": "Golden Hour (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "The sky turns gold, the city slows down",
+        "de": "Der Himmel wird golden, die Stadt wird langsamer"
+      },
+      {
+        "en": "I'm walking home with my headphones on",
+        "de": "Ich gehe mit Kopfhörern nach Hause"
+      },
+      {
+        "en": "Nothing to prove, nowhere to be",
+        "de": "Nichts zu beweisen, nirgendwo sein zu müssen"
+      },
+      {
+        "en": "Just a song and the setting sun",
+        "de": "Nur ein Song und die untergehende Sonne"
+      },
+      {
+        "en": "Golden hour, hold me tight",
+        "de": "Goldene Stunde, halt mich fest"
+      },
+      {
+        "en": "Don't let the daylight say goodbye",
+        "de": "Lass das Tageslicht nicht Abschied nehmen"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "headphones"
+      },
+      {
+        "line": 2,
+        "word": "prove"
+      },
+      {
+        "line": 3,
+        "word": "setting"
+      }
+    ],
+    "culture": "'Golden hour' ist die Stunde nach Sonnenaufgang oder vor Sonnenuntergang. Chill-Pop zeichnet ruhige Alltagsmomente mit Lichtbildern."
+  },
+  {
+    "id": "s18",
+    "lvl": 3,
+    "title": "Hold On (Original)",
+    "style": "Ballade",
+    "lines": [
+      {
+        "en": "When the world is crashing down on you",
+        "de": "Wenn die Welt über dir zusammenbricht"
+      },
+      {
+        "en": "And you can't find the strength to stand",
+        "de": "Und du keine Kraft zum Aufstehen findest"
+      },
+      {
+        "en": "Hold on, hold on, I'm right here",
+        "de": "Halt durch, halt durch, ich bin hier"
+      },
+      {
+        "en": "We'll get through this, one step at a time",
+        "de": "Wir schaffen das, Schritt für Schritt"
+      },
+      {
+        "en": "The storm will pass, it always does",
+        "de": "Der Sturm zieht vorbei, das tut er immer"
+      },
+      {
+        "en": "And I will be your shelter",
+        "de": "Und ich werde dein Schutz sein"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "strength"
+      },
+      {
+        "line": 3,
+        "word": "through"
+      },
+      {
+        "line": 4,
+        "word": "storm"
+      }
+    ],
+    "culture": "'Hold on' bedeutet durchhalten. 'Get through' und 'one step at a time' sind typische Trostformeln in Balladen."
+  },
+  {
+    "id": "s19",
+    "lvl": 4,
+    "title": "Burn the Bridges (Original)",
+    "style": "Rock",
+    "lines": [
+      {
+        "en": "You can't unsay the words you've said",
+        "de": "Du kannst die Worte, die du gesagt hast, nicht zurücknehmen"
+      },
+      {
+        "en": "The damage is done, the trust is thin",
+        "de": "Der Schaden ist angerichtet, das Vertrauen ist dünn"
+      },
+      {
+        "en": "I gave you everything I had to give",
+        "de": "Ich habe dir alles gegeben, was ich zu geben hatte"
+      },
+      {
+        "en": "And you threw it all away without a thought",
+        "de": "Und du hast alles ohne einen Gedanken weggeworfen"
+      },
+      {
+        "en": "So I'm gonna burn the bridges, watch them fall",
+        "de": "Also werde ich die Brücken abbrennen und sie fallen sehen"
+      },
+      {
+        "en": "There's no way back, no turning round",
+        "de": "Es gibt keinen Weg zurück, kein Umkehren"
+      },
+      {
+        "en": "I'm done with your lies and your games",
+        "de": "Ich bin fertig mit deinen Lügen und Spielchen"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "damage"
+      },
+      {
+        "line": 3,
+        "word": "thought"
+      },
+      {
+        "line": 4,
+        "word": "bridges"
+      }
+    ],
+    "culture": "'Burn bridges' heißt bewusst Beziehungen zerstören. Wütende Rocksongs nutzen kurze, harte Sätze und 'gonna'."
+  },
+  {
+    "id": "s20",
+    "lvl": 4,
+    "title": "Echoes (Original)",
+    "style": "Ballade",
+    "lines": [
+      {
+        "en": "Your echoes linger in the hallways of my mind",
+        "de": "Dein Echo hallt in den Fluren meiner Gedanken nach"
+      },
+      {
+        "en": "I keep rewinding every moment that we shared",
+        "de": "Ich spule immer wieder jeden gemeinsamen Moment zurück"
+      },
+      {
+        "en": "Funny how a scent can bring you back",
+        "de": "Komisch, wie ein Duft dich zurückbringen kann"
+      },
+      {
+        "en": "Funny how the quiet gets so loud",
+        "de": "Komisch, wie die Stille so laut wird"
+      },
+      {
+        "en": "They say time heals what hurts the most",
+        "de": "Man sagt, die Zeit heilt, was am meisten wehtut"
+      },
+      {
+        "en": "But time is just a thief in disguise",
+        "de": "Aber die Zeit ist nur ein Dieb in Verkleidung"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "linger"
+      },
+      {
+        "line": 2,
+        "word": "scent"
+      },
+      {
+        "line": 4,
+        "word": "heals"
+      }
+    ],
+    "culture": "Poetische Balladen nutzen Personifikation und Paradoxe ('the quiet gets so loud'). 'Time heals all wounds' ist ein bekanntes Sprichwort."
+  },
+  {
+    "id": "s21",
+    "lvl": 4,
+    "title": "Hustle Season (Original)",
+    "style": "Hip-Hop",
+    "lines": [
+      {
+        "en": "Woke up at five, no time to waste",
+        "de": "Um fünf aufgewacht, keine Zeit zu verlieren"
+      },
+      {
+        "en": "Coffee black, I'm on my pace",
+        "de": "Kaffee schwarz, ich bin in meinem Tempo"
+      },
+      {
+        "en": "They ask me how I stay so sharp",
+        "de": "Sie fragen mich, wie ich so fit bleibe"
+      },
+      {
+        "en": "I don't sleep, I just recharge",
+        "de": "Ich schlafe nicht, ich lade nur auf"
+      },
+      {
+        "en": "Every dollar's earned, not given",
+        "de": "Jeder Dollar ist verdient, nicht geschenkt"
+      },
+      {
+        "en": "Real ones know that I'm the realest",
+        "de": "Echte Leute wissen, dass ich der Echteste bin"
+      },
+      {
+        "en": "Hustle season, we don't stop",
+        "de": "Hustle-Saison, wir hören nicht auf"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "waste"
+      },
+      {
+        "line": 2,
+        "word": "sharp"
+      },
+      {
+        "line": 4,
+        "word": "earned"
+      }
+    ],
+    "culture": "'Hustle' bedeutet hart für Erfolg arbeiten. Hip-Hop nutzt Prahlerei (braggadocio), Reim am Zeilenende und Slang wie 'real ones'."
+  },
+  {
+    "id": "s22",
+    "lvl": 4,
+    "title": "Glass House (Original)",
+    "style": "Rock",
+    "lines": [
+      {
+        "en": "We built a house of glass on shaky ground",
+        "de": "Wir haben ein Glashaus auf wackligem Boden gebaut"
+      },
+      {
+        "en": "Every secret visible for all to see",
+        "de": "Jedes Geheimnis für alle sichtbar"
+      },
+      {
+        "en": "One stone was all it took to bring it down",
+        "de": "Ein einziger Stein genügte, um es einzureißen"
+      },
+      {
+        "en": "Now I'm sweeping up the pieces of us",
+        "de": "Jetzt fege ich die Scherben von uns zusammen"
+      },
+      {
+        "en": "Don't throw stones if you live in glass",
+        "de": "Wirf keine Steine, wenn du im Glashaus sitzt"
+      },
+      {
+        "en": "We both shared the blame, we both did wrong",
+        "de": "Wir tragen beide Schuld, wir haben beide Fehler gemacht"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "shaky"
+      },
+      {
+        "line": 2,
+        "word": "stone"
+      },
+      {
+        "line": 5,
+        "word": "blame"
+      }
+    ],
+    "culture": "Das Bild 'people who live in glass houses shouldn't throw stones' ist ein englisches Sprichwort. Songs spielen oft mit solchen Redewendungen."
+  },
+  {
+    "id": "s23",
+    "lvl": 5,
+    "title": "Static Heart (Original)",
+    "style": "Ballade",
+    "lines": [
+      {
+        "en": "There's static in my heart where your signal used to be",
+        "de": "Da ist Rauschen in meinem Herzen, wo früher dein Signal war"
+      },
+      {
+        "en": "I'm tuning every frequency, hoping you'll come through",
+        "de": "Ich stelle jede Frequenz ein, in der Hoffnung, du meldest dich"
+      },
+      {
+        "en": "Silence is a language I never learned to speak",
+        "de": "Stille ist eine Sprache, die ich nie sprechen gelernt habe"
+      },
+      {
+        "en": "Yet here I am, fluent in your absence",
+        "de": "Und doch bin ich hier, fließend in deiner Abwesenheit"
+      },
+      {
+        "en": "If you're out there, give me one more sign",
+        "de": "Wenn du da draußen bist, gib mir noch ein Zeichen"
+      },
+      {
+        "en": "Before I lose the last of this connection",
+        "de": "Bevor ich den Rest dieser Verbindung verliere"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "frequency"
+      },
+      {
+        "line": 3,
+        "word": "fluent"
+      },
+      {
+        "line": 5,
+        "word": "connection"
+      }
+    ],
+    "culture": "Erweiterte Metaphern (Radio-Rauschen für Beziehungsende) sind in anspruchsvollen Balladen üblich. 'Come through' bedeutet hier sich melden bzw. durchkommen."
+  },
+  {
+    "id": "s24",
+    "lvl": 5,
+    "title": "Ghost of Summer (Original)",
+    "style": "Pop",
+    "lines": [
+      {
+        "en": "I swore I'd never fall for someone like you",
+        "de": "Ich habe geschworen, mich nie in jemanden wie dich zu verlieben"
+      },
+      {
+        "en": "Yet here I am, haunted by a summer ghost",
+        "de": "Und doch bin ich hier, verfolgt von einem Sommergeist"
+      },
+      {
+        "en": "You slipped right through my fingers like the tide",
+        "de": "Du bist mir wie die Flut durch die Finger geglitten"
+      },
+      {
+        "en": "And now I'm left to wonder what we could've been",
+        "de": "Und jetzt bleibt mir nur zu rätseln, was aus uns hätte werden können"
+      },
+      {
+        "en": "Funny how the closest feel so far",
+        "de": "Komisch, wie die Nächsten so fern wirken"
+      },
+      {
+        "en": "I'm learning to let go, but not tonight",
+        "de": "Ich lerne loszulassen, aber nicht heute Nacht"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "swore"
+      },
+      {
+        "line": 1,
+        "word": "haunted"
+      },
+      {
+        "line": 2,
+        "word": "slipped"
+      }
+    ],
+    "culture": "'Haunted by' und 'slip through one's fingers' sind bildhafte Wendungen für verlorene Liebe. Sommerlieder verbinden Wehmut mit Flüchtigkeit."
+  }
+]

@@ -1,0 +1,10 @@
+name = "englisch-trainer-ai"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Modell und Adresse kannst du hier ändern, ohne den Schlüssel anzufassen.
+# Schlüssel kommen NICHT hierher, sondern über `wrangler secret put`.
+[vars]
+AI_BASE_URL = "https://api.openai.com/v1"
+AI_MODEL = "gpt-4o-mini"
+# AI_JSON_MODE = "off"

@@ -1,0 +1,3407 @@
+[
+  {
+    "en": "I need some help.",
+    "de": "Ich brauche etwas Hilfe.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "I need a little help."
+    ]
+  },
+  {
+    "en": "Can you help me?",
+    "de": "Kannst du mir helfen?",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "Could you help me?"
+    ]
+  },
+  {
+    "en": "I don't understand.",
+    "de": "Ich verstehe das nicht.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "I don't get it."
+    ]
+  },
+  {
+    "en": "Please speak more slowly.",
+    "de": "Bitte sprich langsamer.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "Could you speak more slowly?"
+    ]
+  },
+  {
+    "en": "Can you repeat that?",
+    "de": "Kannst du das wiederholen?",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "Could you say that again?"
+    ]
+  },
+  {
+    "en": "What does this mean?",
+    "de": "Was bedeutet das?",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "How do you say that?",
+    "de": "Wie sagt man das?",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'm sorry, I'm late.",
+    "de": "Entschuldigung, ich bin spät dran.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "Sorry, I'm late."
+    ]
+  },
+  {
+    "en": "Thank you very much.",
+    "de": "Vielen Dank.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "Thanks a lot."
+    ]
+  },
+  {
+    "en": "Excuse me, one question.",
+    "de": "Entschuldigung, eine Frage.",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "I have a question.",
+    "de": "Ich habe eine Frage.",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "Just a moment, please.",
+    "de": "Einen Moment, bitte.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "One moment, please."
+    ]
+  },
+  {
+    "en": "That's a good idea.",
+    "de": "Das ist eine gute Idee.",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'm not sure.",
+    "de": "Ich bin mir nicht sicher.",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "I think so.",
+    "de": "Ich denke schon.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "I guess so."
+    ]
+  },
+  {
+    "en": "I don't know.",
+    "de": "Ich weiß es nicht.",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "Let me think about it.",
+    "de": "Lass mich darüber nachdenken.",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "No problem at all.",
+    "de": "Überhaupt kein Problem.",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "It doesn't matter.",
+    "de": "Das ist egal.",
+    "lvl": 1,
+    "cat": "alltag",
+    "alt": [
+      "It doesn't make a difference."
+    ]
+  },
+  {
+    "en": "Nice to meet you.",
+    "de": "Schön, dich kennenzulernen.",
+    "lvl": 1,
+    "cat": "menschen",
+    "alt": [
+      "Nice to meet you!"
+    ]
+  },
+  {
+    "en": "How are you today?",
+    "de": "Wie geht es dir heute?",
+    "lvl": 1,
+    "cat": "menschen",
+    "alt": [
+      "How are you doing today?"
+    ]
+  },
+  {
+    "en": "I'm fine, thanks.",
+    "de": "Mir geht's gut, danke.",
+    "lvl": 1,
+    "cat": "menschen",
+    "alt": [
+      "I'm good, thanks."
+    ]
+  },
+  {
+    "en": "Where are you from?",
+    "de": "Woher kommst du?",
+    "lvl": 1,
+    "cat": "menschen"
+  },
+  {
+    "en": "I'm from Germany.",
+    "de": "Ich komme aus Deutschland.",
+    "lvl": 1,
+    "cat": "menschen"
+  },
+  {
+    "en": "What do you do?",
+    "de": "Was machst du beruflich?",
+    "lvl": 1,
+    "cat": "menschen",
+    "alt": [
+      "What do you do for a living?"
+    ]
+  },
+  {
+    "en": "This is my friend.",
+    "de": "Das ist mein Freund.",
+    "lvl": 1,
+    "cat": "menschen",
+    "alt": [
+      "This is my friend Tom."
+    ]
+  },
+  {
+    "en": "She is my sister.",
+    "de": "Sie ist meine Schwester.",
+    "lvl": 1,
+    "cat": "menschen"
+  },
+  {
+    "en": "He lives in Berlin.",
+    "de": "Er wohnt in Berlin.",
+    "lvl": 1,
+    "cat": "menschen"
+  },
+  {
+    "en": "We are good friends.",
+    "de": "Wir sind gute Freunde.",
+    "lvl": 1,
+    "cat": "menschen"
+  },
+  {
+    "en": "Have a nice day!",
+    "de": "Schönen Tag noch!",
+    "lvl": 1,
+    "cat": "menschen",
+    "alt": [
+      "Have a great day!"
+    ]
+  },
+  {
+    "en": "See you tomorrow.",
+    "de": "Bis morgen.",
+    "lvl": 1,
+    "cat": "menschen"
+  },
+  {
+    "en": "I'd like a coffee.",
+    "de": "Ich hätte gern einen Kaffee.",
+    "lvl": 1,
+    "cat": "essen",
+    "alt": [
+      "I'll have a coffee."
+    ]
+  },
+  {
+    "en": "A table for two, please.",
+    "de": "Einen Tisch für zwei, bitte.",
+    "lvl": 1,
+    "cat": "essen"
+  },
+  {
+    "en": "Can I see the menu?",
+    "de": "Kann ich die Speisekarte sehen?",
+    "lvl": 1,
+    "cat": "essen",
+    "alt": [
+      "Could I see the menu?"
+    ]
+  },
+  {
+    "en": "The check, please.",
+    "de": "Die Rechnung, bitte.",
+    "lvl": 1,
+    "cat": "essen",
+    "alt": [
+      "Can I have the check, please?"
+    ]
+  },
+  {
+    "en": "I'm very hungry.",
+    "de": "Ich habe großen Hunger.",
+    "lvl": 1,
+    "cat": "essen",
+    "alt": [
+      "I'm starving."
+    ]
+  },
+  {
+    "en": "I'm not hungry.",
+    "de": "Ich habe keinen Hunger.",
+    "lvl": 1,
+    "cat": "essen"
+  },
+  {
+    "en": "This tastes really good.",
+    "de": "Das schmeckt wirklich gut.",
+    "lvl": 1,
+    "cat": "essen",
+    "alt": [
+      "This is really good."
+    ]
+  },
+  {
+    "en": "I'm a vegetarian.",
+    "de": "Ich bin Vegetarier.",
+    "lvl": 1,
+    "cat": "essen"
+  },
+  {
+    "en": "Do you like pizza?",
+    "de": "Magst du Pizza?",
+    "lvl": 1,
+    "cat": "essen"
+  },
+  {
+    "en": "How much is this?",
+    "de": "Wie viel kostet das?",
+    "lvl": 1,
+    "cat": "einkaufen",
+    "alt": [
+      "How much does this cost?"
+    ]
+  },
+  {
+    "en": "It's too expensive.",
+    "de": "Das ist zu teuer.",
+    "lvl": 1,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "I'm just looking.",
+    "de": "Ich schaue nur.",
+    "lvl": 1,
+    "cat": "einkaufen",
+    "alt": [
+      "I'm just browsing."
+    ]
+  },
+  {
+    "en": "Can I pay by card?",
+    "de": "Kann ich mit Karte zahlen?",
+    "lvl": 1,
+    "cat": "einkaufen",
+    "alt": [
+      "Do you take cards?"
+    ]
+  },
+  {
+    "en": "Do you have a bag?",
+    "de": "Haben Sie eine Tüte?",
+    "lvl": 1,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "I'll take it.",
+    "de": "Ich nehme es.",
+    "lvl": 1,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "Where is the station?",
+    "de": "Wo ist der Bahnhof?",
+    "lvl": 1,
+    "cat": "reisen"
+  },
+  {
+    "en": "Go straight ahead.",
+    "de": "Gehen Sie geradeaus.",
+    "lvl": 1,
+    "cat": "reisen"
+  },
+  {
+    "en": "Turn left here.",
+    "de": "Biegen Sie hier links ab.",
+    "lvl": 1,
+    "cat": "reisen"
+  },
+  {
+    "en": "Is it far from here?",
+    "de": "Ist es weit von hier?",
+    "lvl": 1,
+    "cat": "reisen"
+  },
+  {
+    "en": "I have a reservation.",
+    "de": "Ich habe eine Reservierung.",
+    "lvl": 1,
+    "cat": "reisen",
+    "alt": [
+      "I have a booking."
+    ]
+  },
+  {
+    "en": "One ticket, please.",
+    "de": "Eine Fahrkarte, bitte.",
+    "lvl": 1,
+    "cat": "reisen",
+    "alt": [
+      "One ticket, please."
+    ]
+  },
+  {
+    "en": "When does the train leave?",
+    "de": "Wann fährt der Zug ab?",
+    "lvl": 1,
+    "cat": "reisen"
+  },
+  {
+    "en": "My flight is delayed.",
+    "de": "Mein Flug hat Verspätung.",
+    "lvl": 1,
+    "cat": "reisen"
+  },
+  {
+    "en": "Where is the bathroom?",
+    "de": "Wo ist die Toilette?",
+    "lvl": 1,
+    "cat": "reisen",
+    "alt": [
+      "Where is the restroom?"
+    ]
+  },
+  {
+    "en": "What time is it?",
+    "de": "Wie spät ist es?",
+    "lvl": 1,
+    "cat": "zeit",
+    "alt": [
+      "What's the time?"
+    ]
+  },
+  {
+    "en": "It's half past six.",
+    "de": "Es ist halb sieben.",
+    "lvl": 1,
+    "cat": "zeit"
+  },
+  {
+    "en": "See you at eight.",
+    "de": "Bis um acht.",
+    "lvl": 1,
+    "cat": "zeit"
+  },
+  {
+    "en": "I'm free on Friday.",
+    "de": "Ich habe Freitag Zeit.",
+    "lvl": 1,
+    "cat": "zeit"
+  },
+  {
+    "en": "I get up at seven.",
+    "de": "Ich stehe um sieben auf.",
+    "lvl": 1,
+    "cat": "zeit"
+  },
+  {
+    "en": "I work from home.",
+    "de": "Ich arbeite von zu Hause.",
+    "lvl": 1,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I have a meeting.",
+    "de": "Ich habe ein Meeting.",
+    "lvl": 1,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I start at nine.",
+    "de": "Ich fange um neun an.",
+    "lvl": 1,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm very busy today.",
+    "de": "Ich bin heute sehr beschäftigt.",
+    "lvl": 1,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Can I call you later?",
+    "de": "Kann ich dich später anrufen?",
+    "lvl": 1,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm so happy today.",
+    "de": "Ich bin heute so glücklich.",
+    "lvl": 1,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I feel tired.",
+    "de": "Ich fühle mich müde.",
+    "lvl": 1,
+    "cat": "gefuehle",
+    "alt": [
+      "I'm tired."
+    ]
+  },
+  {
+    "en": "I'm a bit nervous.",
+    "de": "Ich bin ein bisschen nervös.",
+    "lvl": 1,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "That makes me happy.",
+    "de": "Das freut mich.",
+    "lvl": 1,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I love this song.",
+    "de": "Ich liebe dieses Lied.",
+    "lvl": 1,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I miss you.",
+    "de": "Ich vermisse dich.",
+    "lvl": 1,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I have a headache.",
+    "de": "Ich habe Kopfschmerzen.",
+    "lvl": 1,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "I need a doctor.",
+    "de": "Ich brauche einen Arzt.",
+    "lvl": 1,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "I don't feel well.",
+    "de": "Mir geht es nicht gut.",
+    "lvl": 1,
+    "cat": "gesundheit",
+    "alt": [
+      "I feel sick."
+    ]
+  },
+  {
+    "en": "I like playing football.",
+    "de": "Ich spiele gern Fußball.",
+    "lvl": 1,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Let's watch a movie.",
+    "de": "Lass uns einen Film schauen.",
+    "lvl": 1,
+    "cat": "freizeit"
+  },
+  {
+    "en": "I go running often.",
+    "de": "Ich gehe oft joggen.",
+    "lvl": 1,
+    "cat": "freizeit"
+  },
+  {
+    "en": "My phone is dead.",
+    "de": "Mein Handy ist leer.",
+    "lvl": 1,
+    "cat": "technik",
+    "alt": [
+      "My phone died."
+    ]
+  },
+  {
+    "en": "What's the Wi-Fi password?",
+    "de": "Wie lautet das WLAN-Passwort?",
+    "lvl": 1,
+    "cat": "technik"
+  },
+  {
+    "en": "Where do you live?",
+    "de": "Wo wohnst du?",
+    "lvl": 1,
+    "cat": "alltag"
+  },
+  {
+    "en": "Could you tell me where the station is?",
+    "de": "Könntest du mir sagen, wo der Bahnhof ist?",
+    "lvl": 2,
+    "cat": "reisen",
+    "alt": [
+      "Can you tell me where the station is?"
+    ]
+  },
+  {
+    "en": "How do I get to the airport?",
+    "de": "Wie komme ich zum Flughafen?",
+    "lvl": 2,
+    "cat": "reisen",
+    "alt": [
+      "How can I get to the airport?"
+    ]
+  },
+  {
+    "en": "Does this bus go to the center?",
+    "de": "Fährt dieser Bus ins Zentrum?",
+    "lvl": 2,
+    "cat": "reisen",
+    "alt": [
+      "Is this the bus to the city center?"
+    ]
+  },
+  {
+    "en": "I'd like to book a room for two nights.",
+    "de": "Ich möchte ein Zimmer für zwei Nächte buchen.",
+    "lvl": 2,
+    "cat": "reisen",
+    "alt": [
+      "I would like to book a room for two nights."
+    ]
+  },
+  {
+    "en": "Is breakfast included in the price?",
+    "de": "Ist das Frühstück im Preis inbegriffen?",
+    "lvl": 2,
+    "cat": "reisen"
+  },
+  {
+    "en": "I missed my train this morning.",
+    "de": "Ich habe heute Morgen meinen Zug verpasst.",
+    "lvl": 2,
+    "cat": "reisen"
+  },
+  {
+    "en": "Where can I buy a ticket?",
+    "de": "Wo kann ich eine Fahrkarte kaufen?",
+    "lvl": 2,
+    "cat": "reisen"
+  },
+  {
+    "en": "How long does the flight take?",
+    "de": "Wie lange dauert der Flug?",
+    "lvl": 2,
+    "cat": "reisen"
+  },
+  {
+    "en": "We're staying at a small hotel.",
+    "de": "Wir übernachten in einem kleinen Hotel.",
+    "lvl": 2,
+    "cat": "reisen"
+  },
+  {
+    "en": "Can you recommend a good restaurant nearby?",
+    "de": "Kannst du ein gutes Restaurant in der Nähe empfehlen?",
+    "lvl": 2,
+    "cat": "reisen",
+    "alt": [
+      "Could you recommend a good restaurant around here?"
+    ]
+  },
+  {
+    "en": "I lost my passport yesterday.",
+    "de": "Ich habe gestern meinen Reisepass verloren.",
+    "lvl": 2,
+    "cat": "reisen"
+  },
+  {
+    "en": "Could I have a glass of water?",
+    "de": "Könnte ich ein Glas Wasser haben?",
+    "lvl": 2,
+    "cat": "essen",
+    "alt": [
+      "Can I get a glass of water?"
+    ]
+  },
+  {
+    "en": "I'll have the chicken with rice.",
+    "de": "Ich nehme das Hähnchen mit Reis.",
+    "lvl": 2,
+    "cat": "essen"
+  },
+  {
+    "en": "Is there any meat in this dish?",
+    "de": "Ist in diesem Gericht Fleisch?",
+    "lvl": 2,
+    "cat": "essen",
+    "alt": [
+      "Does this dish have meat in it?"
+    ]
+  },
+  {
+    "en": "Can we split the bill?",
+    "de": "Können wir getrennt zahlen?",
+    "lvl": 2,
+    "cat": "essen",
+    "alt": [
+      "Could we pay separately?"
+    ]
+  },
+  {
+    "en": "This soup is too salty for me.",
+    "de": "Diese Suppe ist mir zu salzig.",
+    "lvl": 2,
+    "cat": "essen"
+  },
+  {
+    "en": "What do you usually eat for breakfast?",
+    "de": "Was isst du normalerweise zum Frühstück?",
+    "lvl": 2,
+    "cat": "essen"
+  },
+  {
+    "en": "Let's order some food. I'm starving.",
+    "de": "Lass uns etwas zu essen bestellen. Ich verhungere.",
+    "lvl": 2,
+    "cat": "essen"
+  },
+  {
+    "en": "I cook dinner almost every night.",
+    "de": "Ich koche fast jeden Abend das Abendessen.",
+    "lvl": 2,
+    "cat": "essen"
+  },
+  {
+    "en": "Would you like some more coffee?",
+    "de": "Möchtest du noch etwas Kaffee?",
+    "lvl": 2,
+    "cat": "essen",
+    "alt": [
+      "Do you want some more coffee?"
+    ]
+  },
+  {
+    "en": "Do you have this in a larger size?",
+    "de": "Haben Sie das in einer größeren Größe?",
+    "lvl": 2,
+    "cat": "einkaufen",
+    "alt": [
+      "Do you have this in a bigger size?"
+    ]
+  },
+  {
+    "en": "Can I try this on?",
+    "de": "Kann ich das anprobieren?",
+    "lvl": 2,
+    "cat": "einkaufen",
+    "alt": [
+      "Could I try this on?"
+    ]
+  },
+  {
+    "en": "Is there a discount on this jacket?",
+    "de": "Gibt es Rabatt auf diese Jacke?",
+    "lvl": 2,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "I'd like to return this, please.",
+    "de": "Ich möchte das bitte zurückgeben.",
+    "lvl": 2,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "Where can I find the milk?",
+    "de": "Wo finde ich die Milch?",
+    "lvl": 2,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "I forgot my wallet at home.",
+    "de": "Ich habe mein Portemonnaie zu Hause vergessen.",
+    "lvl": 2,
+    "cat": "einkaufen",
+    "alt": [
+      "I left my wallet at home."
+    ]
+  },
+  {
+    "en": "Can you wrap it as a gift?",
+    "de": "Können Sie es als Geschenk einpacken?",
+    "lvl": 2,
+    "cat": "einkaufen",
+    "alt": [
+      "Could you gift-wrap it, please?"
+    ]
+  },
+  {
+    "en": "It was great to see you again.",
+    "de": "Es war schön, dich wieder zu sehen.",
+    "lvl": 2,
+    "cat": "menschen",
+    "alt": [
+      "It was nice to see you again."
+    ]
+  },
+  {
+    "en": "How long have you lived here?",
+    "de": "Wie lange wohnst du schon hier?",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "Do you have any brothers or sisters?",
+    "de": "Hast du Geschwister?",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "My parents live in a small town.",
+    "de": "Meine Eltern leben in einer Kleinstadt.",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "Let me introduce you to my colleague.",
+    "de": "Lass mich dich meinem Kollegen vorstellen.",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "She's very kind and funny.",
+    "de": "Sie ist sehr nett und lustig.",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "He always arrives on time.",
+    "de": "Er kommt immer pünktlich.",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "We met at a party last year.",
+    "de": "Wir haben uns letztes Jahr auf einer Party kennengelernt.",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "I'll introduce you to my friends tonight.",
+    "de": "Ich stelle dich heute Abend meinen Freunden vor.",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "Please say hello to your mom for me.",
+    "de": "Grüß bitte deine Mutter von mir.",
+    "lvl": 2,
+    "cat": "menschen"
+  },
+  {
+    "en": "Are you free this weekend?",
+    "de": "Hast du dieses Wochenende Zeit?",
+    "lvl": 2,
+    "cat": "zeit",
+    "alt": [
+      "Do you have time this weekend?"
+    ]
+  },
+  {
+    "en": "Let's meet at seven in front of the cinema.",
+    "de": "Treffen wir uns um sieben vor dem Kino.",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "I'll be there in ten minutes.",
+    "de": "Ich bin in zehn Minuten da.",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "Can we move the meeting to Thursday?",
+    "de": "Können wir das Treffen auf Donnerstag verschieben?",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "I usually go to bed around eleven.",
+    "de": "Ich gehe normalerweise gegen elf ins Bett.",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "What are you doing tomorrow evening?",
+    "de": "Was machst du morgen Abend?",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "I have to leave in five minutes.",
+    "de": "Ich muss in fünf Minuten los.",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "It takes about twenty minutes by bus.",
+    "de": "Mit dem Bus dauert es etwa zwanzig Minuten.",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "I'm sorry, I'm running a bit late.",
+    "de": "Tut mir leid, ich komme etwas später.",
+    "lvl": 2,
+    "cat": "zeit"
+  },
+  {
+    "en": "I work in a small office downtown.",
+    "de": "Ich arbeite in einem kleinen Büro in der Innenstadt.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you send me the file again?",
+    "de": "Könntest du mir die Datei nochmal schicken?",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I have a lot to do today.",
+    "de": "Ich habe heute viel zu tun.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "My boss is on vacation this week.",
+    "de": "Mein Chef ist diese Woche im Urlaub.",
+    "lvl": 2,
+    "cat": "arbeit",
+    "alt": [
+      "My boss is on holiday this week."
+    ]
+  },
+  {
+    "en": "We have a meeting at three o'clock.",
+    "de": "Wir haben um drei Uhr ein Meeting.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I finish work around five.",
+    "de": "Ich habe gegen fünf Feierabend.",
+    "lvl": 2,
+    "cat": "arbeit",
+    "alt": [
+      "I get off work around five."
+    ]
+  },
+  {
+    "en": "I'm looking for a new job.",
+    "de": "Ich suche einen neuen Job.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Can I take tomorrow off?",
+    "de": "Kann ich mir morgen freinehmen?",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Let me check my calendar.",
+    "de": "Lass mich in meinen Kalender schauen.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'll call you back in a minute.",
+    "de": "Ich rufe dich gleich zurück.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm really excited about the trip.",
+    "de": "Ich freue mich riesig auf die Reise.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I was very surprised by the news.",
+    "de": "Die Nachricht hat mich sehr überrascht.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "Don't worry, everything will be fine.",
+    "de": "Keine Sorge, alles wird gut.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I'm a little worried about tomorrow.",
+    "de": "Ich mache mir etwas Sorgen wegen morgen.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "That really made my day.",
+    "de": "Das hat mir echt den Tag versüßt.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I feel much better now.",
+    "de": "Jetzt fühle ich mich viel besser.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I was so bored at the party.",
+    "de": "Ich habe mich auf der Party so gelangweilt.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "It makes me really angry.",
+    "de": "Das macht mich wirklich wütend.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I'm sorry to hear that.",
+    "de": "Das tut mir leid.",
+    "lvl": 2,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I have a sore throat.",
+    "de": "Ich habe Halsschmerzen.",
+    "lvl": 2,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "I need to make a doctor's appointment.",
+    "de": "Ich muss einen Arzttermin machen.",
+    "lvl": 2,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "I've had a fever since yesterday.",
+    "de": "Ich habe seit gestern Fieber.",
+    "lvl": 2,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "You should get some rest.",
+    "de": "Du solltest dich ausruhen.",
+    "lvl": 2,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "My back hurts when I sit too long.",
+    "de": "Mein Rücken tut weh, wenn ich zu lange sitze.",
+    "lvl": 2,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "Do you have anything for a cold?",
+    "de": "Haben Sie etwas gegen Erkältung?",
+    "lvl": 2,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "I try to sleep eight hours every night.",
+    "de": "Ich versuche jede Nacht acht Stunden zu schlafen.",
+    "lvl": 2,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "Do you want to go for a walk?",
+    "de": "Willst du spazieren gehen?",
+    "lvl": 2,
+    "cat": "freizeit",
+    "alt": [
+      "Do you feel like going for a walk?"
+    ]
+  },
+  {
+    "en": "I like to read before I sleep.",
+    "de": "Ich lese gern vor dem Schlafen.",
+    "lvl": 2,
+    "cat": "freizeit"
+  },
+  {
+    "en": "We usually watch a movie on Fridays.",
+    "de": "Freitags schauen wir meistens einen Film.",
+    "lvl": 2,
+    "cat": "freizeit"
+  },
+  {
+    "en": "What kind of music do you like?",
+    "de": "Welche Art von Musik magst du?",
+    "lvl": 2,
+    "cat": "freizeit"
+  },
+  {
+    "en": "I go to the gym three times a week.",
+    "de": "Ich gehe dreimal die Woche ins Fitnessstudio.",
+    "lvl": 2,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Have you seen that new series?",
+    "de": "Hast du diese neue Serie gesehen?",
+    "lvl": 2,
+    "cat": "freizeit"
+  },
+  {
+    "en": "I'd love to learn the guitar.",
+    "de": "Ich würde gern Gitarre lernen.",
+    "lvl": 2,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Did you hear that new song?",
+    "de": "Hast du diesen neuen Song gehört?",
+    "lvl": 2,
+    "cat": "medien"
+  },
+  {
+    "en": "I watch videos on my phone a lot.",
+    "de": "Ich schaue viele Videos auf meinem Handy.",
+    "lvl": 2,
+    "cat": "medien"
+  },
+  {
+    "en": "My laptop is very slow today.",
+    "de": "Mein Laptop ist heute sehr langsam.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Can you connect me to the Wi-Fi?",
+    "de": "Kannst du mich mit dem WLAN verbinden?",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "I need to charge my phone.",
+    "de": "Ich muss mein Handy aufladen.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "The internet isn't working again.",
+    "de": "Das Internet funktioniert schon wieder nicht.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "I'll send you a message later.",
+    "de": "Ich schicke dir später eine Nachricht.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Could you open the window, please?",
+    "de": "Könntest du bitte das Fenster öffnen?",
+    "lvl": 2,
+    "cat": "alltag",
+    "alt": [
+      "Would you mind opening the window?"
+    ]
+  },
+  {
+    "en": "I forgot where I put my keys.",
+    "de": "Ich habe vergessen, wo ich meine Schlüssel hingelegt habe.",
+    "lvl": 2,
+    "cat": "alltag"
+  },
+  {
+    "en": "Can you give me a hand with this?",
+    "de": "Kannst du mir dabei helfen?",
+    "lvl": 2,
+    "cat": "alltag",
+    "alt": [
+      "Could you give me a hand?"
+    ]
+  },
+  {
+    "en": "I'll do the dishes tonight.",
+    "de": "Ich spüle heute Abend das Geschirr.",
+    "lvl": 2,
+    "cat": "alltag",
+    "alt": [
+      "I'll wash the dishes tonight."
+    ]
+  },
+  {
+    "en": "Don't forget to lock the door.",
+    "de": "Vergiss nicht, die Tür abzuschließen.",
+    "lvl": 2,
+    "cat": "alltag"
+  },
+  {
+    "en": "It's getting late. We should go.",
+    "de": "Es wird spät. Wir sollten gehen.",
+    "lvl": 2,
+    "cat": "alltag"
+  },
+  {
+    "en": "It's going to rain this afternoon.",
+    "de": "Heute Nachmittag wird es regnen.",
+    "lvl": 2,
+    "cat": "natur"
+  },
+  {
+    "en": "The weather is beautiful today.",
+    "de": "Das Wetter ist heute wunderschön.",
+    "lvl": 2,
+    "cat": "natur"
+  },
+  {
+    "en": "It's freezing outside. Take a jacket.",
+    "de": "Draußen ist es eiskalt. Nimm eine Jacke mit.",
+    "lvl": 2,
+    "cat": "natur"
+  },
+  {
+    "en": "Is there a pharmacy around here?",
+    "de": "Gibt es hier in der Nähe eine Apotheke?",
+    "lvl": 2,
+    "cat": "orte"
+  },
+  {
+    "en": "The supermarket is next to the bank.",
+    "de": "Der Supermarkt ist neben der Bank.",
+    "lvl": 2,
+    "cat": "orte"
+  },
+  {
+    "en": "We just moved to a new apartment.",
+    "de": "Wir sind gerade in eine neue Wohnung gezogen.",
+    "lvl": 2,
+    "cat": "orte"
+  },
+  {
+    "en": "I hurt my knee while running.",
+    "de": "Ich habe mir beim Laufen das Knie verletzt.",
+    "lvl": 2,
+    "cat": "koerper"
+  },
+  {
+    "en": "What's the matter? You look upset.",
+    "de": "Was ist los? Du siehst aufgebracht aus.",
+    "lvl": 2,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "Excuse me, could you tell me how to get to the museum?",
+    "de": "Entschuldigung, könnten Sie mir sagen, wie ich zum Museum komme?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "I've booked a room, but the confirmation email never arrived.",
+    "de": "Ich habe ein Zimmer gebucht, aber die Bestätigungsmail ist nie angekommen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "We were supposed to land at six, but the flight was delayed.",
+    "de": "Wir sollten um sechs landen, aber der Flug hatte Verspätung.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "If you take the second street on the right, you'll see it.",
+    "de": "Wenn Sie die zweite Straße rechts nehmen, sehen Sie es.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "I've never been to Spain, but I'd love to go.",
+    "de": "Ich war noch nie in Spanien, würde aber gern hinfahren.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "Do you know if there's a direct train to Munich?",
+    "de": "Weißt du, ob es einen direkten Zug nach München gibt?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "The hotel was cleaner than I expected, and the staff were friendly.",
+    "de": "Das Hotel war sauberer als erwartet, und das Personal war freundlich.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "We're thinking about renting a car for the weekend.",
+    "de": "Wir überlegen, uns für das Wochenende ein Auto zu mieten.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "I'd like to change my seat if that's possible.",
+    "de": "Ich würde gern meinen Sitzplatz wechseln, wenn das möglich ist.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "Could you wake me up when we get to the next stop?",
+    "de": "Könntest du mich wecken, wenn wir an der nächsten Haltestelle sind?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "Is it safe to walk around here at night?",
+    "de": "Ist es sicher, hier nachts herumzulaufen?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "We got completely lost, so we asked a local for directions.",
+    "de": "Wir haben uns total verlaufen und haben deshalb einen Einheimischen nach dem Weg gefragt.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "I'd like to order the steak, medium, with a side salad.",
+    "de": "Ich möchte das Steak, medium, mit einem Beilagensalat bestellen.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "Excuse me, I ordered the pasta, not the pizza.",
+    "de": "Entschuldigung, ich habe die Pasta bestellt, nicht die Pizza.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "Could we get some more bread and another bottle of water?",
+    "de": "Könnten wir noch etwas Brot und eine weitere Flasche Wasser bekommen?",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "I'm trying to eat less sugar because I want to lose weight.",
+    "de": "Ich versuche weniger Zucker zu essen, weil ich abnehmen möchte.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "Let's cook something together instead of ordering takeout again.",
+    "de": "Lass uns zusammen etwas kochen, statt schon wieder Essen zu bestellen.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "I haven't eaten anything since this morning, so I'm starving.",
+    "de": "Ich habe seit heute Morgen nichts gegessen, deshalb habe ich riesigen Hunger.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "This is the best pizza I've ever had in my life.",
+    "de": "Das ist die beste Pizza, die ich je in meinem Leben gegessen habe.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "I bought this last week, but it doesn't fit me.",
+    "de": "Ich habe das letzte Woche gekauft, aber es passt mir nicht.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "Is this on sale, or is that the normal price?",
+    "de": "Ist das im Angebot, oder ist das der normale Preis?",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "I'll think about it and come back later if that's okay.",
+    "de": "Ich überlege es mir und komme später wieder, wenn das okay ist.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "Do you deliver, or do I have to pick it up myself?",
+    "de": "Liefern Sie, oder muss ich es selbst abholen?",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "I'm sorry, but I can't make it to the meeting this afternoon.",
+    "de": "Es tut mir leid, aber ich schaffe es heute Nachmittag nicht zum Meeting.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I've been working on this project for almost three months now.",
+    "de": "Ich arbeite jetzt schon seit fast drei Monaten an diesem Projekt.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "If I finish early, I'll help you with your presentation.",
+    "de": "Wenn ich früh fertig bin, helfe ich dir bei deiner Präsentation.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm applying for a job at a company in Hamburg.",
+    "de": "Ich bewerbe mich um eine Stelle bei einer Firma in Hamburg.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Can we talk about my salary at some point this week?",
+    "de": "Können wir irgendwann diese Woche über mein Gehalt sprechen?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm not used to working this late in the evening.",
+    "de": "Ich bin es nicht gewohnt, abends so spät zu arbeiten.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We need to decide who is responsible for this task.",
+    "de": "Wir müssen entscheiden, wer für diese Aufgabe verantwortlich ist.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I've got a lot on my plate right now, to be honest.",
+    "de": "Ehrlich gesagt habe ich gerade sehr viel um die Ohren.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Let's go through the main points before the client arrives.",
+    "de": "Lass uns die wichtigsten Punkte durchgehen, bevor der Kunde kommt.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I haven't seen you in ages. How have you been?",
+    "de": "Ich habe dich ewig nicht gesehen. Wie ist es dir ergangen?",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "She's the kind of person who always makes everyone laugh.",
+    "de": "Sie ist die Art Mensch, die jeden zum Lachen bringt.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "He reminds me of my old teacher from school.",
+    "de": "Er erinnert mich an meinen alten Lehrer aus der Schule.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "My neighbors are very nice, but they can be quite loud.",
+    "de": "Meine Nachbarn sind sehr nett, aber sie können ziemlich laut sein.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "We've known each other since we were kids.",
+    "de": "Wir kennen uns, seit wir Kinder waren.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "I don't really get along with my brother-in-law.",
+    "de": "Ich verstehe mich nicht wirklich mit meinem Schwager.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "Could you introduce me to the guy you were talking to?",
+    "de": "Könntest du mich dem Typen vorstellen, mit dem du gesprochen hast?",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "I'll be a bit late because the traffic is terrible.",
+    "de": "Ich komme etwas später, weil der Verkehr schrecklich ist.",
+    "lvl": 3,
+    "cat": "zeit"
+  },
+  {
+    "en": "We should leave soon if we want to catch the last train.",
+    "de": "Wir sollten bald gehen, wenn wir den letzten Zug erwischen wollen.",
+    "lvl": 3,
+    "cat": "zeit"
+  },
+  {
+    "en": "I've been waiting here for almost half an hour.",
+    "de": "Ich warte hier schon seit fast einer halben Stunde.",
+    "lvl": 3,
+    "cat": "zeit"
+  },
+  {
+    "en": "Would it be possible to reschedule our appointment for next week?",
+    "de": "Wäre es möglich, unseren Termin auf nächste Woche zu verschieben?",
+    "lvl": 3,
+    "cat": "zeit"
+  },
+  {
+    "en": "I used to go jogging every morning before work.",
+    "de": "Früher bin ich jeden Morgen vor der Arbeit joggen gegangen.",
+    "lvl": 3,
+    "cat": "zeit"
+  },
+  {
+    "en": "By the time we got there, the movie had already started.",
+    "de": "Als wir ankamen, hatte der Film schon angefangen.",
+    "lvl": 3,
+    "cat": "zeit"
+  },
+  {
+    "en": "I'm free all day tomorrow, so we can meet whenever you like.",
+    "de": "Ich habe morgen den ganzen Tag Zeit, wir können uns also treffen, wann du willst.",
+    "lvl": 3,
+    "cat": "zeit"
+  },
+  {
+    "en": "I was really nervous before the interview, but it went well.",
+    "de": "Ich war vor dem Vorstellungsgespräch sehr nervös, aber es lief gut.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "Honestly, I'm a bit disappointed with how things turned out.",
+    "de": "Ehrlich gesagt bin ich etwas enttäuscht, wie die Dinge gelaufen sind.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I can't believe it's already over. Time flies so fast.",
+    "de": "Ich kann nicht glauben, dass es schon vorbei ist. Die Zeit vergeht so schnell.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "It's been a rough week, and I just need to relax.",
+    "de": "Es war eine harte Woche, und ich muss einfach entspannen.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I'm really looking forward to seeing you next month.",
+    "de": "Ich freue mich sehr darauf, dich nächsten Monat zu sehen.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I feel guilty because I forgot her birthday again.",
+    "de": "Ich fühle mich schuldig, weil ich ihren Geburtstag schon wieder vergessen habe.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "Don't be so hard on yourself. Everyone makes mistakes.",
+    "de": "Sei nicht so streng mit dir. Jeder macht Fehler.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I was so embarrassed when I tripped in front of everyone.",
+    "de": "Es war mir so peinlich, als ich vor allen gestolpert bin.",
+    "lvl": 3,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I've had a terrible cough for almost a week now.",
+    "de": "Ich habe seit fast einer Woche einen schlimmen Husten.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "The doctor told me to drink more water and rest.",
+    "de": "Der Arzt hat mir gesagt, ich solle mehr Wasser trinken und mich ausruhen.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "I should probably exercise more, but I never find the time.",
+    "de": "Ich sollte wahrscheinlich mehr Sport treiben, aber ich finde nie die Zeit.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "I couldn't sleep last night because I had a toothache.",
+    "de": "Ich konnte letzte Nacht nicht schlafen, weil ich Zahnschmerzen hatte.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "Take this medicine twice a day, after meals.",
+    "de": "Nehmen Sie dieses Medikament zweimal täglich nach den Mahlzeiten.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "We could go hiking this weekend if the weather is nice.",
+    "de": "Wir könnten dieses Wochenende wandern gehen, wenn das Wetter schön ist.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Have you ever thought about taking up a new hobby?",
+    "de": "Hast du schon mal darüber nachgedacht, ein neues Hobby anzufangen?",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "I'd rather stay home and watch a movie than go out.",
+    "de": "Ich bleibe lieber zu Hause und schaue einen Film, als auszugehen.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Do you want to join us for dinner after the concert?",
+    "de": "Willst du nach dem Konzert mit uns zu Abend essen?",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "I've been learning to play the piano for about a year.",
+    "de": "Ich lerne seit etwa einem Jahr Klavier spielen.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Let's plan a trip to the beach before summer is over.",
+    "de": "Lass uns einen Ausflug zum Strand planen, bevor der Sommer vorbei ist.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Have you seen the new season of that show everyone's talking about?",
+    "de": "Hast du die neue Staffel der Serie gesehen, über die alle reden?",
+    "lvl": 3,
+    "cat": "medien"
+  },
+  {
+    "en": "I read an interesting article about climate change this morning.",
+    "de": "Ich habe heute Morgen einen interessanten Artikel über den Klimawandel gelesen.",
+    "lvl": 3,
+    "cat": "medien"
+  },
+  {
+    "en": "The movie was a bit slow, but the ending was great.",
+    "de": "Der Film war etwas langsam, aber das Ende war toll.",
+    "lvl": 3,
+    "cat": "medien"
+  },
+  {
+    "en": "I listen to podcasts on my way to work.",
+    "de": "Ich höre auf dem Weg zur Arbeit Podcasts.",
+    "lvl": 3,
+    "cat": "medien"
+  },
+  {
+    "en": "My phone keeps freezing, and I don't know what to do.",
+    "de": "Mein Handy friert ständig ein, und ich weiß nicht, was ich tun soll.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Have you tried turning it off and on again?",
+    "de": "Hast du schon versucht, es aus- und wieder einzuschalten?",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "I forgot my password, so I have to reset it.",
+    "de": "Ich habe mein Passwort vergessen, also muss ich es zurücksetzen.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Could you show me how to use this app?",
+    "de": "Könntest du mir zeigen, wie man diese App benutzt?",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The battery only lasts about five hours these days.",
+    "de": "Der Akku hält heutzutage nur etwa fünf Stunden.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Can you pick up some groceries on your way home?",
+    "de": "Kannst du auf dem Heimweg ein paar Lebensmittel mitbringen?",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'm sorry, I didn't catch what you said. Could you repeat it?",
+    "de": "Tut mir leid, ich habe nicht verstanden, was du gesagt hast. Kannst du es wiederholen?",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'd appreciate it if you could keep the noise down.",
+    "de": "Ich wäre dankbar, wenn du etwas leiser sein könntest.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'll let you know as soon as I hear anything.",
+    "de": "Ich sage dir Bescheid, sobald ich etwas höre.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "Make yourself at home. I'll be right back.",
+    "de": "Fühl dich wie zu Hause. Ich bin gleich zurück.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "It's not a big deal, but it's kind of annoying.",
+    "de": "Es ist keine große Sache, aber es nervt irgendwie.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'm not sure what to do, so I'd like your advice.",
+    "de": "Ich bin nicht sicher, was ich tun soll, deshalb hätte ich gern deinen Rat.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "It looks like it's going to rain, so take an umbrella.",
+    "de": "Es sieht nach Regen aus, nimm also einen Regenschirm mit.",
+    "lvl": 3,
+    "cat": "natur"
+  },
+  {
+    "en": "We had a picnic by the lake, and the weather was perfect.",
+    "de": "Wir haben am See gepicknickt, und das Wetter war perfekt.",
+    "lvl": 3,
+    "cat": "natur"
+  },
+  {
+    "en": "It's supposed to snow tomorrow, so the roads might be icy.",
+    "de": "Morgen soll es schneien, also könnten die Straßen glatt sein.",
+    "lvl": 3,
+    "cat": "natur"
+  },
+  {
+    "en": "There's a nice little café just around the corner from here.",
+    "de": "Gleich um die Ecke ist ein nettes kleines Café.",
+    "lvl": 3,
+    "cat": "orte"
+  },
+  {
+    "en": "I live in a small apartment on the third floor.",
+    "de": "Ich wohne in einer kleinen Wohnung im dritten Stock.",
+    "lvl": 3,
+    "cat": "orte"
+  },
+  {
+    "en": "The nearest supermarket is about ten minutes on foot.",
+    "de": "Der nächste Supermarkt ist etwa zehn Minuten zu Fuß entfernt.",
+    "lvl": 3,
+    "cat": "orte"
+  },
+  {
+    "en": "I pulled a muscle in my back while lifting a box.",
+    "de": "Ich habe mir beim Heben einer Kiste einen Muskel im Rücken gezerrt.",
+    "lvl": 3,
+    "cat": "koerper"
+  },
+  {
+    "en": "You'd better hurry up, or we'll miss the beginning.",
+    "de": "Du solltest dich beeilen, sonst verpassen wir den Anfang.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "I don't mind waiting, as long as it doesn't take too long.",
+    "de": "Es macht mir nichts aus zu warten, solange es nicht zu lange dauert.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "Whatever you decide, I'll support you all the way.",
+    "de": "Was auch immer du entscheidest, ich unterstütze dich voll und ganz.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "It depends on what you mean by cheap.",
+    "de": "Das kommt darauf an, was du mit billig meinst.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "I wish I had more time to learn English.",
+    "de": "Ich wünschte, ich hätte mehr Zeit, Englisch zu lernen.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "If I were you, I would talk to him directly.",
+    "de": "Wenn ich du wäre, würde ich direkt mit ihm sprechen.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "As far as I know, the shop closes at eight.",
+    "de": "Soweit ich weiß, schließt der Laden um acht.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "Would you mind telling me what happened last night?",
+    "de": "Könntest du mir sagen, was gestern Abend passiert ist?",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "I'm afraid I can't help you with that today.",
+    "de": "Ich fürchte, dabei kann ich dir heute nicht helfen.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "I'm not sure whether he's coming or not.",
+    "de": "Ich bin nicht sicher, ob er kommt oder nicht.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "The more I practice, the more confident I feel.",
+    "de": "Je mehr ich übe, desto sicherer fühle ich mich.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "I'd like to speak to the manager, please.",
+    "de": "Ich möchte bitte mit dem Manager sprechen.",
+    "lvl": 3,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "If I had known about the deadline, I would have started much earlier.",
+    "de": "Wenn ich von der Frist gewusst hätte, hätte ich viel früher angefangen.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The report that you sent me yesterday still needs to be revised.",
+    "de": "Der Bericht, den du mir gestern geschickt hast, muss noch überarbeitet werden.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I was wondering whether you could give me some feedback on my proposal.",
+    "de": "Ich habe mich gefragt, ob du mir etwas Feedback zu meinem Vorschlag geben könntest.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The project was postponed because several team members were on sick leave.",
+    "de": "Das Projekt wurde verschoben, weil mehrere Teammitglieder krankgeschrieben waren.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'd rather not take on any more responsibilities until the end of the year.",
+    "de": "Ich würde lieber bis zum Jahresende keine weiteren Aufgaben übernehmen.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Our new manager, who used to work in Berlin, is very approachable.",
+    "de": "Unsere neue Chefin, die früher in Berlin gearbeitet hat, ist sehr zugänglich.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm afraid there has been a misunderstanding regarding the invoice.",
+    "de": "Ich fürchte, es gab ein Missverständnis bezüglich der Rechnung.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you let me know if anything changes before the presentation?",
+    "de": "Könntest du mir Bescheid geben, falls sich vor der Präsentation etwas ändert?",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The contract was signed last week, and the work will begin soon.",
+    "de": "Der Vertrag wurde letzte Woche unterschrieben, und die Arbeit beginnt bald.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "She got promoted after she had been working there for only two years.",
+    "de": "Sie wurde befördert, nachdem sie erst zwei Jahre dort gearbeitet hatte.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'd like to discuss a few concerns I have about the new schedule.",
+    "de": "Ich möchte ein paar Bedenken zum neuen Zeitplan besprechen.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "By the end of the month, we should have finished the first phase.",
+    "de": "Bis Ende des Monats sollten wir die erste Phase abgeschlossen haben.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "It would be great if we could find a solution that works for everyone.",
+    "de": "Es wäre toll, wenn wir eine Lösung finden könnten, die für alle funktioniert.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I would have called you earlier, but my phone had run out of battery.",
+    "de": "Ich hätte dich früher angerufen, aber mein Handy-Akku war leer.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "Do you happen to know whether the pharmacy is still open at this hour?",
+    "de": "Weißt du zufällig, ob die Apotheke um diese Uhrzeit noch geöffnet ist?",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'm sorry to bother you, but would you mind watching my bag for a second?",
+    "de": "Entschuldige die Störung, aber könntest du kurz auf meine Tasche aufpassen?",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "The package should have arrived by now, but the tracking hasn't been updated.",
+    "de": "Das Paket sollte inzwischen angekommen sein, aber die Sendungsverfolgung wurde nicht aktualisiert.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "I keep forgetting to buy milk, no matter how many times I write it down.",
+    "de": "Ich vergesse ständig, Milch zu kaufen, egal wie oft ich es aufschreibe.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "It took me a while to get used to living in such a noisy neighborhood.",
+    "de": "Es hat eine Weile gedauert, bis ich mich an das Leben in so einer lauten Gegend gewöhnt hatte.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "If you don't mind, I'd prefer to talk about this in private.",
+    "de": "Wenn es dir nichts ausmacht, würde ich das lieber unter vier Augen besprechen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "The apartment we saw yesterday was nice, but the rent is way too high.",
+    "de": "Die Wohnung, die wir gestern gesehen haben, war schön, aber die Miete ist viel zu hoch.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'll try to be there on time, but I can't promise anything.",
+    "de": "Ich versuche pünktlich da zu sein, aber ich kann nichts versprechen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "You should have told me earlier, so that I could have made other plans.",
+    "de": "Du hättest es mir früher sagen sollen, dann hätte ich andere Pläne machen können.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "I've been meaning to call you for weeks, but something always comes up.",
+    "de": "Ich wollte dich schon seit Wochen anrufen, aber es kommt immer etwas dazwischen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "No matter how hard I try, I can never remember people's names.",
+    "de": "Egal wie sehr ich mich bemühe, ich kann mir nie Namen merken.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "I have a lot of respect for people who stand up for what they believe in.",
+    "de": "Ich habe viel Respekt vor Leuten, die für das einstehen, woran sie glauben.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "He's not the type of person who would ever cheat on a test.",
+    "de": "Er ist nicht der Typ, der jemals bei einer Prüfung schummeln würde.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "We ended up talking until three in the morning, and it was amazing.",
+    "de": "Am Ende haben wir bis drei Uhr morgens geredet, und es war toll.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "I wish I could spend more time with my grandparents, but they live far away.",
+    "de": "Ich wünschte, ich könnte mehr Zeit mit meinen Großeltern verbringen, aber sie wohnen weit weg.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "She's been through a lot lately, so try to be patient with her.",
+    "de": "Sie hat in letzter Zeit viel durchgemacht, also hab Geduld mit ihr.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "The woman who lives upstairs is a nurse, and she works night shifts.",
+    "de": "Die Frau, die oben wohnt, ist Krankenschwester und arbeitet Nachtschichten.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "I used to be really shy, but I've gotten much better at talking to strangers.",
+    "de": "Früher war ich sehr schüchtern, aber ich kann inzwischen viel besser mit Fremden reden.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "It's hard to trust someone who has lied to you more than once.",
+    "de": "Es ist schwer, jemandem zu vertrauen, der dich mehr als einmal belogen hat.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "If the weather had been better, we would have spent more time at the beach.",
+    "de": "Wenn das Wetter besser gewesen wäre, hätten wir mehr Zeit am Strand verbracht.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "Our luggage was lost, so we had to buy new clothes at the airport.",
+    "de": "Unser Gepäck ging verloren, also mussten wir am Flughafen neue Kleidung kaufen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "I'd recommend booking the tickets in advance, as they tend to sell out quickly.",
+    "de": "Ich würde empfehlen, die Tickets im Voraus zu buchen, da sie schnell ausverkauft sind.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "The hotel, which was recommended by a friend, turned out to be fantastic.",
+    "de": "Das Hotel, das ein Freund empfohlen hatte, war am Ende fantastisch.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "We've decided to spend a week in Italy instead of going to Greece this year.",
+    "de": "Wir haben beschlossen, dieses Jahr eine Woche in Italien zu verbringen statt nach Griechenland zu fahren.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "You need to have your passport checked before you can board the plane.",
+    "de": "Du musst deinen Reisepass kontrollieren lassen, bevor du in das Flugzeug steigen kannst.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "I'm not sure if I'll be able to make it, but I'll let you know tomorrow.",
+    "de": "Ich weiß nicht, ob ich es schaffe, aber ich sage dir morgen Bescheid.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "It was such a long trip that we were exhausted by the time we arrived.",
+    "de": "Es war so eine lange Reise, dass wir bei der Ankunft erschöpft waren.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "I would have ordered the soup if I had known how big the portions were.",
+    "de": "Ich hätte die Suppe bestellt, wenn ich gewusst hätte, wie groß die Portionen sind.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "The restaurant we went to last night was packed, but the service was great.",
+    "de": "Das Restaurant, in dem wir gestern Abend waren, war voll, aber der Service war toll.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "Could you tell the chef that the meat is a little overcooked?",
+    "de": "Könnten Sie dem Koch sagen, dass das Fleisch etwas zu lange gebraten ist?",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "I've stopped eating meat, but I still can't resist a good cheeseburger.",
+    "de": "Ich esse kein Fleisch mehr, aber einem guten Cheeseburger kann ich trotzdem nicht widerstehen.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "The dinner was supposed to be ready by seven, but we're still waiting.",
+    "de": "Das Abendessen sollte um sieben fertig sein, aber wir warten immer noch.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "If you add a little more salt, the sauce will taste much better.",
+    "de": "Wenn du etwas mehr Salz hinzufügst, schmeckt die Soße viel besser.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "I wish I had told her how I felt before it was too late.",
+    "de": "Ich wünschte, ich hätte ihr gesagt, was ich fühle, bevor es zu spät war.",
+    "lvl": 4,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "It's been a long time since I felt this relaxed and happy.",
+    "de": "Es ist lange her, dass ich mich so entspannt und glücklich gefühlt habe.",
+    "lvl": 4,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "Although I was exhausted, I couldn't fall asleep because I kept overthinking.",
+    "de": "Obwohl ich erschöpft war, konnte ich nicht einschlafen, weil ich ständig gegrübelt habe.",
+    "lvl": 4,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I'm afraid I've made a huge mistake, and I don't know how to fix it.",
+    "de": "Ich fürchte, ich habe einen riesigen Fehler gemacht und weiß nicht, wie ich ihn beheben soll.",
+    "lvl": 4,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "She was so relieved that she burst into tears when she heard the news.",
+    "de": "Sie war so erleichtert, dass sie bei der Nachricht in Tränen ausbrach.",
+    "lvl": 4,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "There's nothing I enjoy more than a quiet evening with good friends.",
+    "de": "Nichts genieße ich mehr als einen ruhigen Abend mit guten Freunden.",
+    "lvl": 4,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I've been feeling dizzy lately, so I'm going to get it checked out.",
+    "de": "Mir ist in letzter Zeit schwindelig, deshalb lasse ich das untersuchen.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "If you want to stay healthy, you should get at least seven hours of sleep.",
+    "de": "Wenn du gesund bleiben willst, solltest du mindestens sieben Stunden schlafen.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "He was told to avoid heavy lifting for at least six weeks.",
+    "de": "Ihm wurde gesagt, er solle mindestens sechs Wochen lang nichts Schweres heben.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "The film, which was shot entirely in Iceland, has received great reviews.",
+    "de": "Der Film, der komplett in Island gedreht wurde, hat tolle Kritiken bekommen.",
+    "lvl": 4,
+    "cat": "medien"
+  },
+  {
+    "en": "I can't stand it when people spoil the ending before I've finished watching.",
+    "de": "Ich hasse es, wenn Leute das Ende verraten, bevor ich fertig geschaut habe.",
+    "lvl": 4,
+    "cat": "medien"
+  },
+  {
+    "en": "This song was written by a young singer who had never performed live before.",
+    "de": "Dieses Lied wurde von einer jungen Sängerin geschrieben, die noch nie live aufgetreten war.",
+    "lvl": 4,
+    "cat": "medien"
+  },
+  {
+    "en": "The software has to be updated regularly in order to stay secure.",
+    "de": "Die Software muss regelmäßig aktualisiert werden, um sicher zu bleiben.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "I accidentally deleted the file, and now I can't find it anywhere.",
+    "de": "Ich habe die Datei aus Versehen gelöscht und finde sie jetzt nirgends.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "If the problem persists, you might want to contact customer support.",
+    "de": "Falls das Problem weiterhin besteht, solltest du dich an den Kundendienst wenden.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "I'd like a refund, as the product doesn't work the way it was advertised.",
+    "de": "Ich hätte gern eine Rückerstattung, da das Produkt nicht so funktioniert wie beworben.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "The jacket I ordered online arrived two weeks late and in the wrong color.",
+    "de": "Die Jacke, die ich online bestellt habe, kam zwei Wochen zu spät und in der falschen Farbe.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "Since it's on sale, I might as well buy two of them.",
+    "de": "Da es im Angebot ist, kann ich genauso gut zwei davon kaufen.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "We might go camping next weekend if the forecast looks good.",
+    "de": "Wir fahren vielleicht nächstes Wochenende zelten, wenn die Vorhersage gut aussieht.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "I've been trying to find the time to start painting again for ages.",
+    "de": "Ich versuche schon ewig, die Zeit zu finden, wieder mit dem Malen anzufangen.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "Having played tennis for years, he is far better than I am.",
+    "de": "Da er seit Jahren Tennis spielt, ist er viel besser als ich.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "We'd better leave now, otherwise we'll be stuck in traffic for hours.",
+    "de": "Wir gehen besser jetzt los, sonst stecken wir stundenlang im Stau.",
+    "lvl": 4,
+    "cat": "zeit"
+  },
+  {
+    "en": "By the time you read this, I'll probably be on the plane already.",
+    "de": "Wenn du das liest, sitze ich wahrscheinlich schon im Flugzeug.",
+    "lvl": 4,
+    "cat": "zeit"
+  },
+  {
+    "en": "Had I known how demanding the job would be, I might have thought twice.",
+    "de": "Hätte ich gewusst, wie anspruchsvoll der Job ist, hätte ich es mir vielleicht zweimal überlegt.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We need to make sure that all stakeholders are kept in the loop throughout the process.",
+    "de": "Wir müssen sicherstellen, dass alle Beteiligten während des gesamten Prozesses auf dem Laufenden gehalten werden.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'd appreciate it if we could touch base before the quarterly review next week.",
+    "de": "Ich würde mich freuen, wenn wir uns vor der Quartalsbesprechung nächste Woche kurz abstimmen könnten.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Despite the tight budget, the team managed to deliver the project ahead of schedule.",
+    "de": "Trotz des knappen Budgets hat das Team das Projekt vor dem Termin abgeliefert.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "It goes without saying that we'll need your full commitment if this is to succeed.",
+    "de": "Es versteht sich von selbst, dass wir deinen vollen Einsatz brauchen, wenn das gelingen soll.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "She was asked to step down after the company had been accused of misconduct.",
+    "de": "Sie wurde gebeten zurückzutreten, nachdem man dem Unternehmen Fehlverhalten vorgeworfen hatte.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm not in a position to make that decision without consulting my superiors first.",
+    "de": "Ich bin nicht in der Lage, diese Entscheidung zu treffen, ohne zuerst meine Vorgesetzten zu konsultieren.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Rather than complaining about the workload, we should come up with a realistic plan.",
+    "de": "Statt uns über die Arbeitsmenge zu beschweren, sollten wir einen realistischen Plan entwickeln.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The proposal was turned down on the grounds that it was too risky.",
+    "de": "Der Vorschlag wurde mit der Begründung abgelehnt, er sei zu riskant.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "If it weren't for your help, I would never have finished this on time.",
+    "de": "Ohne deine Hilfe hätte ich das nie rechtzeitig fertiggestellt.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I couldn't care less about what other people think of my choices.",
+    "de": "Es ist mir völlig egal, was andere Leute über meine Entscheidungen denken.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "It never occurred to me that he might be struggling with something.",
+    "de": "Mir ist nie in den Sinn gekommen, dass er mit etwas zu kämpfen haben könnte.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "Not only did she forget the tickets, but she also lost her phone on the way.",
+    "de": "Sie hat nicht nur die Tickets vergessen, sondern auch unterwegs ihr Handy verloren.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "I'd like to apologize for any inconvenience this may have caused you.",
+    "de": "Ich möchte mich für etwaige Unannehmlichkeiten entschuldigen, die Ihnen dadurch entstanden sind.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "Hardly anyone realized that the meeting had been moved to another room.",
+    "de": "Kaum jemand hat bemerkt, dass das Meeting in einen anderen Raum verlegt worden war.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "It turned out that the problem was much simpler than we had originally thought.",
+    "de": "Es stellte sich heraus, dass das Problem viel einfacher war, als wir ursprünglich gedacht hatten.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "You can't just expect things to change if you're not willing to put in the effort.",
+    "de": "Du kannst nicht einfach erwarten, dass sich etwas ändert, wenn du dich nicht anstrengen willst.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "I tend to procrastinate, especially when I'm facing a task I really don't enjoy.",
+    "de": "Ich neige zum Aufschieben, besonders wenn eine Aufgabe ansteht, die mir überhaupt keinen Spaß macht.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "Whatever happens next, I just want you to know that I'm on your side.",
+    "de": "Was auch immer als Nächstes passiert, ich möchte, dass du weißt, dass ich auf deiner Seite stehe.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "He comes across as confident, but deep down he's actually quite insecure.",
+    "de": "Er wirkt selbstbewusst, aber im Grunde ist er ziemlich unsicher.",
+    "lvl": 5,
+    "cat": "menschen"
+  },
+  {
+    "en": "I'm afraid we'll have to agree to disagree on this particular point.",
+    "de": "Ich fürchte, wir müssen uns in diesem Punkt einfach uneinig bleiben.",
+    "lvl": 5,
+    "cat": "menschen"
+  },
+  {
+    "en": "The friend I'd been counting on turned out to be unreliable when things got tough.",
+    "de": "Der Freund, auf den ich gezählt hatte, erwies sich als unzuverlässig, als es schwierig wurde.",
+    "lvl": 5,
+    "cat": "menschen"
+  },
+  {
+    "en": "People are often quick to judge, without taking the time to understand the full story.",
+    "de": "Menschen urteilen oft schnell, ohne sich die Zeit zu nehmen, die ganze Geschichte zu verstehen.",
+    "lvl": 5,
+    "cat": "menschen"
+  },
+  {
+    "en": "She has a knack for making complete strangers feel instantly at ease.",
+    "de": "Sie hat ein Talent dafür, völlig Fremde sofort entspannen zu lassen.",
+    "lvl": 5,
+    "cat": "menschen"
+  },
+  {
+    "en": "It's hard to say what he truly wants, since he rarely opens up to anyone.",
+    "de": "Es ist schwer zu sagen, was er wirklich will, da er sich kaum jemandem öffnet.",
+    "lvl": 5,
+    "cat": "menschen"
+  },
+  {
+    "en": "There was a moment when I seriously considered giving up, but something kept me going.",
+    "de": "Es gab einen Moment, in dem ich ernsthaft ans Aufgeben dachte, aber irgendetwas hat mich weitermachen lassen.",
+    "lvl": 5,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I can't help feeling that we're missing something important here.",
+    "de": "Ich werde das Gefühl nicht los, dass uns hier etwas Wichtiges entgeht.",
+    "lvl": 5,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "The sheer relief of finally finishing the exam was impossible to describe.",
+    "de": "Die schiere Erleichterung, die Prüfung endlich hinter mir zu haben, war nicht zu beschreiben.",
+    "lvl": 5,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "I was torn between staying where I was and chasing a completely new opportunity.",
+    "de": "Ich war hin- und hergerissen zwischen dem Bleiben und dem Ergreifen einer völlig neuen Chance.",
+    "lvl": 5,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "Honestly, I'd be lying if I said that the criticism didn't hurt a little.",
+    "de": "Ehrlich gesagt würde ich lügen, wenn ich sagte, die Kritik hätte nicht ein bisschen wehgetan.",
+    "lvl": 5,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "Had we booked earlier, we could have saved a considerable amount of money on flights.",
+    "de": "Hätten wir früher gebucht, hätten wir bei den Flügen eine Menge Geld sparen können.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "The trip, which was supposed to be relaxing, turned into a logistical nightmare.",
+    "de": "Die Reise, die eigentlich entspannend sein sollte, wurde zu einem logistischen Albtraum.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "Having traveled across Asia for months, she felt ready to settle down for a while.",
+    "de": "Nachdem sie monatelang durch Asien gereist war, fühlte sie sich bereit, eine Weile sesshaft zu werden.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "Passengers are kindly requested to remain seated until the aircraft has come to a complete stop.",
+    "de": "Die Fluggäste werden gebeten, sitzen zu bleiben, bis das Flugzeug vollständig zum Stillstand gekommen ist.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "I'd recommend trying the local specialty, which is said to be unlike anything you've had before.",
+    "de": "Ich würde empfehlen, die lokale Spezialität zu probieren, die angeblich anders ist als alles, was du bisher gegessen hast.",
+    "lvl": 5,
+    "cat": "essen"
+  },
+  {
+    "en": "I've been advised to cut back on caffeine, but I don't think I could manage that.",
+    "de": "Mir wurde geraten, weniger Koffein zu trinken, aber ich glaube nicht, dass ich das schaffe.",
+    "lvl": 5,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "He didn't realize how stressed he was until his body started to give him warning signs.",
+    "de": "Er merkte nicht, wie gestresst er war, bis sein Körper ihm Warnsignale zu geben begann.",
+    "lvl": 5,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "The author, whose debut novel became a bestseller overnight, refuses to give interviews.",
+    "de": "Der Autor, dessen Debütroman über Nacht zum Bestseller wurde, gibt keine Interviews.",
+    "lvl": 5,
+    "cat": "medien"
+  },
+  {
+    "en": "It's a shame that the series was cancelled just when it was finally getting interesting.",
+    "de": "Schade, dass die Serie gerade abgesetzt wurde, als sie endlich interessant wurde.",
+    "lvl": 5,
+    "cat": "medien"
+  },
+  {
+    "en": "Should you encounter any further difficulties, please do not hesitate to get in touch with us.",
+    "de": "Sollten weitere Schwierigkeiten auftreten, zögern Sie bitte nicht, uns zu kontaktieren.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "No sooner had we sat down to eat than the doorbell rang.",
+    "de": "Kaum hatten wir uns zum Essen hingesetzt, klingelte es an der Tür.",
+    "lvl": 5,
+    "cat": "zeit"
+  },
+  {
+    "en": "I was under the impression that the price included delivery, so I'm a bit surprised.",
+    "de": "Ich war der Annahme, dass der Preis die Lieferung enthält, daher bin ich etwas überrascht.",
+    "lvl": 5,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "Had it not been for the heavy rain, we would have continued our hike to the summit.",
+    "de": "Wäre da nicht der starke Regen gewesen, hätten wir unsere Wanderung zum Gipfel fortgesetzt.",
+    "lvl": 5,
+    "cat": "natur"
+  },
+  {
+    "en": "The way I see it, there's no point in arguing over something that can't be changed.",
+    "de": "Meiner Ansicht nach hat es keinen Sinn, sich über etwas zu streiten, das sich nicht ändern lässt.",
+    "lvl": 5,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "I'm inclined to agree with you, although I do have a few reservations.",
+    "de": "Ich neige dazu, dir zuzustimmen, obwohl ich einige Vorbehalte habe.",
+    "lvl": 5,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "It remains to be seen whether the new policy will actually make any difference.",
+    "de": "Es bleibt abzuwarten, ob die neue Regelung tatsächlich etwas ändern wird.",
+    "lvl": 5,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "Unless we hire more people, we won't be able to meet the deadline.",
+    "de": "Wenn wir nicht mehr Leute einstellen, schaffen wir die Frist nicht.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm not saying you're wrong, but have you considered another option?",
+    "de": "Ich sage nicht, dass du unrecht hast, aber hast du eine andere Möglichkeit in Betracht gezogen?",
+    "lvl": 5,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "It's not that I don't like him, it's just that we have nothing in common.",
+    "de": "Es ist nicht so, dass ich ihn nicht mag, wir haben einfach nichts gemeinsam.",
+    "lvl": 5,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "To be honest, I'd rather not get involved in this argument.",
+    "de": "Ehrlich gesagt möchte ich mich lieber nicht in diesen Streit einmischen.",
+    "lvl": 5,
+    "cat": "sonstiges"
+  },
+  {
+    "en": "The machine is not working.",
+    "de": "Die Maschine funktioniert nicht.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Please turn off the power first.",
+    "de": "Bitte schalten Sie zuerst den Strom aus.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "I need a new sensor.",
+    "de": "Ich brauche einen neuen Sensor.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "The motor is very hot.",
+    "de": "Der Motor ist sehr heiß.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Can you send me the drawing?",
+    "de": "Können Sie mir die Zeichnung schicken?",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We have a meeting at ten.",
+    "de": "Wir haben um zehn Uhr ein Meeting.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The pump makes a strange noise.",
+    "de": "Die Pumpe macht ein seltsames Geräusch.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Please wear your safety glasses here.",
+    "de": "Bitte tragen Sie hier Ihre Schutzbrille.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Where is the control panel?",
+    "de": "Wo ist das Bedienfeld?",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "I will call you tomorrow.",
+    "de": "Ich rufe Sie morgen an.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The cable on the left is broken.",
+    "de": "Das Kabel links ist defekt.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Is the machine running now?",
+    "de": "Läuft die Maschine jetzt?",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Thank you for your quick answer.",
+    "de": "Danke für Ihre schnelle Antwort.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The first test was successful.",
+    "de": "Der erste Test war erfolgreich.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Please check the oil level.",
+    "de": "Bitte prüfen Sie den Ölstand.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "What is the problem exactly?",
+    "de": "Was genau ist das Problem?",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "The delivery is two days late.",
+    "de": "Die Lieferung ist zwei Tage verspätet.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I can come on Monday.",
+    "de": "Ich kann am Montag kommen.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "This valve is leaking oil again.",
+    "de": "Dieses Ventil verliert wieder Öl.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Please read the manual first.",
+    "de": "Bitte lesen Sie zuerst die Anleitung.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "The display shows an error.",
+    "de": "Das Display zeigt einen Fehler an.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Do not touch the hot parts.",
+    "de": "Berühren Sie die heißen Teile nicht.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "We need more spare parts.",
+    "de": "Wir brauchen mehr Ersatzteile.",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The production line is stopped now.",
+    "de": "Die Produktionslinie steht jetzt.",
+    "lvl": 2,
+    "cat": "technik"
+  },
+  {
+    "en": "Can you repeat that, please?",
+    "de": "Können Sie das bitte wiederholen?",
+    "lvl": 2,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The motor overheats after ten minutes.",
+    "de": "Der Motor überhitzt nach zehn Minuten.",
+    "lvl": 3,
+    "cat": "technik",
+    "alt": [
+      "Der Motor läuft nach zehn Minuten heiß."
+    ]
+  },
+  {
+    "en": "I'm calling because the conveyor belt keeps stopping.",
+    "de": "Ich rufe an, weil das Förderband immer wieder stehen bleibt.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Could you tell me the part number?",
+    "de": "Könnten Sie mir die Teilenummer sagen?",
+    "lvl": 3,
+    "cat": "technik",
+    "alt": [
+      "Können Sie mir die Teilenummer nennen?"
+    ]
+  },
+  {
+    "en": "The sensor doesn't detect the workpiece anymore.",
+    "de": "Der Sensor erkennt das Werkstück nicht mehr.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Let me show you how this machine works.",
+    "de": "Lassen Sie mich zeigen, wie diese Maschine funktioniert.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "First, press the green button to start.",
+    "de": "Drücken Sie zuerst den grünen Knopf zum Starten.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The emergency stop must always be within reach.",
+    "de": "Der Not-Aus muss immer in Reichweite sein.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "We found the error in the control program.",
+    "de": "Wir haben den Fehler im Steuerungsprogramm gefunden.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "I'll send you the details by email.",
+    "de": "Ich schicke Ihnen die Einzelheiten per E-Mail.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could we move the meeting to Thursday?",
+    "de": "Könnten wir das Meeting auf Donnerstag verschieben?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm sorry, the line is bad. Could you repeat that?",
+    "de": "Entschuldigung, die Verbindung ist schlecht. Könnten Sie das wiederholen?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Please find the quotation attached.",
+    "de": "Anbei finden Sie das Angebot.",
+    "lvl": 3,
+    "cat": "arbeit",
+    "alt": [
+      "Im Anhang finden Sie das Angebot."
+    ]
+  },
+  {
+    "en": "What is the delivery time for this pump?",
+    "de": "Wie lang ist die Lieferzeit für diese Pumpe?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The machine needs maintenance every six months.",
+    "de": "Die Maschine muss alle sechs Monate gewartet werden.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "We replaced the filter and cleaned the housing.",
+    "de": "Wir haben den Filter getauscht und das Gehäuse gereinigt.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Make sure the machine is switched off before cleaning.",
+    "de": "Stellen Sie sicher, dass die Maschine vor der Reinigung ausgeschaltet ist.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Is the voltage the same as in the datasheet?",
+    "de": "Entspricht die Spannung den Angaben im Datenblatt?",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The dimensions in the drawing don't match.",
+    "de": "Die Maße in der Zeichnung stimmen nicht überein.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Which version of the drawing is the latest?",
+    "de": "Welche Version der Zeichnung ist die aktuelle?",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The commissioning starts next Monday at eight.",
+    "de": "Die Inbetriebnahme beginnt nächsten Montag um acht.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "We still have to calibrate the pressure sensor.",
+    "de": "Wir müssen den Drucksensor noch kalibrieren.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The robot stops when someone opens the safety door.",
+    "de": "Der Roboter hält an, wenn jemand die Schutztür öffnet.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Please check the connection of the ground wire.",
+    "de": "Bitte prüfen Sie den Anschluss des Schutzleiters.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "There is a leak at the hydraulic hose.",
+    "de": "Am Hydraulikschlauch ist eine Undichtigkeit.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The temperature rises too quickly during the test.",
+    "de": "Die Temperatur steigt beim Test zu schnell an.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "I'd like to report a problem with the machine.",
+    "de": "Ich möchte ein Problem mit der Maschine melden.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Can you send a technician tomorrow morning?",
+    "de": "Können Sie morgen früh einen Techniker schicken?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We are waiting for the spare part from the supplier.",
+    "de": "Wir warten auf das Ersatzteil vom Lieferanten.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Do you have this component in stock?",
+    "de": "Haben Sie dieses Bauteil auf Lager?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you give us a discount for larger quantities?",
+    "de": "Könnten Sie uns bei größeren Mengen einen Rabatt geben?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Thank you for your inquiry. I'll get back to you soon.",
+    "de": "Danke für Ihre Anfrage. Ich melde mich bald bei Ihnen.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm writing to ask about the status of my order.",
+    "de": "Ich schreibe Ihnen wegen des Status meiner Bestellung.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Best regards, and thanks for your help.",
+    "de": "Mit freundlichen Grüßen, und danke für Ihre Hilfe.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you please confirm the appointment by Friday?",
+    "de": "Könnten Sie den Termin bitte bis Freitag bestätigen?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm afraid I can't make it on Wednesday.",
+    "de": "Leider schaffe ich es am Mittwoch nicht.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Does Tuesday afternoon work for you?",
+    "de": "Passt Ihnen Dienstagnachmittag?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Let's schedule a short call for next week.",
+    "de": "Lassen Sie uns für nächste Woche ein kurzes Telefonat planen.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you explain that in more detail?",
+    "de": "Könnten Sie das genauer erklären?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm not sure I understood. What do you mean?",
+    "de": "Ich bin nicht sicher, ob ich es verstanden habe. Was meinen Sie?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Can you speak a little more slowly, please?",
+    "de": "Können Sie bitte etwas langsamer sprechen?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'll check that and let you know.",
+    "de": "Ich prüfe das und gebe Ihnen Bescheid.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The fault occurs only when the machine is cold.",
+    "de": "Der Fehler tritt nur auf, wenn die Maschine kalt ist.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "We need to find out what caused the failure.",
+    "de": "Wir müssen herausfinden, was den Ausfall verursacht hat.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The bearing is worn out and has to be replaced.",
+    "de": "Das Lager ist verschlissen und muss ersetzt werden.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Please tighten the screws with the right torque.",
+    "de": "Bitte ziehen Sie die Schrauben mit dem richtigen Drehmoment an.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The PLC shows an error code on the display.",
+    "de": "Die SPS zeigt einen Fehlercode im Display an.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The drive is running, but the shaft doesn't turn.",
+    "de": "Der Antrieb läuft, aber die Welle dreht sich nicht.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "I'll write a short report about the problem.",
+    "de": "Ich schreibe einen kurzen Bericht über das Problem.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The system works fine at low speed.",
+    "de": "Die Anlage läuft bei niedriger Drehzahl einwandfrei.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Please don't open the cabinet while the machine is running.",
+    "de": "Bitte öffnen Sie den Schaltschrank nicht, während die Maschine läuft.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The warning light means the oil pressure is too low.",
+    "de": "Die Warnleuchte bedeutet, dass der Öldruck zu niedrig ist.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Our team will be on site next week.",
+    "de": "Unser Team ist nächste Woche vor Ort.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Let me introduce my colleague from the service department.",
+    "de": "Darf ich meinen Kollegen aus dem Service vorstellen?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We should finish the installation before the weekend.",
+    "de": "Wir sollten die Installation vor dem Wochenende abschließen.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The air pressure must be at least six bar.",
+    "de": "Der Luftdruck muss mindestens sechs bar betragen.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Is this the right cable for the sensor?",
+    "de": "Ist das das richtige Kabel für den Sensor?",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "The software update fixed the communication problem.",
+    "de": "Das Software-Update hat das Kommunikationsproblem behoben.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Please keep a safe distance from the moving parts.",
+    "de": "Bitte halten Sie Abstand zu den beweglichen Teilen.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "Could you send me the technical data sheet?",
+    "de": "Könnten Sie mir das technische Datenblatt schicken?",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The vibration increases as soon as the load exceeds fifty percent.",
+    "de": "Die Vibration nimmt zu, sobald die Last 50 Prozent übersteigt.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "We suspect that a loose connection is causing the intermittent fault.",
+    "de": "Wir vermuten, dass ein Wackelkontakt den sporadischen Fehler verursacht.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The actuator takes longer than specified to reach its end position.",
+    "de": "Der Aktor braucht länger als spezifiziert, um die Endlage zu erreichen.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "According to the datasheet, the maximum operating temperature is eighty degrees.",
+    "de": "Laut Datenblatt beträgt die maximale Betriebstemperatur 80 Grad.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The tolerance in the drawing is too tight for this process.",
+    "de": "Die Toleranz in der Zeichnung ist für diesen Prozess zu eng.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "Could you clarify whether this dimension refers to the inner or outer diameter?",
+    "de": "Könnten Sie klären, ob sich das Maß auf den Innen- oder Außendurchmesser bezieht?",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "We have to lock out the machine before starting any repair work.",
+    "de": "Wir müssen die Maschine vor allen Reparaturarbeiten sichern (Lockout).",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "Only authorized personnel are allowed to work on the electrical cabinet.",
+    "de": "Nur autorisiertes Personal darf am Schaltschrank arbeiten.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "Before commissioning, we need to verify all safety functions.",
+    "de": "Vor der Inbetriebnahme müssen wir alle Sicherheitsfunktionen prüfen.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The commissioning was delayed because some components were missing.",
+    "de": "Die Inbetriebnahme verzögerte sich, weil einige Bauteile fehlten.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "After the first run, we adjusted the parameters of the controller.",
+    "de": "Nach dem ersten Lauf haben wir die Reglerparameter angepasst.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The machine passed the acceptance test without any major issues.",
+    "de": "Die Maschine hat die Abnahme ohne größere Probleme bestanden.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "Preventive maintenance helps us avoid unplanned downtime.",
+    "de": "Vorbeugende Wartung hilft uns, ungeplante Stillstände zu vermeiden.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The lubrication intervals are described in the maintenance manual.",
+    "de": "Die Schmierintervalle sind im Wartungshandbuch beschrieben.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "We narrowed the problem down to the encoder signal.",
+    "de": "Wir haben das Problem auf das Encodersignal eingegrenzt.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "I'd recommend replacing the seals instead of repairing them again.",
+    "de": "Ich würde empfehlen, die Dichtungen zu ersetzen, statt sie erneut zu reparieren.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "I'm afraid we won't be able to meet the deadline.",
+    "de": "Leider werden wir die Frist nicht einhalten können.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you let us know if the offer includes installation?",
+    "de": "Könnten Sie uns mitteilen, ob das Angebot die Montage enthält?",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The price is valid for thirty days from the date of the quotation.",
+    "de": "Der Preis gilt 30 Tage ab Angebotsdatum.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We would appreciate it if you could shorten the lead time.",
+    "de": "Wir wären dankbar, wenn Sie die Lieferzeit verkürzen könnten.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Unfortunately, the part we received doesn't match our order.",
+    "de": "Leider entspricht das erhaltene Teil nicht unserer Bestellung.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We would like to return the damaged goods and receive a replacement.",
+    "de": "Wir möchten die beschädigte Ware zurückschicken und Ersatz erhalten.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Please let me know if you need any further information.",
+    "de": "Sagen Sie mir bitte Bescheid, falls Sie weitere Informationen benötigen.",
+    "lvl": 3,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'm writing to follow up on our conversation last week.",
+    "de": "Ich schreibe Ihnen als Nachfassung zu unserem Gespräch letzte Woche.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Sorry for the inconvenience, we will fix this as soon as possible.",
+    "de": "Entschuldigung für die Unannehmlichkeiten, wir beheben das so schnell wie möglich.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "To sum up, we need two more weeks to finish the test setup.",
+    "de": "Zusammengefasst brauchen wir noch zwei Wochen, um den Testaufbau fertigzustellen.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Let's go through the open points one by one.",
+    "de": "Lassen Sie uns die offenen Punkte nacheinander durchgehen.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you share your screen so we can look at the diagram?",
+    "de": "Könnten Sie Ihren Bildschirm teilen, damit wir uns den Schaltplan ansehen?",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "I'd like to raise a concern about the current schedule.",
+    "de": "Ich möchte Bedenken zum aktuellen Zeitplan äußern.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Who is responsible for the software part of the project?",
+    "de": "Wer ist für den Softwareteil des Projekts verantwortlich?",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The pneumatic cylinder moves unevenly, which points to a pressure problem.",
+    "de": "Der Pneumatikzylinder bewegt sich ruckelnd, was auf ein Druckproblem hindeutet.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "We need to measure the insulation resistance before powering up the system.",
+    "de": "Wir müssen den Isolationswiderstand messen, bevor wir die Anlage einschalten.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The frequency converter trips whenever the motor starts under load.",
+    "de": "Der Frequenzumrichter löst aus, sobald der Motor unter Last anläuft.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "Please document every change you make to the program.",
+    "de": "Bitte dokumentieren Sie jede Änderung, die Sie am Programm vornehmen.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The gearbox needs to be aligned properly to prevent premature wear.",
+    "de": "Das Getriebe muss richtig ausgerichtet werden, um vorzeitigen Verschleiß zu vermeiden.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "Can you confirm that the sensor is compatible with our controller?",
+    "de": "Können Sie bestätigen, dass der Sensor mit unserer Steuerung kompatibel ist?",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "The prototype met our expectations, but the cycle time can be improved.",
+    "de": "Der Prototyp hat unsere Erwartungen erfüllt, aber die Taktzeit lässt sich verbessern.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "I'll forward your request to the responsible department.",
+    "de": "Ich leite Ihre Anfrage an die zuständige Abteilung weiter.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Could you give me a rough estimate of the costs?",
+    "de": "Könnten Sie mir eine grobe Kostenschätzung geben?",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Make sure all guards are in place before you start the machine.",
+    "de": "Stellen Sie sicher, dass alle Schutzabdeckungen angebracht sind, bevor Sie die Maschine starten.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "We've been experiencing this issue since the last software update.",
+    "de": "Wir haben dieses Problem seit dem letzten Software-Update.",
+    "lvl": 4,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The root cause turned out to be a worn coupling that went unnoticed for months.",
+    "de": "Die Ursache war eine verschlissene Kupplung, die monatelang unbemerkt blieb.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "Given the tight tolerances, we should consider thermal expansion in the design.",
+    "de": "Bei den engen Toleranzen sollten wir die Wärmeausdehnung in der Konstruktion berücksichtigen.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "I'd like to propose an alternative that would reduce both cost and downtime.",
+    "de": "Ich möchte eine Alternative vorschlagen, die Kosten und Stillstandszeit verringern würde.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Provided the parts arrive on time, we should be able to go live by month-end.",
+    "de": "Sofern die Teile pünktlich eintreffen, sollten wir bis Monatsende in Betrieb gehen können.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The specification is somewhat ambiguous, so I'd suggest we clarify it first.",
+    "de": "Die Spezifikation ist etwas mehrdeutig, daher würde ich vorschlagen, sie zuerst zu klären.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "Despite repeated adjustments, the positioning error persists, which suggests a mechanical defect.",
+    "de": "Trotz mehrfacher Einstellungen bleibt der Positionierfehler bestehen, was auf einen mechanischen Defekt hindeutet.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "We'd be grateful if you could expedite the shipment, as production is at a standstill.",
+    "de": "Wir wären dankbar, wenn Sie den Versand beschleunigen könnten, da die Produktion steht.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "This risk assessment needs to be updated whenever the machine is modified.",
+    "de": "Diese Gefährdungsbeurteilung muss aktualisiert werden, sobald die Maschine verändert wird.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "As discussed, I'm sending you the revised proposal for your review and approval.",
+    "de": "Wie besprochen sende ich Ihnen den überarbeiteten Vorschlag zur Prüfung und Freigabe.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "Had we monitored the bearing temperature, we could have prevented the breakdown.",
+    "de": "Hätten wir die Lagertemperatur überwacht, hätten wir den Ausfall verhindern können.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "The firmware needs to be rolled back until the manufacturer provides a patch.",
+    "de": "Die Firmware muss zurückgesetzt werden, bis der Hersteller einen Patch bereitstellt.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "I appreciate your flexibility, and I'm confident we can find a workable solution.",
+    "de": "Ich schätze Ihre Flexibilität und bin zuversichtlich, dass wir eine praktikable Lösung finden.",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "The fault is hard to reproduce because it only appears under specific conditions.",
+    "de": "Der Fehler ist schwer zu reproduzieren, da er nur unter bestimmten Bedingungen auftritt.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "Could you walk me through the changes made during the last overhaul?",
+    "de": "Könnten Sie mir die Änderungen bei der letzten Überholung Schritt für Schritt erläutern?",
+    "lvl": 5,
+    "cat": "arbeit"
+  },
+  {
+    "en": "We'll need to validate the safety circuit again after any modification.",
+    "de": "Wir müssen den Sicherheitskreis nach jeder Änderung erneut validieren.",
+    "lvl": 5,
+    "cat": "technik"
+  }
+]
