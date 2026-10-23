@@ -103,4 +103,37 @@ Antwort:
 }
 ```
 
-`GET /health` prüft, ob der Worker erreichbar ist und ob ein Schlüssel gesetzt ist. Der Schlüssel selbst kommt nicht zurück.
+`GET /health` prüft, ob der Worker erreichbar ist und ob ein Schlüssel gesetzt ist. Der Schlüssel selbst kommt nicht zurück. Die Antwort nennt zusätzlich `ttsModel`.
+
+## Online-Stimme (`POST /tts`)
+
+Die iPhone-Sprachausgabe bleibt manchmal stumm, obwohl kein Fehler kommt. Dafür kann die App einen kurzen Satz über denselben Worker vorlesen lassen. Groq hat dafür das Modell `canopylabs/orpheus-v1-english` an `POST /openai/v1/audio/speech`. Es steht auf der Free-Plan-Liste (etwa 10 Anfragen pro Minute, 100 pro Tag, höchstens 200 Zeichen, nur WAV). Darüber hinaus kann Groq Geld verlangen. Die Audiodatei wird nicht gespeichert.
+
+Es ist **kein neues Secret** nötig. `/tts` benutzt denselben `AI_API_KEY`.
+
+Stimmen: `hannah` (Standard, amerikanisch), bei Akzent `en-GB` die Stimme `daniel`. Erlaubt sind nur `autumn`, `diana`, `hannah`, `austin`, `daniel`, `troy`.
+
+Optional in `wrangler.toml`, nur wenn du abweichen willst:
+
+```toml
+TTS_MODEL = "canopylabs/orpheus-v1-english"
+TTS_VOICE = "hannah"
+TTS_BASE_URL = "https://api.groq.com/openai/v1"
+```
+
+`TTS_BASE_URL` brauchst du nicht, wenn `AI_BASE_URL` schon `https://api.groq.com/openai/v1` ist.
+
+Deploy aus dem Ordner `proxy` (auf deinem Rechner, dort wo Wrangler eingeloggt ist):
+
+```bash
+npx wrangler deploy
+```
+
+Wichtig: In dieser Datei steht als Chat-Standard noch OpenAI. Wenn dein laufender Worker schon Groq nutzt, setze vor dem Deploy in `wrangler.toml` dieselben Werte, die online gelten, zum Beispiel:
+
+```toml
+AI_BASE_URL = "https://api.groq.com/openai/v1"
+AI_MODEL = "dein-bisheriges-groq-modell"
+```
+
+Sonst schreibt `wrangler deploy` die OpenAI-Zeile aus der Datei über die live gesetzte Adresse und der Chat geht kaputt. Den Schlüssel `AI_API_KEY` musst du nicht neu setzen, solange er bei Cloudflare schon liegt.
