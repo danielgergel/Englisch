@@ -16,7 +16,7 @@ test("Lerninhalte liegen in JSON und nicht mehr in index.html", () => {
     "data/sentences.json": 540,
     "data/dialogues.json": 36,
     "data/grammar.json": 30,
-    "data/songs.json": 24,
+    "data/songs.json": 42,
     "data/placement.json": 60
   };
   for (const [file, n] of Object.entries(files)) {
@@ -29,10 +29,36 @@ test("Lerninhalte liegen in JSON und nicht mehr in index.html", () => {
   assert.equal(listening.reductions.length, 70);
   assert.equal(listening.dict.length, 80);
   assert.ok(sw.includes("data/listening.json"));
-  assert.ok(sw.includes("englisch-v3-offline"), "Cache-Version nicht erhöht");
+  assert.ok(sw.includes("englisch-v4-stimme"), "Cache-Version nicht erhöht");
+  assert.ok(html.includes("Englische Stimmen"), "TTS-Diagnose fehlt");
+  assert.ok(html.includes("kein Start"), "TTS-Wiederholung ohne Stimme fehlt");
+  assert.ok(!html.includes('new SpeechSynthesisUtterance(" ")'), "stummes Unlock-Stück ist noch da");
   assert.ok(html.includes("offlineChatNote"), "Offline-Hinweis für den Gesprächspartner fehlt");
   assert.ok(html.includes("Ohne Internet kann das iPhone Gesprochenes nicht erkennen"), "Hinweis zur Spracherkennung ohne Netz fehlt");
   assert.equal(JSON.parse(fs.readFileSync(new URL("../data/vocab.json", import.meta.url), "utf8"))[0].en, "to order");
+});
+
+test("MGK-Songs sind eigene Zeilen mit passenden Lücken", () => {
+  const songs = JSON.parse(fs.readFileSync(new URL("../data/songs.json", import.meta.url), "utf8"));
+  const ids = new Set();
+  const inspired = [];
+  for (const s of songs) {
+    assert.ok(s.id && !ids.has(s.id), "doppelte Song-Id " + s.id);
+    ids.add(s.id);
+    assert.ok(s.lines && s.lines.length >= 4, s.id);
+    for (const g of s.gaps || []) {
+      const line = s.lines[g.line];
+      assert.ok(line && line.en.toLowerCase().includes(String(g.word).toLowerCase()), s.id + " Lücke " + g.word);
+    }
+    if (/Inspiriert von:/i.test((s.title || "") + " " + (s.style || ""))) inspired.push(s);
+  }
+  assert.ok(inspired.length >= 15 && inspired.length <= 20, "erwartete 15–20 MGK-Songs, habe " + inspired.length);
+  inspired.forEach(s => {
+    assert.ok(s.culture && s.culture.length > 40, s.id + " ohne Sprachnote");
+    assert.ok(s.lvl >= 1 && s.lvl <= 5, s.id);
+  });
+  const lvls = new Set(inspired.map(s => s.lvl));
+  assert.ok(lvls.size >= 4, "Songs sollen über mehrere Niveaus gehen");
 });
 
 test("Aussprache-Vergleich markiert Wörter und rechnet den Score", () => {
