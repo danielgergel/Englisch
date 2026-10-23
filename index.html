@@ -303,9 +303,38 @@ function diffNode(user,target){
 
 /* ---------- Sprachausgabe & Spracheingabe ---------- */
 const IS_IOS=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
-let ttsTok=0,ttsHold=null;
+let ttsTok=0,ttsHold=null,bedAudio=null;
 function paintTtsDiag(){try{if(TTS.paintDiag)TTS.paintDiag();}catch(e){}}
-const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
+function setPlaybackSession(){
+  try{
+    const s=navigator.audioSession;
+    if(s&&"type"in s){s.type="playback";TTS.session=s.type||"playback";return TTS.session==="playback";}
+  }catch(e){TTS.session="Fehler";return false;}
+  TTS.session="keine API";
+  return false;
+}
+function startSilentLoop(){
+  if(!IS_IOS||setPlaybackSession())return;
+  if(!bedAudio){
+    const a=document.createElement("audio");
+    a.src="silence.wav";a.loop=true;a.preload="auto";a.playsInline=true;a.setAttribute("playsinline","");
+    a.setAttribute("aria-hidden","true");a.tabIndex=-1;
+    a.style.cssText="position:fixed;width:0;height:0;opacity:0;pointer-events:none";
+    (document.body||document.documentElement).append(a);
+    bedAudio=a;
+  }
+  if(document.hidden){try{bedAudio.pause();}catch(e){}TTS.bed="pausiert";return;}
+  try{
+    const p=bedAudio.play();
+    TTS.bed=bedAudio.paused?"wartet":"läuft";
+    if(p&&p.then)p.then(()=>{TTS.bed="läuft";paintTtsDiag();}).catch(()=>{TTS.bed="blockiert";paintTtsDiag();});
+  }catch(e){TTS.bed="blockiert";}
+}
+function armPlayback(){
+  if(!setPlaybackSession())startSilentLoop();
+  paintTtsDiag();
+}
+const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",session:"",sawStart:false,sawEnd:false,bed:"",
   load(){try{this.voices=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));}catch(e){this.voices=[];}paintTtsDiag();},
   list(){const pref=this.voices.filter(v=>v.lang.replace("_","-").toLowerCase()===S.set.acc.toLowerCase());
     let pool=pref.length?pref:this.voices.slice();
@@ -326,6 +355,9 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
     o=o||{};
     this.tried=true;
     this.lastError="";
+    this.sawStart=false;
+    this.sawEnd=false;
+    if(IS_IOS)armPlayback();
     if(!("speechSynthesis"in window)){this.lastError="nicht vorhanden";this.lastOk=false;paintTtsDiag();return Promise.resolve(false);}
     const raw=String(text||"").replace(/\s*\/\s*/g,", ").trim();
     if(!raw)return Promise.resolve(false);
@@ -343,9 +375,10 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
         }
         u.rate=Math.max(0.3,(o.rate||1)*((S&&S.set&&S.set.rate)||1));
         u.pitch=o.pitch||1;
-        u.onstart=()=>{if(my!==ttsTok)return;started=true;this.lastOk=true;this.lastError="";paintTtsDiag();};
+        u.onstart=()=>{if(my!==ttsTok)return;started=true;this.sawStart=true;this.lastOk=true;this.lastError="";paintTtsDiag();};
         u.onend=()=>{
           u._done=true;
+          if(my===ttsTok&&started)this.sawEnd=true;
           if(fin)return;
           if(my!==ttsTok){end();return;}
           if(ttsHold!==u)return;
@@ -366,6 +399,7 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
       };
       const say=u=>{
         ttsHold=u;
+        if(IS_IOS)armPlayback();
         try{speechSynthesis.resume();}catch(e){}
         try{speechSynthesis.speak(u);}catch(e){this.lastError=(e&&e.message)||"speak";this.lastOk=false;if(!retried){retry();return;}end();}
       };
@@ -390,6 +424,7 @@ const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
   },
   stop(){ttsTok++;if(ttsHold)ttsHold._done=true;try{if("speechSynthesis"in window)speechSynthesis.cancel();}catch(e){}}};
 addEventListener("pointerdown",()=>{
+  armPlayback();
   if(!("speechSynthesis"in window))return;
   try{speechSynthesis.resume();}catch(e){}
   TTS.load();
@@ -397,7 +432,11 @@ addEventListener("pointerdown",()=>{
 },{capture:true});
 if("speechSynthesis"in window){TTS.load();try{speechSynthesis.onvoiceschanged=()=>TTS.load();}catch(e){}
   if(IS_IOS){setInterval(()=>{try{if(speechSynthesis.speaking){speechSynthesis.pause();speechSynthesis.resume();}}catch(e){}},10000);
-    document.addEventListener("visibilitychange",()=>{if(!document.hidden){try{speechSynthesis.resume();TTS.load();}catch(e){}}});}}
+    document.addEventListener("visibilitychange",()=>{
+      if(bedAudio){if(document.hidden){try{bedAudio.pause();TTS.bed="pausiert";}catch(e){}}else startSilentLoop();}
+      if(!document.hidden){try{speechSynthesis.resume();TTS.load();}catch(e){}}
+      paintTtsDiag();
+    });}}
 let srDenied=false,listenCtl=null,activeRec=null;
 function srEngine(){return window.SpeechRecognition||window.webkitSpeechRecognition||null;}
 function netOn(){return navigator.onLine!==false;}
@@ -1514,10 +1553,10 @@ function settingsView(){
   const hint=h("p",{class:"small muted"});
   const paint=()=>{
     const has="speechSynthesis"in window;
-    diag.textContent="Sprachausgabe: "+(has?"ja":"nein")+" · Englische Stimmen: "+TTS.voices.length+" · Letzter Fehler: "+(TTS.lastError||"keiner");
-    const bad=!!TTS.lastError;
-    hint.hidden=!bad;
-    hint.textContent=bad?"Kein Ton? iPhone-Stumm-Schalter aus, Lautstärke prüfen, Bildschirmzeit-Einstellungen ansehen. Unter iOS: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen eine englische Stimme laden.":"";
+    const sess=TTS.session==="playback"?"playback":(TTS.session||"nein");
+    diag.textContent="Sprachausgabe: "+(has?"ja":"nein")+" · Englische Stimmen: "+TTS.voices.length+" · Letzter Fehler: "+(TTS.lastError||"keiner")+" · Audio-Session: "+sess+" · gestartet "+(TTS.sawStart?"✓":"–")+" / beendet "+(TTS.sawEnd?"✓":"–");
+    hint.hidden=false;
+    hint.textContent="Hörst du trotzdem nichts? Stumm-Schalter am iPhone auf Ton stellen.";
   };
   TTS.paintDiag=paint;TTS.load();paint();
   el.append(h("button",{class:"btn small",type:"button",style:{marginTop:"12px"},onclick:()=>{TTS.speak("Hello! Let's learn some English together.").then(paint);setTimeout(paint,1700);}},"🔊 Stimme testen"),diag,hint);
