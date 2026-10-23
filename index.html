@@ -307,10 +307,12 @@ let ttsTok=0;
 const TTS={voices:[],unlocked:false,
   load(){try{this.voices=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));}catch(e){this.voices=[];}},
   list(){const pref=this.voices.filter(v=>v.lang.replace("_","-").toLowerCase()===S.set.acc.toLowerCase());
-    const sc=v=>(/premium|enhanced|neural/i.test(v.name)?3:0)+(/samantha|daniel|karen|ava|allison|serena|moira|susan|nicky|alex/i.test(v.name)?1:0)+(v.localService?0.5:0);
-    return(pref.length?pref:this.voices).slice().sort((a,b)=>sc(b)-sc(a));},
+    let pool=pref.length?pref:this.voices.slice();
+    if(navigator.onLine===false){const local=pool.filter(v=>v.localService);if(!local.length){const any=this.voices.filter(v=>v.localService);if(any.length)pool=any;}else pool=local;}
+    const sc=v=>(/premium|enhanced|neural/i.test(v.name)?3:0)+(/samantha|daniel|karen|ava|allison|serena|moira|susan|nicky|alex/i.test(v.name)?1:0)+(v.localService?2:0);
+    return pool.slice().sort((a,b)=>sc(b)-sc(a));},
   pick(i){
-    if(i===0&&S.set.voice){const f=this.voices.find(v=>v.voiceURI===S.set.voice);if(f)return f;}
+    if(i===0&&S.set.voice){const f=this.voices.find(v=>v.voiceURI===S.set.voice);if(f&&(navigator.onLine!==false||f.localService))return f;}
     const l=this.list();return l.length?l[i%l.length]:null;},
   speak(text,o){
     o=o||{};
@@ -338,10 +340,12 @@ if("speechSynthesis"in window){TTS.load();try{speechSynthesis.onvoiceschanged=()
     document.addEventListener("visibilitychange",()=>{if(!document.hidden){try{speechSynthesis.resume();TTS.load();}catch(e){}}});}}
 let srDenied=false,listenCtl=null,activeRec=null;
 function srEngine(){return window.SpeechRecognition||window.webkitSpeechRecognition||null;}
+function netOn(){return navigator.onLine!==false;}
 function srState(){
   if(!srEngine())return "unsupported";
   if(typeof window.isSecureContext==="boolean"&&!window.isSecureContext)return "insecure";
   if(srDenied)return "denied";
+  if(!netOn())return "offline";
   return "ok";
 }
 function canListen(){return srState()==="ok";}
@@ -352,7 +356,8 @@ function srHint(code){
     case "not-allowed":
     case "denied": return "Das Mikrofon ist blockiert. Auf dem iPhone: Einstellungen → Safari → Mikrofon → Erlauben. Die Diktierfunktion muss an sein (Einstellungen → Allgemein → Tastatur). Du kannst die Antwort auch tippen.";
     case "service-not-allowed": return "Spracherkennung ist hier nicht erlaubt. Öffne die Seite in Safari (auf dem Home-Bildschirm klappt sie manchmal nicht) oder tippe die Antwort. Prüfe auch die Diktierfunktion.";
-    case "network": return "Die Erkennung braucht auf dem iPhone kurz Internet (Safari schickt die Aufnahme an Apple). Prüfe die Verbindung oder tippe die Antwort.";
+    case "offline":
+    case "network": return "Ohne Internet kann das iPhone Gesprochenes nicht erkennen: Safari schickt die Aufnahme an Apple. Vorlesen geht weiter. Tippe den Satz, dann siehst du Wort für Wort, was stimmt.";
     case "audio-capture": return "Kein Mikrofon frei. Schließe andere Apps, die es nutzen, und versuche es nochmal – oder tippe die Antwort.";
     case "no-speech": return "Nichts gehört. Sprich direkt nach dem Tippen, etwas lauter und näher ans Gerät – oder tippe die Antwort.";
     default: return "Erkennung hat nicht geklappt. Nochmal versuchen oder die Antwort tippen.";
@@ -369,6 +374,7 @@ function listenOnce(opts){
     const SR=srEngine();
     if(!SR){reject(new Error("unsupported"));return;}
     if(typeof window.isSecureContext==="boolean"&&!window.isSecureContext){reject(new Error("insecure"));return;}
+    if(!netOn()){reject(new Error("offline"));return;}
     try{TTS.stop();}catch(e){}
     let settled=false,retried=false,partial="",altList=[],rec=null,tm=0,retryTm=0,startedAt=0,mode="run",spin=0;
     const finish=(err,val)=>{
@@ -419,6 +425,7 @@ function listenOnce(opts){
       rec.onend=()=>{
         if(settled||mine!==spin)return;
         if(mode==="abort"){finish(new Error("aborted"));return;}
+        if(!netOn()){finish(new Error("offline"));return;}
         const list=listFrom();
         if(list.length){finish(null,list);return;}
         const fast=Date.now()-startedAt<700;
@@ -724,14 +731,22 @@ function runPronCard(host,target,label){
   const msg=h("p",{class:"small muted"},canListen()?"Tippe auf das Mikrofon.":srHint(srState()));
   const result=h("div");
   host.append(msg,result);
-  if(!canListen()){
+  let typed=false;
+  function showType(why){
+    if(typed){msg.textContent=srHint(why||srState());return;}
+    typed=true;
+    const mic=host.querySelector(".mic");if(mic)mic.remove();
+    msg.textContent=srHint(why||srState());
     const inp=h("input",{type:"text",placeholder:"Satz tippen …","aria-label":"Antwort tippen",autocapitalize:"off",autocorrect:"off",spellcheck:"false"});
     host.append(inp,h("button",{class:"btn small primary",type:"button",style:{marginTop:"8px"},onclick:()=>{
-      const j=judge(inp.value,[target]);if(j.r==="empty")return;
-      result.replaceChildren(h("div",{class:"small"},j.r==="bad"?"Nicht ganz. Ziel: "+target:"Passt. Getippt, deshalb ohne Aussprache-Punkte."));
+      const text=inp.value.trim();if(!text)return;
+      const report=scoreSpeech([target],[text]);
+      result.replaceChildren(pronNodes(report,[text]),h("div",{class:"small"},"Getippt, deshalb ohne Aussprache-Punkte. Die Farben zeigen, welche Wörter zum Satz passen."));
+      msg.textContent=report.score>=70?"Passt.":"Nicht ganz. Die roten Wörter fehlen oder weichen ab.";
+      TTS.speak(target);
     }},"Prüfen"));
-    return;
   }
+  if(!canListen()){showType(srState());return;}
   const mic=h("button",{class:"mic",type:"button","aria-label":"Sprechen",onclick:async()=>{
     if(mic.classList.contains("rec")){stopListen("stop");return;}
     mic.classList.add("rec");msg.textContent="Ich höre zu … tippe nochmal zum Beenden.";
@@ -742,7 +757,13 @@ function runPronCard(host,target,label){
       result.replaceChildren(pronNodes(report,tr));
       msg.textContent=report.score>=70?"Stark.":"Die markierten Wörter nochmal üben.";
       TTS.speak(target);
-    }catch(e){mic.classList.remove("rec");if(e&&e.message==="aborted")return;msg.textContent=srHint(e&&e.message);}
+    }catch(e){
+      mic.classList.remove("rec");
+      if(e&&e.message==="aborted")return;
+      const code=e&&e.message;
+      if(code==="offline"||code==="network"||!canListen()){showType(code||srState());return;}
+      msg.textContent=srHint(code);
+    }
   }},"🎤");
   host.append(mic);
 }
@@ -847,11 +868,12 @@ X.speak=it=>(stage,done)=>{
         if(finished||!stage.isConnected)return;
         listening=false;mic.classList.remove("rec");
         if(e&&e.message==="aborted")return;
-        msg.textContent=srHint(e&&e.message);
-        if(!canListen())draw();
+        const code=e&&e.message;
+        if(code==="offline"||code==="network"||!canListen()){drawType(box,code||srState());return;}
+        msg.textContent=srHint(code);
       }
     };
-    box.replaceChildren(msg,mic,result,h("button",{class:"btn ghost small",type:"button",style:{marginTop:"8px"},onclick:()=>{if(!listening)drawType(box);}},"Stattdessen tippen"));
+    box.replaceChildren(msg,mic,result,h("button",{class:"btn ghost small",type:"button",style:{marginTop:"8px"},onclick:()=>{if(!listening)drawType(box,"type");}},"Stattdessen tippen"));
     addFoot(stage,h("div",{class:"foot"},h("button",{class:"btn ghost small",type:"button",onclick:()=>finish(false)},"Überspringen")));
   }
   function showScore(msg,result,tr){
@@ -863,11 +885,12 @@ X.speak=it=>(stage,done)=>{
     const ok=report.score>=70;
     addFoot(stage,h("div",{class:"foot "+(ok?"good":"bad")},h("div",{class:"fbt"},ok?"Gut gesprochen":"Noch ungenau"),h("div",{class:"fbd"},ok?"Ab 70 % gilt der Satz als geschafft.":"Unter 70 %. Die roten Wörter kommen in deine Übungsliste."),h("div",{class:"two"},h("button",{class:"btn"+(ok?" ghost":" primary"),type:"button",onclick:()=>draw()},"Nochmal sprechen"),h("button",{class:"btn "+(ok?"primary":""),type:"button",onclick:()=>finish(ok)},ok?"Geschafft, weiter":"Weiter üben"))));
   }
-  function drawType(box){
+  function drawType(box, why){
     stopListen("abort");
-    const state=srState();
+    const state=why||srState();
+    const hint=state==="type"?"Tippe den Satz. Danach siehst du Wort für Wort, was zum Ziel passt. Aussprache-Punkte gibt es nur beim Sprechen.":srHint(state);
     const inp=h("input",{type:"text",autocapitalize:"off",autocorrect:"off",spellcheck:"false",autocomplete:"off","aria-label":"Deine Antwort",placeholder:"Englisch tippen …"});
-    box.replaceChildren(h("p",{class:"small"},srHint(state)),inp);
+    box.replaceChildren(h("p",{class:"small"},hint),inp);
     let fin=false;
     const go=force=>{
       if(fin||finished)return;
@@ -875,10 +898,13 @@ X.speak=it=>(stage,done)=>{
       if(j.r==="empty")return;
       fin=true;inp.disabled=true;
       const ok=j.r!=="bad";
-      feedback(stage,ok,ok?(j.r==="ok"?"Richtig!":"Fast – achte auf die Schreibweise"):"Nicht ganz",ok?h("div",{class:"small"},"Getippt, deshalb ohne Aussprache-Punkte. Ziel: ",h("b",null,j.t||it.en)):(inp.value?diffNode(inp.value,targets[0]):h("div",null,h("b",null,targets[0]))),finish,ok);
+      const chips=force?null:pronNodes(scoreSpeech(targets,[inp.value]),[inp.value]);
+      const note=h("div",{class:"small"},"Getippt, deshalb ohne Aussprache-Punkte.");
+      const detail=force?h("div",null,h("b",null,targets[0])):ok?h("div",null,chips,note,h("div",{class:"small"},"Ziel: ",h("b",null,j.t||it.en))):h("div",null,inp.value?diffNode(inp.value,targets[0]):h("div",null,h("b",null,targets[0])),chips,note);
+      feedback(stage,ok,ok?(j.r==="ok"?"Richtig!":"Fast – achte auf die Schreibweise"):"Nicht ganz",detail,finish,ok);
       TTS.speak(it.en);
     };
-    const retry=(state==="denied"||state==="unsupported"||state==="insecure")?h("button",{class:"btn ghost small",type:"button",onclick:()=>{srDenied=false;draw();}},"Mikrofon erneut versuchen"):null;
+    const retry=(state==="denied"||state==="unsupported"||state==="insecure"||state==="offline"||state==="network")?h("button",{class:"btn ghost small",type:"button",onclick:()=>{srDenied=false;draw();}},"Mikrofon erneut versuchen"):null;
     addFoot(stage,h("div",{class:"foot"},h("button",{class:"btn primary",type:"button",onclick:()=>go(false)},"Prüfen"),h("button",{class:"btn ghost small",type:"button",onclick:()=>go(true)},"Weiß ich nicht"),retry));
     inp.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();e.stopPropagation();go(false);}});
     try{inp.focus();}catch(e){}
@@ -1151,6 +1177,7 @@ function proxyBase(){
   if(!/^https?:\/\//i.test(u))u="https://"+u;
   return u.replace(/\/+$/,"");
 }
+function offlineChatNote(){return "Für das freie Gespräch brauchst du Internet. Ohne Netz übst du mit festen Sätzen: anhören, nachsprechen oder tippen.";}
 function aiErrorText(code){
   const m=String(code||"");
   if(m==="no-proxy")return "Noch kein Proxy eingetragen.";
@@ -1164,6 +1191,7 @@ function aiErrorText(code){
   return "Keine Verbindung zum Proxy. Stimmt die Adresse, und bist du online?";
 }
 async function aiTurn(scenarioId,history){
+  if(!netOn())throw new Error("offline");
   const base=proxyBase();
   if(!base)throw new Error("no-proxy");
   const headers={"Content-Type":"application/json"};
@@ -1184,7 +1212,8 @@ async function aiTurn(scenarioId,history){
   }finally{clearTimeout(tm);}
 }
 function openScenarioPicker(){
-  const el=h("div",{class:"list"},h("h1",null,"Gesprächspartner"),h("p",{class:"muted small"},proxyBase()?"Niveau "+cefrExact(S.L)+" steuert die Antworten. Du kannst sprechen, zuhören oder tippen.":"Ohne Proxy-Adresse übst du feste Sätze nach. Für echte Gespräche die Worker-Adresse unter Einstellungen eintragen. Der API-Schlüssel bleibt auf dem Server, nicht in der App."));
+  const intro=!netOn()?offlineChatNote():proxyBase()?"Niveau "+cefrExact(S.L)+" steuert die Antworten. Du kannst sprechen, zuhören oder tippen.":"Ohne Proxy-Adresse übst du feste Sätze nach. Für echte Gespräche die Worker-Adresse unter Einstellungen eintragen. Der API-Schlüssel bleibt auf dem Server, nicht in der App.";
+  const el=h("div",{class:"list"},h("h1",null,"Gesprächspartner"),h("p",{class:"muted small"},intro));
   SCENARIOS.forEach(sc=>el.append(listBtn(sc.emoji+"  "+sc.title,sc.blurb,cefrExact(S.L),()=>{closeSheet();openChat(sc);})));
   if(!proxyBase())el.append(h("button",{class:"btn small",type:"button",style:{marginTop:"8px"},onclick:()=>{closeSheet();page("Einstellungen",settingsView());}},"Proxy einrichten"));
   sheet(el);
@@ -1203,7 +1232,7 @@ function openChat(sc){
   const status=h("p",{class:"muted small","aria-live":"polite",style:{margin:"0 0 8px"}});
   const foot=h("div",{class:"foot"},status,h("div",{class:"composer"},input,sendBtn,micBtn));
   const close=()=>{inSession=false;TTS.stop();stopListen("abort");root.remove();save(true);render();};
-  root.append(h("div",{class:"sh"},h("button",{class:"x",type:"button","aria-label":"Beenden",onclick:close},"✕"),h("div",{class:"sp"},h("b",null,sc.emoji+" "+sc.title),h("div",{class:"muted small"},cefrExact(S.L)+" · Rollenspiel")),h("span",{class:"chip"},proxyBase()?"KI":"Offline")),stage,foot);
+  root.append(h("div",{class:"sh"},h("button",{class:"x",type:"button","aria-label":"Beenden",onclick:close},"✕"),h("div",{class:"sp"},h("b",null,sc.emoji+" "+sc.title),h("div",{class:"muted small"},cefrExact(S.L)+" · Rollenspiel")),h("span",{class:"chip"},!netOn()?"ohne Netz":proxyBase()?"KI":"Offline")),stage,foot);
   document.body.append(root);fitSess();
   if(!canListen()){micBtn.hidden=true;status.textContent=srHint(srState());}
   function bubble(who,text,extra){
@@ -1221,14 +1250,18 @@ function openChat(sc){
     parent.append(box);
   }
   function showPractice(){
-    bubble("ai",sc.opener,h("div",{class:"de"},"Übungszeile ohne KI"));
+    if(log.querySelector("[data-practice]")){if(!netOn())status.textContent=offlineChatNote();return;}
+    const offline=!netOn();
+    bubble("ai",sc.opener,h("div",{class:"de","data-practice":"1"},offline?offlineChatNote():"Übungszeile ohne KI"));
     const card=h("div",{class:"card"});log.append(card);runPronCard(card,sc.practice,"Sag zum Beispiel");
     TTS.speak(sc.opener);
-    if(!proxyBase())status.textContent="Proxy fehlt: Unter Mehr → Einstellungen die Worker-Adresse eintragen. Bis dahin übst du die Zeile unten."+(!canListen()?" "+srHint(srState()):"");
+    if(offline)status.textContent=offlineChatNote();
+    else if(!proxyBase())status.textContent="Proxy fehlt: Unter Mehr → Einstellungen die Worker-Adresse eintragen. Bis dahin übst du die Zeile unten."+(!canListen()?" "+srHint(srState()):"");
   }
   async function pushUser(text){
     text=String(text||"").trim();
     if(!text||busy)return;
+    if(!netOn()){status.textContent=offlineChatNote();showPractice();return;}
     busy=true;input.value="";
     const node=bubble("user",text);
     hist.push({role:"user",content:text});
@@ -1265,14 +1298,18 @@ function openChat(sc){
       if(!canListen())micBtn.hidden=true;
     }
   };
-  if(proxyBase()){
+  if(proxyBase()&&netOn()){
     busy=true;input.disabled=true;sendBtn.disabled=true;micBtn.disabled=true;status.textContent="Szene startet …";
     aiTurn(sc.id,[]).then(data=>{
       hist.push({role:"assistant",content:data.reply});
       bubble("ai",data.reply,S.set.showDe&&data.hint_de?h("div",{class:"de"},data.hint_de):null);
       status.textContent=canListen()?"Antworte laut oder tippe.":"Spracherkennung fehlt hier – tippe deine Antwort. Vorlesen geht trotzdem.";
       TTS.speak(data.reply);
-    }).catch(e=>{status.textContent=aiErrorText(e&&e.message);showPractice();}).finally(()=>{busy=false;input.disabled=false;sendBtn.disabled=false;micBtn.disabled=false;});
+    }).catch(e=>{
+      const code=e&&e.message;
+      status.textContent=(code==="network"||code==="timeout"||code==="offline"||!netOn())?offlineChatNote():aiErrorText(code);
+      showPractice();
+    }).finally(()=>{busy=false;input.disabled=false;sendBtn.disabled=false;micBtn.disabled=false;});
   }else showPractice();
 }
 function practiceHardWords(){
@@ -1289,7 +1326,7 @@ function practiceHardWords(){
 function viewTrain(){
   const el=h("div",{class:"list"});
   el.append(h("div",{class:"top"},h("h1",null,"Üben")));
-  el.append(listBtn("KI-Gesprächspartner","Rollenspiel mit Sprechen und Hören",proxyBase()?"bereit":"einrichten",openScenarioPicker));
+  el.append(listBtn("KI-Gesprächspartner","Rollenspiel mit Sprechen und Hören",!netOn()?"ohne Netz":proxyBase()?"bereit":"einrichten",openScenarioPicker));
   el.append(listBtn("Aussprache bewerten","Satz sprechen, Wörter vergleichen",null,()=>{
     const pool=POOL.s.filter(x=>Math.abs(x.lvl-S.L)<=1.2);
     const src=pool.length>=6?pool:POOL.s;
@@ -1427,6 +1464,7 @@ function settingsView(){
     h("button",{class:"btn small",type:"button",style:{marginTop:"10px"},onclick:async()=>{
       saveProxy();
       const base=proxyBase();
+      if(!netOn()){st.textContent="Verbindungstest braucht Internet. Lernen und Vorlesen gehen auch ohne Netz.";return;}
       if(!base){st.textContent="Noch keine Adresse. Rollenspiele laufen dann nur als Nachsprech-Übung.";return;}
       st.textContent="Prüfe Verbindung …";
       const headers={};
@@ -1463,7 +1501,7 @@ function viewMore(){
   el.append(listBtn("Backup & Zurücksetzen","Fortschritt sichern",null,()=>page("Backup",backupView())));
   el.append(listBtn("Einstufungstest wiederholen","Niveau neu bestimmen",null,()=>placement(true)));
   const ready=!!(navigator.serviceWorker&&navigator.serviceWorker.controller);
-  el.append(h("div",{class:"card"+(ready?"":" warn"),style:{marginTop:"12px"}},h("b",null,ready?"✓ Offline bereit":"Offline noch nicht bereit"),h("div",{class:"small"},ready?"Lernen geht auch im Flugmodus. Der KI-Gesprächspartner braucht Internet und eine Proxy-Adresse.":"Öffne die App einmal mit Internet und schließe sie dann komplett. Danach läuft das Lernen offline.")));
+  el.append(h("div",{class:"card"+(ready?"":" warn"),style:{marginTop:"12px"}},h("b",null,ready?"✓ Offline bereit":"Offline noch nicht bereit"),h("div",{class:"small"},ready?"Lernen, Vorlesen und Tippen gehen auch im Flugmodus. Die Spracherkennung auf dem iPhone und der KI-Gesprächspartner brauchen Internet.":"Öffne die App einmal mit Internet und schließe sie dann komplett. Danach läuft das Lernen offline.")));
   el.append(h("p",{class:"small muted",style:{marginTop:"16px"}},"Englisch-Trainer · "+POOL.v.length+" Wörter, "+POOL.c.length+" Redewendungen, "+POOL.s.length+" Sätze, "+(D.grammar||[]).length+" Grammatikthemen. Lernen läuft auf dem Gerät; die KI nur über deinen Proxy."));
   return el;
 }

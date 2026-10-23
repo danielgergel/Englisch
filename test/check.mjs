@@ -29,6 +29,9 @@ test("Lerninhalte liegen in JSON und nicht mehr in index.html", () => {
   assert.equal(listening.reductions.length, 70);
   assert.equal(listening.dict.length, 80);
   assert.ok(sw.includes("data/listening.json"));
+  assert.ok(sw.includes("englisch-v3-offline"), "Cache-Version nicht erhöht");
+  assert.ok(html.includes("offlineChatNote"), "Offline-Hinweis für den Gesprächspartner fehlt");
+  assert.ok(html.includes("Ohne Internet kann das iPhone Gesprochenes nicht erkennen"), "Hinweis zur Spracherkennung ohne Netz fehlt");
   assert.equal(JSON.parse(fs.readFileSync(new URL("../data/vocab.json", import.meta.url), "utf8"))[0].en, "to order");
 });
 
