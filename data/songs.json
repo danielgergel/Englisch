@@ -1142,5 +1142,851 @@
       }
     ],
     "culture": "'Haunted by' und 'slip through one's fingers' sind bildhafte Wendungen für verlorene Liebe. Sommerlieder verbinden Wehmut mit Flüchtigkeit."
+  },
+  {
+    "id": "s25",
+    "lvl": 1,
+    "title": "Rote Nacht (Inspiriert von: bloody valentine)",
+    "style": "Pop-Punk · Inspiriert von: bloody valentine",
+    "lines": [
+      {
+        "en": "I still think of you at night",
+        "de": "Ich denke nachts immer noch an dich"
+      },
+      {
+        "en": "My heart is loud and the room is quiet",
+        "de": "Mein Herz ist laut und das Zimmer ist still"
+      },
+      {
+        "en": "I write your name and then I stop",
+        "de": "Ich schreibe deinen Namen und höre dann auf"
+      },
+      {
+        "en": "I say I am fine, but I am not",
+        "de": "Ich sage, es geht mir gut, aber das stimmt nicht"
+      },
+      {
+        "en": "The city lights look cold and blue",
+        "de": "Die Stadtlichter sehen kalt und blau aus"
+      },
+      {
+        "en": "I hope you smile, I really do",
+        "de": "Ich hoffe, du lächelst, wirklich"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "night"
+      },
+      {
+        "line": 1,
+        "word": "heart"
+      },
+      {
+        "line": 4,
+        "word": "lights"
+      }
+    ],
+    "culture": "Eigene Zeilen, nur vom Gefühl her an den Song angelehnt. Das Original hörst du in deiner Musik-App. 'I say I am fine' ist die lange Form von 'I'm fine'. In Songs wird das oft zu I'm. 'Heart' steht hier für Gefühl, nicht für das Organ."
+  },
+  {
+    "id": "s26",
+    "lvl": 1,
+    "title": "Neue Leute (Inspiriert von: my ex's best friend)",
+    "style": "Pop-Punk · Inspiriert von: my ex's best friend",
+    "lines": [
+      {
+        "en": "You have new friends, I stay home",
+        "de": "Du hast neue Freunde, ich bleibe zu Hause"
+      },
+      {
+        "en": "I see your smile in a photo",
+        "de": "Ich sehe dein Lächeln auf einem Foto"
+      },
+      {
+        "en": "It hurts a little, then it fades",
+        "de": "Es tut ein bisschen weh, dann verblasst es"
+      },
+      {
+        "en": "I am learning how to let go",
+        "de": "Ich lerne, loszulassen"
+      },
+      {
+        "en": "My phone is quiet all day long",
+        "de": "Mein Handy ist den ganzen Tag still"
+      },
+      {
+        "en": "I wish you well, and I move on",
+        "de": "Ich wünsche dir Gutes und mache weiter"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "friends"
+      },
+      {
+        "line": 2,
+        "word": "fades"
+      },
+      {
+        "line": 4,
+        "word": "phone"
+      }
+    ],
+    "culture": "Eigene Zeilen, kein Originaltext. 'Ex' bedeutet Ex-Partner. 'Let go' heißt loslassen. 'Move on' heißt weiterziehen, nach einer Trennung. Das Apostroph in 'ex's' zeigt die Besitzform: der beste Freund der Ex."
+  },
+  {
+    "id": "s27",
+    "lvl": 1,
+    "title": "Laut im Park (Inspiriert von: concert for aliens)",
+    "style": "Pop-Punk · Inspiriert von: concert for aliens",
+    "lines": [
+      {
+        "en": "We turn the music way up high",
+        "de": "Wir drehen die Musik ganz laut"
+      },
+      {
+        "en": "My friends all sing, and so do I",
+        "de": "Meine Freunde singen alle, und ich auch"
+      },
+      {
+        "en": "The night is young and we feel glad",
+        "de": "Die Nacht ist jung und wir sind froh"
+      },
+      {
+        "en": "I forget the week and just dance",
+        "de": "Ich vergesse die Woche und tanze einfach"
+      },
+      {
+        "en": "Stars above and noise below",
+        "de": "Sterne oben und Lärm unten"
+      },
+      {
+        "en": "For one song I let it go",
+        "de": "Für einen Song lasse ich es los"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "music"
+      },
+      {
+        "line": 3,
+        "word": "dance"
+      },
+      {
+        "line": 4,
+        "word": "noise"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Way up' verstärkt 'high': richtig laut. 'The night is young' heißt, der Abend fängt gerade erst an. 'Let it go' ist hier entspannen, nicht dasselbe wie jemanden loslassen."
+  },
+  {
+    "id": "s28",
+    "lvl": 2,
+    "title": "Halb okay (Inspiriert von: I Think I'm OKAY)",
+    "style": "Pop-Punk · Inspiriert von: I Think I'm OKAY",
+    "lines": [
+      {
+        "en": "Some days I am almost fine",
+        "de": "An manchen Tagen geht es mir fast gut"
+      },
+      {
+        "en": "I laugh out loud and then I crash",
+        "de": "Ich lache laut und dann falle ich zusammen"
+      },
+      {
+        "en": "My head is full, my room is a mess",
+        "de": "Mein Kopf ist voll, mein Zimmer ist ein Chaos"
+      },
+      {
+        "en": "I tell my friends that I got this",
+        "de": "Ich sage meinen Freunden, ich schaffe das"
+      },
+      {
+        "en": "Gonna feel better, just not today",
+        "de": "Wird besser werden, nur nicht heute"
+      },
+      {
+        "en": "I keep on walking anyway",
+        "de": "Ich gehe trotzdem weiter"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "crash"
+      },
+      {
+        "line": 3,
+        "word": "friends"
+      },
+      {
+        "line": 4,
+        "word": "Gonna"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Gonna' ist die Verschleifung von 'going to' (werden/vorhaben). 'I got this' heißt umgangssprachlich: ich schaffe das. 'Crash' ist hier kein Unfall, sondern emotional zusammenklappen. 'Anyway' heißt trotzdem."
+  },
+  {
+    "id": "s29",
+    "lvl": 2,
+    "title": "Vergiss mich auch (Inspiriert von: forget me too)",
+    "style": "Pop-Punk · Inspiriert von: forget me too",
+    "lines": [
+      {
+        "en": "Delete the photos, keep the lesson",
+        "de": "Lösch die Fotos, behalte die Lehre"
+      },
+      {
+        "en": "You wanna move on, and so do I",
+        "de": "Du willst weiterziehen, und ich auch"
+      },
+      {
+        "en": "I say your name when I should not",
+        "de": "Ich sage deinen Namen, obwohl ich es nicht sollte"
+      },
+      {
+        "en": "We were a fire, now we are smoke",
+        "de": "Wir waren ein Feuer, jetzt sind wir Rauch"
+      },
+      {
+        "en": "I ain't calling you tonight",
+        "de": "Ich rufe dich heute Nacht nicht an"
+      },
+      {
+        "en": "Let the quiet do its work",
+        "de": "Lass die Ruhe ihre Arbeit tun"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "wanna"
+      },
+      {
+        "line": 3,
+        "word": "smoke"
+      },
+      {
+        "line": 4,
+        "word": "ain't"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Wanna' steht für 'want to' (wollen). 'Ain't' ist Umgangssprache für am not / is not / are not, hier: I'm not calling. 'Move on' heißt nach einer Trennung weiterleben. 'Delete' ist löschen, auch bei Fotos auf dem Handy."
+  },
+  {
+    "id": "s30",
+    "lvl": 2,
+    "title": "Eintrittskarte (Inspiriert von: title track)",
+    "style": "Pop-Punk · Inspiriert von: title track",
+    "lines": [
+      {
+        "en": "I bought a pass to my own mess",
+        "de": "Ich habe mir eine Karte für mein eigenes Chaos gekauft"
+      },
+      {
+        "en": "The show starts when I fall apart",
+        "de": "Die Show beginnt, wenn ich auseinanderfalle"
+      },
+      {
+        "en": "Friends in the front, I play it cool",
+        "de": "Freunde vorne, ich tue lässig"
+      },
+      {
+        "en": "I sing too loud so I do not think",
+        "de": "Ich singe zu laut, damit ich nicht nachdenke"
+      },
+      {
+        "en": "Kinda broken, kinda proud",
+        "de": "Irgendwie kaputt, irgendwie stolz"
+      },
+      {
+        "en": "I take a bow and leave the light",
+        "de": "Ich verbeuge mich und gehe aus dem Licht"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "apart"
+      },
+      {
+        "line": 2,
+        "word": "cool"
+      },
+      {
+        "line": 4,
+        "word": "Kinda"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Title track' ist das Lied, das dem Album den Namen gibt. 'Play it cool' heißt so tun, als wäre alles locker. 'Kinda' ist 'kind of' (irgendwie, sozusagen). 'Fall apart' heißt emotional auseinanderfallen. 'Take a bow' ist die Verbeugung nach einem Auftritt."
+  },
+  {
+    "id": "s31",
+    "lvl": 2,
+    "title": "Schiefes Lächeln (Inspiriert von: drunk face)",
+    "style": "Pop-Punk · Inspiriert von: drunk face",
+    "lines": [
+      {
+        "en": "Your smile gets loose when the night runs late",
+        "de": "Dein Lächeln wird locker, wenn die Nacht spät wird"
+      },
+      {
+        "en": "We talk too much and say too little",
+        "de": "Wir reden zu viel und sagen zu wenig"
+      },
+      {
+        "en": "I wanna remember more than the noise",
+        "de": "Ich will mehr behalten als nur den Lärm"
+      },
+      {
+        "en": "Tomorrow I will feel all of this",
+        "de": "Morgen werde ich das alles spüren"
+      },
+      {
+        "en": "We skip the car and walk home slow",
+        "de": "Wir lassen das Auto stehen und gehen langsam nach Hause"
+      },
+      {
+        "en": "The street lights know this song",
+        "de": "Die Straßenlaternen kennen diesen Song"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "smile"
+      },
+      {
+        "line": 2,
+        "word": "wanna"
+      },
+      {
+        "line": 4,
+        "word": "walk"
+      }
+    ],
+    "culture": "Eigene Zeilen. Der Originaltitel spielt auf ein betrunkenes Gesicht an; hier geht es nur um einen langen Abend und die Folgen am nächsten Tag. 'Wanna' = want to. 'Skip the car' heißt das Auto weglassen. Nach Alkohol nicht fahren: 'walk home' ist der sichere Satz dafür."
+  },
+  {
+    "id": "s32",
+    "lvl": 3,
+    "title": "Papierkanten (Inspiriert von: papercuts)",
+    "style": "Pop-Punk · Inspiriert von: papercuts",
+    "lines": [
+      {
+        "en": "Small cuts still sting when this song comes on",
+        "de": "Kleine Schnitte brennen noch, wenn dieser Song läuft"
+      },
+      {
+        "en": "I act real tough, but I still flinch",
+        "de": "Ich tue richtig hart, aber ich zucke trotzdem"
+      },
+      {
+        "en": "You left your jacket on my chair",
+        "de": "Du hast deine Jacke auf meinem Stuhl gelassen"
+      },
+      {
+        "en": "I ain't ready to throw it out",
+        "de": "Ich bin noch nicht so weit, sie wegzuwerfen"
+      },
+      {
+        "en": "Healing looks slow in the mirror",
+        "de": "Heilen sieht im Spiegel langsam aus"
+      },
+      {
+        "en": "I keep the mark and drop the blame",
+        "de": "Ich behalte die Spur und lasse die Schuld los"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "flinch"
+      },
+      {
+        "line": 3,
+        "word": "ain't"
+      },
+      {
+        "line": 5,
+        "word": "blame"
+      }
+    ],
+    "culture": "Eigene Zeilen. Ein 'papercut' ist ein Papierschnitt: klein, aber er brennt. So reden Songs über kleine Verletzungen, die bleiben. 'Flinch' heißt zusammenzucken. 'Ain't ready' = I'm not ready. 'Throw it out' heißt wegwerfen. 'Blame' ist die Schuld, die man jemandem gibt."
+  },
+  {
+    "id": "s33",
+    "lvl": 3,
+    "title": "Dunkler Lippenstift (Inspiriert von: emo girl)",
+    "style": "Pop-Punk · Inspiriert von: emo girl",
+    "lines": [
+      {
+        "en": "She draws stars on a torn notebook",
+        "de": "Sie malt Sterne auf ein zerrissenes Heft"
+      },
+      {
+        "en": "We skip the small talk and share loud songs",
+        "de": "Wir lassen den Smalltalk weg und teilen laute Songs"
+      },
+      {
+        "en": "Her laugh is bright and her jokes are sharp",
+        "de": "Ihr Lachen ist hell und ihre Witze sind scharf"
+      },
+      {
+        "en": "I lowkey wait for her next text",
+        "de": "Ich warte insgeheim auf ihre nächste Nachricht"
+      },
+      {
+        "en": "We are a mess and we both know it",
+        "de": "Wir sind ein Chaos und wir wissen es beide"
+      },
+      {
+        "en": "Hold my hand until the chorus ends",
+        "de": "Halt meine Hand, bis der Refrain vorbei ist"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "skip"
+      },
+      {
+        "line": 3,
+        "word": "lowkey"
+      },
+      {
+        "line": 5,
+        "word": "chorus"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Emo' beschreibt einen gefühlsbetonten Pop-Punk-Stil, keine Beleidigung. 'Small talk' ist oberflächliches Geplauder. 'Lowkey' heißt leise, insgeheim, nicht ganz offen. 'Chorus' ist der Refrain. 'A mess' heißt ein emotionales Durcheinander."
+  },
+  {
+    "id": "s34",
+    "lvl": 3,
+    "title": "Zu schnell (Inspiriert von: love race)",
+    "style": "Pop-Punk · Inspiriert von: love race",
+    "lines": [
+      {
+        "en": "We rushed the feeling and skipped the brakes",
+        "de": "Wir haben das Gefühl überstürzt und die Bremsen ausgelassen"
+      },
+      {
+        "en": "I said forever much too soon",
+        "de": "Ich habe viel zu früh für immer gesagt"
+      },
+      {
+        "en": "Now the city blurs like a late train",
+        "de": "Jetzt verschwimmt die Stadt wie ein später Zug"
+      },
+      {
+        "en": "I wanna slow it down with you",
+        "de": "Ich will es mit dir langsamer angehen"
+      },
+      {
+        "en": "Hearts do not win when they only sprint",
+        "de": "Herzen gewinnen nicht, wenn sie nur sprinten"
+      },
+      {
+        "en": "Meet me where the noise gets quiet",
+        "de": "Triff mich, wo der Lärm leise wird"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "brakes"
+      },
+      {
+        "line": 2,
+        "word": "blurs"
+      },
+      {
+        "line": 3,
+        "word": "wanna"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Rush' heißt hetzen. 'Skip the brakes' ist bildlich: keine Pause machen. 'Forever' in Beziehungen oft zu früh gesagt. 'Wanna' = want to. 'Blur' heißt verschwimmen. 'Sprint' ist ein kurzer, schneller Lauf."
+  },
+  {
+    "id": "s35",
+    "lvl": 3,
+    "title": "Vielleicht morgen (Inspiriert von: maybe)",
+    "style": "Rock · Inspiriert von: maybe",
+    "lines": [
+      {
+        "en": "Maybe I call, maybe I do not",
+        "de": "Vielleicht rufe ich an, vielleicht auch nicht"
+      },
+      {
+        "en": "I stare at your name and lock the phone",
+        "de": "Ich starre auf deinen Namen und sperre das Handy"
+      },
+      {
+        "en": "We could fix this, or we could fold",
+        "de": "Wir könnten das reparieren, oder wir klappen es zusammen"
+      },
+      {
+        "en": "I am tired of living in almost",
+        "de": "Ich bin es leid, im Fast zu leben"
+      },
+      {
+        "en": "Say what you mean and I will too",
+        "de": "Sag, was du meinst, und ich tue es auch"
+      },
+      {
+        "en": "Maybe is a door I cannot shut",
+        "de": "Vielleicht ist eine Tür, die ich nicht zumachen kann"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "stare"
+      },
+      {
+        "line": 2,
+        "word": "fold"
+      },
+      {
+        "line": 5,
+        "word": "shut"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Maybe' heißt vielleicht und lässt alles offen. 'Stare' ist starren, länger als nur hinsehen. 'Lock the phone' ist das Handy sperren, statt zu schreiben. 'Fold' kann aufgeben heißen, wie Karten zusammenklappen. 'Say what you mean' heißt: sag direkt, was du meinst."
+  },
+  {
+    "id": "s36",
+    "lvl": 4,
+    "title": "Siebenundzwanzig (Inspiriert von: 27)",
+    "style": "Rap-Rock · Inspiriert von: 27",
+    "lines": [
+      {
+        "en": "People talk about the age like it is a cliff",
+        "de": "Leute reden über das Alter, als wäre es eine Klippe"
+      },
+      {
+        "en": "I count the nights I actually made it home",
+        "de": "Ich zähle die Nächte, in denen ich wirklich nach Hause kam"
+      },
+      {
+        "en": "The crowd gets loud and the hotel room shrinks",
+        "de": "Die Menge wird laut und das Hotelzimmer schrumpft"
+      },
+      {
+        "en": "I ain't a headline, I am still a person",
+        "de": "Ich bin keine Schlagzeile, ich bin immer noch ein Mensch"
+      },
+      {
+        "en": "Keep me grounded when I start to drift",
+        "de": "Hol mich runter, wenn ich abdrifte"
+      },
+      {
+        "en": "There is still work left inside this chest",
+        "de": "In dieser Brust steckt noch Arbeit"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "cliff"
+      },
+      {
+        "line": 3,
+        "word": "headline"
+      },
+      {
+        "line": 4,
+        "word": "grounded"
+      }
+    ],
+    "culture": "Eigene Zeilen. In der Musikgeschichte gilt 27 als belastetes Alter, weil einige Stars da gestorben sind. 'Headline' ist die Schlagzeile. 'Ain't' = I'm not. 'Grounded' heißt hier geerdet, mit beiden Beinen auf dem Boden, nicht bestraft. 'Drift' heißt abdriften."
+  },
+  {
+    "id": "s37",
+    "lvl": 4,
+    "title": "Schlechte Idee (Inspiriert von: Bad Things)",
+    "style": "Pop · Inspiriert von: Bad Things",
+    "lines": [
+      {
+        "en": "I know this is a bad idea and I lean in",
+        "de": "Ich weiß, das ist eine schlechte Idee, und ich lehne mich trotzdem rein"
+      },
+      {
+        "en": "Your voice tugs me off the safer road",
+        "de": "Deine Stimme zieht mich von der sichereren Straße"
+      },
+      {
+        "en": "We trade secrets the way other people trade keys",
+        "de": "Wir tauschen Geheimnisse, wie andere Leute Schlüssel tauschen"
+      },
+      {
+        "en": "I should head out, but I stay for one more song",
+        "de": "Ich sollte gehen, aber ich bleibe für noch einen Song"
+      },
+      {
+        "en": "Trouble looks soft until the morning",
+        "de": "Ärger sieht weich aus, bis der Morgen kommt"
+      },
+      {
+        "en": "Walk me back before I lose the plot",
+        "de": "Bring mich zurück, bevor ich den Faden verliere"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "lean"
+      },
+      {
+        "line": 2,
+        "word": "secrets"
+      },
+      {
+        "line": 5,
+        "word": "plot"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Lean in' heißt sich hineinlehnen, hier: die schlechte Idee trotzdem machen. 'Head out' heißt losgehen, weggehen. 'Lose the plot' ist britisches und allgemeines Englisch für den Faden verlieren, nicht mehr klar denken. 'Trouble' ist Ärger."
+  },
+  {
+    "id": "s38",
+    "lvl": 4,
+    "title": "An guten Tagen (Inspiriert von: At My Best)",
+    "style": "Pop-Rap · Inspiriert von: At My Best",
+    "lines": [
+      {
+        "en": "On a good day I show up for myself",
+        "de": "An einem guten Tag bin ich für mich selbst da"
+      },
+      {
+        "en": "I call my people, I eat, and I sleep",
+        "de": "Ich rufe meine Leute an, ich esse und ich schlafe"
+      },
+      {
+        "en": "The older me would have disappeared",
+        "de": "Das frühere Ich wäre verschwunden"
+      },
+      {
+        "en": "I ain't perfect, I am just in progress",
+        "de": "Ich bin nicht perfekt, ich bin nur auf dem Weg"
+      },
+      {
+        "en": "Hold the line when I go quiet on you",
+        "de": "Bleib dran, wenn ich dir gegenüber still werde"
+      },
+      {
+        "en": "Love the ordinary days, not just the spotlight",
+        "de": "Lieb die gewöhnlichen Tage, nicht nur das Rampenlicht"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "show"
+      },
+      {
+        "line": 3,
+        "word": "progress"
+      },
+      {
+        "line": 5,
+        "word": "spotlight"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Show up' heißt erscheinen und verlässlich da sein, nicht nur auftauchen. 'My people' sind die engen Freunde und die Familie. 'Ain't perfect' = I'm not perfect. 'In progress' heißt noch nicht fertig. 'Hold the line' heißt am Telefon oder im Leben dranbleiben. 'Spotlight' ist das Rampenlicht."
+  },
+  {
+    "id": "s39",
+    "lvl": 4,
+    "title": "Stadt der Scheinwerfer (Inspiriert von: Hollywood Whore)",
+    "style": "Rap-Rock · Inspiriert von: Hollywood Whore",
+    "lines": [
+      {
+        "en": "This city smiles at you while you are useful",
+        "de": "Diese Stadt lächelt dich an, solange du nützlich bist"
+      },
+      {
+        "en": "It forgets your name when the numbers drop",
+        "de": "Sie vergisst deinen Namen, wenn die Zahlen fallen"
+      },
+      {
+        "en": "I arrived here loud and I grew quieter",
+        "de": "Ich kam laut hier an und wurde leiser"
+      },
+      {
+        "en": "They want the story more than the person",
+        "de": "Sie wollen die Geschichte mehr als den Menschen"
+      },
+      {
+        "en": "I keep one true thing in my pocket",
+        "de": "Ich behalte eine wahre Sache in der Tasche"
+      },
+      {
+        "en": "Call me the name my friends still use",
+        "de": "Nenn mich bei dem Namen, den meine Freunde noch benutzen"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "useful"
+      },
+      {
+        "line": 1,
+        "word": "numbers"
+      },
+      {
+        "line": 4,
+        "word": "pocket"
+      }
+    ],
+    "culture": "Eigene Zeilen, ohne den derben Originaltitel nachzusprechen. Der Song handelt davon, von der Stadt und der Industrie benutzt zu werden. 'Numbers drop' meint hier Aufrufe oder Chartzahlen, die sinken. 'Grow quieter' ist leiser werden. 'Pocket' ist die Tasche, bildlich der private Rest, den man nicht verkauft."
+  },
+  {
+    "id": "s40",
+    "lvl": 5,
+    "title": "Wände aus Glas (Inspiriert von: Glass House)",
+    "style": "Rock · Inspiriert von: Glass House",
+    "lines": [
+      {
+        "en": "We lived in rooms where every crack showed",
+        "de": "Wir wohnten in Zimmern, in denen jeder Riss zu sehen war"
+      },
+      {
+        "en": "I threw sharp words and called it honesty",
+        "de": "Ich warf scharfe Worte und nannte es Ehrlichkeit"
+      },
+      {
+        "en": "You saw through me long before I did",
+        "de": "Du hast mich durchschaut, lange bevor ich es tat"
+      },
+      {
+        "en": "Pride is a thin wall and it rings when you tap it",
+        "de": "Stolz ist eine dünne Wand, und sie klingt, wenn man dagegen klopft"
+      },
+      {
+        "en": "I would rebuild the place with the lights on",
+        "de": "Ich würde den Ort mit angeschaltetem Licht neu bauen"
+      },
+      {
+        "en": "Let the neighbors hear us learn the hard part",
+        "de": "Lass die Nachbarn hören, wie wir den schweren Teil lernen"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "crack"
+      },
+      {
+        "line": 2,
+        "word": "through"
+      },
+      {
+        "line": 3,
+        "word": "Pride"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'People in glass houses shouldn't throw stones' ist ein Sprichwort: wer selbst angreifbar ist, soll nicht mit Vorwürfen werfen. 'See through someone' heißt jemanden durchschauen. 'Pride' ist Stolz. 'Rebuild' heißt wieder aufbauen. Der schon vorhandene Song 'Glass House' in der App ist ein anderer, eigener Text."
+  },
+  {
+    "id": "s41",
+    "lvl": 5,
+    "title": "Gleiche Flamme (Inspiriert von: Twin Flame)",
+    "style": "Pop · Inspiriert von: Twin Flame",
+    "lines": [
+      {
+        "en": "I knew the heat before I knew your full name",
+        "de": "Ich kannte die Hitze, bevor ich deinen ganzen Namen kannte"
+      },
+      {
+        "en": "We mirror the worst days and the brave ones",
+        "de": "Wir spiegeln die schlimmsten Tage und die mutigen"
+      },
+      {
+        "en": "Soulmate is an easy word and staying is the work",
+        "de": "Seelenverwandter ist ein leichtes Wort, und bleiben ist die Arbeit"
+      },
+      {
+        "en": "I ain't chasing a myth, I am choosing you on a Tuesday",
+        "de": "Ich jage keinem Mythos nach, ich wähle dich an einem Dienstag"
+      },
+      {
+        "en": "If we split, the spark still taught me how to stay kind",
+        "de": "Wenn wir uns trennen, hat der Funke mich trotzdem gelehrt, freundlich zu bleiben"
+      },
+      {
+        "en": "Two fires can warm a house or turn it into ash",
+        "de": "Zwei Feuer können ein Haus wärmen oder zu Asche machen"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 1,
+        "word": "mirror"
+      },
+      {
+        "line": 2,
+        "word": "Soulmate"
+      },
+      {
+        "line": 5,
+        "word": "ash"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Twin flame' ist ein modernes Wort für eine extrem enge, oft schwierige Seelenverbindung, kein festes Grammatikwort. 'Mirror' heißt spiegeln: dieselben Fehler beim anderen sehen. 'Ain't chasing' = I'm not chasing. 'Split' heißt sich trennen. 'Ash' ist Asche. 'On a Tuesday' macht die große Liebe alltäglich und damit ernst."
+  },
+  {
+    "id": "s42",
+    "lvl": 5,
+    "title": "Loslassen üben (Inspiriert von: Let You Go)",
+    "style": "Ballade · Inspiriert von: Let You Go",
+    "lines": [
+      {
+        "en": "I rehearse the goodbye in an empty car",
+        "de": "Ich übe den Abschied in einem leeren Auto"
+      },
+      {
+        "en": "My voice breaks on the line I wrote to sound strong",
+        "de": "Meine Stimme bricht bei der Zeile, die stark klingen sollte"
+      },
+      {
+        "en": "Letting go ain't a door, it is a long hallway",
+        "de": "Loslassen ist keine Tür, es ist ein langer Flur"
+      },
+      {
+        "en": "I keep your laugh and I hand back the weight",
+        "de": "Ich behalte dein Lachen und gebe das Gewicht zurück"
+      },
+      {
+        "en": "Some love stays as a scar that finally behaves",
+        "de": "Manche Liebe bleibt als Narbe, die sich endlich benimmt"
+      },
+      {
+        "en": "I hope the quiet treats you kindly from here",
+        "de": "Ich hoffe, die Ruhe behandelt dich von hier an freundlich"
+      }
+    ],
+    "gaps": [
+      {
+        "line": 0,
+        "word": "rehearse"
+      },
+      {
+        "line": 2,
+        "word": "hallway"
+      },
+      {
+        "line": 4,
+        "word": "scar"
+      }
+    ],
+    "culture": "Eigene Zeilen. 'Rehearse' heißt proben, wie für ein Theaterstück. 'Letting go' ist loslassen. 'Ain't' steht hier für is not. 'Hand back' heißt zurückgeben. 'Scar' ist eine Narbe. 'Treat someone kindly' heißt jemanden freundlich behandeln. 'From here' meint ab jetzt."
   }
 ]

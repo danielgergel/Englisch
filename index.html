@@ -303,9 +303,10 @@ function diffNode(user,target){
 
 /* ---------- Sprachausgabe & Spracheingabe ---------- */
 const IS_IOS=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
-let ttsTok=0;
-const TTS={voices:[],unlocked:false,
-  load(){try{this.voices=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));}catch(e){this.voices=[];}},
+let ttsTok=0,ttsHold=null;
+function paintTtsDiag(){try{if(TTS.paintDiag)TTS.paintDiag();}catch(e){}}
+const TTS={voices:[],unlocked:false,tried:false,lastOk:false,lastError:"",
+  load(){try{this.voices=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));}catch(e){this.voices=[];}paintTtsDiag();},
   list(){const pref=this.voices.filter(v=>v.lang.replace("_","-").toLowerCase()===S.set.acc.toLowerCase());
     let pool=pref.length?pref:this.voices.slice();
     if(navigator.onLine===false){const local=pool.filter(v=>v.localService);if(!local.length){const any=this.voices.filter(v=>v.localService);if(any.length)pool=any;}else pool=local;}
@@ -314,26 +315,85 @@ const TTS={voices:[],unlocked:false,
   pick(i){
     if(i===0&&S.set.voice){const f=this.voices.find(v=>v.voiceURI===S.set.voice);if(f&&(navigator.onLine!==false||f.localService))return f;}
     const l=this.list();return l.length?l[i%l.length]:null;},
+  voiceOk(v){
+    if(!v)return null;
+    let all=[];try{all=speechSynthesis.getVoices()||[];}catch(e){all=[];}
+    if(!all.length)return null;
+    if(all.indexOf(v)>=0)return v;
+    return all.find(x=>x.voiceURI&&x.voiceURI===v.voiceURI)||null;
+  },
   speak(text,o){
     o=o||{};
-    if(!("speechSynthesis"in window))return Promise.resolve();
+    this.tried=true;
+    this.lastError="";
+    if(!("speechSynthesis"in window)){this.lastError="nicht vorhanden";this.lastOk=false;paintTtsDiag();return Promise.resolve(false);}
+    const raw=String(text||"").replace(/\s*\/\s*/g,", ").trim();
+    if(!raw)return Promise.resolve(false);
+    this.load();
     const my=++ttsTok;
     return new Promise(res=>{
-      try{speechSynthesis.resume();}catch(e){}
-      try{if(speechSynthesis.speaking||speechSynthesis.pending)speechSynthesis.cancel();}catch(e){}
-      const u=new SpeechSynthesisUtterance(String(text).replace(/\s*\/\s*/g,", "));
-      u.lang=S.set.acc;const v=this.pick(o.voice||0);if(v){u.voice=v;u.lang=v.lang;}
-      u.rate=Math.max(0.3,(o.rate||1)*S.set.rate);u.pitch=o.pitch||1;
-      let fin=false;const end=()=>{if(!fin){fin=true;res(my===ttsTok);}};
-      u.onend=end;u.onerror=end;
-      setTimeout(end,Math.max(4000,String(text).length*140/(u.rate||1)+2000));
-      setTimeout(()=>{try{if(my!==ttsTok){end();return;}speechSynthesis.resume();speechSynthesis.speak(u);}catch(e){end();}},IS_IOS?90:40);
-    });},
-  stop(){try{speechSynthesis.cancel();}catch(e){}}};
+      let fin=false,started=false,retried=false,watch=0,safety=0;
+      const end=()=>{if(fin)return;fin=true;clearTimeout(watch);clearTimeout(safety);res(my===ttsTok&&started);paintTtsDiag();};
+      const make=withVoice=>{
+        const u=new SpeechSynthesisUtterance(raw);
+        u.lang=(S&&S.set&&S.set.acc)||"en-US";
+        if(withVoice){
+          const v=this.voiceOk(this.pick(o.voice||0));
+          if(v){try{u.voice=v;if(v.lang)u.lang=v.lang;}catch(e){this.lastError="Stimme ungültig";u.voice=null;}}
+        }
+        u.rate=Math.max(0.3,(o.rate||1)*((S&&S.set&&S.set.rate)||1));
+        u.pitch=o.pitch||1;
+        u.onstart=()=>{if(my!==ttsTok)return;started=true;this.lastOk=true;this.lastError="";paintTtsDiag();};
+        u.onend=()=>{
+          u._done=true;
+          if(fin)return;
+          if(my!==ttsTok){end();return;}
+          if(ttsHold!==u)return;
+          if(!started){if(!retried)retry();return;}
+          end();
+        };
+        u.onerror=ev=>{
+          u._done=true;
+          if(fin)return;
+          if(my!==ttsTok){end();return;}
+          const code=(ev&&ev.error)||"Fehler";
+          if(code==="interrupted"||code==="canceled"||code==="cancelled")return;
+          this.lastError=code;this.lastOk=false;
+          if(!started&&!retried){retry();return;}
+          end();
+        };
+        return u;
+      };
+      const say=u=>{
+        ttsHold=u;
+        try{speechSynthesis.resume();}catch(e){}
+        try{speechSynthesis.speak(u);}catch(e){this.lastError=(e&&e.message)||"speak";this.lastOk=false;if(!retried){retry();return;}end();}
+      };
+      const kick=withVoice=>{
+        const u=make(withVoice);
+        let busy=false;try{busy=!!(speechSynthesis.speaking||speechSynthesis.pending);}catch(e){}
+        if(busy&&ttsHold&&!ttsHold._done){
+          try{speechSynthesis.cancel();}catch(e){}
+          setTimeout(()=>{if(fin||my!==ttsTok){end();return;}say(make(withVoice));},IS_IOS?80:30);
+        }else say(u);
+      };
+      const retry=()=>{
+        if(fin||retried||my!==ttsTok){if(!fin&&my!==ttsTok)end();return;}
+        retried=true;clearTimeout(watch);
+        kick(false);
+        watch=setTimeout(()=>{if(fin||my!==ttsTok||started)return;this.lastError=this.lastError||"kein Start";this.lastOk=false;end();},1500);
+      };
+      kick(true);
+      watch=setTimeout(()=>{if(fin||my!==ttsTok||started)return;if(!retried)retry();else{this.lastError=this.lastError||"kein Start";this.lastOk=false;end();}},1500);
+      safety=setTimeout(()=>{if(!started){this.lastError=this.lastError||"kein Start";this.lastOk=false;}end();},Math.max(6000,raw.length*140+3000));
+    });
+  },
+  stop(){ttsTok++;if(ttsHold)ttsHold._done=true;try{if("speechSynthesis"in window)speechSynthesis.cancel();}catch(e){}}};
 addEventListener("pointerdown",()=>{
   if(!("speechSynthesis"in window))return;
   try{speechSynthesis.resume();}catch(e){}
-  if(!TTS.unlocked){TTS.unlocked=true;try{const x=new SpeechSynthesisUtterance(" ");x.volume=0.01;x.rate=2;x.lang=(S&&S.set&&S.set.acc)||"en-US";speechSynthesis.speak(x);}catch(e){}TTS.load();setTimeout(()=>TTS.load(),400);}
+  TTS.load();
+  if(!TTS.unlocked){TTS.unlocked=true;setTimeout(()=>TTS.load(),500);}
 },{capture:true});
 if("speechSynthesis"in window){TTS.load();try{speechSynthesis.onvoiceschanged=()=>TTS.load();}catch(e){}
   if(IS_IOS){setInterval(()=>{try{if(speechSynthesis.speaking){speechSynthesis.pause();speechSynthesis.resume();}}catch(e){}},10000);
@@ -1450,7 +1510,17 @@ function settingsView(){
   el.append(h("label",{class:"fl"},"Sprechtempo der Stimme"),rate);
   const vs=TTS.list();
   if(vs.length){const sel=h("select",{"aria-label":"Stimme",onchange:()=>{S.set.voice=sel.value;save();TTS.speak("Hello! This is how I sound.");}},h("option",{value:""},"Automatisch (beste Stimme)"),vs.map(v=>h("option",{value:v.voiceURI,selected:S.set.voice===v.voiceURI},v.name+" ("+v.lang+")")));el.append(h("label",{class:"fl"},"Stimme"),sel);}
-  el.append(h("button",{class:"btn small",type:"button",style:{marginTop:"12px"},onclick:()=>TTS.speak("Hello! Let's learn some English together.")},"🔊 Stimme testen"));
+  const diag=h("p",{class:"small muted","aria-live":"polite",style:{marginTop:"8px"}});
+  const hint=h("p",{class:"small muted"});
+  const paint=()=>{
+    const has="speechSynthesis"in window;
+    diag.textContent="Sprachausgabe: "+(has?"ja":"nein")+" · Englische Stimmen: "+TTS.voices.length+" · Letzter Fehler: "+(TTS.lastError||"keiner");
+    const bad=!!TTS.lastError;
+    hint.hidden=!bad;
+    hint.textContent=bad?"Kein Ton? iPhone-Stumm-Schalter aus, Lautstärke prüfen, Bildschirmzeit-Einstellungen ansehen. Unter iOS: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen eine englische Stimme laden.":"";
+  };
+  TTS.paintDiag=paint;TTS.load();paint();
+  el.append(h("button",{class:"btn small",type:"button",style:{marginTop:"12px"},onclick:()=>{TTS.speak("Hello! Let's learn some English together.").then(paint);setTimeout(paint,1700);}},"🔊 Stimme testen"),diag,hint);
   el.append(h("p",{class:"small muted"},"Kein Ton? Prüfe den Klingelschalter und die Lautstärke. Tipp für bessere Stimmen: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Englisch → „Erweitert“ laden."));
   el.append(h("p",{class:"small muted"},"Sprechen auf dem iPhone: Mikrofon für Safari erlauben und die Diktierfunktion einschalten (Einstellungen → Allgemein → Tastatur). Die Erkennung braucht kurz Internet, das Vorlesen nicht. Geht die Erkennung nicht, kannst du die Antwort tippen."));
   el.append(h("h2",null,"KI-Gesprächspartner"));
