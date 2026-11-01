@@ -663,13 +663,19 @@ function dueList(types){
   const out=[];for(const k in S.cards){const c=S.cards[k];if(isDue(c)){const it=ITEMS[k];if(it&&(!types||types.includes(it.t)))out.push(it);}}
   return out.sort((a,b)=>S.cards[a.k].due-S.cards[b.k].due);
 }
+function freshnessScore(x){
+  const target=Math.max(1,Math.min(5,Math.round(S.L||2)));
+  const d=x.lvl-target;
+  const base=d===0?0:d===1?0.35:d===-1?0.85:d>1?0.7+(d-1)*0.4:2.4+(-d-1);
+  return base+Math.random()*0.45;
+}
 function pickNew(types,n){
-  const lo=Math.max(1,Math.round(S.L-1)),hi=Math.min(5,Math.round(S.L+0.5));
   const fresh=x=>!S.cards[x.k]||S.cards[x.k].b===0;
-  let c=[];types.forEach(t=>POOL[t].forEach(x=>{if(fresh(x)&&x.lvl>=lo&&x.lvl<=hi)c.push(x);}));
-  if(c.length<n){types.forEach(t=>POOL[t].forEach(x=>{if(fresh(x)&&!c.includes(x))c.push(x);}));}
-  c=c.map(x=>({x,s:Math.abs(x.lvl-S.L)+Math.random()*1.1})).sort((a,b)=>a.s-b.s).map(o=>o.x);
-  return c.slice(0,n);
+  const all=[];types.forEach(t=>POOL[t].forEach(x=>{if(fresh(x))all.push(x);}));
+  const target=Math.max(1,Math.min(5,Math.round(S.L||2)));
+  const near=all.filter(x=>x.lvl>=target-1);
+  const pool=near.length>=n?near:all;
+  return pool.map(x=>({x,s:freshnessScore(x)})).sort((a,b)=>a.s-b.s).slice(0,n).map(o=>o.x);
 }
 function distract(it,field,n){
   n=n||3;const pool=POOL[it.t].length>12?POOL[it.t]:POOL.v.concat(POOL.c);
@@ -1187,8 +1193,10 @@ function buildReview(){return dueList(["v","c","r","p"]).slice(0,Math.max(8,Math
 function buildNew(){if(dueList(["v","c","r"]).length>Math.round(S.set.goal*1.1)){toast("Erst Wiederholungen abbauen – heute weniger neue Wörter");return newFlow(pickNew(["v"],4));}return newFlow(pickNew(["v"],Math.max(4,Math.round(S.set.goal*.27))));}
 function gramSorted(){return(D.grammar||[]).slice().sort((a,b)=>a.lvl-b.lvl);}
 function nextTopic(){
-  const ts=gramSorted(),open=t=>!(S.gram[t.id]&&S.gram[t.id].done),lo=Math.max(1,Math.round(S.L)-1);
-  return ts.find(t=>open(t)&&t.lvl>=lo)||ts.find(open)||null;
+  const open=gramSorted().filter(t=>!(S.gram[t.id]&&S.gram[t.id].done));
+  if(!open.length)return null;
+  const target=Math.max(1,Math.min(5,Math.round(S.L||2)));
+  return open.slice().sort((a,b)=>Math.abs(a.lvl-target)-Math.abs(b.lvl-target)||a.lvl-b.lvl)[0];
 }
 function buildGram(topic){
   let full=!!topic,t=topic||nextTopic();
@@ -1562,7 +1570,7 @@ function vocabSheet(){
 }
 function pickNewF(types,n,f){
   let c=[];types.forEach(t=>POOL[t].forEach(x=>{if((!S.cards[x.k]||S.cards[x.k].b===0)&&f(x))c.push(x);}));
-  return c.map(x=>({x,s:Math.abs(x.lvl-S.L)+Math.random()*1.1})).sort((a,b)=>a.s-b.s).map(o=>o.x).slice(0,n);
+  return c.map(x=>({x,s:freshnessScore(x)})).sort((a,b)=>a.s-b.s).map(o=>o.x).slice(0,n);
 }
 function chunkSheet(){
   const types=[["phrasal","Phrasal Verbs"],["idiom","Redewendungen"],["slang","Slang"],["chunk","Floskeln"]];
@@ -1641,6 +1649,7 @@ function guideView(){
     sec("Filme und Serien in 3 Stufen","Stufe 1 (Wochen 1–4): Serie oder Film, den du schon kennst. Englischer Ton, deutsche Untertitel.\nStufe 2 (Wochen 5–8): Englischer Ton und englische Untertitel. Pro Folge höchstens 5 neue Wörter notieren, nicht jedes Wort nachschlagen.\nStufe 3 (ab Woche 9): Ohne Untertitel. Kurze Szenen (2 bis 5 Minuten) zweimal hören, dann mit Untertiteln prüfen.\nLieber täglich 10 bis 20 Minuten als einmal ein ganzer Film."),
     sec("Songs","1. Song dreimal hören.\n2. Offiziellen Text mitlesen (z. B. in deiner Musik-App).\n3. Zeile für Zeile mitsprechen (Schatten-Sprechen).\n4. Unbekannte Wörter hier unter Üben → Wörterbuch prüfen.\nVerschleifungen wie gonna, wanna, lemme trainierst du im Bereich Üben → Verschleifungen."),
     sec("Sprechen","Das Wichtigste und am meisten Vernachlässigte. Sprich jeden Tag mindestens 10 Minuten laut: Sätze in der App nachsprechen, unter Üben → Aussprache Wort für Wort prüfen, Selbstgespräche über deinen Tag und Gespräche unter Üben → KI-Gesprächspartner. Fehler sind gut: Jeder Fehler, den du bemerkst, bleibt hängen."),
+    sec("Umschreiben, wenn das Wort fehlt","Du brauchst das genaue Wort nicht, um den Satz zu retten. Beschreibe die Lücke und sprich weiter.\nIt's a kind of … (eine Art …)\nIt's the thing you use to … (das Ding, mit dem man …)\nIt's like … but … (es ist wie …, aber …)\nIt's the opposite of … (das Gegenteil von …)\nBeispiel: Dir fehlt „adapter“. Sag: It's the thing you use to plug your phone in abroad.\nOder: I need a kind of cream for when you get burnt in the sun.\nDann kannst du das neue Wort nachschlagen. Übung dazu: Üben → Grammatik → Umschreiben, wenn das Wort fehlt."),
     sec("So nutzt du die App","Jeden Tag den Tagesplan durchspielen. Wiederholen nie auslassen: Das Wiederholen ist es, was Wörter wirklich festsetzt. Antworten ruhig tippen statt nur anklicken, das bringt mehr."));
 }
 function settingsView(){

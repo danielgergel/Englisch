@@ -3403,5 +3403,365 @@
     "de": "Wir müssen den Sicherheitskreis nach jeder Änderung erneut validieren.",
     "lvl": 5,
     "cat": "technik"
+  },
+  {
+    "en": "Could you possibly speak more slowly?",
+    "de": "Könntest du vielleicht langsamer sprechen?",
+    "lvl": 4,
+    "cat": "alltag",
+    "alt": [
+      "Would you mind speaking more slowly?"
+    ]
+  },
+  {
+    "en": "I was wondering if breakfast is included.",
+    "de": "Ich habe mich gefragt, ob Frühstück dabei ist.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "Is breakfast included?"
+    ]
+  },
+  {
+    "en": "Is there any chance of a room on a higher floor?",
+    "de": "Gibt es irgendeine Möglichkeit für ein Zimmer weiter oben?",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "Could we have a room on a higher floor?"
+    ]
+  },
+  {
+    "en": "I'm afraid there's a problem with the shower.",
+    "de": "Ich fürchte, es gibt ein Problem mit der Dusche.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "There's a problem with the shower."
+    ]
+  },
+  {
+    "en": "Would you mind if we sat outside?",
+    "de": "Würde es dir etwas ausmachen, wenn wir draußen sitzen?",
+    "lvl": 4,
+    "cat": "essen",
+    "alt": [
+      "Could we sit outside?"
+    ]
+  },
+  {
+    "en": "Do you happen to know a pharmacy nearby?",
+    "de": "Weißt du zufällig eine Apotheke in der Nähe?",
+    "lvl": 3,
+    "cat": "gesundheit",
+    "alt": [
+      "Is there a pharmacy nearby?"
+    ]
+  },
+  {
+    "en": "I seem to have lost my room key.",
+    "de": "Ich habe meinen Zimmerschlüssel anscheinend verloren.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "I think I've lost my room key."
+    ]
+  },
+  {
+    "en": "The thing is, I can't eat gluten.",
+    "de": "Die Sache ist die: Ich kann kein Gluten essen.",
+    "lvl": 4,
+    "cat": "essen",
+    "alt": [
+      "I can't eat gluten."
+    ]
+  },
+  {
+    "en": "What I mean is, the taxi fare looks too high.",
+    "de": "Was ich meine: Der Taxipreis wirkt zu hoch.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "The taxi fare looks too high."
+    ]
+  },
+  {
+    "en": "It's a kind of plug for a European socket.",
+    "de": "Es ist eine Art Stecker für eine europäische Dose.",
+    "lvl": 3,
+    "cat": "technik",
+    "alt": [
+      "I need a plug adapter."
+    ]
+  },
+  {
+    "en": "It's the thing you use to keep the sun off your face.",
+    "de": "Es ist das Ding, mit dem man die Sonne vom Gesicht fernhält.",
+    "lvl": 3,
+    "cat": "freizeit",
+    "alt": [
+      "I need a sun hat."
+    ]
+  },
+  {
+    "en": "It's like a bus, but you have to book a seat.",
+    "de": "Es ist wie ein Bus, aber man muss einen Platz buchen.",
+    "lvl": 3,
+    "cat": "reisen",
+    "alt": [
+      "It's a coach."
+    ]
+  },
+  {
+    "en": "It's the opposite of crowded.",
+    "de": "Es ist das Gegenteil von voll.",
+    "lvl": 3,
+    "cat": "alltag",
+    "alt": [
+      "It's quiet."
+    ]
+  },
+  {
+    "en": "I'd like to speak to whoever is in charge.",
+    "de": "Ich möchte die Person sprechen, die zuständig ist.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "I'd like to speak to the manager."
+    ]
+  },
+  {
+    "en": "I'm not sure of the word, but it's for insect bites.",
+    "de": "Ich kenne das Wort nicht, aber es ist für Insektenstiche.",
+    "lvl": 4,
+    "cat": "gesundheit",
+    "alt": [
+      "I need something for insect bites."
+    ]
+  },
+  {
+    "en": "Could you write that down for me?",
+    "de": "Kannst du das für mich aufschreiben?",
+    "lvl": 3,
+    "cat": "alltag",
+    "alt": [
+      "Could you spell that?"
+    ]
+  },
+  {
+    "en": "I didn't quite catch that.",
+    "de": "Das habe ich nicht ganz verstanden.",
+    "lvl": 3,
+    "cat": "alltag",
+    "alt": [
+      "Sorry, could you repeat that?"
+    ]
+  },
+  {
+    "en": "Let me put it another way.",
+    "de": "Lass es mich anders sagen.",
+    "lvl": 4,
+    "cat": "alltag",
+    "alt": [
+      "What I mean is this."
+    ]
+  },
+  {
+    "en": "If I've got this right, we change buses here.",
+    "de": "Wenn ich das richtig verstanden habe, steigen wir hier um.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "We change buses here, right?"
+    ]
+  },
+  {
+    "en": "Just to double-check, is the transfer included?",
+    "de": "Nur zur Sicherheit: Ist der Transfer dabei?",
+    "lvl": 3,
+    "cat": "reisen",
+    "alt": [
+      "Is the transfer included?"
+    ]
+  },
+  {
+    "en": "We're running low on cash. Is there an ATM nearby?",
+    "de": "Uns geht das Bargeld aus. Gibt es einen Automaten in der Nähe?",
+    "lvl": 4,
+    "cat": "alltag",
+    "alt": [
+      "Where is the nearest ATM?"
+    ]
+  },
+  {
+    "en": "I'm afraid the card was declined.",
+    "de": "Ich fürchte, die Karte wurde abgelehnt.",
+    "lvl": 4,
+    "cat": "einkaufen",
+    "alt": [
+      "My card was declined."
+    ]
+  },
+  {
+    "en": "Could we have the bill when you're ready?",
+    "de": "Könnten wir die Rechnung bekommen, wenn ihr so weit seid?",
+    "lvl": 3,
+    "cat": "essen",
+    "alt": [
+      "Could we have the bill, please?"
+    ]
+  },
+  {
+    "en": "Is service included, or should we leave a tip?",
+    "de": "Ist die Bedienung dabei, oder sollen wir Trinkgeld geben?",
+    "lvl": 4,
+    "cat": "essen",
+    "alt": [
+      "Should we leave a tip?"
+    ]
+  },
+  {
+    "en": "I'd like it without nuts, if that's possible.",
+    "de": "Ich hätte es gern ohne Nüsse, wenn das geht.",
+    "lvl": 3,
+    "cat": "essen",
+    "alt": [
+      "No nuts, please."
+    ]
+  },
+  {
+    "en": "We were hoping to check in a little early.",
+    "de": "Wir hatten gehofft, etwas früher einchecken zu können.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "Is early check-in possible?"
+    ]
+  },
+  {
+    "en": "The room is fine, but the air conditioning isn't working.",
+    "de": "Das Zimmer ist in Ordnung, aber die Klimaanlage geht nicht.",
+    "lvl": 3,
+    "cat": "reisen",
+    "alt": [
+      "The air conditioning isn't working."
+    ]
+  },
+  {
+    "en": "Could you recommend somewhere that isn't too touristy?",
+    "de": "Kannst du einen Ort empfehlen, der nicht zu touristisch ist?",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "Where should we go?"
+    ]
+  },
+  {
+    "en": "How long does it take on foot?",
+    "de": "Wie lange dauert es zu Fuß?",
+    "lvl": 3,
+    "cat": "reisen",
+    "alt": [
+      "Is it within walking distance?"
+    ]
+  },
+  {
+    "en": "We got caught in the rain. Is there a taxi rank nearby?",
+    "de": "Wir sind in den Regen gekommen. Gibt es einen Taxistand in der Nähe?",
+    "lvl": 3,
+    "cat": "reisen",
+    "alt": [
+      "Where can I get a taxi?"
+    ]
+  },
+  {
+    "en": "I think I've been overcharged for the minibar.",
+    "de": "Ich glaube, für die Minibar wurde zu viel berechnet.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "This minibar charge looks wrong."
+    ]
+  },
+  {
+    "en": "I'd like to report a stolen wallet.",
+    "de": "Ich möchte ein gestohlenes Portemonnaie melden.",
+    "lvl": 4,
+    "cat": "alltag",
+    "alt": [
+      "My wallet was stolen."
+    ]
+  },
+  {
+    "en": "Could you call a doctor, please?",
+    "de": "Könntest du bitte einen Arzt rufen?",
+    "lvl": 3,
+    "cat": "gesundheit",
+    "alt": [
+      "I need a doctor."
+    ]
+  },
+  {
+    "en": "I've got a bad stomach. What would you recommend?",
+    "de": "Ich habe einen schlechten Magen. Was würdest du empfehlen?",
+    "lvl": 4,
+    "cat": "gesundheit",
+    "alt": [
+      "I need something for a bad stomach."
+    ]
+  },
+  {
+    "en": "My shoulders are burnt. I need something to cool them.",
+    "de": "Meine Schultern sind verbrannt. Ich brauche etwas, das sie kühlt.",
+    "lvl": 3,
+    "cat": "gesundheit",
+    "alt": [
+      "I need aftersun."
+    ]
+  },
+  {
+    "en": "Is it safe to swim, or is the flag red?",
+    "de": "Kann man sicher schwimmen, oder ist die Flagge rot?",
+    "lvl": 3,
+    "cat": "freizeit",
+    "alt": [
+      "Is it safe to swim?"
+    ]
+  },
+  {
+    "en": "The wifi keeps dropping out in the room.",
+    "de": "Das WLAN bricht im Zimmer dauernd ab.",
+    "lvl": 4,
+    "cat": "technik",
+    "alt": [
+      "The wifi isn't working."
+    ]
+  },
+  {
+    "en": "I don't have any signal. Does the hotel have wifi?",
+    "de": "Ich habe keinen Empfang. Hat das Hotel WLAN?",
+    "lvl": 3,
+    "cat": "technik",
+    "alt": [
+      "What's the wifi password?"
+    ]
+  },
+  {
+    "en": "What time is the last bus back?",
+    "de": "Wann fährt der letzte Bus zurück?",
+    "lvl": 3,
+    "cat": "reisen",
+    "alt": [
+      "When is the last bus?"
+    ]
+  },
+  {
+    "en": "To cut a long story short, we missed the boat.",
+    "de": "Um es kurz zu machen: Wir haben das Boot verpasst.",
+    "lvl": 4,
+    "cat": "reisen",
+    "alt": [
+      "We missed the boat."
+    ]
   }
 ]

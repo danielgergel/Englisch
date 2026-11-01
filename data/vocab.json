@@ -40584,5 +40584,3029 @@
     "lvl": 5,
     "cat": "medien",
     "pack": "allgemein"
+  },
+  {
+    "en": "late checkout",
+    "de": "später Check-out",
+    "ex": "Is late checkout available?",
+    "exde": "Gibt es einen späteren Check-out?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "early check-in",
+    "de": "früher Check-in",
+    "ex": "Is early check-in possible if I land at noon?",
+    "exde": "Ist ein früher Check-in möglich, wenn ich mittags lande?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "room upgrade",
+    "de": "Zimmer-Upgrade",
+    "ex": "They offered us a room upgrade.",
+    "exde": "Sie haben uns ein besseres Zimmer angeboten.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "connecting rooms",
+    "de": "verbindbare Zimmer",
+    "ex": "Do you have connecting rooms for the family?",
+    "exde": "Habt ihr Zimmer, die man verbinden kann, für die Familie?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to swipe a card",
+    "de": "eine Karte durchziehen",
+    "ex": "Swipe the card to open the door.",
+    "exde": "Zieh die Karte durch, um die Tür zu öffnen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "leaking",
+    "de": "undicht, tropfend",
+    "ex": "The shower is leaking onto the floor.",
+    "exde": "Die Dusche tropft auf den Boden.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "musty",
+    "de": "muffig",
+    "ex": "The room smells musty.",
+    "exde": "Das Zimmer riecht muffig.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "blackout curtains",
+    "de": "Verdunkelungsvorhänge",
+    "ex": "The blackout curtains don't close properly.",
+    "exde": "Die Verdunkelungsvorhänge schließen nicht richtig.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "extra bed",
+    "de": "Zustellbett",
+    "ex": "Can we have an extra bed in the room?",
+    "exde": "Können wir ein Zustellbett im Zimmer haben?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "rollaway bed",
+    "de": "Klappbett",
+    "ex": "They brought a rollaway bed for our son.",
+    "exde": "Sie haben ein Klappbett für unseren Sohn gebracht.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "welcome drink",
+    "de": "Begrüßungsgetränk",
+    "ex": "The welcome drink is by the pool.",
+    "exde": "Das Begrüßungsgetränk gibt es am Pool.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "half board",
+    "de": "Halbpension",
+    "ex": "Half board includes breakfast and dinner.",
+    "exde": "Halbpension umfasst Frühstück und Abendessen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "all-inclusive",
+    "de": "All-inclusive",
+    "ex": "Is the minibar included in all-inclusive?",
+    "exde": "Ist die Minibar bei All-inclusive dabei?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "city tax",
+    "de": "Ortstaxe, Kurtaxe",
+    "ex": "The city tax is paid at the hotel.",
+    "exde": "Die Kurtaxe zahlt man im Hotel.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "overbooking",
+    "de": "Überbuchung",
+    "ex": "The hotel had an overbooking and moved us.",
+    "exde": "Das Hotel war überbucht und hat uns woanders untergebracht.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "no-show",
+    "de": "nicht erschienen",
+    "ex": "A no-show can still be charged.",
+    "exde": "Wer nicht erscheint, kann trotzdem zahlen müssen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "cancellation fee",
+    "de": "Stornogebühr",
+    "ex": "The cancellation fee is one night.",
+    "exde": "Die Stornogebühr ist eine Nacht.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "non-refundable",
+    "de": "nicht erstattbar",
+    "ex": "This rate is non-refundable.",
+    "exde": "Dieser Preis ist nicht erstattbar.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to reconfirm",
+    "de": "noch einmal bestätigen",
+    "ex": "I called to reconfirm the booking.",
+    "exde": "Ich habe angerufen, um die Buchung noch einmal zu bestätigen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "adjoining room",
+    "de": "Nebenzimmer",
+    "ex": "We're in the adjoining room.",
+    "exde": "Wir sind im Nebenzimmer.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "ground-floor room",
+    "de": "Zimmer im Erdgeschoss",
+    "ex": "I'd prefer a ground-floor room.",
+    "exde": "Ich hätte lieber ein Zimmer im Erdgeschoss.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to face the street",
+    "de": "zur Straße hin liegen",
+    "ex": "The room faces the street and it's noisy.",
+    "exde": "Das Zimmer liegt zur Straße und ist laut.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to face the pool",
+    "de": "zum Pool hin liegen",
+    "ex": "Can we face the pool instead?",
+    "exde": "Können wir stattdessen zum Pool hin liegen?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "concierge",
+    "de": "Concierge",
+    "ex": "The concierge booked a taxi for us.",
+    "exde": "Der Concierge hat uns ein Taxi bestellt.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "porter",
+    "de": "Gepäckträger",
+    "ex": "The porter took the bags upstairs.",
+    "exde": "Der Gepäckträger hat die Taschen nach oben gebracht.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "left-luggage",
+    "de": "Gepäckaufbewahrung",
+    "ex": "Is there a left-luggage room?",
+    "exde": "Gibt es eine Gepäckaufbewahrung?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to store luggage",
+    "de": "Gepäck aufbewahren",
+    "ex": "Can you store our luggage until the flight?",
+    "exde": "Könnt ihr unser Gepäck bis zum Flug aufbewahren?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "valuables",
+    "de": "Wertsachen",
+    "ex": "Don't leave valuables on the beach.",
+    "exde": "Lass keine Wertsachen am Strand liegen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to lock the safe",
+    "de": "den Safe abschließen",
+    "ex": "Did you lock the safe?",
+    "exde": "Hast du den Safe abgeschlossen?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "minibar charge",
+    "de": "Minibar-Kosten",
+    "ex": "There's a minibar charge I don't recognise.",
+    "exde": "Da ist eine Minibar-Position, die ich nicht kenne.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to dispute a charge",
+    "de": "eine Abbuchung beanstanden",
+    "ex": "I'd like to dispute a charge on the bill.",
+    "exde": "Ich möchte eine Position auf der Rechnung beanstanden.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "itemised bill",
+    "de": "detaillierte Rechnung",
+    "ex": "Could I see an itemised bill?",
+    "exde": "Könnte ich eine detaillierte Rechnung sehen?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "duty manager",
+    "de": "diensthabende Leitung",
+    "ex": "May I speak to the duty manager?",
+    "exde": "Kann ich die diensthabende Leitung sprechen?",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "noisy neighbours",
+    "de": "laute Nachbarn",
+    "ex": "We have noisy neighbours above us.",
+    "exde": "Über uns sind laute Nachbarn.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be walked",
+    "de": "in ein anderes Hotel verlegt werden",
+    "ex": "The hotel was full, so we were walked.",
+    "exde": "Das Hotel war voll, also wurden wir woanders untergebracht.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "incidentals",
+    "de": "Nebenkosten",
+    "ex": "Incidentals are charged to the card.",
+    "exde": "Nebenkosten gehen auf die Karte.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "turn-down service",
+    "de": "Abend-Service im Zimmer",
+    "ex": "Turn-down service is at eight.",
+    "exde": "Der Abend-Service im Zimmer ist um acht.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to complain about the noise",
+    "de": "sich über den Lärm beschweren",
+    "ex": "I'm going to complain about the noise.",
+    "exde": "Ich werde mich über den Lärm beschweren.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "power cut",
+    "de": "Stromausfall",
+    "ex": "There was a power cut for an hour.",
+    "exde": "Eine Stunde lang war der Strom weg.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "backup generator",
+    "de": "Notstromaggregat",
+    "ex": "The backup generator kicked in.",
+    "exde": "Das Notstromaggregat ist angesprungen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to settle the bill",
+    "de": "die Rechnung begleichen",
+    "ex": "We'll settle the bill in the morning.",
+    "exde": "Wir begleichen die Rechnung morgen früh.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "express checkout",
+    "de": "Express-Check-out",
+    "ex": "Express checkout is at the desk by the door.",
+    "exde": "Den Express-Check-out gibt es am Tisch an der Tür.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "late arrival",
+    "de": "späte Ankunft",
+    "ex": "I put late arrival on the booking.",
+    "exde": "Ich habe bei der Buchung späte Ankunft angegeben.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to hold a room",
+    "de": "ein Zimmer freihalten",
+    "ex": "Can you hold the room until midnight?",
+    "exde": "Könnt ihr das Zimmer bis Mitternacht freihalten?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "double bed",
+    "de": "Doppelbett",
+    "ex": "Is the double bed big enough for two?",
+    "exde": "Ist das Doppelbett groß genug für zwei?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "sofa bed",
+    "de": "Schlafsofa",
+    "ex": "The sofa bed is quite hard.",
+    "exde": "Das Schlafsofa ist ziemlich hart.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "cot",
+    "de": "Babybett",
+    "ex": "Could you put a cot in the room?",
+    "exde": "Könntet ihr ein Babybett ins Zimmer stellen?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "welcome desk",
+    "de": "Empfangstheke",
+    "ex": "The welcome desk is just inside.",
+    "exde": "Die Empfangstheke ist gleich innen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to sign for something",
+    "de": "für etwas unterschreiben",
+    "ex": "I had to sign for the room service.",
+    "exde": "Ich musste für den Zimmerservice unterschreiben.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "do not disturb",
+    "de": "Bitte nicht stören",
+    "ex": "I left the do not disturb sign out.",
+    "exde": "Ich habe das Bitte-nicht-stören-Schild rausgehängt.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to make up the room",
+    "de": "das Zimmer herrichten",
+    "ex": "Could you make up the room while we're out?",
+    "exde": "Könnt ihr das Zimmer herrichten, solange wir weg sind?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "spare blanket",
+    "de": "Ersatzdecke",
+    "ex": "Can we get a spare blanket?",
+    "exde": "Können wir eine Ersatzdecke bekommen?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "extra towels",
+    "de": "zusätzliche Handtücher",
+    "ex": "We need extra towels, please.",
+    "exde": "Wir brauchen bitte zusätzliche Handtücher.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "hairdryer",
+    "de": "Föhn",
+    "ex": "The hairdryer is under the sink.",
+    "exde": "Der Föhn ist unter dem Waschbecken.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be scalding",
+    "de": "brühend heiß sein",
+    "ex": "The water is scalding.",
+    "exde": "Das Wasser ist brühend heiß.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "lukewarm",
+    "de": "lauwarm",
+    "ex": "The coffee arrived lukewarm.",
+    "exde": "Der Kaffee kam lauwarm an.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "to send something back",
+    "de": "etwas zurückgehen lassen",
+    "ex": "I'm going to send this back.",
+    "exde": "Ich lasse das zurückgehen.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "undercooked",
+    "de": "nicht durch",
+    "ex": "The chicken is undercooked.",
+    "exde": "Das Hähnchen ist nicht durch.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "overcooked",
+    "de": "verkocht, zu lange gebraten",
+    "ex": "The pasta is overcooked.",
+    "exde": "Die Nudeln sind verkocht.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "starter",
+    "de": "Vorspeise",
+    "ex": "I'll have the soup as a starter.",
+    "exde": "Ich nehme die Suppe als Vorspeise.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "set menu",
+    "de": "Menü, festes Menü",
+    "ex": "The set menu is three courses.",
+    "exde": "Das Menü hat drei Gänge.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "today's special",
+    "de": "Tagesgericht",
+    "ex": "What's today's special?",
+    "exde": "Was ist das Tagesgericht?",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "still water",
+    "de": "stilles Wasser",
+    "ex": "A bottle of still water, please.",
+    "exde": "Eine Flasche stilles Wasser, bitte.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "by the glass",
+    "de": "glasweise",
+    "ex": "Can I get the house wine by the glass?",
+    "exde": "Kann ich den Hauswein glasweise bekommen?",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "intolerant",
+    "de": "unverträglich",
+    "ex": "I'm intolerant to lactose.",
+    "exde": "Ich vertrage keine Laktose.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "nut allergy",
+    "de": "Nussallergie",
+    "ex": "I have a nut allergy.",
+    "exde": "Ich habe eine Nussallergie.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "dairy-free",
+    "de": "ohne Milchprodukte",
+    "ex": "Do you have a dairy-free dessert?",
+    "exde": "Habt ihr ein Dessert ohne Milchprodukte?",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "cross-contamination",
+    "de": "Kreuzkontamination",
+    "ex": "I need to avoid cross-contamination.",
+    "exde": "Ich muss Kreuzkontamination vermeiden.",
+    "lvl": 5,
+    "cat": "essen"
+  },
+  {
+    "en": "to flag an allergy",
+    "de": "eine Allergie deutlich sagen",
+    "ex": "Please flag the allergy to the kitchen.",
+    "exde": "Bitte sag die Allergie deutlich in der Küche.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "waiting time",
+    "de": "Wartezeit",
+    "ex": "What's the waiting time for a table?",
+    "exde": "Wie lange wartet man auf einen Tisch?",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "to be seated",
+    "de": "einen Platz bekommen",
+    "ex": "We were seated by the window.",
+    "exde": "Wir haben einen Platz am Fenster bekommen.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "high chair",
+    "de": "Hochstuhl",
+    "ex": "Could we have a high chair?",
+    "exde": "Könnten wir einen Hochstuhl haben?",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "outdoor seating",
+    "de": "Sitzplätze draußen",
+    "ex": "Is there outdoor seating?",
+    "exde": "Gibt es Sitzplätze draußen?",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "service charge",
+    "de": "Bedienungsgeld",
+    "ex": "Is service charge included?",
+    "exde": "Ist das Bedienungsgeld dabei?",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "gratuity",
+    "de": "Trinkgeld",
+    "ex": "A gratuity is optional here.",
+    "exde": "Trinkgeld ist hier freiwillig.",
+    "lvl": 5,
+    "cat": "essen"
+  },
+  {
+    "en": "to leave a tip",
+    "de": "Trinkgeld geben",
+    "ex": "We left a tip in cash.",
+    "exde": "Wir haben Trinkgeld in bar dagelassen.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "card machine",
+    "de": "Kartenlesegerät",
+    "ex": "The card machine isn't working.",
+    "exde": "Das Kartenlesegerät geht nicht.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to tap to pay",
+    "de": "zum Bezahlen dranhalten",
+    "ex": "Just tap to pay.",
+    "exde": "Halt die Karte einfach zum Bezahlen dran.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "declined",
+    "de": "abgelehnt",
+    "ex": "My card was declined.",
+    "exde": "Meine Karte wurde abgelehnt.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "insufficient funds",
+    "de": "zu wenig Geld auf dem Konto",
+    "ex": "The bank said insufficient funds.",
+    "exde": "Die Bank sagte, es ist zu wenig Geld drauf.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "daily limit",
+    "de": "Tageslimit",
+    "ex": "I've hit my daily limit.",
+    "exde": "Ich habe mein Tageslimit erreicht.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to withdraw cash",
+    "de": "Bargeld abheben",
+    "ex": "Where can I withdraw cash?",
+    "exde": "Wo kann ich Bargeld abheben?",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "ATM fee",
+    "de": "Geldautomatengebühr",
+    "ex": "The ATM fee was quite high.",
+    "exde": "Die Gebühr am Automaten war ziemlich hoch.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "commission",
+    "de": "Provision, Gebühr",
+    "ex": "Is there a commission on the exchange?",
+    "exde": "Gibt es beim Wechseln eine Gebühr?",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to be short-changed",
+    "de": "zu wenig Rückgeld bekommen",
+    "ex": "I think I've been short-changed.",
+    "exde": "Ich glaube, ich habe zu wenig Rückgeld bekommen.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "counterfeit",
+    "de": "gefälscht",
+    "ex": "This note looks counterfeit.",
+    "exde": "Dieser Schein sieht gefälscht aus.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "VAT refund",
+    "de": "Mehrwertsteuer-Erstattung",
+    "ex": "You can claim a VAT refund at the airport.",
+    "exde": "Am Flughafen kannst du die Mehrwertsteuer zurückholen.",
+    "lvl": 5,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "tax-free form",
+    "de": "Tax-free-Formular",
+    "ex": "Ask the shop for a tax-free form.",
+    "exde": "Frag im Laden nach einem Tax-free-Formular.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "fixed price",
+    "de": "Festpreis",
+    "ex": "The sign says fixed price.",
+    "exde": "Auf dem Schild steht Festpreis.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to knock something off the price",
+    "de": "etwas vom Preis runterhandeln",
+    "ex": "Can you knock a bit off the price?",
+    "exde": "Kannst du etwas vom Preis runtergehen?",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "final price",
+    "de": "Endpreis",
+    "ex": "Is that the final price?",
+    "exde": "Ist das der Endpreis?",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "changing room",
+    "de": "Umkleidekabine",
+    "ex": "The changing room is at the back.",
+    "exde": "Die Umkleidekabine ist hinten.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "too tight",
+    "de": "zu eng",
+    "ex": "These shoes are too tight.",
+    "exde": "Diese Schuhe sind zu eng.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "too loose",
+    "de": "zu weit",
+    "ex": "The shirt is too loose.",
+    "exde": "Das Hemd ist zu weit.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "proof of purchase",
+    "de": "Kaufbeleg",
+    "ex": "You need proof of purchase to return it.",
+    "exde": "Zum Umtausch brauchst du den Kaufbeleg.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "store credit",
+    "de": "Guthaben im Laden",
+    "ex": "They only offered store credit.",
+    "exde": "Sie haben nur ein Guthaben im Laden angeboten.",
+    "lvl": 5,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "non-returnable",
+    "de": "vom Umtausch ausgeschlossen",
+    "ex": "Sale items are non-returnable.",
+    "exde": "Sale-Artikel sind vom Umtausch ausgeschlossen.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to be out of stock",
+    "de": "ausverkauft sein",
+    "ex": "That size is out of stock.",
+    "exde": "Die Größe ist ausverkauft.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to order something in",
+    "de": "etwas bestellen lassen",
+    "ex": "They can order it in for tomorrow.",
+    "exde": "Sie können es für morgen bestellen.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to gift-wrap",
+    "de": "als Geschenk einpacken",
+    "ex": "Could you gift-wrap this?",
+    "exde": "Könnt ihr das als Geschenk einpacken?",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "duty-free",
+    "de": "zollfrei",
+    "ex": "We bought perfume in duty-free.",
+    "exde": "Wir haben Parfüm im Duty-free gekauft.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "gate change",
+    "de": "Gate-Änderung",
+    "ex": "There was a gate change at the last minute.",
+    "exde": "Ganz am Ende wurde das Gate geändert.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "final call",
+    "de": "letzter Aufruf",
+    "ex": "That was the final call for our flight.",
+    "exde": "Das war der letzte Aufruf für unseren Flug.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be denied boarding",
+    "de": "nicht an Bord gelassen werden",
+    "ex": "We were denied boarding because the flight was full.",
+    "exde": "Wir durften nicht an Bord, weil der Flug voll war.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "standby",
+    "de": "Warteliste",
+    "ex": "I asked to go on standby.",
+    "exde": "Ich habe gefragt, ob ich auf die Warteliste kann.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to miss a connection",
+    "de": "einen Anschluss verpassen",
+    "ex": "We missed the connection in Istanbul.",
+    "exde": "Wir haben den Anschluss in Istanbul verpasst.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "stopover",
+    "de": "Zwischenlandung",
+    "ex": "We have a stopover on the way home.",
+    "exde": "Auf dem Heimweg haben wir eine Zwischenlandung.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "extra legroom",
+    "de": "mehr Beinfreiheit",
+    "ex": "Extra legroom costs more.",
+    "exde": "Mehr Beinfreiheit kostet extra.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "overhead locker",
+    "de": "Gepäckfach",
+    "ex": "The overhead locker is full.",
+    "exde": "Das Gepäckfach ist voll.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "oversized",
+    "de": "übergroß",
+    "ex": "This bag is oversized.",
+    "exde": "Diese Tasche ist übergroß.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "excess baggage",
+    "de": "Übergepäck",
+    "ex": "We had to pay for excess baggage.",
+    "exde": "Wir mussten für Übergepäck zahlen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "priority boarding",
+    "de": "vorrangiges Boarding",
+    "ex": "Priority boarding starts now.",
+    "exde": "Das vorrangige Boarding fängt jetzt an.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to queue at immigration",
+    "de": "an der Passkontrolle anstehen",
+    "ex": "We queued at immigration for an hour.",
+    "exde": "Wir standen eine Stunde an der Passkontrolle.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "e-gates",
+    "de": "automatische Passkontrolle",
+    "ex": "The e-gates were closed.",
+    "exde": "Die automatische Passkontrolle war zu.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "shuttle bus",
+    "de": "Shuttlebus",
+    "ex": "The shuttle bus leaves every twenty minutes.",
+    "exde": "Der Shuttlebus fährt alle zwanzig Minuten.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "airport transfer",
+    "de": "Flughafentransfer",
+    "ex": "The airport transfer was included.",
+    "exde": "Der Flughafentransfer war inklusive.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "the meter is running",
+    "de": "der Taxameter läuft",
+    "ex": "Make sure the meter is running.",
+    "exde": "Achte darauf, dass der Taxameter läuft.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "fixed fare",
+    "de": "Festpreis",
+    "ex": "We agreed a fixed fare to the hotel.",
+    "exde": "Wir haben einen Festpreis zum Hotel ausgemacht.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "unlicensed taxi",
+    "de": "Taxi ohne Lizenz",
+    "ex": "Don't take an unlicensed taxi.",
+    "exde": "Nimm kein Taxi ohne Lizenz.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "ride-hailing",
+    "de": "Fahrdienst-App",
+    "ex": "Ride-hailing is cheaper than the rank.",
+    "exde": "Die App ist billiger als der Taxistand.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to share a ride",
+    "de": "sich eine Fahrt teilen",
+    "ex": "We shared a ride with another couple.",
+    "exde": "Wir haben uns die Fahrt mit einem anderen Paar geteilt.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "flight delay",
+    "de": "Flugverspätung",
+    "ex": "The flight delay was two hours.",
+    "exde": "Die Flugverspätung war zwei Stunden.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to rebook",
+    "de": "umbuchen",
+    "ex": "They rebooked us on the next flight.",
+    "exde": "Sie haben uns auf den nächsten Flug umgebucht.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to claim compensation",
+    "de": "Entschädigung beantragen",
+    "ex": "You can claim compensation for a long delay.",
+    "exde": "Bei einer langen Verspätung kannst du Entschädigung beantragen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "insurance excess",
+    "de": "Selbstbeteiligung",
+    "ex": "The insurance excess is fifty euros.",
+    "exde": "Die Selbstbeteiligung ist fünfzig Euro.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "covered",
+    "de": "abgedeckt",
+    "ex": "Is a stolen phone covered?",
+    "exde": "Ist ein gestohlenes Handy abgedeckt?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "excluded",
+    "de": "ausgeschlossen",
+    "ex": "Sports injuries are excluded.",
+    "exde": "Sportverletzungen sind ausgeschlossen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be bumped",
+    "de": "von einem Flug genommen werden",
+    "ex": "We were bumped onto a later flight.",
+    "exde": "Wir wurden auf einen späteren Flug gesetzt.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "boarding group",
+    "de": "Boarding-Gruppe",
+    "ex": "We're in boarding group three.",
+    "exde": "Wir sind in Boarding-Gruppe drei.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to fasten a seatbelt",
+    "de": "den Gurt anlegen",
+    "ex": "Please fasten your seatbelt.",
+    "exde": "Bitte leg den Gurt an.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to collect luggage",
+    "de": "Gepäck abholen",
+    "ex": "We waited ages to collect the luggage.",
+    "exde": "Wir haben ewig gewartet, um das Gepäck abzuholen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "baggage carousel",
+    "de": "Gepäckband",
+    "ex": "Our case never came onto the baggage carousel.",
+    "exde": "Unser Koffer kam nie aufs Gepäckband.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "lost luggage",
+    "de": "verlorenes Gepäck",
+    "ex": "The airline traced our lost luggage.",
+    "exde": "Die Airline hat unser verlorenes Gepäck gefunden.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "property irregularity report",
+    "de": "Verlustmeldung für Gepäck",
+    "ex": "Fill in a property irregularity report at the desk.",
+    "exde": "Füll am Schalter die Verlustmeldung fürs Gepäck aus.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to trace a bag",
+    "de": "einen Koffer nachverfolgen",
+    "ex": "They gave us a link to trace the bag.",
+    "exde": "Sie haben uns einen Link gegeben, um den Koffer zu verfolgen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "essentials",
+    "de": "das Nötigste",
+    "ex": "The airline paid for essentials.",
+    "exde": "Die Airline hat das Nötigste bezahlt.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "over the counter",
+    "de": "rezeptfrei",
+    "ex": "You can buy this over the counter.",
+    "exde": "Das kannst du rezeptfrei kaufen.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to feel queasy",
+    "de": "sich flau fühlen",
+    "ex": "I feel queasy after the boat.",
+    "exde": "Mir ist nach dem Boot flau.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "sunstroke",
+    "de": "Sonnenstich",
+    "ex": "He got sunstroke on the first day.",
+    "exde": "Er hat am ersten Tag einen Sonnenstich bekommen.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "heatstroke",
+    "de": "Hitzschlag",
+    "ex": "Heatstroke is more serious than sunburn.",
+    "exde": "Ein Hitzschlag ist ernster als ein Sonnenbrand.",
+    "lvl": 5,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "dehydrated",
+    "de": "dehydriert",
+    "ex": "You're dehydrated. Drink slowly.",
+    "exde": "Du bist dehydriert. Trink langsam.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to rehydrate",
+    "de": "wieder Flüssigkeit aufnehmen",
+    "ex": "Rehydrate before you go out again.",
+    "exde": "Trink erst wieder genug, bevor du rausgehst.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "stomach upset",
+    "de": "Magenverstimmung",
+    "ex": "I've had a stomach upset since lunch.",
+    "exde": "Seit dem Mittagessen ist mir der Magen nicht gut.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "diarrhoea",
+    "de": "Durchfall",
+    "ex": "Diarrhoea is common on holiday.",
+    "exde": "Durchfall kommt im Urlaub oft vor.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "constipation",
+    "de": "Verstopfung",
+    "ex": "Painkillers can cause constipation.",
+    "exde": "Schmerzmittel können Verstopfung machen.",
+    "lvl": 5,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "itchy",
+    "de": "juckend",
+    "ex": "My arm is really itchy.",
+    "exde": "Mein Arm juckt richtig.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "jellyfish sting",
+    "de": "Quallenstich",
+    "ex": "A jellyfish sting burns for a while.",
+    "exde": "Ein Quallenstich brennt eine Weile.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "sprained",
+    "de": "verstaucht",
+    "ex": "I think I've sprained my wrist.",
+    "exde": "Ich glaube, ich habe mir das Handgelenk verstaucht.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "twisted ankle",
+    "de": "umgeknickter Knöchel",
+    "ex": "I twisted my ankle on the steps.",
+    "exde": "Ich bin auf den Stufen umgeknickt.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "blister",
+    "de": "Blase",
+    "ex": "I've got a blister from the sandals.",
+    "exde": "Ich habe eine Blase von den Sandalen.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to dress a wound",
+    "de": "eine Wunde versorgen",
+    "ex": "The nurse dressed the wound.",
+    "exde": "Die Krankenschwester hat die Wunde versorgt.",
+    "lvl": 5,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "plaster",
+    "de": "Pflaster",
+    "ex": "Have you got a plaster?",
+    "exde": "Hast du ein Pflaster?",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "antiseptic",
+    "de": "Desinfektionsmittel",
+    "ex": "Put antiseptic on it first.",
+    "exde": "Mach zuerst Desinfektionsmittel drauf.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "antihistamine",
+    "de": "Antihistaminikum",
+    "ex": "An antihistamine should calm the itch.",
+    "exde": "Ein Antihistaminikum sollte den Juckreiz beruhigen.",
+    "lvl": 5,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "rehydration salts",
+    "de": "Elektrolytpulver",
+    "ex": "Rehydration salts help after diarrhoea.",
+    "exde": "Elektrolytpulver hilft nach Durchfall.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to come out in a rash",
+    "de": "einen Ausschlag bekommen",
+    "ex": "I came out in a rash after the seafood.",
+    "exde": "Nach den Meeresfrüchten habe ich einen Ausschlag bekommen.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "sea urchin",
+    "de": "Seeigel",
+    "ex": "I stepped on a sea urchin.",
+    "exde": "Ich bin auf einen Seeigel getreten.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "rip current",
+    "de": "Brandungsrückstrom",
+    "ex": "A rip current can pull you out.",
+    "exde": "Ein Brandungsrückstrom kann dich rausziehen.",
+    "lvl": 5,
+    "cat": "natur"
+  },
+  {
+    "en": "to stay between the flags",
+    "de": "zwischen den Flaggen bleiben",
+    "ex": "Stay between the flags.",
+    "exde": "Bleib zwischen den Flaggen.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "to reapply",
+    "de": "erneut auftragen",
+    "ex": "Reapply sunscreen after you swim.",
+    "exde": "Trag die Sonnencreme nach dem Schwimmen neu auf.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "aftersun",
+    "de": "After-Sun",
+    "ex": "Aftersun cools the skin.",
+    "exde": "After-Sun kühlt die Haut.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "sunburnt",
+    "de": "sonnenverbrannt",
+    "ex": "My shoulders are sunburnt.",
+    "exde": "Meine Schultern sind sonnenverbrannt.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "peeling",
+    "de": "schälend",
+    "ex": "My nose is peeling.",
+    "exde": "Meine Nase schält sich.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to get burnt",
+    "de": "sich verbrennen",
+    "ex": "I don't want to get burnt.",
+    "exde": "Ich will mich nicht verbrennen.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to snorkel",
+    "de": "schnorcheln",
+    "ex": "We snorkelled off the boat.",
+    "exde": "Wir sind vom Boot aus geschnorchelt.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "snorkel",
+    "de": "Schnorchel",
+    "ex": "The snorkel keeps filling with water.",
+    "exde": "Der Schnorchel läuft immer voll Wasser.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "fins",
+    "de": "Flossen",
+    "ex": "The fins are too big.",
+    "exde": "Die Flossen sind zu groß.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "to get seasick",
+    "de": "seekrank werden",
+    "ex": "I get seasick on small boats.",
+    "exde": "Auf kleinen Booten werde ich seekrank.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "day trip",
+    "de": "Tagesausflug",
+    "ex": "The day trip includes lunch.",
+    "exde": "Beim Tagesausflug ist Mittagessen dabei.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "to join a tour",
+    "de": "bei einer Tour mitmachen",
+    "ex": "Can we still join the tour?",
+    "exde": "Können wir noch bei der Tour mitmachen?",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "entrance fee",
+    "de": "Eintritt",
+    "ex": "The entrance fee is cash only.",
+    "exde": "Der Eintritt geht nur bar.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to skip the queue",
+    "de": "die Schlange überspringen",
+    "ex": "Tickets let you skip the queue.",
+    "exde": "Mit Tickets überspringst du die Schlange.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "closed for renovation",
+    "de": "wegen Renovierung geschlossen",
+    "ex": "The museum is closed for renovation.",
+    "exde": "Das Museum ist wegen Renovierung geschlossen.",
+    "lvl": 4,
+    "cat": "orte"
+  },
+  {
+    "en": "to ask for directions",
+    "de": "nach dem Weg fragen",
+    "ex": "Don't be shy about asking for directions.",
+    "exde": "Trau dich, nach dem Weg zu fragen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to take the second left",
+    "de": "die zweite links nehmen",
+    "ex": "Take the second left after the lights.",
+    "exde": "Nimm die zweite links nach der Ampel.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to go straight on",
+    "de": "geradeaus weitergehen",
+    "ex": "Go straight on until the square.",
+    "exde": "Geh geradeaus bis zum Platz.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "uphill",
+    "de": "bergauf",
+    "ex": "It's uphill all the way.",
+    "exde": "Es geht die ganze Zeit bergauf.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to take a shortcut",
+    "de": "eine Abkürzung nehmen",
+    "ex": "A local showed us a shortcut.",
+    "exde": "Ein Einheimischer hat uns eine Abkürzung gezeigt.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to have a lot in common",
+    "de": "viel gemeinsam haben",
+    "ex": "We had a lot in common.",
+    "exde": "Wir hatten viel gemeinsam.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "packed",
+    "de": "rappelvoll",
+    "ex": "The old town was packed.",
+    "exde": "Die Altstadt war rappelvoll.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to people-watch",
+    "de": "Leute beobachten",
+    "ex": "We sat and people-watched.",
+    "exde": "Wir saßen da und haben Leute beobachtet.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "to strike up a conversation",
+    "de": "ein Gespräch anfangen",
+    "ex": "She struck up a conversation in the queue.",
+    "exde": "Sie hat in der Schlange ein Gespräch angefangen.",
+    "lvl": 5,
+    "cat": "menschen"
+  },
+  {
+    "en": "to swap numbers",
+    "de": "Nummern tauschen",
+    "ex": "We swapped numbers at the end.",
+    "exde": "Am Ende haben wir Nummern getauscht.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "to have no signal",
+    "de": "keinen Empfang haben",
+    "ex": "I have no signal in the valley.",
+    "exde": "Im Tal habe ich keinen Empfang.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "roaming",
+    "de": "Roaming",
+    "ex": "Roaming was more expensive than I thought.",
+    "exde": "Roaming war teurer, als ich dachte.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "data package",
+    "de": "Datenpaket",
+    "ex": "I bought a local data package.",
+    "exde": "Ich habe ein lokales Datenpaket gekauft.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "to top up",
+    "de": "aufladen",
+    "ex": "I need to top up my credit.",
+    "exde": "Ich muss mein Guthaben aufladen.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "eSIM",
+    "de": "eSIM",
+    "ex": "An eSIM was easier than a plastic SIM.",
+    "exde": "Eine eSIM war einfacher als eine Plastik-SIM.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "hotspot",
+    "de": "Hotspot",
+    "ex": "I used my phone as a hotspot.",
+    "exde": "Ich habe mein Handy als Hotspot benutzt.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "wifi password",
+    "de": "WLAN-Passwort",
+    "ex": "The wifi password is on the key card.",
+    "exde": "Das WLAN-Passwort steht auf der Schlüsselkarte.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "patchy signal",
+    "de": "lückiger Empfang",
+    "ex": "The signal is patchy on the coast.",
+    "exde": "An der Küste ist der Empfang lückenhaft.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "to run out of data",
+    "de": "keine Daten mehr haben",
+    "ex": "I ran out of data on day three.",
+    "exde": "Am dritten Tag hatte ich keine Daten mehr.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "plug adapter",
+    "de": "Steckdosenadapter",
+    "ex": "I forgot the plug adapter.",
+    "exde": "Ich habe den Steckdosenadapter vergessen.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "plug socket",
+    "de": "Steckdose",
+    "ex": "Is there a plug socket by the bed?",
+    "exde": "Gibt es eine Steckdose am Bett?",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "out of battery",
+    "de": "Akku leer",
+    "ex": "My phone is out of battery.",
+    "exde": "Mein Handy-Akku ist leer.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "to borrow a charger",
+    "de": "ein Ladegerät leihen",
+    "ex": "Can I borrow a charger?",
+    "exde": "Kann ich ein Ladegerät leihen?",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "muggy",
+    "de": "drückend schwül",
+    "ex": "The air feels muggy.",
+    "exde": "Die Luft fühlt sich drückend an.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "breeze",
+    "de": "Brise",
+    "ex": "There's a breeze by the water.",
+    "exde": "Am Wasser geht eine Brise.",
+    "lvl": 3,
+    "cat": "natur"
+  },
+  {
+    "en": "heatwave",
+    "de": "Hitzewelle",
+    "ex": "There's a heatwave this week.",
+    "exde": "Diese Woche ist eine Hitzewelle.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "to cool down",
+    "de": "abkühlen",
+    "ex": "We went inside to cool down.",
+    "exde": "Wir sind reingegangen, um abzukühlen.",
+    "lvl": 3,
+    "cat": "natur"
+  },
+  {
+    "en": "scorching",
+    "de": "glühend heiß",
+    "ex": "The sand was scorching.",
+    "exde": "Der Sand war glühend heiß.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "overcast",
+    "de": "bewölkt",
+    "ex": "It was overcast, so we didn't burn.",
+    "exde": "Es war bewölkt, also haben wir uns nicht verbrannt.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "downpour",
+    "de": "Platzregen",
+    "ex": "We got caught in a downpour.",
+    "exde": "Wir sind in einen Platzregen gekommen.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "to take shelter",
+    "de": "Schutz suchen",
+    "ex": "We took shelter in a café.",
+    "exde": "Wir haben in einem Café Schutz gesucht.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "thunderstorm",
+    "de": "Gewitter",
+    "ex": "A thunderstorm rolled in after lunch.",
+    "exde": "Nach dem Mittagessen zog ein Gewitter auf.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "UV index",
+    "de": "UV-Index",
+    "ex": "The UV index is very high today.",
+    "exde": "Der UV-Index ist heute sehr hoch.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "to call an ambulance",
+    "de": "einen Krankenwagen rufen",
+    "ex": "Call an ambulance if he faints.",
+    "exde": "Ruf einen Krankenwagen, wenn er ohnmächtig wird.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to file a police report",
+    "de": "Anzeige erstatten",
+    "ex": "You need a police report for the insurance.",
+    "exde": "Für die Versicherung brauchst du eine Anzeige.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "to cancel a card",
+    "de": "eine Karte sperren lassen",
+    "ex": "I cancelled the card straight away.",
+    "exde": "Ich habe die Karte sofort sperren lassen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to block a card",
+    "de": "eine Karte sperren",
+    "ex": "The app lets you block a card.",
+    "exde": "Mit der App kannst du eine Karte sperren.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to retrace my steps",
+    "de": "denselben Weg zurückgehen",
+    "ex": "I retraced my steps to the café.",
+    "exde": "Ich bin denselben Weg zurück zum Café gegangen.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "emergency contact",
+    "de": "Notfallkontakt",
+    "ex": "Put an emergency contact in your phone.",
+    "exde": "Trag einen Notfallkontakt ins Handy ein.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to feel faint",
+    "de": "sich einer Ohnmacht nahe fühlen",
+    "ex": "I feel faint in this heat.",
+    "exde": "In der Hitze wird mir schwarz vor Augen.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to black out",
+    "de": "ohnmächtig werden",
+    "ex": "He blacked out for a few seconds.",
+    "exde": "Er war ein paar Sekunden weg.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "first aid",
+    "de": "Erste Hilfe",
+    "ex": "Is there a first-aid kit on the boat?",
+    "exde": "Gibt es auf dem Boot einen Erste-Hilfe-Kasten?",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to lose track of",
+    "de": "den Überblick verlieren",
+    "ex": "I lost track of time.",
+    "exde": "Ich habe die Zeit aus den Augen verloren.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "spare key",
+    "de": "Ersatzschlüssel",
+    "ex": "The spare key is at reception.",
+    "exde": "Der Ersatzschlüssel ist an der Rezeption.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to get locked out",
+    "de": "sich aussperren",
+    "ex": "We got locked out of the room.",
+    "exde": "Wir haben uns aus dem Zimmer ausgesperrt.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to buzz someone in",
+    "de": "jemanden per Türöffner reinlassen",
+    "ex": "Buzz me in when you're downstairs.",
+    "exde": "Lass mich rein, wenn du unten bist.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to top up a card",
+    "de": "eine Karte aufladen",
+    "ex": "You can top up the transport card at the kiosk.",
+    "exde": "Die Fahrkarte kannst du am Kiosk aufladen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to miss the last bus",
+    "de": "den letzten Bus verpassen",
+    "ex": "We missed the last bus back.",
+    "exde": "Wir haben den letzten Bus zurück verpasst.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to hail a taxi",
+    "de": "ein Taxi heranwinken",
+    "ex": "It's hard to hail a taxi here.",
+    "exde": "Hier ist es schwer, ein Taxi heranzuwinken.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "taxi rank",
+    "de": "Taxistand",
+    "ex": "The taxi rank is outside arrivals.",
+    "exde": "Der Taxistand ist vor der Ankunft.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to run up a bill",
+    "de": "eine hohe Rechnung machen",
+    "ex": "We ran up a big bill at the bar.",
+    "exde": "An der Bar ist eine hohe Rechnung zusammengekommen.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "to be ripped off",
+    "de": "abgezockt werden",
+    "ex": "I felt ripped off by the fare.",
+    "exde": "Beim Fahrpreis kam ich mir abgezockt vor.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to double-check",
+    "de": "noch einmal prüfen",
+    "ex": "Double-check the change.",
+    "exde": "Prüf das Rückgeld noch einmal.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to come to",
+    "de": "sich belaufen auf",
+    "ex": "It comes to forty euros.",
+    "exde": "Es kommt auf vierzig Euro.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "to round up",
+    "de": "aufrunden",
+    "ex": "I rounded up for the tip.",
+    "exde": "Ich habe fürs Trinkgeld aufgerundet.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "to be pushed for time",
+    "de": "unter Zeitdruck stehen",
+    "ex": "We're pushed for time.",
+    "exde": "Wir stehen unter Zeitdruck.",
+    "lvl": 4,
+    "cat": "zeit"
+  },
+  {
+    "en": "to wander off",
+    "de": "wegschlendern",
+    "ex": "Don't wander off without your phone.",
+    "exde": "Schlender nicht ohne Handy weg.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to put someone up",
+    "de": "jemanden unterbringen",
+    "ex": "Friends put us up for a night.",
+    "exde": "Freunde haben uns eine Nacht untergebracht.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to see someone off",
+    "de": "jemanden verabschieden",
+    "ex": "They came to see us off.",
+    "exde": "Sie sind gekommen, um uns zu verabschieden.",
+    "lvl": 4,
+    "cat": "menschen"
+  },
+  {
+    "en": "to stock up on",
+    "de": "sich eindecken mit",
+    "ex": "Stock up on water before the trip.",
+    "exde": "Deck dich vor der Tour mit Wasser ein.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to splash out",
+    "de": "richtig Geld ausgeben",
+    "ex": "We splashed out on a nice dinner.",
+    "exde": "Wir haben für ein schönes Essen richtig Geld ausgegeben.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to fill in a form",
+    "de": "ein Formular ausfüllen",
+    "ex": "You have to fill in a form for the claim.",
+    "exde": "Für den Antrag musst du ein Formular ausfüllen.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to queue up",
+    "de": "sich anstellen",
+    "ex": "We queued up for ice cream.",
+    "exde": "Wir haben uns für Eis angestellt.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to drop someone off",
+    "de": "jemanden absetzen",
+    "ex": "Can you drop us off at the harbour?",
+    "exde": "Kannst du uns am Hafen absetzen?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to run low on",
+    "de": "knapp werden bei",
+    "ex": "We're running low on cash.",
+    "exde": "Uns geht das Bargeld aus.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to be fully booked",
+    "de": "ausgebucht sein",
+    "ex": "The restaurant is fully booked.",
+    "exde": "Das Restaurant ist ausgebucht.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "to overcharge",
+    "de": "zu viel berechnen",
+    "ex": "I think they overcharged us.",
+    "exde": "Ich glaube, sie haben zu viel berechnet.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "sun cream",
+    "de": "Sonnencreme",
+    "ex": "Pass me the sun cream.",
+    "exde": "Reich mir die Sonnencreme.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "refund",
+    "de": "Erstattung",
+    "ex": "They promised a refund.",
+    "exde": "Sie haben eine Erstattung versprochen.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to chase a refund",
+    "de": "einer Erstattung hinterherlaufen",
+    "ex": "I'm still chasing the refund.",
+    "exde": "Ich laufe der Erstattung immer noch hinterher.",
+    "lvl": 5,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "booking reference",
+    "de": "Buchungsnummer",
+    "ex": "Have you got the booking reference?",
+    "exde": "Hast du die Buchungsnummer?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to spell something out",
+    "de": "etwas buchstabieren",
+    "ex": "Could you spell that out for me?",
+    "exde": "Kannst du das für mich buchstabieren?",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to get the wrong end of the stick",
+    "de": "etwas falsch verstehen",
+    "ex": "I got the wrong end of the stick.",
+    "exde": "Ich habe das falsch verstanden.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "to lose the thread",
+    "de": "den Faden verlieren",
+    "ex": "I lost the thread halfway through.",
+    "exde": "Ich habe mittendrin den Faden verloren.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to put something into words",
+    "de": "etwas in Worte fassen",
+    "ex": "I couldn't put it into words.",
+    "exde": "Ich konnte es nicht in Worte fassen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "give or take",
+    "de": "plus minus",
+    "ex": "It's an hour, give or take.",
+    "exde": "Es ist eine Stunde, plus minus.",
+    "lvl": 4,
+    "cat": "zeit"
+  },
+  {
+    "en": "on the house",
+    "de": "geht aufs Haus",
+    "ex": "The tea was on the house.",
+    "exde": "Der Tee ging aufs Haus.",
+    "lvl": 4,
+    "cat": "essen"
+  },
+  {
+    "en": "to make yourself understood",
+    "de": "sich verständlich machen",
+    "ex": "I managed to make myself understood.",
+    "exde": "Ich habe mich verständlich machen können.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to talk around something",
+    "de": "um etwas herumreden",
+    "ex": "I talked around the word I didn't know.",
+    "exde": "Ich habe um das Wort herumgeredet, das ich nicht kannte.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "corridor noise",
+    "de": "Lärm im Flur",
+    "ex": "The corridor noise kept us awake.",
+    "exde": "Der Lärm im Flur hat uns wach gehalten.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "thin walls",
+    "de": "dünne Wände",
+    "ex": "The walls are so thin.",
+    "exde": "Die Wände sind sehr dünn.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "mosquito net",
+    "de": "Moskitonetz",
+    "ex": "Is there a mosquito net?",
+    "exde": "Gibt es ein Moskitonetz?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "insect repellent",
+    "de": "Insektenschutz",
+    "ex": "I need a strong insect repellent.",
+    "exde": "Ich brauche einen starken Insektenschutz.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "wristband",
+    "de": "Armbändchen",
+    "ex": "You need the wristband for the drinks.",
+    "exde": "Für die Getränke brauchst du das Armbändchen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to bag a sunbed",
+    "de": "eine Liege belegen",
+    "ex": "People bag sunbeds at dawn.",
+    "exde": "Leute belegen die Liegen im Morgengrauen.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "pool towel",
+    "de": "Pool-Handtuch",
+    "ex": "Swap the pool towel at the hut.",
+    "exde": "Tausch das Pool-Handtuch an der Hütte.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "chlorine",
+    "de": "Chlor",
+    "ex": "The pool smells of chlorine.",
+    "exde": "Der Pool riecht nach Chlor.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "swimmer's ear",
+    "de": "Badeohr",
+    "ex": "I've got swimmer's ear.",
+    "exde": "Ich habe ein Badeohr.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "pebbly beach",
+    "de": "Kieselstrand",
+    "ex": "It's a pebbly beach, so wear shoes.",
+    "exde": "Es ist ein Kieselstrand, also zieh Schuhe an.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "rocky cove",
+    "de": "felsige Bucht",
+    "ex": "We found a rocky cove.",
+    "exde": "Wir haben eine felsige Bucht gefunden.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "to wade in",
+    "de": "hineinwaten",
+    "ex": "We waded in slowly.",
+    "exde": "Wir sind langsam hineingewatet.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "out of your depth",
+    "de": "den Boden unter den Füßen verlieren",
+    "ex": "Don't go out of your depth.",
+    "exde": "Geh nicht dahin, wo du nicht mehr stehen kannst.",
+    "lvl": 5,
+    "cat": "freizeit"
+  },
+  {
+    "en": "lifebuoy",
+    "de": "Rettungsring",
+    "ex": "The lifebuoy is by the steps.",
+    "exde": "Der Rettungsring ist an der Treppe.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "to drift",
+    "de": "abtreiben",
+    "ex": "The current made us drift.",
+    "exde": "Die Strömung hat uns abgetrieben.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "glass-bottom boat",
+    "de": "Glasbodenboot",
+    "ex": "The glass-bottom boat leaves at ten.",
+    "exde": "Das Glasbodenboot fährt um zehn.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "excursion desk",
+    "de": "Ausflugsbüro",
+    "ex": "Book it at the excursion desk.",
+    "exde": "Buch es am Ausflugsbüro.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "meeting point",
+    "de": "Treffpunkt",
+    "ex": "The meeting point is the lobby.",
+    "exde": "Der Treffpunkt ist die Lobby.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be left behind",
+    "de": "zurückgelassen werden",
+    "ex": "Don't be left behind by the coach.",
+    "exde": "Lass dich vom Bus nicht zurücklassen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "refill station",
+    "de": "Nachfüllstation",
+    "ex": "There's a refill station for bottles.",
+    "exde": "Es gibt eine Station zum Flaschennachfüllen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "reusable bottle",
+    "de": "Mehrwegflasche",
+    "ex": "Bring a reusable bottle.",
+    "exde": "Bring eine Mehrwegflasche mit.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to burn your feet",
+    "de": "sich die Füße verbrennen",
+    "ex": "The tiles will burn your feet.",
+    "exde": "Die Fliesen verbrennen dir die Füße.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "flip-flops",
+    "de": "Zehentrenner",
+    "ex": "Flip-flops slip on wet floors.",
+    "exde": "Zehentrenner rutschen auf nassem Boden.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "uneven pavement",
+    "de": "unebener Gehweg",
+    "ex": "Watch the uneven pavement.",
+    "exde": "Pass auf den unebenen Gehweg auf.",
+    "lvl": 4,
+    "cat": "orte"
+  },
+  {
+    "en": "stray dog",
+    "de": "streunender Hund",
+    "ex": "A stray dog followed us.",
+    "exde": "Ein streunender Hund ist uns gefolgt.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to give a wide berth",
+    "de": "einen Bogen machen",
+    "ex": "Give the jellyfish a wide berth.",
+    "exde": "Mach einen Bogen um die Qualle.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "call to prayer",
+    "de": "Gebetsruf",
+    "ex": "The call to prayer woke us.",
+    "exde": "Der Gebetsruf hat uns geweckt.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "goodwill gesture",
+    "de": "Geste des Entgegenkommens",
+    "ex": "They offered a goodwill gesture.",
+    "exde": "Sie haben uns entgegengekommen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to comp a drink",
+    "de": "ein Getränk spendieren",
+    "ex": "The bar comped our drinks.",
+    "exde": "Die Bar hat unsere Getränke spendiert.",
+    "lvl": 5,
+    "cat": "essen"
+  },
+  {
+    "en": "duplicate charge",
+    "de": "doppelte Abbuchung",
+    "ex": "There's a duplicate charge.",
+    "exde": "Da ist eine doppelte Abbuchung.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "pending charge",
+    "de": "vorgemerkte Abbuchung",
+    "ex": "The pending charge should disappear.",
+    "exde": "Die vorgemerkte Abbuchung sollte verschwinden.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "pre-authorisation",
+    "de": "Vorautorisierung",
+    "ex": "The hotel put a pre-authorisation on the card.",
+    "exde": "Das Hotel hat eine Vorautorisierung auf die Karte gelegt.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to release a hold",
+    "de": "eine Kartensperre freigeben",
+    "ex": "Ask the bank to release the hold.",
+    "exde": "Bitte die Bank, die Sperre freizugeben.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "foreign transaction fee",
+    "de": "Auslandsgebühr",
+    "ex": "My bank adds a foreign transaction fee.",
+    "exde": "Meine Bank nimmt eine Auslandsgebühr.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "dynamic currency conversion",
+    "de": "dynamische Währungsumrechnung",
+    "ex": "Decline dynamic currency conversion.",
+    "exde": "Lehn die dynamische Währungsumrechnung ab.",
+    "lvl": 5,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to pay in local currency",
+    "de": "in Landeswährung zahlen",
+    "ex": "Always pay in local currency.",
+    "exde": "Zahl immer in Landeswährung.",
+    "lvl": 4,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "to break a note",
+    "de": "einen Schein wechseln",
+    "ex": "Can you break a fifty?",
+    "exde": "Kannst du einen Fünfziger wechseln?",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "small change",
+    "de": "Kleingeld",
+    "ex": "I haven't got any small change.",
+    "exde": "Ich habe kein Kleingeld.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "out of change",
+    "de": "kein Wechselgeld",
+    "ex": "The kiosk is out of change.",
+    "exde": "Der Kiosk hat kein Wechselgeld.",
+    "lvl": 3,
+    "cat": "einkaufen"
+  },
+  {
+    "en": "exact fare",
+    "de": "passendes Fahrgeld",
+    "ex": "The bus wants the exact fare.",
+    "exde": "Der Bus will passendes Fahrgeld.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to keep the change",
+    "de": "das Rückgeld behalten",
+    "ex": "Keep the change.",
+    "exde": "Behalt das Rückgeld.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "motion sickness",
+    "de": "Reisekrankheit",
+    "ex": "I've got motion sickness tablets.",
+    "exde": "Ich habe Tabletten gegen Reisekrankheit.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to pop your ears",
+    "de": "den Druckausgleich machen",
+    "ex": "Yawn to pop your ears.",
+    "exde": "Gähn, um den Druck auszugleichen.",
+    "lvl": 4,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "cabin crew",
+    "de": "Kabinenpersonal",
+    "ex": "Ask the cabin crew for water.",
+    "exde": "Frag das Kabinenpersonal nach Wasser.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "call button",
+    "de": "Ruftaste",
+    "ex": "The call button is above you.",
+    "exde": "Die Ruftaste ist über dir.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to recline a seat",
+    "de": "einen Sitz zurücklehnen",
+    "ex": "Would you mind if I recline my seat?",
+    "exde": "Stört es dich, wenn ich den Sitz zurücklehne?",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to hog the armrest",
+    "de": "die Armlehne blockieren",
+    "ex": "He hogged the armrest the whole way.",
+    "exde": "Er hat die ganze Zeit die Armlehne blockiert.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "middle seat",
+    "de": "Mittelsitz",
+    "ex": "I got stuck in the middle seat.",
+    "exde": "Ich bin auf dem Mittelsitz gelandet.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to stretch your legs",
+    "de": "die Beine vertreten",
+    "ex": "Let's stretch our legs.",
+    "exde": "Lass uns die Beine vertreten.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "exit row",
+    "de": "Ausgangreihe",
+    "ex": "The exit row has more space.",
+    "exde": "Die Ausgangreihe hat mehr Platz.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to stow a bag",
+    "de": "eine Tasche verstauen",
+    "ex": "Stow your bag under the seat.",
+    "exde": "Verstau die Tasche unter dem Sitz.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "gate-check",
+    "de": "am Gate aufgeben",
+    "ex": "They made us gate-check the case.",
+    "exde": "Wir mussten den Koffer am Gate aufgeben.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "fragile sticker",
+    "de": "Aufkleber „zerbrechlich“",
+    "ex": "Put a fragile sticker on it.",
+    "exde": "Mach einen Zerbrechlich-Aufkleber drauf.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "name tag",
+    "de": "Namensschild, Kofferanhänger",
+    "ex": "Tie a name tag to the handle.",
+    "exde": "Bind einen Namensanhänger an den Griff.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "combination lock",
+    "de": "Zahlenschloss",
+    "ex": "I forgot the combination lock code.",
+    "exde": "Ich habe den Code vom Zahlenschloss vergessen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "liquids bag",
+    "de": "Flüssigkeitenbeutel",
+    "ex": "Put the bottles in the liquids bag.",
+    "exde": "Pack die Flaschen in den Flüssigkeitenbeutel.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be over the limit",
+    "de": "über dem Limit sein",
+    "ex": "This bottle is over the limit.",
+    "exde": "Diese Flasche ist über dem Limit.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to bin a bottle",
+    "de": "eine Flasche wegwerfen",
+    "ex": "I had to bin the water.",
+    "exde": "Ich musste das Wasser wegwerfen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "nothing to declare",
+    "de": "nichts zu verzollen",
+    "ex": "I went through nothing to declare.",
+    "exde": "Ich bin durch „nichts zu verzollen“ gegangen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "green channel",
+    "de": "grüner Ausgang",
+    "ex": "The green channel means nothing to declare.",
+    "exde": "Der grüne Ausgang heißt: nichts zu verzollen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "red channel",
+    "de": "roter Ausgang",
+    "ex": "Use the red channel if you have goods to declare.",
+    "exde": "Nimm den roten Ausgang, wenn du etwas zu verzollen hast.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be waved through",
+    "de": "durchgewunken werden",
+    "ex": "We were waved through.",
+    "exde": "Wir wurden durchgewunken.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "hand luggage",
+    "de": "Handgepäck",
+    "ex": "Is this small enough for hand luggage?",
+    "exde": "Ist das klein genug fürs Handgepäck?",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "personal item",
+    "de": "persönlicher Gegenstand",
+    "ex": "A handbag counts as a personal item.",
+    "exde": "Eine Handtasche zählt als persönlicher Gegenstand.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "baggage sizer",
+    "de": "Gepäckmessrahmen",
+    "ex": "It didn't fit in the baggage sizer.",
+    "exde": "Es passte nicht in den Gepäckmessrahmen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to repack",
+    "de": "umpacken",
+    "ex": "I had to repack at the gate.",
+    "exde": "Ich musste am Gate umpacken.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "overweight",
+    "de": "zu schwer",
+    "ex": "The case is two kilos overweight.",
+    "exde": "Der Koffer ist zwei Kilo zu schwer.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to wear your coat",
+    "de": "den Mantel anziehen",
+    "ex": "Wear your coat so the bag is lighter.",
+    "exde": "Zieh den Mantel an, damit die Tasche leichter ist.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "onward flight",
+    "de": "Anschlussflug",
+    "ex": "Our onward flight is in the evening.",
+    "exde": "Unser Anschlussflug ist am Abend.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "minimum connection time",
+    "de": "minimale Umsteigezeit",
+    "ex": "Forty minutes is below the minimum connection time.",
+    "exde": "Vierzig Minuten sind unter der minimalen Umsteigezeit.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to sprint to the gate",
+    "de": "zum Gate sprinten",
+    "ex": "We sprinted to the gate.",
+    "exde": "Wir sind zum Gate gesprintet.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "airbridge",
+    "de": "Fluggastbrücke",
+    "ex": "We boarded through an airbridge.",
+    "exde": "Wir sind über eine Fluggastbrücke eingestiegen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "remote stand",
+    "de": "Außenposition",
+    "ex": "The plane was at a remote stand.",
+    "exde": "Das Flugzeug stand auf einer Außenposition.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "meal voucher",
+    "de": "Essensgutschein",
+    "ex": "They gave us a meal voucher.",
+    "exde": "Sie haben uns einen Essensgutschein gegeben.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to volunteer to be bumped",
+    "de": "sich freiwillig vom Flug nehmen lassen",
+    "ex": "I volunteered to be bumped.",
+    "exde": "Ich habe mich freiwillig umbuchen lassen.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to argue your case",
+    "de": "seinen Standpunkt vertreten",
+    "ex": "Stay polite when you argue your case.",
+    "exde": "Bleib höflich, wenn du deinen Standpunkt vertrittst.",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "to take it up with",
+    "de": "etwas bei jemandem ansprechen",
+    "ex": "Take it up with the airline.",
+    "exde": "Sprich das bei der Airline an.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to get nowhere",
+    "de": "nicht weiterkommen",
+    "ex": "I got nowhere with the first person.",
+    "exde": "Bei der ersten Person bin ich nicht weitergekommen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to leave a review",
+    "de": "eine Bewertung schreiben",
+    "ex": "I'll leave a fair review.",
+    "exde": "Ich schreibe eine faire Bewertung.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to ask to move rooms",
+    "de": "bitten, das Zimmer zu wechseln",
+    "ex": "We asked to move rooms.",
+    "exde": "Wir haben gebeten, das Zimmer zu wechseln.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "street noise",
+    "de": "Straßenlärm",
+    "ex": "The street noise was constant.",
+    "exde": "Der Straßenlärm war durchgehend.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "earache",
+    "de": "Ohrenschmerzen",
+    "ex": "I've had earache since the flight.",
+    "exde": "Seit dem Flug habe ich Ohrenschmerzen.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to get water in your ear",
+    "de": "Wasser ins Ohr bekommen",
+    "ex": "I got water in my ear.",
+    "exde": "Ich habe Wasser ins Ohr bekommen.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "sunbed",
+    "de": "Liege",
+    "ex": "All the sunbeds were taken.",
+    "exde": "Alle Liegen waren besetzt.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "to reserve a sunbed",
+    "de": "eine Liege reservieren",
+    "ex": "You can't reserve a sunbed overnight.",
+    "exde": "Du kannst eine Liege nicht über Nacht reservieren.",
+    "lvl": 4,
+    "cat": "freizeit"
+  },
+  {
+    "en": "beach shower",
+    "de": "Stranddusche",
+    "ex": "The beach shower is cold.",
+    "exde": "Die Stranddusche ist kalt.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "last tender",
+    "de": "letztes Beiboot",
+    "ex": "We nearly missed the last tender.",
+    "exde": "Wir hätten das letzte Beiboot fast verpasst.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to sign up for a trip",
+    "de": "sich für einen Ausflug eintragen",
+    "ex": "We signed up for a boat trip.",
+    "exde": "Wir haben uns für eine Bootstour eingetragen.",
+    "lvl": 3,
+    "cat": "freizeit"
+  },
+  {
+    "en": "to feel the swell",
+    "de": "den Seegang spüren",
+    "ex": "You feel the swell on a small boat.",
+    "exde": "Auf einem kleinen Boot spürst du den Seegang.",
+    "lvl": 4,
+    "cat": "natur"
+  },
+  {
+    "en": "coastguard",
+    "de": "Küstenwache",
+    "ex": "The coastguard closed the beach.",
+    "exde": "Die Küstenwache hat den Strand gesperrt.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "to wave for help",
+    "de": "um Hilfe winken",
+    "ex": "Wave for help if you can't get back.",
+    "exde": "Wink um Hilfe, wenn du nicht zurückkommst.",
+    "lvl": 3,
+    "cat": "gesundheit"
+  },
+  {
+    "en": "to run out of space",
+    "de": "keinen Platz mehr haben",
+    "ex": "I've run out of space in the bag.",
+    "exde": "In der Tasche habe ich keinen Platz mehr.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "under the seat",
+    "de": "unter dem Sitz",
+    "ex": "Your personal item goes under the seat.",
+    "exde": "Dein persönlicher Gegenstand kommt unter den Sitz.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to be stopped at the gate",
+    "de": "am Gate aufgehalten werden",
+    "ex": "We were stopped at the gate.",
+    "exde": "Wir wurden am Gate aufgehalten.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to keep the receipt sealed",
+    "de": "den Beleg versiegelt lassen",
+    "ex": "Keep the duty-free receipt sealed.",
+    "exde": "Lass den Duty-free-Beleg versiegelt.",
+    "lvl": 5,
+    "cat": "reisen"
+  },
+  {
+    "en": "sniffer dog",
+    "de": "Spürhund",
+    "ex": "A sniffer dog walked past.",
+    "exde": "Ein Spürhund ist vorbeigegangen.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to open your case",
+    "de": "den Koffer öffnen",
+    "ex": "They asked me to open my case.",
+    "exde": "Sie haben mich gebeten, den Koffer zu öffnen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to reshuffle your bags",
+    "de": "die Taschen neu packen",
+    "ex": "I reshuffled the bags at the desk.",
+    "exde": "Ich habe die Taschen am Schalter neu gepackt.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to sit on a suitcase",
+    "de": "sich auf den Koffer setzen",
+    "ex": "I had to sit on the suitcase.",
+    "exde": "Ich musste mich auf den Koffer setzen.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "wrong terminal",
+    "de": "falsches Terminal",
+    "ex": "We went to the wrong terminal.",
+    "exde": "Wir waren im falschen Terminal.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to allow extra time",
+    "de": "mehr Zeit einplanen",
+    "ex": "Allow extra time for security.",
+    "exde": "Plan mehr Zeit für die Kontrolle ein.",
+    "lvl": 4,
+    "cat": "reisen"
+  },
+  {
+    "en": "to cut it fine",
+    "de": "es knapp machen",
+    "ex": "We cut it fine and still made it.",
+    "exde": "Wir haben es knapp geschafft.",
+    "lvl": 5,
+    "cat": "zeit"
+  },
+  {
+    "en": "to play it safe",
+    "de": "auf Nummer sicher gehen",
+    "ex": "Play it safe and take the earlier train.",
+    "exde": "Geh auf Nummer sicher und nimm den früheren Zug.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to lose your nerve",
+    "de": "die Nerven verlieren",
+    "ex": "Don't lose your nerve at the desk.",
+    "exde": "Verlier am Schalter nicht die Nerven.",
+    "lvl": 4,
+    "cat": "gefuehle"
+  },
+  {
+    "en": "to stay polite",
+    "de": "höflich bleiben",
+    "ex": "Stay polite even if you're annoyed.",
+    "exde": "Bleib höflich, auch wenn du genervt bist.",
+    "lvl": 3,
+    "cat": "menschen"
+  },
+  {
+    "en": "to ask for a translator",
+    "de": "nach einer Übersetzungshilfe fragen",
+    "ex": "Is there someone who can help me explain?",
+    "exde": "Gibt es jemanden, der mir beim Erklären helfen kann?",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "phrasebook",
+    "de": "Sprachführer",
+    "ex": "I still carry a phrasebook.",
+    "exde": "Ich habe immer noch einen Sprachführer dabei.",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to point at the menu",
+    "de": "auf die Speisekarte zeigen",
+    "ex": "I pointed at the menu.",
+    "exde": "Ich habe auf die Speisekarte gezeigt.",
+    "lvl": 3,
+    "cat": "essen"
+  },
+  {
+    "en": "to mime",
+    "de": "vormachen, gestikulieren",
+    "ex": "I mimed swimming to ask about the beach.",
+    "exde": "Ich habe Schwimmen nachgemacht, um nach dem Strand zu fragen.",
+    "lvl": 4,
+    "cat": "alltag"
+  },
+  {
+    "en": "to repeat slowly",
+    "de": "langsam wiederholen",
+    "ex": "Could you repeat that slowly?",
+    "exde": "Kannst du das langsam wiederholen?",
+    "lvl": 3,
+    "cat": "alltag"
+  },
+  {
+    "en": "to confirm in writing",
+    "de": "schriftlich bestätigen",
+    "ex": "Can you confirm the refund in writing?",
+    "exde": "Kannst du die Erstattung schriftlich bestätigen?",
+    "lvl": 5,
+    "cat": "alltag"
+  },
+  {
+    "en": "to show the booking",
+    "de": "die Buchung zeigen",
+    "ex": "Show them the booking on your phone.",
+    "exde": "Zeig ihnen die Buchung auf dem Handy.",
+    "lvl": 3,
+    "cat": "reisen"
+  },
+  {
+    "en": "to scan a code",
+    "de": "einen Code scannen",
+    "ex": "Scan the code at the gate.",
+    "exde": "Scann den Code am Gate.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "offline map",
+    "de": "Offline-Karte",
+    "ex": "Download an offline map.",
+    "exde": "Lade eine Offline-Karte herunter.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "to pinch to zoom",
+    "de": "mit zwei Fingern zoomen",
+    "ex": "Pinch to zoom if you can't read it.",
+    "exde": "Zieh mit zwei Fingern, wenn du es nicht lesen kannst.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "pinned location",
+    "de": "gespeicherter Ort",
+    "ex": "I pinned the hotel on the map.",
+    "exde": "Ich habe das Hotel auf der Karte gespeichert.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "to drop a pin",
+    "de": "eine Markierung setzen",
+    "ex": "Drop a pin and send it to the driver.",
+    "exde": "Setz eine Markierung und schick sie dem Fahrer.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "what3words",
+    "de": "drei Wörter als Adresse",
+    "ex": "The beach has a what3words address.",
+    "exde": "Der Strand hat eine Drei-Wörter-Adresse.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "to share your location",
+    "de": "deinen Standort teilen",
+    "ex": "Share your location when you set off.",
+    "exde": "Teil deinen Standort, wenn du losgehst.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "low battery mode",
+    "de": "Energiesparmodus",
+    "ex": "I switched on low battery mode.",
+    "exde": "Ich habe den Energiesparmodus eingeschaltet.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "to conserve battery",
+    "de": "Akku sparen",
+    "ex": "Conserve battery until you land.",
+    "exde": "Spar den Akku, bis du landest.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "portable charger",
+    "de": "mobiles Ladegerät",
+    "ex": "A portable charger saved the day.",
+    "exde": "Ein mobiles Ladegerät hat uns gerettet.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "to find a socket",
+    "de": "eine Steckdose finden",
+    "ex": "We found a socket in the café.",
+    "exde": "Wir haben im Café eine Steckdose gefunden.",
+    "lvl": 3,
+    "cat": "technik"
+  },
+  {
+    "en": "European socket",
+    "de": "europäische Steckdose",
+    "ex": "Turkey uses a European socket.",
+    "exde": "In der Türkei gibt es europäische Steckdosen.",
+    "lvl": 4,
+    "cat": "technik"
+  },
+  {
+    "en": "to blow a fuse",
+    "de": "eine Sicherung raushauen",
+    "ex": "The kettle blew a fuse.",
+    "exde": "Der Wasserkocher hat eine Sicherung rausgehauen.",
+    "lvl": 5,
+    "cat": "technik"
+  },
+  {
+    "en": "extension lead",
+    "de": "Verlängerungskabel",
+    "ex": "One extension lead for three phones.",
+    "exde": "Ein Verlängerungskabel für drei Handys.",
+    "lvl": 4,
+    "cat": "technik"
   }
 ]

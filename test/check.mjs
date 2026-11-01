@@ -11,11 +11,11 @@ test("Lerninhalte liegen in JSON und nicht mehr in index.html", () => {
   assert.ok(!html.includes("const D="), "index.html enthält noch das Datenobjekt");
   assert.ok(html.length < 200000, "index.html ist wieder riesig");
   const files = {
-    "data/vocab.json": 4567,
-    "data/chunks.json": 330,
-    "data/sentences.json": 540,
+    "data/vocab.json": 4945,
+    "data/chunks.json": 364,
+    "data/sentences.json": 580,
     "data/dialogues.json": 36,
-    "data/grammar.json": 30,
+    "data/grammar.json": 31,
     "data/songs.json": 42,
     "data/placement.json": 60
   };
@@ -29,7 +29,10 @@ test("Lerninhalte liegen in JSON und nicht mehr in index.html", () => {
   assert.equal(listening.reductions.length, 70);
   assert.equal(listening.dict.length, 80);
   assert.ok(sw.includes("data/listening.json"));
-  assert.ok(sw.includes("englisch-v6-voices"), "Cache-Version nicht erhöht");
+  assert.ok(sw.includes("englisch-v7-travel"), "Cache-Version nicht erhöht");
+  assert.ok(html.includes("function freshnessScore"), "Neue Wörter werden nicht nach Niveau sortiert");
+  const grammar = JSON.parse(fs.readFileSync(new URL("../data/grammar.json", import.meta.url), "utf8"));
+  assert.ok(grammar.some((g) => g.id === "g_circumlocution"), "Umschreiben-Übung fehlt");
   assert.ok(html.includes("Online-Stimme verwenden (wenn iPhone-Stimme stumm bleibt)"), "Schalter für die Online-Stimme fehlt");
   assert.ok(html.includes("function speechTooFast"), "Erkennung stummer Stimmen fehlt");
   assert.ok(html.includes("badVoices"), "Stumme Stimmen werden nicht gespeichert");
@@ -158,6 +161,18 @@ test("Proxy hält den Schlüssel serverseitig und spricht nur bekannte Szenen", 
   } finally {
     globalThis.fetch = orig;
   }
+});
+
+test("Härtere Wörter kommen vor leichten dran", () => {
+  const m = html.match(/function freshnessScore\(x\)\{[\s\S]*?\n\}/);
+  assert.ok(m, "freshnessScore fehlt");
+  const context = { S: { L: 4 } };
+  vm.createContext(context);
+  vm.runInContext("Math.random=function(){return 0;};\n" + m[0] + "\nthis.freshnessScore=freshnessScore;", context);
+  const score = (lvl) => context.freshnessScore({ lvl });
+  assert.ok(score(4) < score(5));
+  assert.ok(score(5) < score(3));
+  assert.ok(score(3) < score(1));
 });
 
 test("Kurze onend-Zeit gilt als stumme Stimme", () => {
