@@ -4198,5 +4198,101 @@
         "why": "Even though = obwohl (verstärkt)."
       }
     ]
+  },
+  {
+    "id": "g_circumlocution",
+    "lvl": 4,
+    "title": "Umschreiben, wenn das Wort fehlt",
+    "tip": "Wenn dir im Gespräch ein Wort fehlt, brich den Satz nicht ab. Beschreibe die Lücke und sprich weiter. Vier Gerüste reichen im Urlaub fast immer:\nIt's a kind of … = es ist eine Art …\nIt's the thing you use to … = das Ding, mit dem man …\nIt's like … but … = es ist wie …, aber …\nIt's the opposite of … = das Gegenteil von …\nBeispiel Adapter: It's the thing you use to plug your phone in abroad.\nBeispiel After-Sun: It's a kind of cream for when you get burnt in the sun.\nDanach kannst du fragen: How do you say that in English?\nDas neue Wort kommt später in die Karten. Zuerst muss der Satz stehen.",
+    "items": [
+      {
+        "q": "Dir fehlt das Wort „adapter“. Was hält das Gespräch am ehesten am Laufen?",
+        "opts": [
+          "I need a … sorry.",
+          "It's the thing you use to plug your phone in.",
+          "Adapter. Adapter. Adapter.",
+          "I don't know English."
+        ],
+        "a": 1,
+        "why": "Beschreibe den Zweck. Das genaue Wort kann später kommen."
+      },
+      {
+        "q": "It's ___ a bus, but you have to book a seat.",
+        "opts": [
+          "kind",
+          "like",
+          "opposite",
+          "thing"
+        ],
+        "a": 1,
+        "why": "It's like X but Y vergleicht und setzt einen Unterschied."
+      },
+      {
+        "q": "Welcher Satz umschreibt „sunburn cream“ am klarsten?",
+        "opts": [
+          "It's the opposite of sun.",
+          "It's a kind of cream for when you get burnt.",
+          "Cream.",
+          "I want the red one."
+        ],
+        "a": 1,
+        "why": "A kind of + wofür man es braucht."
+      },
+      {
+        "q": "It's the ___ of sweet.",
+        "opts": [
+          "kind",
+          "thing",
+          "opposite",
+          "like"
+        ],
+        "a": 2,
+        "why": "The opposite of hilft, wenn dir das Adjektiv fehlt."
+      },
+      {
+        "q": "Du willst ein Pflaster, kennst das Wort nicht. Was sagst du?",
+        "opts": [
+          "It's the thing you put on a cut.",
+          "Give me that.",
+          "I am hurt word.",
+          "Opposite of doctor."
+        ],
+        "a": 0,
+        "why": "The thing you … nennt die Funktion."
+      },
+      {
+        "q": "How do you say that ___ English?",
+        "opts": [
+          "on",
+          "at",
+          "in",
+          "to"
+        ],
+        "a": 2,
+        "why": "How do you say that in English?"
+      },
+      {
+        "q": "Welcher Anfang ist eine höfliche Beschwerde?",
+        "opts": [
+          "I'm afraid there's a problem with …",
+          "You did a bad room.",
+          "Problem!",
+          "Give me manager now."
+        ],
+        "a": 0,
+        "why": "I'm afraid mildert, ohne das Problem zu verstecken."
+      },
+      {
+        "q": "I was wondering ___.",
+        "opts": [
+          "if you have a quieter room",
+          "a quieter room",
+          "having a quieter room",
+          "of quieter room"
+        ],
+        "a": 0,
+        "why": "I was wondering if + Satz. Weicher als eine direkte Forderung."
+      }
+    ]
   }
 ]

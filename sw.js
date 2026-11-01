@@ -1,5 +1,5 @@
 /* Service Worker: App und Lerninhalte werden zwischengespeichert, damit sie auch ohne Internet starten. */
-const V="englisch-v6-voices";
+const V="englisch-v7-travel";
 const CORE=[
   "./",
   "index.html",

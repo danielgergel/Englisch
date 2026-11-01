@@ -2713,5 +2713,294 @@
     "exde": "Das ist nebensächlich, er hat gelogen.",
     "lvl": 5,
     "type": "chunk"
+  },
+  {
+    "en": "Could you possibly",
+    "de": "Könntest du vielleicht",
+    "ex": "Could you possibly move us to a quieter room?",
+    "exde": "Könntest du uns vielleicht in ein ruhigeres Zimmer legen?",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "Höfliche Bitte. Danach kommt ein Verb: Could you possibly + Infinitiv."
+  },
+  {
+    "en": "I was wondering if",
+    "de": "Ich habe mich gefragt, ob",
+    "ex": "I was wondering if you have a table outside.",
+    "exde": "Ich habe mich gefragt, ob ihr draußen einen Tisch habt.",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "Weicher als eine direkte Frage. Gut, wenn du unsicher bist."
+  },
+  {
+    "en": "Is there any chance",
+    "de": "Gibt es irgendeine Möglichkeit",
+    "ex": "Is there any chance of a late checkout?",
+    "exde": "Gibt es irgendeine Möglichkeit für einen späteren Check-out?",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "Chance of + Nomen, oder chance + Satz."
+  },
+  {
+    "en": "I'm afraid there's a problem with",
+    "de": "Ich fürchte, es gibt ein Problem mit",
+    "ex": "I'm afraid there's a problem with the air conditioning.",
+    "exde": "Ich fürchte, es gibt ein Problem mit der Klimaanlage.",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "I'm afraid mildert die Beschwerde."
+  },
+  {
+    "en": "Would you mind",
+    "de": "Würde es dir etwas ausmachen",
+    "ex": "Would you mind speaking a little more slowly?",
+    "exde": "Würde es dir etwas ausmachen, etwas langsamer zu sprechen?",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "Would you mind + -ing."
+  },
+  {
+    "en": "Do you happen to know",
+    "de": "Weißt du zufällig",
+    "ex": "Do you happen to know where the pharmacy is?",
+    "exde": "Weißt du zufällig, wo die Apotheke ist?",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Happen to macht die Frage lockerer."
+  },
+  {
+    "en": "I seem to have",
+    "de": "Ich habe anscheinend",
+    "ex": "I seem to have left my passport at the hotel.",
+    "exde": "Ich habe meinen Pass anscheinend im Hotel gelassen.",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "Seem to have + 3. Form: etwas ist passiert, du merkst es erst jetzt."
+  },
+  {
+    "en": "The thing is",
+    "de": "Die Sache ist die",
+    "ex": "The thing is, I'm allergic to nuts.",
+    "exde": "Die Sache ist die: Ich bin gegen Nüsse allergisch.",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Leitet die eigentliche Erklärung ein."
+  },
+  {
+    "en": "What I mean is",
+    "de": "Was ich meine, ist",
+    "ex": "What I mean is, the charge looks too high.",
+    "exde": "Was ich meine: Die Abbuchung wirkt zu hoch.",
+    "lvl": 4,
+    "type": "chunk",
+    "note": "Wenn der erste Satz nicht angekommen ist."
+  },
+  {
+    "en": "It's a kind of",
+    "de": "Es ist eine Art",
+    "ex": "It's a kind of cream you put on after the sun.",
+    "exde": "Es ist eine Art Creme, die man nach der Sonne draufmacht.",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Umschreiben, wenn das Wort fehlt."
+  },
+  {
+    "en": "the thing you use to",
+    "de": "das Ding, mit dem man",
+    "ex": "It's the thing you use to plug your phone in.",
+    "exde": "Es ist das Ding, mit dem man das Handy einsteckt.",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Du beschreibst den Zweck statt des Namens."
+  },
+  {
+    "en": "it's like X but",
+    "de": "es ist wie X, aber",
+    "ex": "It's like a bus but it only goes to the airport.",
+    "exde": "Es ist wie ein Bus, aber er fährt nur zum Flughafen.",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Vergleich plus Unterschied."
+  },
+  {
+    "en": "the opposite of",
+    "de": "das Gegenteil von",
+    "ex": "It's the opposite of sweet.",
+    "exde": "Es ist das Gegenteil von süß.",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Hilft, wenn dir das Adjektiv fehlt."
+  },
+  {
+    "en": "I'd like to speak to",
+    "de": "Ich möchte sprechen mit",
+    "ex": "I'd like to speak to the manager, please.",
+    "exde": "Ich möchte bitte die Leitung sprechen.",
+    "lvl": 3,
+    "type": "chunk",
+    "note": "Klar und höflich, ohne aggressiv zu sein."
+  },
+  {
+    "en": "to be on the safe side",
+    "de": "sicherheitshalber",
+    "ex": "Take the earlier bus, to be on the safe side.",
+    "exde": "Nimm den früheren Bus, sicherheitshalber.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "the sooner the better",
+    "de": "je eher, desto besser",
+    "ex": "If you can move us, the sooner the better.",
+    "exde": "Wenn ihr uns umsetzen könnt, je eher, desto besser.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "to cut a long story short",
+    "de": "um es kurz zu machen",
+    "ex": "To cut a long story short, we missed the boat.",
+    "exde": "Um es kurz zu machen: Wir haben das Boot verpasst.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "I'll get back to you",
+    "de": "ich melde mich wieder",
+    "ex": "I'll get back to you when I know the gate.",
+    "exde": "Ich melde mich wieder, wenn ich das Gate weiß.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "just to double-check",
+    "de": "nur um noch einmal zu prüfen",
+    "ex": "Just to double-check, is breakfast included?",
+    "exde": "Nur um noch einmal zu prüfen: Ist Frühstück dabei?",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "if I've got this right",
+    "de": "wenn ich das richtig verstanden habe",
+    "ex": "If I've got this right, we change at the second stop.",
+    "exde": "Wenn ich das richtig verstanden habe, steigen wir an der zweiten Haltestelle um.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "what I'm trying to say is",
+    "de": "was ich sagen will, ist",
+    "ex": "What I'm trying to say is, we need a quieter room.",
+    "exde": "Was ich sagen will: Wir brauchen ein ruhigeres Zimmer.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "sorry, let me start again",
+    "de": "Entschuldigung, ich fange noch mal an",
+    "ex": "Sorry, let me start again.",
+    "exde": "Entschuldigung, ich fange noch mal an.",
+    "lvl": 3,
+    "type": "chunk"
+  },
+  {
+    "en": "the word escapes me",
+    "de": "das Wort fällt mir nicht ein",
+    "ex": "The word escapes me. It's a kind of plug.",
+    "exde": "Das Wort fällt mir nicht ein. Es ist eine Art Stecker.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "how do you say",
+    "de": "wie sagt man",
+    "ex": "How do you say this in English?",
+    "exde": "Wie sagt man das auf Englisch?",
+    "lvl": 2,
+    "type": "chunk"
+  },
+  {
+    "en": "roughly speaking",
+    "de": "grob gesagt",
+    "ex": "Roughly speaking, it's a twenty-minute walk.",
+    "exde": "Grob gesagt sind es zwanzig Minuten zu Fuß.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "to sort something out",
+    "de": "etwas klären",
+    "ex": "Can someone sort this charge out?",
+    "exde": "Kann jemand diese Abbuchung klären?",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Sort out = ein Problem in Ordnung bringen. Das Objekt kann in der Mitte stehen: sort it out."
+  },
+  {
+    "en": "to come across something",
+    "de": "auf etwas stoßen",
+    "ex": "I came across this café by accident.",
+    "exde": "Ich bin zufällig auf dieses Café gestoßen.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Come across + Nomen: zufällig finden, nicht „überqueren“."
+  },
+  {
+    "en": "to overcharge someone",
+    "de": "jemandem zu viel berechnen",
+    "ex": "I think we've been overcharged for the water.",
+    "exde": "Ich glaube, für das Wasser wurde zu viel berechnet.",
+    "lvl": 4,
+    "type": "chunk"
+  },
+  {
+    "en": "to rip someone off",
+    "de": "jemanden abzocken",
+    "ex": "The taxi driver tried to rip us off.",
+    "exde": "Der Taxifahrer hat versucht, uns abzuzocken.",
+    "lvl": 4,
+    "type": "phrasal",
+    "note": "Umgangssprachlich und deutlich. Rip off = betrügen beim Preis."
+  },
+  {
+    "en": "to check out of",
+    "de": "aus einem Hotel auschecken",
+    "ex": "We checked out of the hotel at noon.",
+    "exde": "Wir haben mittags aus dem Hotel ausgecheckt.",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to look into something",
+    "de": "einer Sache nachgehen",
+    "ex": "Could you look into this charge?",
+    "exde": "Könntest du dieser Abbuchung nachgehen?",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to get something back",
+    "de": "etwas zurückbekommen",
+    "ex": "How do I get my deposit back?",
+    "exde": "Wie bekomme ich meine Kaution zurück?",
+    "lvl": 3,
+    "type": "phrasal"
+  },
+  {
+    "en": "to put something off",
+    "de": "etwas verschieben",
+    "ex": "We put the trip off until Friday.",
+    "exde": "Wir haben die Tour auf Freitag verschoben.",
+    "lvl": 4,
+    "type": "phrasal"
+  },
+  {
+    "en": "to call something off",
+    "de": "etwas absagen",
+    "ex": "They called the boat trip off.",
+    "exde": "Sie haben die Bootstour abgesagt.",
+    "lvl": 4,
+    "type": "phrasal"
   }
 ]
